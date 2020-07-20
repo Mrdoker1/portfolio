@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cubic</title>
+        <link rel="stylesheet" href="./src/css/style.css"/>
+    </head>
+    <body>
+        <header class="mainHeader">
+            <div class="logo">
+                <img src="./src/images/logo.svg">
+                <span>Viachas Kul</span>
+            </div>
+            <div class="links">
+                <a class="current">Works</a>
+                <a>About</a>
+                <a>Contact</a>
+            </div>
+        </header>
+        <main>
+            <p class="headline">UX & Interface designer.</p>
+            <div>
+                <span class="subheadline">Saas & Ecommerce Based</span>
+                <img class="logos" src="./src/images/logo-linkedin.svg">
+                <img class="logos" src="./src/images/logo-twitter.svg">
+                <img class="logos" src="./src/images/logo-behance.svg">
+                <img class="logos" src="./src/images/logo-dribbble.svg"> 
+            </div>
+            <div class="sort">
+                <button onclick="openFilter(this)">
+                    <span>E-Commerce</span>
+                    <ul class="sortList">
+                        <li onclick="changeFilter(this.innerText)">E-Commerce</li>
+                        <li onclick="changeFilter(this.innerText)">Illustration</li>
+                        <li onclick="changeFilter(this.innerText)">Other</li>
+                    </ul>
+                    <img src="./src/images/arrow-down.svg">
+                </button>
+            </div>
+            <ol class="grid">
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="./src/images/articles/unnamed_1.png">
+                    <div class="hover">
+                        <span class="headline">Jewelry Online Store</span>
+                        <span class="tags">UI / Visual Design, UX Design</span>
+                    </div>
+                </li>
+            </ol>
+            <div class="backToTop" onclick="window.scrollTo(0,0)">
+                <span>↑ Back to Top</span>
+            </div>
+        </main>
+        <footer class="footer">
+            <span>© 2020 All rights reserved</span>
+            <span>Made with <b style="color:red">♥</b></span>
+        </footer>
+    </body>
+    <script>
+        async function checkJSON(){
+            let response = await fetch("https://niksirotkin98.github.io/json.json");
+            if(response.ok){
+                let json = await response.json();
+                console.log(json);
+            } else {
+                console.log("Ошибка:" + response.status);
+            }
+        }
+        checkJSON();
+        function openFilter(value){
+            document.querySelector("ul.sortList").classList.toggle("opened");
+            console.log(value);
+        }
+        function changeFilter(filterValue){
+            document.querySelector("div.sort > button > span").innerText = filterValue;
+            console.log(filterValue);
+        }
+    </script>
+</html>
