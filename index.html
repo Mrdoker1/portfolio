@@ -26,12 +26,12 @@
                 <img class="logos" src="./src/images/logo-dribbble.svg"> 
             </div>
             <div class="sort">
-                <button onclick="openFilter(this)">
+                <button id="filterButton">
                     <span>E-Commerce</span>
-                    <ul class="sortList">
-                        <li onclick="changeFilter(this.innerText)">E-Commerce</li>
-                        <li onclick="changeFilter(this.innerText)">Illustration</li>
-                        <li onclick="changeFilter(this.innerText)">Other</li>
+                    <ul id="filterButtonUl" class="sortList">
+                        <li class="selected">E-Commerce</li>
+                        <li >Illustration</li>
+                        <li >Other</li>
                     </ul>
                     <img src="./src/images/arrow-down.svg">
                 </button>
@@ -135,13 +135,28 @@
             }
         }
         checkJSON();
-        function openFilter(value){
-            document.querySelector("ul.sortList").classList.toggle("opened");
-            console.log(value);
+
+        function openFilter(e){
+            filterButtonUl.classList.add("opened");
+            e.stopPropagation();
+            window.addEventListener("click", ()=>{
+                filterButtonUl.classList.remove("opened");
+                console.log("close")
+            }, {once : true});
         }
-        function changeFilter(filterValue){
-            document.querySelector("div.sort > button > span").innerText = filterValue;
-            console.log(filterValue);
+
+        function changeFilter(e){
+            document.querySelector("div.sort > button > span").innerText = e.target.innerText;
+            e.target.parentNode.querySelector("li.selected").classList.remove("selected");
+            e.target.classList.add("selected");
+            filterButtonUl.classList.remove("opened");
+            console.log(e.target, "changeFilter");
+            e.stopPropagation();
         }
+
+        filterButton.addEventListener("click", openFilter, false);
+        for(let i=0; i<filterButtonUl.children.length; i++)
+            filterButtonUl.children[i].addEventListener("click", changeFilter, false);
+
     </script>
 </html>
