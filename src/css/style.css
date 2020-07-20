@@ -123,6 +123,7 @@ ul.sortList{
     font-size: 16px;
     line-height: 221.5%;
     text-align: left;
+    color: #ACACAC;
 }
 
 div.sort ul.opened{
@@ -130,7 +131,7 @@ div.sort ul.opened{
 }
 
 ol.grid{
-    margin: 75px 0;
+    margin: 50px 0;
     display: grid;
     align-self: flex-end;
     width: 100%;
@@ -197,6 +198,19 @@ div.backToTop{
     justify-content: center;
     align-items: center;
 
+    transition-duration: 0.25s;
 
     color: #666666;
+}
+div.backToTop:hover{
+    color: black;
+    font-weight: 350;
+}
+
+.selected {
+    color: black;
+}
+
+.default {
+    color: #ACACAC;
 }
