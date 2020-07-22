@@ -3,6 +3,7 @@
     <head>
         <title>Cubic</title>
         <link rel="stylesheet" href="./src/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="mainHeader">
@@ -25,13 +26,13 @@
                 <img class="logos" src="./src/images/logo-behance.svg">
                 <img class="logos" src="./src/images/logo-dribbble.svg"> 
             </div>
-            <div class="sort">
+            <div class="filter">
                 <button id="filterButton">
-                    <span>E-Commerce</span>
-                    <ul id="filterButtonUl" class="sortList">
-                        <li class="selected">E-Commerce</li>
-                        <li >Illustration</li>
-                        <li >Other</li>
+                    <span id="filterButtonTitle">E-Commerce</span>
+                    <ul id="filterButtonUl" class="filterList">
+                        <li value="li_ecommerce" class="selected">E-Commerce</li>
+                        <li value="li_illustration" >Illustration</li>
+                        <li value="li_other" >Other</li>
                     </ul>
                     <img src="./src/images/arrow-down.svg">
                 </button>
@@ -126,7 +127,7 @@
     </body>
     <script>
         async function checkJSON(){
-            let response = await fetch("https://niksirotkin98.github.io/json.json");
+            let response = await fetch("./structure.json");
             if(response.ok){
                 let json = await response.json();
                 console.log(json);
@@ -138,25 +139,48 @@
 
         function openFilter(e){
             filterButtonUl.classList.add("opened");
+            filterButton.classList.add("openedFilter");
             e.stopPropagation();
             window.addEventListener("click", ()=>{
                 filterButtonUl.classList.remove("opened");
-                console.log("close")
+                filterButton.classList.remove("openedFilter");
             }, {once : true});
         }
 
-        function changeFilter(e){
-            document.querySelector("div.sort > button > span").innerText = e.target.innerText;
-            e.target.parentNode.querySelector("li.selected").classList.remove("selected");
-            e.target.classList.add("selected");
+        function changeFilter(target, filterName){
+            window.history.replaceState({},"Cubic",`/?filter=${target.getAttribute("value").replace("li_","")}`);
+            filterButtonTitle.innerText = filterName;
+            filterButtonUl.querySelector("li.selected").classList.remove("selected");
+            target.classList.add("selected");
+        }
+      
+        function onChangeFilter(e){
+            changeFilter(e.target, e.target.innerText);
             filterButtonUl.classList.remove("opened");
-            console.log(e.target, "changeFilter");
+            filterButton.classList.remove("openedFilter");
             e.stopPropagation();
         }
 
+      
         filterButton.addEventListener("click", openFilter, false);
         for(let i=0; i<filterButtonUl.children.length; i++)
-            filterButtonUl.children[i].addEventListener("click", changeFilter, false);
+            filterButtonUl.children[i].addEventListener("click", onChangeFilter, false);
 
+        function refresh(){
+            let searchParams = new URLSearchParams(window.location.search);
+            if(searchParams.has("filter")){
+              let filter = "ecommerce"
+              switch(searchParams.get("filter")){
+                case "ecommerce": filter = "ecommerce"; break;
+                case "illustration": filter = "illustration"; break;
+                case "other": filter = "other"; break;
+              }
+              filter = document.querySelector(`li[value=li_${filter}]`);
+              changeFilter(filter, filter.innerText);
+            }
+        }
+      
+
+        refresh();
     </script>
 </html>
