@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cubic</title>
+        <link rel="stylesheet" href="./src/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <header class="mainHeader">
+            <div class="logo">
+                <img src="./src/images/logo.svg">
+                <span>Viachas Kul</span>
+            </div>
+            <div class="links">
+                <a class="current" onclick="frame.rebuild('main')">Works</a>
+                <a onclick="frame.rebuild('about')">About</a>
+                <a onclick="frame.rebuild('contact')">Contact</a>
+            </div>
+        </header>
+        <main>
+        </main>
+        <footer class="footer">
+            <span>© 2020 All rights reserved</span>
+            <span>Made with <b style="color:red">♥</b></span>
+        </footer>
+    </body>
+    <script>
+        async function getJSON(url){
+            let response = await fetch(url);
+            if(response.ok){
+                let json = await response.json();
+                return json;
+            } else {
+                console.log("Ошибка:" + response.status);
+            }
+        }
+        function getJSON(url, catcher){
+            fetch(url)
+                .then(response => response.json())
+                .then(json => catcher(json));
+        }
+
+        function openFilter(e){
+            filterButtonUl.classList.add("opened");
+            filterButton.classList.add("openedFilter");
+            e.stopPropagation();
+            window.addEventListener("click", ()=>{
+                filterButtonUl.classList.remove("opened");
+                filterButton.classList.remove("openedFilter");
+            }, {once : true});
+        }
+
+        function changeFilter(target, filterName){
+            window.history.replaceState({},"Cubic",`/?filter=${target.getAttribute("value").replace("li_","")}`);
+            filterButtonTitle.innerText = filterName;
+            filterButtonUl.querySelector("li.selected").classList.remove("selected");
+            target.classList.add("selected");
+        }
+      
+        function onChangeFilter(e){
+            changeFilter(e.target, e.target.innerText);
+            filterButtonUl.classList.remove("opened");
+            filterButton.classList.remove("openedFilter");
+            e.stopPropagation();
+        }
+
+        function refresh(){
+            let searchParams = new URLSearchParams(window.location.search);
+            console.log(searchParams);
+        }
+
+        class PageBuilder{
+            structure = false;
+            currentPage = false;
+            constructor(){
+                this.catchJSON();
+                this.currentPage = this.getPath(window.location.search);
+                this.main = document.querySelector("main");
+            }
+            catchJSON(){
+                fetch("structure.json")
+                    .then(response => response.json())
+                    .then(json =>{
+                        this.structure = json;
+                        this.load();
+                    });
+            }
+            build(){
+                let blockList = this.structure.pages[this.currentPage].body;
+
+                for(let i=0; i<blockList.length; i++){
+                    if(this[`addBlock_${blockList[i].type}`]){
+                        this[`addBlock_${blockList[i].type}`](blockList[i]);
+                        console.log("Add block:", blockList[i].type, blockList[i].name, blockList[i].value);
+                    }else{
+                        this.addBlock_default(blockList[i]);
+                        console.error("Unreleased block:", blockList[i].type);
+                    }
+                }
+            }
+            addBlock_default(data){
+                let block = document.createElement("span");
+                block.classList.add("default");
+                block.id = data.name;
+                block.innerText = data.value;
+
+                this.main.appendChild(block);
+            }
+            addBlock_h1(data){
+                let block = document.createElement("span");
+                block.classList.add("h1");
+                block.id = data.name;
+                block.innerText = data.value;
+
+                this.main.appendChild(block);
+            }
+            addBlock_picture(data){
+                let block = document.createElement("img");
+                block.classList.add("picture");
+                block.id = data.name;
+                block.src = data.value.url;
+                block.alt = data.value.alt;
+
+                this.main.appendChild(block);
+            }
+
+            getPath(searchString){
+                let searchParams = new URLSearchParams(searchString);
+                return searchParams.get("path") || "main";
+            }
+            load(){
+                console.log("File 'structure.json' loaded", this.structure);
+                console.log("Current path:", this.currentPage)
+                this.build();
+            }
+            rebuild(page){
+                window.history.replaceState({},
+                    this.structure.pages[page].title,
+                    window.location.pathname + `?path=${page}`);
+
+                this.currentPage = this.getPath(window.location.search);
+
+                this.main.innerHTML = "";
+                this.build();
+            }
+        }
+
+
+        let frame = new PageBuilder();
+    </script>
+</html>
