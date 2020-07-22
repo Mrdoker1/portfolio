@@ -1,216 +1,295 @@
-*{
-    margin: 0;
-    font-family: Segoe UI;  
+* {
+  margin: 0;
+  font-family: 'Open Sans';
 }
 
-header.mainHeader{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    width: calc(100% - 100px);
-    padding: 0 50px;
-    height: 75px;
-    border-bottom: 1px solid #DEDEDE;
+html{
+  scroll-behavior: smooth;
 }
 
-footer.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    width: calc(100% - 100px);
-    padding: 0 50px;
-    height: 75px;
-    border-top: 1px solid #DEDEDE;
-
-    
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
+  width: calc(100% - 100px);
+  padding: 0 50px;
+  height: 75px;
+  border-bottom: 1px solid #DEDEDE;
 }
 
-div.logo{
-    display: flex;
-    align-items: center;
-}
-div.logo span{
-    padding-left: 15px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-}
+footer.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-div.links a{
-    padding-left:30px;
-    color: #ACACAC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 123%;
+  width: calc(100% - 100px);
+  padding: 0 50px;
+  height: 75px;
+  border-top: 1px solid #DEDEDE;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
 }
 
-div.links a.current{
-    color: #000000;
+div.logo {
+  display: flex;
+  align-items: center;
+}
+div.logo span {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-main{
-    padding: 75px 205px 0 205px;
-    display: flex;
-    flex-direction: column;
+div.links a {
+  padding-left: 30px;
+  color: #ACACAC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 123%;
+
+  cursor: pointer;
 }
 
-main p.headline{
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 123%;
-}
-main span.subheadline{
-    font-weight: 300;
-    font-size: 48px;
-    line-height: 176%;
-    padding-right: 50px;
+div.links a.current {
+  color: #000000;
 }
 
-main img.logos{
-    padding-right: 25px;
+main {
+  padding: 75px 205px;
+  display: flex;
+  flex-direction: column;
 }
 
-div.sort{
-    display: flex;
-    justify-content: flex-end;
+main p.headline {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 123%;
+}
+main span.subheadline {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 176%;
+  padding-right: 50px;
 }
 
-div.sort button{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-
-    background: #FFFFFF;
-    border: 1px solid #DEDEDE;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 190px;
-    height: 50px;
-    padding: 0 25px;
-
-    outline: none;
+main img.logos {
+  padding-right: 25px;
 }
 
-div.sort button span{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 176%;  
+div.filter {
+  display: flex;
+  justify-content: flex-end;
 }
 
-ul.sortList{
-    display: none;
-    position: absolute;
-    margin-top: 110px;
-    margin-left: -25px;
-    padding: 15px 25px;
-    width: 190px;
-    list-style: none;
-    background: white;
-    z-index: 999;
-    border: 1px solid #F5F5F5;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 221.5%;
-    text-align: left;
-    color: #ACACAC;
+div.filter button {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 190px;
+  height: 50px;
+  padding: 0 25px;
+
+  outline: none;
+  
+  transition-duration: 0.1s;
 }
 
-div.sort ul.opened{
-    display: initial;
+div.filter button.openedFilter{
+    background : #F5F5F5;
 }
 
-ol.grid{
-    margin: 50px 0;
-    display: grid;
-    align-self: flex-end;
-    width: 100%;
-    list-style: none;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 36px;
+div.filter button span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 176%;
 }
 
-li.item{
-    overflow: hidden;
-    padding-bottom: 75%;
-    height: 0;
-    position: relative;
-    border-radius: 10px;
+ul.filterList {
+  display: none;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -25px;
+  padding: 15px 0;
+  width: 190px;
+  list-style: none;
+  background: white;
+  z-index: 999;
+  border: 1px solid #F5F5F5;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 221.5%;
+  text-align: left;
+  color: #ACACAC;
 }
 
-li.item img{
-    width: 100%;
+ul.filterList li{
+  padding: 0 25px;
 }
 
-li.item div.hover{
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    justify-content: space-between;
-    height: calc(100% - 90px);
-    padding: 45px 50px;
-    flex-direction: column;
-    opacity: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    transition-duration: 0.25s;
+ul.filterList li:hover{
+  background: #F5F5F5;
 }
 
-li.item:hover div.hover{
-    opacity: 1;
+div.filter ul.opened {
+  display: initial;
 }
 
-div.hover span.headline{
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 128.51%;
+ol.grid {
+  margin: 50px 0;
+  display: grid;
+  align-self: flex-end;
+  width: 100%;
+  list-style: none;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 36px;
 }
 
-div.hover span.tags{
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 123%;
+li.item {
+  overflow: hidden;
+  padding-bottom: 75%;
+  height: 0;
+  position: relative;
+  border-radius: 10px;
 }
 
-div.backToTop{
-    width: 100%;
-    height: 180px;
-    
-    font-weight: 350;
-    font-size: 18px;
-    line-height: 24px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition-duration: 0.25s;
-
-    color: #666666;
+li.item img {
+  width: 100%;
 }
-div.backToTop:hover{
-    color: black;
-    font-weight: 350;
+
+li.item div.hover {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  height: calc(100% - 90px);
+  padding: 45px 50px;
+  flex-direction: column;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  transition-duration: 0.25s;
+}
+
+li.item:hover div.hover {
+  opacity: 1;
+}
+
+div.hover span.headline {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 128.51%;
+}
+
+div.hover span.tags {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 123%;
+}
+
+div.backToTop {
+  width: 100%;
+  height: 180px;
+
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-duration: 0.25s;
+
+  color: #666666;
+  cursor: pointer;
+}
+div.backToTop:hover {
+  color: black;
+  font-weight: 350;
 }
 
 .selected {
-    color: black;
+  color: black;
 }
 
 .default {
-    color: #ACACAC;
+  color: #ACACAC;
+}
+
+.h1{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 176%;
+  text-align: center;
+  height: 84px;
+  color: #000000;
+}
+.picture{
+  height: 390px;
+  align-self: center;
+  margin-top: 45px;
+}
+
+.paragraph{
+  margin-top: 45px;
+  align-self: center;
+  width: min(720px, 100%);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 176%;
+  /* or 32px */
+  
+  text-align: center;
+  
+  color: #000000
+}
+
+.paragraph > a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.paragraph > a.link_in_text{
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: min(54px, 10%);
+}
+.paragraph > a.link_in_text:first-child{
+  padding-left: 0;
+}
+
+.h0{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 123%;
+}
+
+.default{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 176%;
+  /* or 32px */
+  
+  text-align: left;
+  
+  color: #000000
 }
