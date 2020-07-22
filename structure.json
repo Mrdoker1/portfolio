@@ -120,7 +120,12 @@
                 {
                     "type":"paragraph",
                     "name":"text3",
-                    "value":"Don’t hesitate to <toContact>send an email​</toContact>​​​​​​, I’d love to hear from you."
+                    "value":"Don’t hesitate to <a onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you."
+                },
+                {
+                    "type":"paragraph",
+                    "name":"text4",
+                    "value":"<a class='link_in_text'>LinkedIn</a>​​​​​​<a class='link_in_text'>Dribbble</a><a class='link_in_text'>Behance</a><a class='link_in_text'>Medium</a>​​​​​​"
                 }
             ]
         },

@@ -51,6 +51,8 @@ div.links a {
   font-weight: normal;
   font-size: 18px;
   line-height: 123%;
+
+  cursor: pointer;
 }
 
 div.links a.current {
@@ -218,6 +220,7 @@ div.backToTop {
   transition-duration: 0.25s;
 
   color: #666666;
+  cursor: pointer;
 }
 div.backToTop:hover {
   color: black;
@@ -239,6 +242,45 @@ div.backToTop:hover {
   text-align: center;
   height: 84px;
   color: #000000;
+}
+.picture{
+  height: 390px;
+  align-self: center;
+  margin-top: 45px;
+}
+
+.paragraph{
+  margin-top: 45px;
+  align-self: center;
+  width: min(720px, 100%);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 176%;
+  /* or 32px */
+  
+  text-align: center;
+  
+  color: #000000
+}
+
+.paragraph > a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.paragraph > a.link_in_text{
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: min(54px, 10%);
+}
+.paragraph > a.link_in_text:first-child{
+  padding-left: 0;
+}
+
+.h0{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 123%;
 }
 
 .default{
