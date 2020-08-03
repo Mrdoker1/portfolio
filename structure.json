@@ -7,12 +7,8 @@
                 {
                     "type":"h0",
                     "name":"headline",
-<<<<<<< HEAD
                     "value":"UX & Interface designer.",
                     "propertes":{"margin":"bottom-10px"}
-=======
-                    "value":"UX & Interface designer."
->>>>>>> master
                 },
                 {
                     "type":"box",
@@ -20,7 +16,6 @@
                     "value":[
                         {
                             "type":"caption",
-<<<<<<< HEAD
                             "name":"caption1",
                             "value":"Saas & Ecommerce Based",
                             "propertes":{"padding":"right-50px"}
@@ -74,20 +69,6 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "propertes":{"padding":"right-25px","margin":"top-10px"}
-=======
-                            "name":"caption",
-                            "value":"Saas & Ecommerce Based"
-                        },
-                        {
-                            "type":"link_bar",
-                            "name":"links",
-                            "value":[
-                                { "url": "www.behance.net/kubic", "icon": "./images/logo-behance"},
-                                { "url": "dribbble.com/Kubic", "icon": "./images/logo-dribbble"},
-                                { "url": "www.linkedin.com/in/kubic", "icon": "./images/logo-linkedin"},
-                                { "url": "twitter.com/MrdokerMD", "icon": "./images/logo-twitter"}
-                            ]
->>>>>>> master
                         }
                     ]
                 },
@@ -98,7 +79,6 @@
                         "target":"portfolioGrid",
                         "items":[
                             { "name":"ecommerce", "value":"E-Commerce"},
-<<<<<<< HEAD
                             { "name":"saas", "value":"SaaS"},
                             { "name":"other", "value":"Other"},
                             { "name":"all", "value":"All"}
@@ -106,18 +86,10 @@
                         "default": 0
                     },
                     "propertes":{ "align-self":"right", "margin":"top-25px"}
-=======
-                            { "name":"illustration", "value":"Illustration"},
-                            { "name":"other", "value":"Other"}
-                        ],
-                        "default": 0
-                    }
->>>>>>> master
                 },
                 {
                     "type":"grid",
                     "name": "portfolioGrid",
-<<<<<<< HEAD
                     "value":"projects",
                     "filter": "ecommerce"
                 },
@@ -125,52 +97,6 @@
                     "type":"toTopButton",
                     "name":"toTopButton",
                     "value":"↑ Back to Top"
-=======
-                    "value":[
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        },
-                        { 
-                            "name":"jewelry_online_store",
-                            "title":"Jewelry Online Store",
-                            "description":"UI / Visual Design, UX Design",
-                            "type":"ecommerce"
-                        }
-                    ]
->>>>>>> master
                 }
             ]
         },
@@ -180,24 +106,15 @@
             "body":[
                 {
                     "type":"h1",
-<<<<<<< HEAD
                     "name":"headline2",
                     "value":"About",
                     "propertes":{ "text-align":"center" }
-=======
-                    "name":"headline",
-                    "value":"About"
->>>>>>> master
                 },
                 {
                     "type":"picture",
                     "name":"photo",
-<<<<<<< HEAD
                     "value":{ "src":"./src/images/photos/photo_1.jpg", "alt":"Out hero"},
                     "propertes":{ "align-self":"center" }
-=======
-                    "value":{ "url":"./src/images/photos/photo_1.jpg", "alt":"Out hero"}
->>>>>>> master
                 },
                 {
                     "type":"paragraph",
@@ -228,7 +145,6 @@
                 {
                     "type":"h1",
                     "name":"headline",
-<<<<<<< HEAD
                     "value":"Contact",
                     "propertes":{ "text-align":"center" }
                 },
@@ -237,29 +153,6 @@
                     "name":"contactForm",
                     "value":"https://formspree.io/meqrvpnw",
                     "email":"fixrapdok@gmail.com"
-=======
-                    "value":"Contact"
-                },
-                {
-                    "type":"input",
-                    "name":"name",
-                    "value":"Name"
-                },
-                {
-                    "type":"input",
-                    "name":"email_address",
-                    "value":"Email Address"
-                },
-                {
-                    "type":"input",
-                    "name":"message",
-                    "value":"Message"
-                },
-                {
-                    "type":"button",
-                    "name":"send_message",
-                    "value":"Send Message"
->>>>>>> master
                 }
             ]
         },
@@ -274,7 +167,6 @@
                 }
             ]
         }
-<<<<<<< HEAD
     },
     "menu":[
         {"name":"Works", "page":"main", "default":true},
@@ -444,7 +336,5 @@
                 "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
             ]
         }
-=======
->>>>>>> master
     }
 }
