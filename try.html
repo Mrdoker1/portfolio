@@ -11,10 +11,17 @@
                 <img src="./src/images/logo.svg">
                 <span>Viachas Kul</span>
             </div>
+<<<<<<< HEAD
             <div class="links">
                 <a class="current" onclick="frame.rebuild('main')">Works</a>
                 <a onclick="frame.rebuild('about')">About</a>
                 <a onclick="frame.rebuild('contact')">Contact</a>
+=======
+            <div class="links" id="headerLinks">
+                <a class="current" onclick="frame.rebuild('main')" ontouchstart="frame.rebuild('main')" value="main">Works</a>
+                <a onclick="frame.rebuild('about')" ontouchstart="frame.rebuild('about')" value="about" >About</a>
+                <a onclick="frame.rebuild('contact')" ontouchstart="frame.rebuild('contact')" value="contact">Contact</a>
+>>>>>>> master
             </div>
         </header>
         <main>
@@ -123,6 +130,17 @@
 
                 this.main.appendChild(block);
             }
+<<<<<<< HEAD
+=======
+            addBlock_paragraph(data){
+                let block = document.createElement("p");
+                block.classList.add("paragraph");
+                block.id = data.name;
+                block.innerHTML = data.value;
+
+                this.main.appendChild(block);
+            }
+>>>>>>> master
 
             getPath(searchString){
                 let searchParams = new URLSearchParams(searchString);
@@ -134,6 +152,12 @@
                 this.build();
             }
             rebuild(page){
+<<<<<<< HEAD
+=======
+                headerLinks.querySelector(".current").classList.remove("current");
+                headerLinks.querySelector(`a[value=${page}`).classList.add("current");
+
+>>>>>>> master
                 window.history.replaceState({},
                     this.structure.pages[page].title,
                     window.location.pathname + `?path=${page}`);
