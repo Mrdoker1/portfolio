@@ -87,7 +87,7 @@
                         ],
                         "default": 0
                     },
-                    "propertes":{ "align-self":"right", "margin": "top-10px"}
+                    "propertes":{ "align-self":"right", "margin":"top-25px"}
                 },
                 {
                     "type":"grid",
