@@ -4,7 +4,11 @@
         <title>Cubic</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./src/css/style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="https://cdn.glitch.com/39b04b2d-8a21-4913-912e-26eaa4dad577%2Ffavicon-32.png?v=1596473931949" sizes="32x32"> 
+        <link rel="icon" type="image/png" href="https://cdn.glitch.com/39b04b2d-8a21-4913-912e-26eaa4dad577%2Ffavicon-128.png?v=1596473931657" sizes="128x128"> 
+        <link rel="icon" type="image/png" href="https://cdn.glitch.com/39b04b2d-8a21-4913-912e-26eaa4dad577%2Ffavicon-180.png?v=1596473932056" sizes="180x180"> 
+        <link rel="icon" type="image/png" href="https://cdn.glitch.com/39b04b2d-8a21-4913-912e-26eaa4dad577%2Ffavicon-192.png?v=1596473932149" sizes="192x192"> 
     </head>
     <body class="">
         <div class="main">
@@ -33,12 +37,17 @@
             <div class="pop-up-container">
                 <div class="pop-up-body">
                 </div>
-                <div class="pop-up-right-body"></div>
+                <div class="pop-up-right-body no-scroll"></div>
             </div>
         </div>
         <script src="./src/script/script.js"></script>
         <script>
-            let frame = new PageBuilder();
+            try{
+                let frame = new PageBuilder();
+            }catch(e){
+                alert(JSON.stringify(e.type));
+            }
+            window.addEventListener("error",(e)=>alert(JSON.stringify(e.message)));
         </script>
     </body>
 </html>
