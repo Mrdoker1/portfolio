@@ -575,6 +575,7 @@ class PageBuilder {
 
             links.appendChild(key);
             links.appendChild(value);
+            links.classList.add("project-links");
             info.appendChild(links);
         }
         info.classList.add("info");
