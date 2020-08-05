@@ -570,11 +570,12 @@ class PageBuilder {
                 a.innerText = link.name;
                 a.href = link.href;
                 value.appendChild(a);
-                value.appendChild(document.createTextNode(", "));
+                value.appendChild(document.createTextNode(" "));
             }
 
             links.appendChild(key);
             links.appendChild(value);
+            links.classList.add("project-links");
             info.appendChild(links);
         }
         info.classList.add("info");
