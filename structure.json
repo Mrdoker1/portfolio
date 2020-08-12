@@ -501,9 +501,9 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/illustrations_for_inner_services_1.jpg",
-                "./src/images/articles/illustrations_for_inner_services_2.jpg",
-                "./src/images/articles/illustrations_for_inner_services_3.jpg"
+                "./src/images/articles/illustrations_for_inner_services_1.svg",
+                "./src/images/articles/illustrations_for_inner_services_2.svg",
+                "./src/images/articles/illustrations_for_inner_services_3.svg"
             ],
             "customer": [
                 "BelVG",
@@ -521,7 +521,7 @@
                 }
             ],
             "text": [
-                "dsadsad."
+                "Set of illustrations for BelVG internal services. We needed to develop a visual style for illustrations in accordance with the design concept."
             ]
         }
     }
