@@ -512,16 +512,12 @@
             "type": "other",
             "links": [
                 {
-                    "name": "Figma",
-                    "href": "https://www.figma.com/proto/n8GT6bTFm9ETUotOyt4sP5/Adauratech-Design?node-id=438%3A551&scaling=scale-down"
-                },
-                {
                     "name": "Website",
                     "href": "https://quintessential-cat-music.glitch.me/"
                 }
             ],
             "text": [
-                "Set of illustrations for BelVG internal services. We needed to develop a visual style for illustrations in accordance with the design concept."
+                "Set of illustrations for BelVG internal services. I created a visual style for illustrations in accordance with the design concept."
             ]
         }
     }
