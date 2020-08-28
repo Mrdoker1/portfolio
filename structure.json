@@ -498,8 +498,8 @@
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
             ]
         },
-        "redesign concept for Tech Market": {
-            "name": "redesign_concept_for_Tech_Market",
+        "redesign_concept_for_tech_market": {
+            "name": "redesign_concept_for_tech_market",
             "title": "Redesign Concept for Tech Market",
             "description": "UI / Visual Design",
             "preview": 0,
