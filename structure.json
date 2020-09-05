@@ -497,6 +497,31 @@
             "text": [
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
             ]
+        },
+        "ketox_a_keto_meal_planer": {
+            "name": "ketox_a_keto_meal_planer",
+            "title": "KETOX a keto meal planer",
+            "description": "UX / Visual Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/ketox_meal_plan_1.svg",
+                "./src/images/articles/ketox_meal_plan_2.svg",
+                "./src/images/articles/ketox_meal_plan_3.svg",
+                "./src/images/articles/ketox_meal_plan_4.svg"
+            ],
+            "customer": [
+                "Hiden",
+                "Canada"
+            ],
+            "type": "other",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QZiorKaBRE0kHOjRLwYlFo/Ketox-The-Quiz-Funnel?node-id=0%3A1"
+            }],
+            "text": [
+                "Ketox plan, is a very high-fat, very low-carbohydrate diet with moderate consumption of protein. 75% of your calories on a ketogenic diet come from fat, 20% are from protein, and only 5% of the total calorie intake comes from carbohydrates. Тhrough this macro ratio our body switches its preferred fuel source from carbohydrates to fat, which results in the production of an additional fuel source known as ketones. This unique metabolic state is known as nutritional ketosis."
+            ]
         }
     }
 }
