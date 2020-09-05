@@ -505,10 +505,10 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/ketox_meal_plan_1.svg",
-                "./src/images/articles/ketox_meal_plan_2.svg",
-                "./src/images/articles/ketox_meal_plan_3.svg",
-                "./src/images/articles/ketox_meal_plan_4.svg"
+                "./src/images/articles/ketox_meal_plan_1.png",
+                "./src/images/articles/ketox_meal_plan_2.png",
+                "./src/images/articles/ketox_meal_plan_3.png",
+                "./src/images/articles/ketox_meal_plan_4.png"
             ],
             "customer": [
                 "Hiden",
