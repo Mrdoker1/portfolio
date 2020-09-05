@@ -475,8 +475,8 @@
             ]
         },
         "illustrations_for_inner_services": {
-            "name": "illustrations_for_inner_services",
-            "title": "Illustrations for Inner Services",
+            "name": "belVG_internal_design_services",
+            "title": "BelVG internal design services",
             "description": "Illustration / Visual Design",
             "preview": 0,
             "default": 0,
@@ -498,7 +498,7 @@
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
             ]
         },
-        "redesign_concept_for_tech_market": {
+        "": {
             "name": "redesign_concept_for_tech_market",
             "title": "Redesign Concept for Tech Market",
             "description": "UI / Visual Design",
