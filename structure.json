@@ -474,9 +474,9 @@
                 "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
             ]
         },
-        "illustrations_for_inner_services": {
+        "belVG_internal_design_services": {
             "name": "belVG_internal_design_services",
-            "title": "BelVG internal design services",
+            "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
             "preview": 0,
             "default": 0,
@@ -496,28 +496,6 @@
             }],
             "text": [
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
-            ]
-        },
-        "": {
-            "name": "redesign_concept_for_tech_market",
-            "title": "Redesign Concept for Tech Market",
-            "description": "UI / Visual Design",
-            "preview": 0,
-            "default": 0,
-            "images": [
-                "./src/images/articles/redesign_concept_for_Tech_Market_1.png"
-            ],
-            "customer": [
-                "Tecs.com",
-                "Australia"
-            ],
-            "type": "other",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/proto/7NmHXiSiHWC1WVZXvbnZl7/www.tecs.com.au?node-id=1%3A4&viewport=179%2C23%2C0.25467225909233093&scaling=min-zoom"
-            }],
-            "text": [
-                "Redesign concept for Australian Magento Tech store"
             ]
         }
     }
