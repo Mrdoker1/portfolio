@@ -522,6 +522,29 @@
             "text": [
                 "Ketox plan, is a very high-fat, very low-carbohydrate diet with moderate consumption of protein. 75% of your calories on a ketogenic diet come from fat, 20% are from protein, and only 5% of the total calorie intake comes from carbohydrates. Тhrough this macro ratio our body switches its preferred fuel source from carbohydrates to fat, which results in the production of an additional fuel source known as ketones. This unique metabolic state is known as nutritional ketosis."
             ]
+        },
+        "computer_parts_online_shop": {
+            "name": "computer_parts_online_shop",
+            "title": "Computer Parts Online Shop",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/computer_parts_online_shop_1.png",
+                "./src/images/articles/computer_parts_online_shop_2.png"
+            ],
+            "customer": [
+                "Tecs",
+                "Australia"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/XBngjpiZT7FTgFB34uReVg/www.tecs.com.au?node-id=174%3A4764&viewport=160%2C410%2C0.07799211889505386&scaling=scale-down"
+            }],
+            "text": [
+                "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
+            ]
         }
     }
 }
