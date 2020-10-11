@@ -3,8 +3,7 @@
         "main": {
             "title": "Viachas Kul",
             "description": "Portfolio",
-            "body": [
-                {
+            "body": [{
                     "type": "h0",
                     "name": "headline",
                     "value": "UX & Interface designer.",
@@ -15,8 +14,7 @@
                 {
                     "type": "box",
                     "name": "caption_and_links_bar",
-                    "value": [
-                        {
+                    "value": [{
                             "type": "caption",
                             "name": "caption1",
                             "value": "SaaS & Ecommerce Based",
@@ -102,8 +100,7 @@
                     "name": "portfolioFilter",
                     "value": {
                         "target": "portfolioGrid",
-                        "items": [
-                            {
+                        "items": [{
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
                             },
@@ -143,8 +140,7 @@
         "about": {
             "title": "About",
             "description": "About Page",
-            "body": [
-                {
+            "body": [{
                     "type": "h1",
                     "name": "headline2",
                     "value": "About",
@@ -188,8 +184,7 @@
         "contact": {
             "title": "Contact",
             "description": "Contact Page",
-            "body": [
-                {
+            "body": [{
                     "type": "h1",
                     "name": "headline",
                     "value": "Contact",
@@ -208,17 +203,14 @@
         "example": {
             "title": "Example",
             "description": "There i test all blocks",
-            "body": [
-                {
-                    "type": "h1",
-                    "name": "headline",
-                    "value": "Example text"
-                }
-            ]
+            "body": [{
+                "type": "h1",
+                "name": "headline",
+                "value": "Example text"
+            }]
         }
     },
-    "menu": [
-        {
+    "menu": [{
             "name": "Works",
             "page": "main",
             "default": true,
@@ -252,8 +244,7 @@
                 "United Kingdom"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/bXelxyKnzsZ8UMv35m4wOJ/Label-D?node-id=88%3A493&scaling=scale-down"
                 },
@@ -282,8 +273,7 @@
                 "United States"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/i46A3QPFlb638D4VUmhdpR/www.articleand.com?node-id=2255%3A8438&scaling=scale-down"
                 },
@@ -315,12 +305,10 @@
                 "Belarus"
             ],
             "type": "ecommerce",
-            "links": [
-                {
-                    "name": "Figma",
-                    "href": "https://www.figma.com/proto/SJT9ZRmulSPvXgDn4j4lBt/Crisp-Theme-Magento-2?node-id=173%3A20&scaling=scale-down"
-                }
-            ],
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/SJT9ZRmulSPvXgDn4j4lBt/Crisp-Theme-Magento-2?node-id=173%3A20&scaling=scale-down"
+            }],
             "text": [
                 "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
             ]
@@ -341,8 +329,7 @@
                 "United States"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/lLxNWR0dd3fOveAyYKwCnK/Respshop-Design?node-id=143%3A6882&scaling=scale-down"
                 },
@@ -372,8 +359,7 @@
                 "Netherlands"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/iBamtTaIZOvm74miLaKZJO/Yaro-Slings-Design?node-id=196%3A331&scaling=scale-down"
                 },
@@ -401,12 +387,10 @@
                 "Belarus"
             ],
             "type": "ecommerce",
-            "links": [
-                {
-                    "name": "Figma",
-                    "href": "https://www.figma.com/proto/ENyqJsy17pmyy4vYToDGcp/SimpleWood-Theme-Magento-2?node-id=126%3A1922&scaling=scale-down"
-                }
-            ],
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/ENyqJsy17pmyy4vYToDGcp/SimpleWood-Theme-Magento-2?node-id=126%3A1922&scaling=scale-down"
+            }],
             "text": [
                 "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
             ]
@@ -426,8 +410,7 @@
                 "Germany"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/Inm5IVnuTujlEwa2FxuiBP/ato24.de-Design?node-id=2396%3A8851&scaling=scale-down"
                 },
@@ -454,12 +437,10 @@
                 "United States"
             ],
             "type": "ecommerce",
-            "links": [
-                {
-                    "name": "Figma",
-                    "href": "https://www.figma.com/proto/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719&scaling=scale-down"
-                }
-            ],
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719&scaling=scale-down"
+            }],
             "text": [
                 "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
             ]
@@ -480,8 +461,7 @@
                 "United States"
             ],
             "type": "ecommerce",
-            "links": [
-                {
+            "links": [{
                     "name": "Figma",
                     "href": "https://www.figma.com/proto/n8GT6bTFm9ETUotOyt4sP5/Adauratech-Design?node-id=438%3A551&scaling=scale-down"
                 },
@@ -494,9 +474,9 @@
                 "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
             ]
         },
-        "illustrations_for_inner_services": {
-            "name": "illustrations_for_inner_services",
-            "title": "Illustrations for Inner Services",
+        "belVG_internal_design_services": {
+            "name": "belVG_internal_design_services",
+            "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
             "preview": 0,
             "default": 0,
@@ -510,14 +490,60 @@
                 "Belarus"
             ],
             "type": "other",
-            "links": [
-                {
-                    "name": "Website",
-                    "href": "https://quintessential-cat-music.glitch.me/"
-                }
-            ],
+            "links": [{
+                "name": "Website",
+                "href": "https://belvg-design.github.io/"
+            }],
             "text": [
-                "Set of illustrations for BelVG internal services. I created a visual style for illustrations according to current company guidlines. It's important because company gaven't got overall style before."
+                "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
+            ]
+        },
+        "ketox_a_keto_meal_planer": {
+            "name": "ketox_a_keto_meal_planer",
+            "title": "KETOX a keto meal planer",
+            "description": "UX / Visual Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/ketox_meal_plan_1.png",
+                "./src/images/articles/ketox_meal_plan_2.png",
+                "./src/images/articles/ketox_meal_plan_3.png",
+                "./src/images/articles/ketox_meal_plan_4.png"
+            ],
+            "customer": [
+                "Hiden",
+                "Canada"
+            ],
+            "type": "other",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QZiorKaBRE0kHOjRLwYlFo/Ketox-The-Quiz-Funnel?node-id=0%3A1"
+            }],
+            "text": [
+                "Ketox plan, is a very high-fat, very low-carbohydrate diet with moderate consumption of protein. 75% of your calories on a ketogenic diet come from fat, 20% are from protein, and only 5% of the total calorie intake comes from carbohydrates. Тhrough this macro ratio our body switches its preferred fuel source from carbohydrates to fat, which results in the production of an additional fuel source known as ketones. This unique metabolic state is known as nutritional ketosis."
+            ]
+        },
+        "computer_parts_online_shop": {
+            "name": "computer_parts_online_shop",
+            "title": "Computer Parts Online Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/computer_parts_online_shop_1.png",
+                "./src/images/articles/computer_parts_online_shop_2.png"
+            ],
+            "customer": [
+                "Tecs",
+                "Australia"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/XBngjpiZT7FTgFB34uReVg/www.tecs.com.au?node-id=174%3A4764&viewport=160%2C410%2C0.07799211889505386&scaling=scale-down"
+            }],
+            "text": [
+                "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
             ]
         }
     }
