@@ -553,8 +553,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/frame_online_shop_1",
-                "./src/images/articles/frame_online_shop_2"
+                "./src/images/articles/frame_online_shop_1.png",
+                "./src/images/articles/frame_online_shop_2.png"
             ],
             "customer": [
                 "Rueducadre",
