@@ -545,6 +545,29 @@
             "text": [
                 "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
             ]
+        },
+        "frame_online_shop": {
+            "name": "frame_online_shop",
+            "title": "Frame Online Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/frame_online_shop_1",
+                "./src/images/articles/frame_online_shop_2"
+            ],
+            "customer": [
+                "Rueducadre",
+                "France"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/proto/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=710%3A98&viewport=127%2C335%2C0.06510056555271149&scaling=scale-down"
+            }],
+            "text": [
+                "FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items. We orchestrate creation, manufacture and distribution."
+            ]
         }
     }
 }
