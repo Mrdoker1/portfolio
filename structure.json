@@ -230,7 +230,7 @@
     "projects": {
         "jewelry_online_store": {
             "name": "jewelry_online_store",
-            "title": "Label_D",
+            "title": "Label-D",
             "description": "UI / Visual Design, UX Design",
             "preview": 1,
             "default": 0,
@@ -260,7 +260,7 @@
         },
         "fashion_online_store": {
             "name": "fashion_online_store",
-            "title": "Fashion Online Store",
+            "title": "Article&",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -291,7 +291,7 @@
         },
         "magento_2_theme": {
             "name": "magento_2_theme",
-            "title": "Magento 2 Theme",
+            "title": "CRISP Magento 2 Theme",
             "description": "UI / Visual Design",
             "preview": 1,
             "default": 0,
@@ -315,7 +315,7 @@
         },
         "cpap_masks_online_store": {
             "name": "cpap_masks_online_store",
-            "title": "CPAP Masks Online Store",
+            "title": "Respshop",
             "description": "UI / Visual Design, UX Design",
             "preview": 1,
             "default": 0,
@@ -344,7 +344,7 @@
         },
         "mother_slings_online_store": {
             "name": "mother_slings_online_store",
-            "title": "Mother Slings Online Store",
+            "title": "SlingoMama",
             "description": "UI / Visual Design, UX Design",
             "preview": 1,
             "default": 0,
@@ -374,7 +374,7 @@
         },
         "magento_2_theme_2": {
             "name": "magento_2_theme_2",
-            "title": "Magento 2 Theme",
+            "title": "SiimpleWood Magento 2 Theme",
             "description": "UI / Visual Design",
             "preview": 1,
             "default": 0,
@@ -397,7 +397,7 @@
         },
         "frame_online_shop": {
             "name": "frame_online_shop",
-            "title": "Frame Online Store",
+            "title": "RueDeCadre",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -420,7 +420,7 @@
         },
         "motor_oil_online_store": {
             "name": "motor_oil_online_store",
-            "title": "Motor Oil Online Store",
+            "title": "Ato24",
             "description": "UI / Visual Design, UX Design",
             "preview": 1,
             "default": 0,
@@ -448,7 +448,7 @@
         },
         "armor_online_store": {
             "name": "armor_online_store",
-            "title": "Armor Online Store",
+            "title": "BZDefence",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -470,7 +470,7 @@
         },
         "attenuator_devices_online_store": {
             "name": "attenuator_devices_online_store",
-            "title": "Attenuator Devices Online Store",
+            "title": "AdauraTech",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
