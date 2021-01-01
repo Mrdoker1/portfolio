@@ -165,7 +165,6 @@
                     "value": "Hi, I am a (UX/UI) User Experience & Interface designer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
                 },
                 {
-                    "type": "paragraph",
                     "name": "text2",
                     "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link_in_text' href='https://www.linkedin.com/in/kubic'>Download my CV</a>​​​​​​"
                 },
