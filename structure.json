@@ -162,21 +162,16 @@
                 {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "Hi, I am a User Experience & Interface designer with technical background."
+                    "value": "Hi, I am a (UX/UI) User Experience & Interface designer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
                 },
                 {
                     "type": "paragraph",
                     "name": "text2",
-                    "value": "I have a quite diverse experience – from user research, heuristic evaluation, usability testing and wireframing to final visual design and ui animation. I'm familiar with web development processes, principles and technologies, working with e-commerce and SaaS-oriented projects."
+                    "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link_in_text' href='https://www.linkedin.com/in/kubic'>Download my CV</a>​​​​​​"
                 },
                 {
                     "type": "paragraph",
                     "name": "text3",
-                    "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you."
-                },
-                {
-                    "type": "paragraph",
-                    "name": "text4",
                     "value": "<a class='link_in_text' href='https://www.linkedin.com/in/kubic'>LinkedIn</a>​​​​​​<a class='link_in_text' href='https://dribbble.com/Kubic'>Dribbble</a><a class='link_in_text' href='https://www.behance.net/kubic'>Behance</a><a class='link_in_text' href='https://medium.com/@mdreg'>Medium</a>​​​​​​"
                 }
             ]
