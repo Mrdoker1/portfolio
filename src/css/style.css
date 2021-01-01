@@ -211,6 +211,10 @@ main {
     padding-left: 0
 }
 
+.paragraph>a.link_in_text:last-child {
+    padding-left: 0
+}
+
 .grid {
     padding: 0;
     display: grid;
