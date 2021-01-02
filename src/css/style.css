@@ -975,6 +975,6 @@ main.opacity-high {
     opacity: 1
 }
 
-span.project-links a {
-    padding-right: 7px
+div.project-links a {
+    padding-right: 10px
 }

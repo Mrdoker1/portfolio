@@ -197,7 +197,7 @@
         },
         "example": {
             "title": "Example",
-            "description": "There i test all blocks",
+            "description": "Test all blocks",
             "body": [{
                 "type": "h1",
                 "name": "headline",
@@ -241,7 +241,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/bXelxyKnzsZ8UMv35m4wOJ/Label-D?node-id=88%3A493&scaling=scale-down"
+                    "href": "https://www.figma.com/file/bXelxyKnzsZ8UMv35m4wOJ/Label-D?node-id=43%3A637"
                 },
                 {
                     "name": "Website",
@@ -270,7 +270,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/i46A3QPFlb638D4VUmhdpR/www.articleand.com?node-id=2255%3A8438&scaling=scale-down"
+                    "href": "https://www.figma.com/file/i46A3QPFlb638D4VUmhdpR/www.articleand.com?node-id=2255%3A8438"
                 },
                 {
                     "name": "Website",
@@ -302,7 +302,7 @@
             "type": "ecommerce",
             "links": [{
                 "name": "Figma",
-                "href": "https://www.figma.com/proto/SJT9ZRmulSPvXgDn4j4lBt/Crisp-Theme-Magento-2?node-id=173%3A20&scaling=scale-down"
+                "href": "https://www.figma.com/file/SJT9ZRmulSPvXgDn4j4lBt/Crisp-Theme-Magento-2?node-id=0%3A1"
             }],
             "text": [
                 "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
@@ -326,7 +326,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/lLxNWR0dd3fOveAyYKwCnK/Respshop-Design?node-id=143%3A6882&scaling=scale-down"
+                    "href": "https://www.figma.com/file/lLxNWR0dd3fOveAyYKwCnK/Respshop-Design?node-id=134%3A5501"
                 },
                 {
                     "name": "Website",
@@ -356,7 +356,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/iBamtTaIZOvm74miLaKZJO/Yaro-Slings-Design?node-id=196%3A331&scaling=scale-down"
+                    "href": "https://www.figma.com/file/iBamtTaIZOvm74miLaKZJO/Yaro-Slings-Design?node-id=196%3A1"
                 },
                 {
                     "name": "Website",
@@ -384,7 +384,7 @@
             "type": "ecommerce",
             "links": [{
                 "name": "Figma",
-                "href": "https://www.figma.com/proto/ENyqJsy17pmyy4vYToDGcp/SimpleWood-Theme-Magento-2?node-id=126%3A1922&scaling=scale-down"
+                "href": "https://www.figma.com/file/ENyqJsy17pmyy4vYToDGcp/SimpleWood-Theme-Magento-2?node-id=105%3A0"
             }],
             "text": [
                 "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
@@ -407,7 +407,7 @@
             "type": "ecommerce",
             "links": [{
                 "name": "Figma",
-                "href": "https://www.figma.com/proto/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=710%3A98&viewport=127%2C335%2C0.06510056555271149&scaling=scale-down"
+                "href": "https://www.figma.com/file/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=696%3A7530"
             }],
             "text": [
                 "FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items. We orchestrate creation, manufacture and distribution."
@@ -430,7 +430,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/Inm5IVnuTujlEwa2FxuiBP/ato24.de-Design?node-id=2396%3A8851&scaling=scale-down"
+                    "href": "https://www.figma.com/file/Inm5IVnuTujlEwa2FxuiBP/ato24.de-Design?node-id=2396%3A8851"
                 },
                 {
                     "name": "Website",
@@ -457,7 +457,7 @@
             "type": "ecommerce",
             "links": [{
                 "name": "Figma",
-                "href": "https://www.figma.com/proto/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719&scaling=scale-down"
+                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
             }],
             "text": [
                 "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
@@ -481,7 +481,7 @@
             "type": "ecommerce",
             "links": [{
                     "name": "Figma",
-                    "href": "https://www.figma.com/proto/n8GT6bTFm9ETUotOyt4sP5/Adauratech-Design?node-id=438%3A551&scaling=scale-down"
+                    "href": "https://www.figma.com/file/n8GT6bTFm9ETUotOyt4sP5/Adauratech-Design?node-id=438%3A551"
                 },
                 {
                     "name": "Website",
@@ -561,7 +561,7 @@
             "type": "ecommerce",
             "links": [{
                 "name": "Figma",
-                "href": "https://www.figma.com/proto/tR9UKAcJNtlhJrOADYre4c/TECS-Design?node-id=174%3A4764&viewport=305%2C471%2C0.0908525213599205&scaling=scale-down"
+                "href": "https://www.figma.com/file/tR9UKAcJNtlhJrOADYre4c/TECS-Design?node-id=169%3A0"
             }],
             "text": [
                 "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
