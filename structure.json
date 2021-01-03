@@ -367,29 +367,6 @@
                 "The Slingomama web store has opend its virtual doors in January of 2008. Since then the store has grown to be a well known babywearing store in the Netherlands and abroad due to its wide assortiment of baby carriers, wraps and accessories for babywearing."
             ]
         },
-        "magento_2_theme_2": {
-            "name": "magento_2_theme_2",
-            "title": "SiimpleWood Magento 2 Theme",
-            "description": "UI / Visual Design",
-            "preview": 1,
-            "default": 0,
-            "images": [
-                "./src/images/articles/magento_2_theme_2_1.jpg",
-                "./src/images/articles/magento_2_theme_2_2.jpg"
-            ],
-            "customer": [
-                "BelVG",
-                "Belarus"
-            ],
-            "type": "ecommerce",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/ENyqJsy17pmyy4vYToDGcp/SimpleWood-Theme-Magento-2?node-id=105%3A0"
-            }],
-            "text": [
-                "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
-            ]
-        },
         "frame_online_shop": {
             "name": "frame_online_shop",
             "title": "RueDeCadre",
