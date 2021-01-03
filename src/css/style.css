@@ -24,7 +24,7 @@ main {
 .header {
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #dedede
+    border-bottom: 1px solid #ffffff
 }
 
 .header .logo {
@@ -75,7 +75,7 @@ main {
     align-items: center;
     justify-content: space-between;
     height: 75px;
-    border-top: 1px solid #dedede;
+    border-top: 1px solid #ffffff;
     font-weight: 300;
     font-size: var(--header);
     line-height: 21px
@@ -461,11 +461,11 @@ main {
 }
 
 .bar>ul>li:hover {
-    box-shadow: 0 0 0 3px #7b61ff26
+    box-shadow: 0 0 0 2px #00000026
 }
 
 .bar>ul>li.selected {
-    box-shadow: 0 0 0 3px #7b61ff
+    box-shadow: 0 0 0 3px #9b51e0;
 }
 
 .bar>ul>li>img {
@@ -836,8 +836,8 @@ form input {
     line-height: 20px;
     padding: 12px 16px;
     border-radius: 6px;
-    border: 1px solid #ccc;
-    background: #f7f7f7;
+    border: 2px solid rgb(0, 0, 0);
+    background: #ffffff;
     width: 100%
 }
 
@@ -859,14 +859,21 @@ form input.button {
     -webkit-appearance: none
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
 form textarea {
     font-weight: 400;
     font-size: var(--subhead);
     line-height: 20px;
     padding: 12px 16px;
     border-radius: 6px;
-    border: 1px solid #ccc;
-    background: #f3f3f4;
+    border: 2px solid rgb(0, 0, 0);
+    background: #ffffff;
     width: 100%;
     height: 160px;
     resize: none;
@@ -901,7 +908,7 @@ button.filter {
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    border: 1px solid #dedede;
+    border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
     height: 50px;
