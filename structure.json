@@ -167,7 +167,7 @@
                 {
                     "type": "paragraph",
                     "name": "text2",
-                    "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link_in_text' href='https://www.linkedin.com/in/kubic'>Download my CV</a>​​​​​​"
+                    "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link_in_text' href='https://www.dropbox.com/s/u4dblhjaijrnwuv/Viachas%20Kul%20-%20CV.pdf?dl=0'>Download my CV</a>​​​​​​"
                 },
                 {
                     "type": "paragraph",
