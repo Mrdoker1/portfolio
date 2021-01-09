@@ -797,6 +797,9 @@ main {
     a.link.social {
         font-size: 13px;
     }
+    .close-icon {
+        right: 10px;
+    }
      :root {
         --h0: 36px;
         --h1: 24px;
