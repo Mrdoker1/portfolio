@@ -167,12 +167,12 @@
                 {
                     "type": "paragraph",
                     "name": "text2",
-                    "value": "Don’t hesitate to <a class='link_in_text' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link_in_text' href='https://www.dropbox.com/s/u4dblhjaijrnwuv/Viachas%20Kul%20-%20CV.pdf?dl=0'>Download my CV</a>​​​​​​"
+                    "value": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you. <a class='link' href='https://www.dropbox.com/s/u4dblhjaijrnwuv/Viachas%20Kul%20-%20CV.pdf?dl=0'>Download my CV</a>​​​​​​"
                 },
                 {
                     "type": "paragraph",
                     "name": "text3",
-                    "value": "<a class='link' href='https://www.linkedin.com/in/kubic'>LinkedIn</a>​​​​​​<a class='link' href='https://dribbble.com/Kubic'>Dribbble</a><a class='link' href='https://www.behance.net/kubic'>Behance</a><a class='link' href='https://medium.com/@mdreg'>Medium</a>​​​​​​"
+                    "value": "<a class='link social' href='https://www.linkedin.com/in/kubic'>LinkedIn</a>​​​​​​<a class='link social' href='https://dribbble.com/Kubic'>Dribbble</a><a class='link social' href='https://www.behance.net/kubic'>Behance</a><a class='link social' href='https://medium.com/@mdreg'>Medium</a>​​​​​​"
                 }
             ]
         },

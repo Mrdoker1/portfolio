@@ -200,13 +200,13 @@ main {
     cursor: pointer
 }
 
-.paragraph>a.link_in_text {
+.paragraph>a.link {
     text-decoration: underline;
     cursor: pointer;
     color: #9b51e0
 }
 
-.paragraph>a.link {
+.paragraph>a.link.social:not(:first-child) {
     text-decoration: underline;
     cursor: pointer;
     padding-left: min(54px, 10%);
@@ -793,6 +793,9 @@ main {
     }
     .pop-up>.close-icon path {
         fill: #000
+    }
+    a.link.social {
+        font-size: 13px;
     }
      :root {
         --h0: 36px;
