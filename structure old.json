@@ -284,6 +284,30 @@
                 "Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team."
             ]
         },
+        "magento_2_theme": {
+            "name": "magento_2_theme",
+            "title": "CRISP Magento 2 Theme",
+            "description": "UI / Visual Design",
+            "preview": 1,
+            "default": 0,
+            "images": [
+                "./src/images/articles/magento_2_theme_1.jpg",
+                "./src/images/articles/magento_2_theme_2.jpg",
+                "./src/images/articles/magento_2_theme_3.jpg"
+            ],
+            "customer": [
+                "BelVG",
+                "Belarus"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/SJT9ZRmulSPvXgDn4j4lBt/Crisp-Theme-Magento-2?node-id=0%3A1"
+            }],
+            "text": [
+                "This is a custom Magento 2 Theme, what allows you to create awesome customer buying experience. We using here some free modules what we developed by ourselves, so you can customize all you want."
+            ]
+        },
         "cpap_masks_online_store": {
             "name": "cpap_masks_online_store",
             "title": "Respshop",
@@ -416,11 +440,40 @@
                 "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
             ]
         },
+        "attenuator_devices_online_store": {
+            "name": "attenuator_devices_online_store",
+            "title": "AdauraTech",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/attenuator_devices_online_store_1.jpg",
+                "./src/images/articles/attenuator_devices_online_store_2.jpg",
+                "./src/images/articles/attenuator_devices_online_store_3.jpg"
+            ],
+            "customer": [
+                "Adaura Technologies",
+                "United States"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                    "name": "Figma",
+                    "href": "https://www.figma.com/file/n8GT6bTFm9ETUotOyt4sP5/Adauratech-Design?node-id=438%3A551"
+                },
+                {
+                    "name": "Website",
+                    "href": "https://adauratech.com/"
+                }
+            ],
+            "text": [
+                "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
+            ]
+        },
         "belVG_internal_design_services": {
             "name": "belVG_internal_design_services",
             "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
-            "preview": 2,
+            "preview": 4,
             "default": 0,
             "images": [
                 "./src/images/articles/illustrations_for_inner_services_1.svg",
@@ -441,6 +494,31 @@
             }],
             "text": [
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
+            ]
+        },
+        "ketox_a_keto_meal_planer": {
+            "name": "ketox_a_keto_meal_planer",
+            "title": "KETOX a keto meal planer",
+            "description": "UX / Visual Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/ketox_meal_plan_1.png",
+                "./src/images/articles/ketox_meal_plan_2.png",
+                "./src/images/articles/ketox_meal_plan_3.png",
+                "./src/images/articles/ketox_meal_plan_4.png"
+            ],
+            "customer": [
+                "Hiden",
+                "Canada"
+            ],
+            "type": "other",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QZiorKaBRE0kHOjRLwYlFo/Ketox-The-Quiz-Funnel?node-id=0%3A1"
+            }],
+            "text": [
+                "Ketox plan, is a very high-fat, very low-carbohydrate diet with moderate consumption of protein. 75% of your calories on a ketogenic diet come from fat, 20% are from protein, and only 5% of the total calorie intake comes from carbohydrates. Тhrough this macro ratio our body switches its preferred fuel source from carbohydrates to fat, which results in the production of an additional fuel source known as ketones. This unique metabolic state is known as nutritional ketosis."
             ]
         },
         "computer_parts_online_shop": {
