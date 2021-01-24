@@ -228,9 +228,9 @@
             "title": "Label-D",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/jewelry_online_store.jpg",
+                "./src/images/articles/jewelry_online_store.png",
                 "./src/images/articles/jewelry_online_store_1.jpg",
                 "./src/images/articles/jewelry_online_store_2.jpg",
                 "./src/images/articles/jewelry_online_store_3.jpg"
@@ -259,9 +259,9 @@
             "title": "Article&",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/fashion_online_store.jpg",
+                "./src/images/articles/fashion_online_store.png",
                 "./src/images/articles/fashion_online_store_1.jpg",
                 "./src/images/articles/fashion_online_store_2.jpg"
             ],
@@ -291,9 +291,9 @@
             "title": "Respshop",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/cpap_masks_online_store.jpg",
+                "./src/images/articles/cpap_masks_online_store.png",
                 "./src/images/articles/cpap_masks_online_store_1.jpg",
                 "./src/images/articles/cpap_masks_online_store_2.jpg",
                 "./src/images/articles/cpap_masks_online_store_3.jpg"
@@ -321,9 +321,9 @@
             "title": "SlingoMama",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/mother_slings_online_store.jpg",
+                "./src/images/articles/mother_slings_online_store.png",
                 "./src/images/articles/mother_slings_online_store_1.jpg",
                 "./src/images/articles/mother_slings_online_store_2.jpg",
                 "./src/images/articles/mother_slings_online_store_3.jpg",
@@ -352,7 +352,7 @@
             "title": "RueDeCadre",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
                 "./src/images/articles/frame_online_shop.png",
                 "./src/images/articles/frame_online_shop_1.png",
@@ -375,10 +375,10 @@
             "name": "motor_oil_online_store",
             "title": "Ato24",
             "description": "UI / Visual Design, UX Design",
-            "preview": 1,
-            "default": 0,
+            "preview": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/motor_oil_online_store.jpg",
+                "./src/images/articles/motor_oil_online_store.png",
                 "./src/images/articles/motor_oil_online_store_1.jpg",
                 "./src/images/articles/motor_oil_online_store_2.jpg"
             ],
@@ -405,9 +405,9 @@
             "title": "BZDefence",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/armor_online_store.jpg",
+                "./src/images/articles/armor_online_store.png",
                 "./src/images/articles/armor_online_store_1.jpg"
             ],
             "customer": [
@@ -455,7 +455,7 @@
             "title": "Computer Parts Online Store",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
                 "./src/images/articles/computer_parts_online_shop.png",
                 "./src/images/articles/computer_parts_online_shop_1.png",
