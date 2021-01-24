@@ -230,7 +230,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/jewelry_online_store.png",
                 "./src/images/articles/jewelry_online_store_1.jpg",
                 "./src/images/articles/jewelry_online_store_2.jpg",
                 "./src/images/articles/jewelry_online_store_3.jpg"
@@ -261,7 +260,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/fashion_online_store.png",
                 "./src/images/articles/fashion_online_store_1.jpg",
                 "./src/images/articles/fashion_online_store_2.jpg"
             ],
@@ -293,7 +291,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/cpap_masks_online_store.png",
                 "./src/images/articles/cpap_masks_online_store_1.jpg",
                 "./src/images/articles/cpap_masks_online_store_2.jpg",
                 "./src/images/articles/cpap_masks_online_store_3.jpg"
@@ -323,7 +320,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/mother_slings_online_store.png",
                 "./src/images/articles/mother_slings_online_store_1.jpg",
                 "./src/images/articles/mother_slings_online_store_2.jpg",
                 "./src/images/articles/mother_slings_online_store_3.jpg",
@@ -354,7 +350,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/frame_online_shop.png",
                 "./src/images/articles/frame_online_shop_1.png",
                 "./src/images/articles/frame_online_shop_2.png"
             ],
@@ -378,7 +373,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/armor_online_store.png",
                 "./src/images/articles/armor_online_store_1.jpg"
             ],
             "customer": [
@@ -401,7 +395,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/motor_oil_online_store.png",
                 "./src/images/articles/motor_oil_online_store_1.jpg",
                 "./src/images/articles/motor_oil_online_store_2.jpg"
             ],
@@ -457,7 +450,6 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/computer_parts_online_shop.png",
                 "./src/images/articles/computer_parts_online_shop_1.png",
                 "./src/images/articles/computer_parts_online_shop_2.png"
             ],
