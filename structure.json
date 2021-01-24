@@ -371,6 +371,29 @@
                 "FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items, orchestrate creation, manufacture and distribution."
             ]
         },
+        "armor_online_store": {
+            "name": "armor_online_store",
+            "title": "BZDefence",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/armor_online_store.png",
+                "./src/images/articles/armor_online_store_1.jpg"
+            ],
+            "customer": [
+                "BZ Defence",
+                "United States"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+            }],
+            "text": [
+                "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
+            ]
+        },
         "motor_oil_online_store": {
             "name": "motor_oil_online_store",
             "title": "Ato24",
@@ -398,29 +421,6 @@
             ],
             "text": [
                 "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
-            ]
-        },
-        "armor_online_store": {
-            "name": "armor_online_store",
-            "title": "BZDefence",
-            "description": "UI / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/armor_online_store.png",
-                "./src/images/articles/armor_online_store_1.jpg"
-            ],
-            "customer": [
-                "BZ Defence",
-                "United States"
-            ],
-            "type": "ecommerce",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
-            }],
-            "text": [
-                "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
             ]
         },
         "belVG_internal_design_services": {
