@@ -227,9 +227,10 @@
             "name": "jewelry_online_store",
             "title": "Label-D",
             "description": "UI / Visual Design, UX Design",
-            "preview": 1,
+            "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/jewelry_online_store.jpg",
                 "./src/images/articles/jewelry_online_store_1.jpg",
                 "./src/images/articles/jewelry_online_store_2.jpg",
                 "./src/images/articles/jewelry_online_store_3.jpg"
@@ -260,6 +261,7 @@
             "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/fashion_online_store.jpg",
                 "./src/images/articles/fashion_online_store_1.jpg",
                 "./src/images/articles/fashion_online_store_2.jpg"
             ],
@@ -288,9 +290,10 @@
             "name": "cpap_masks_online_store",
             "title": "Respshop",
             "description": "UI / Visual Design, UX Design",
-            "preview": 1,
+            "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/cpap_masks_online_store.jpg",
                 "./src/images/articles/cpap_masks_online_store_1.jpg",
                 "./src/images/articles/cpap_masks_online_store_2.jpg",
                 "./src/images/articles/cpap_masks_online_store_3.jpg"
@@ -317,9 +320,10 @@
             "name": "mother_slings_online_store",
             "title": "SlingoMama",
             "description": "UI / Visual Design, UX Design",
-            "preview": 1,
+            "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/mother_slings_online_store.jpg",
                 "./src/images/articles/mother_slings_online_store_1.jpg",
                 "./src/images/articles/mother_slings_online_store_2.jpg",
                 "./src/images/articles/mother_slings_online_store_3.jpg",
@@ -350,6 +354,7 @@
             "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/frame_online_shop.png",
                 "./src/images/articles/frame_online_shop_1.png",
                 "./src/images/articles/frame_online_shop_2.png"
             ],
@@ -373,6 +378,7 @@
             "preview": 1,
             "default": 0,
             "images": [
+                "./src/images/articles/motor_oil_online_store.jpg",
                 "./src/images/articles/motor_oil_online_store_1.jpg",
                 "./src/images/articles/motor_oil_online_store_2.jpg"
             ],
@@ -401,7 +407,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/armor_online_store.jpg"
+                "./src/images/articles/armor_online_store.jpg",
+                "./src/images/articles/armor_online_store_1.jpg"
             ],
             "customer": [
                 "BZ Defence",
@@ -450,6 +457,7 @@
             "preview": 0,
             "default": 0,
             "images": [
+                "./src/images/articles/computer_parts_online_shop.png",
                 "./src/images/articles/computer_parts_online_shop_1.png",
                 "./src/images/articles/computer_parts_online_shop_2.png"
             ],
