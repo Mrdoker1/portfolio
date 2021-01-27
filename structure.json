@@ -371,9 +371,9 @@
             "title": "BZDefence",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
-                "./src/images/articles/armor_online_store_1.jpg"
+                "./src/images/articles/armor_online_store_1.png"
             ],
             "customer": [
                 "BZ Defence",
