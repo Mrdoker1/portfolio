@@ -443,6 +443,30 @@
                 "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
             ]
         },
+        "mad_rabbit": {
+            "name": "mad_rabbit",
+            "title": "Mad Rabbit Course",
+            "description": "Illustration / Visual Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/MadRabbit_1.svg",
+                "./src/images/articles/MadRabbit_2.jpeg",
+                "./src/images/articles/MadRabbit_3.png"
+            ],
+            "customer": [
+                "Customer",
+                "Myself"
+            ],
+            "type": "other",
+            "links": [{
+                "name": "Link to Course",
+                "href": "https://inflat-course.ru"
+            }],
+            "text": [
+                "My Illustrations during Mad Rabbit 'Pixel Deserter' Course"
+            ]
+        },
         "computer_parts_online_shop": {
             "name": "computer_parts_online_shop",
             "title": "Computer Parts Online Store",
