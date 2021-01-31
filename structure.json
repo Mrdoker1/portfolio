@@ -451,8 +451,8 @@
             "default": 0,
             "images": [
                 "./src/images/articles/MadRabbit_1.svg",
-                "./src/images/articles/MadRabbit_2.jpeg",
-                "./src/images/articles/MadRabbit_3.png"
+                "./src/images/articles/MadRabbit_2.svg",
+                "./src/images/articles/MadRabbit_3.svg"
             ],
             "customer": [
                 "Customer",
