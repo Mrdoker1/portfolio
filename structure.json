@@ -452,7 +452,8 @@
             "images": [
                 "./src/images/articles/MadRabbit_1.svg",
                 "./src/images/articles/MadRabbit_2.svg",
-                "./src/images/articles/MadRabbit_3.svg"
+                "./src/images/articles/MadRabbit_3.svg",
+                "./src/images/articles/MadRabbit_4.svg"
             ],
             "customer": [
                 "Customer",
