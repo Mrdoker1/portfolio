@@ -490,6 +490,29 @@
             "text": [
                 "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations, provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
             ]
+        },
+        "parfume_online_shop": {
+            "name": "parfume_online_shop",
+            "title": "Fragnance.com",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/parfume_online_shop_1.png",
+                "./src/images/articles/parfume_online_shop_2.png"
+            ],
+            "customer": [
+                "Fragnance",
+                "USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Website",
+                "href": "https://www.fragrancenet.com/"
+            }],
+            "text": [
+                "FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices."
+            ]
         }
     }
 }
