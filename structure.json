@@ -225,7 +225,7 @@
     "projects": {
         "jewelry_online_store": {
             "name": "jewelry_online_store",
-            "title": "Label-D",
+            "title": "Label-D.by",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -255,7 +255,7 @@
         },
         "fashion_online_store": {
             "name": "fashion_online_store",
-            "title": "Article&",
+            "title": "Article&.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -286,7 +286,7 @@
         },
         "cpap_masks_online_store": {
             "name": "cpap_masks_online_store",
-            "title": "Respshop",
+            "title": "Respshop.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -315,7 +315,7 @@
         },
         "mother_slings_online_store": {
             "name": "mother_slings_online_store",
-            "title": "SlingoMama",
+            "title": "SlingoMama.nl",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -345,7 +345,7 @@
         },
         "frame_online_shop": {
             "name": "frame_online_shop",
-            "title": "RueDeCadre",
+            "title": "RueDeCadre.fr",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -368,7 +368,7 @@
         },
         "armor_online_store": {
             "name": "armor_online_store",
-            "title": "BZDefence",
+            "title": "BZDefence.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -390,7 +390,7 @@
         },
         "motor_oil_online_store": {
             "name": "motor_oil_online_store",
-            "title": "Ato24",
+            "title": "Ato24.de",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
