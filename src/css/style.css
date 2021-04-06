@@ -485,6 +485,10 @@ main {
     transition-duration: .3s
 }
 
+.output img {
+    width: 15px;
+}
+
 .output>.arrow:hover {
     opacity: 1
 }
