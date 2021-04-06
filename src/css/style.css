@@ -485,7 +485,8 @@ main {
     transition-duration: .3s
 }
 
-.output img {
+.output>.left>img,
+.output>.right>img {
     width: 15px;
 }
 
