@@ -345,7 +345,7 @@
         },
         "frame_online_shop": {
             "name": "frame_online_shop",
-            "title": "RueDeCadre.fr",
+            "title": "RueDuCadre.fr",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -359,9 +359,14 @@
             ],
             "type": "ecommerce",
             "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=696%3A7530"
-            }],
+                    "name": "Figma",
+                    "href": "https://www.figma.com/file/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=696%3A7530"
+                },
+                {
+                    "name": "Website",
+                    "href": "https://www.rueducadre.fr"
+                }
+            ],
             "text": [
                 "FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items, orchestrate creation, manufacture and distribution."
             ]
