@@ -534,9 +534,12 @@
                 "USA"
             ],
             "type": "saas",
-            "links": [{}],
+            "links": [{
+                "name": "Preview",
+                "href": "-"
+            }],
             "text": [
-                "-"
+                "Company helping older people to live better together. They create communities of older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the company of good neighbours. Event management software is one way to achieve this goal. \n EMT is an event management system with the ability to submit for review and review, used to create event calendars for guests. Residents stay involved and active in their communities. The current challenge is to modernize the user interface and add a validation process. \n We also created a mobile app to expand software capabilities."
             ]
         },
         "post_crm": {
@@ -559,7 +562,7 @@
                 "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
             }],
             "text": [
-                "-"
+                "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring the order, the technical condition of the checkpoint."
             ]
         }
     }
