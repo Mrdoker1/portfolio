@@ -519,7 +519,7 @@
                 "FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices."
             ]
         },
-        "event management tool": {
+        "event_management_tool": {
             "name": "event_management_tool",
             "title": "Event Management Tool",
             "description": "Research / Visual Design, UX Design",
@@ -533,7 +533,7 @@
                 "NDA",
                 "USA"
             ],
-            "type": "SaaS",
+            "type": "saas",
             "links": [{}],
             "text": [
                 "-"
@@ -553,7 +553,7 @@
                 "NDA",
                 "RU"
             ],
-            "type": "SaaS",
+            "type": "saas",
             "links": [{
                 "name": "Preview",
                 "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
