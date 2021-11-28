@@ -518,6 +518,49 @@
             "text": [
                 "FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices."
             ]
+        },
+        "event management tool": {
+            "name": "event_management_tool",
+            "title": "Event Management Tool",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/event_management_tool_1.png",
+                "./src/images/articles/event_management_tool_2.png"
+            ],
+            "customer": [
+                "NDA",
+                "USA"
+            ],
+            "type": "SaaS",
+            "links": [{}],
+            "text": [
+                "-"
+            ]
+        },
+        "post_crm": {
+            "name": "post_crm",
+            "title": "Postamat Control System",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/post_crm_1.png",
+                "./src/images/articles/post_crm_2.png"
+            ],
+            "customer": [
+                "NDA",
+                "RU"
+            ],
+            "type": "SaaS",
+            "links": [{
+                "name": "Preview",
+                "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
+            }],
+            "text": [
+                "-"
+            ]
         }
     }
 }
