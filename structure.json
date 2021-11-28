@@ -562,7 +562,7 @@
                 "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
             }],
             "text": [
-                "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring the order, the technical condition of the checkpoint."
+                "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
             ]
         }
     }
