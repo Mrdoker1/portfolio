@@ -137,6 +137,24 @@
                 }
             ]
         },
+        "knowledgebase": {
+            "title": "knowledgebase",
+            "description": "Knowledge Base",
+            "body": [{
+                    "type": "h1",
+                    "name": "headline2",
+                    "value": "UX/UI Knowledge Base",
+                    "propertes": {
+                        "text-align": "center"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "name": "text1",
+                    "value": "Hi, I am a (UX/UI) User Experience & Interface designer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
+                }
+            ]
+        },
         "about": {
             "title": "About",
             "description": "About Page",
@@ -210,6 +228,11 @@
             "page": "main",
             "default": true,
             "href": "/?path=main"
+        },
+        {
+            "name": "Knowledge Base",
+            "page": "knowledgebase",
+            "href": "/?path=knowledgebase"
         },
         {
             "name": "About",

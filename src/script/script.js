@@ -88,6 +88,7 @@ class PageBuilder {
             j = document.createElement("label");
         return b.setAttribute("action", a.value), b.setAttribute("method", "POST"), j.innerText = "Name", c.setAttribute("name", "name"), c.setAttribute("type", "text"), b.appendChild(j), b.appendChild(c), j = document.createElement("label"), j.innerText = "Email", d.setAttribute("name", "_replyto"), d.setAttribute("type", "email"), b.appendChild(j), b.appendChild(d), j = document.createElement("label"), j.innerText = "Message", e.setAttribute("name", "message"), b.appendChild(j), b.appendChild(e), i.href = `mailto:${a.email}`, i.innerText = "Send an Email", f.setAttribute("type", "submit"), f.setAttribute("value", "Send message"), f.classList.add("button"), h.appendChild(document.createTextNode(" or ")), h.appendChild(i), g.appendChild(f), g.appendChild(h), b.appendChild(g), b
     }
+    createBlock_knowledgebase(a) {}
     openProject(a) {
         if (this.structure.projects[a]) {
             let b = document.querySelector(".pop-up"),
