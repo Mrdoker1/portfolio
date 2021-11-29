@@ -228,7 +228,7 @@
             "title": "Label-D.by",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/jewelry_online_store_1.jpg",
                 "./src/images/articles/jewelry_online_store_2.jpg",
@@ -258,7 +258,7 @@
             "title": "Article&.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/fashion_online_store_1.jpg",
                 "./src/images/articles/fashion_online_store_2.jpg"
@@ -289,7 +289,7 @@
             "title": "Respshop.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/cpap_masks_online_store_1.jpg",
                 "./src/images/articles/cpap_masks_online_store_2.jpg",
@@ -318,7 +318,7 @@
             "title": "SlingoMama.nl",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/mother_slings_online_store_1.jpg",
                 "./src/images/articles/mother_slings_online_store_2.jpg",
@@ -348,7 +348,7 @@
             "title": "RueDuCadre.fr",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/frame_online_shop_1.png",
                 "./src/images/articles/frame_online_shop_2.png"
@@ -398,7 +398,7 @@
             "title": "Ato24.de",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/motor_oil_online_store_1.jpg",
                 "./src/images/articles/motor_oil_online_store_2.jpg"
@@ -425,8 +425,8 @@
             "name": "belVG_internal_design_services",
             "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
-            "preview": 2,
-            "default": 0,
+            "preview": 4,
+            "default": 4,
             "images": [
                 "./src/images/articles/illustrations_for_inner_services_1.svg",
                 "./src/images/articles/illustrations_for_inner_services_2.svg",
@@ -478,7 +478,7 @@
             "title": "Tecs.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/computer_parts_online_shop_1.png",
                 "./src/images/articles/computer_parts_online_shop_2.png"
@@ -501,7 +501,7 @@
             "title": "Fragnance.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/parfume_online_shop_1.png",
                 "./src/images/articles/parfume_online_shop_2.png"
@@ -524,7 +524,7 @@
             "title": "Event Management Tool",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/event_management_tool_1.png",
                 "./src/images/articles/event_management_tool_2.png",
@@ -548,7 +548,7 @@
             "title": "Postamat Control System",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 1,
+            "default": 0,
             "images": [
                 "./src/images/articles/post_crm_1.png",
                 "./src/images/articles/post_crm_2.png"
