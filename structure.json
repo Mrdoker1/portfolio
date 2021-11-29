@@ -527,7 +527,8 @@
             "default": 1,
             "images": [
                 "./src/images/articles/event_management_tool_1.png",
-                "./src/images/articles/event_management_tool_2.png"
+                "./src/images/articles/event_management_tool_2.png",
+                "./src/images/articles/event_management_tool_3.png"
             ],
             "customer": [
                 "NDA",
