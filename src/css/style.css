@@ -1,8 +1,15 @@
 * {
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'JetBrains Mono', sans-serif;
     background-repeat: no-repeat;
     -webkit-tap-highlight-color: transparent
+}
+
+@font-face {
+    font-family: JetBrainsMono;
+    /* Имя шрифта */
+    src: url(./src/fonts/JetBrainsMono.ttf);
+    /* Путь к файлу со шрифтом */
 }
 
 :root {
@@ -99,7 +106,8 @@ main {
     font-weight: 600;
     font-size: var(--h1);
     line-height: 176%;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    letter-spacing: -2px;
 }
 
 .h0 {
