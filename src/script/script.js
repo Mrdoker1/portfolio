@@ -68,7 +68,7 @@ class PageBuilder {
     }
     createBlock_caption(a) { let b = document.createElement("span"); return b.classList.add("caption"), b.id = a.name, b.innerText = a.value, this.setPropertes(b, a.propertes), b }
     createBlock_h0(a) { let b = document.createElement("span"); return b.classList.add("h0"), b.id = a.name, b.innerText = a.value, this.setPropertes(b, a.propertes), b }
-    createBlock_picture(a) { let b = document.createElement("img"); return b.classList.add("picture"), b.id = a.name, b.src = a.value.src, b.alt = a.value.alt, this.setPropertes(b, a.propertes), b }
+    createBlock_picture(a) { let b = document.createElement("img"); return b.classList.add("picture"), b.id = a.name, b.src = a.value.src, b.alt = a.value.alt, b.style.cssText = a.style, this.setPropertes(b, a.propertes), b }
     createBlock_svg_link(a, b) {
         let c = document.createElementNS("http://www.w3.org/2000/svg", "svg"),
             d = document.createElementNS("http://www.w3.org/2000/svg", "path");

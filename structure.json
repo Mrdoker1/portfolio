@@ -137,21 +137,33 @@
                 }
             ]
         },
-        "knowledgebase": {
-            "title": "knowledgebase",
-            "description": "Knowledge Base",
+        "wiki": {
+            "title": "wiki",
+            "description": "UX/UI Wiki",
             "body": [{
                     "type": "h1",
                     "name": "headline2",
-                    "value": "UX/UI Knowledge Base",
+                    "value": "UX/UI Wiki",
                     "propertes": {
                         "text-align": "center"
                     }
                 },
                 {
+                    "type": "picture",
+                    "name": "wiki",
+                    "value": {
+                        "src": "./src/images/wiki.jpg",
+                        "alt": "wiki"
+                    },
+                    "propertes": {
+                        "align-self": "center"
+                    },
+                    "style": "max-width: 440px; height: 250px"
+                },
+                {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "The knowledge base contains fundamental knowledge and most essential articles in the user experience design field, based on my experience and industry standards in order to organize knowledge. \n Under construction now..."
+                    "value": "My <a class='link' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>Wiki</a> contains fundamental knowledge and most essential articles in the user experience design field, based on my experience and industry standards in order to organize knowledge."
                 }
             ]
         },
@@ -230,9 +242,9 @@
             "href": "/?path=main"
         },
         {
-            "name": "Knowledge Base",
-            "page": "knowledgebase",
-            "href": "/?path=knowledgebase"
+            "name": "UX/UI Wiki",
+            "page": "wiki",
+            "href": "/?path=wiki"
         },
         {
             "name": "About",
