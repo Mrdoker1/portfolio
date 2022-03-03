@@ -1,14 +1,16 @@
 * {
     margin: 0;
-    font-family: 'JetBrains Mono', sans-serif;
+    /* font-family: 'JetBrains Mono', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
     -webkit-tap-highlight-color: transparent
 }
 
 @font-face {
-    font-family: JetBrainsMono;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: JetBrainsMono; */
     /* Имя шрифта */
-    src: url(./src/fonts/JetBrainsMono.ttf);
+    /* src: url(./src/fonts/JetBrainsMono.ttf); */
     /* Путь к файлу со шрифтом */
 }
 
@@ -112,6 +114,7 @@ main {
 
 .h0 {
     font-weight: 700;
+    font-style: bold;
     font-size: var(--h0);
     line-height: 123%;
     color: var(--main-text-color)
