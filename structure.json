@@ -600,6 +600,52 @@
             "text": [
                 "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
             ]
+        },
+        "guy_carpenter": {
+            "name": "guy_carpenter",
+            "title": "Tax Calculator",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/guy_carpenter_1.png",
+                "./src/images/articles/guy_carpenter_2.png"
+            ],
+            "customer": [
+                "NDA",
+                "USA"
+            ],
+            "type": "saas",
+            "links": [{
+                "name": "Preview",
+                "href": ""
+            }],
+            "text": [
+                "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+            ]
+        },
+        "cognii": {
+            "name": "cognii",
+            "title": "Cognii.ai",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/cognii_1.png",
+                "./src/images/articles/cognii_2.png"
+            ],
+            "customer": [
+                "NDA",
+                "Israel"
+            ],
+            "type": "saas",
+            "links": [{
+                "name": "website",
+                "href": "https://cognni.ai/"
+            }],
+            "text": [
+                "Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages."
+            ]
         }
     }
 }
