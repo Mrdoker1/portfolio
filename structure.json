@@ -6,7 +6,7 @@
             "body": [{
                     "type": "h0",
                     "name": "headline",
-                    "value": "UX & Interface designer.",
+                    "value": "UX & UI designer and developer.",
                     "propertes": {
                         "margin": "bottom-10px"
                     }
@@ -192,7 +192,7 @@
                 {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "Hi, I am a (UX/UI) User Experience & Interface designer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
+                    "value": "Hi, I am a (UX/UI) User Experience & Interface designer and developer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
                 },
                 {
                     "type": "paragraph",
