@@ -214,7 +214,7 @@
                 {
                     "type": "paragraph",
                     "name": "text2",
-                    "value": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you.<br><br> You can also <a class='link' href='https://www.dropbox.com/s/u4dblhjaijrnwuv/Viachas%20Kul%20-%20CV.pdf?dl=0'>Download my CV</a> or even <a class='link' href='https://mrdoker1.github.io/rsschool-cv/'>Get it Online</a>​​​​​​"
+                    "value": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send an email</a>​​​​​​, I’d love to hear from you.<br><br> You can also <a class='link' href='https://github.com/Mrdoker1/rsschool-cv/raw/rsschool-cv-html/Viachas%20Kul%20-%20CV.pdf'>Download my CV</a> or even <a class='link' href='https://mrdoker1.github.io/rsschool-cv/'>Get it Online</a>​​​​​​"
                 },
                 {
                     "type": "paragraph",
