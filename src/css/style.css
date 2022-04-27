@@ -3,15 +3,14 @@
     /* font-family: 'JetBrains Mono', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    --color1: #9b51e0;
 }
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
     /* font-family: JetBrainsMono; */
-    /* Имя шрифта */
     /* src: url(./src/fonts/JetBrainsMono.ttf); */
-    /* Путь к файлу со шрифтом */
 }
 
 :root {
@@ -20,6 +19,18 @@
 
 html {
     scroll-behavior: smooth
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+    border-bottom: 1px solid #ddc2e3;
+    color: var(--color1);
+}
+
+a:hover {
+    color: #992cff;
+    border-bottom: 1px solid var(--color1);
 }
 
 .footer,
@@ -66,7 +77,7 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 123%;
-    text-decoration: none;
+    border-bottom: none;
     cursor: pointer
 }
 
@@ -178,7 +189,8 @@ main {
 .picture {
     max-width: 390px;
     width: 100%;
-    margin-top: 45px
+    margin-top: 45px;
+    border-radius: 10px;
 }
 
 .link-icon {
@@ -191,8 +203,8 @@ main {
 }
 
 .link-icon:hover>path {
-    fill: #9b51e0;
-    stroke: #9b51e0
+    fill: var(--color1);
+    stroke: var(--color1);
 }
 
 .paragraph {
@@ -207,21 +219,7 @@ main {
 }
 
 .paragraph>a {
-    text-decoration: underline;
     cursor: pointer
-}
-
-.paragraph>a.link {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #9b51e0
-}
-
-.paragraph>a.link.social:not(:first-child) {
-    text-decoration: underline;
-    cursor: pointer;
-    padding-left: min(54px, 10%);
-    color: #9b51e0
 }
 
 .grid {
@@ -476,7 +474,7 @@ main {
 }
 
 .bar>ul>li.selected {
-    box-shadow: 0 0 0 3px #9b51e0;
+    box-shadow: 0 0 0 3px var(--color1);
 }
 
 .bar>ul>li>img {
@@ -535,7 +533,8 @@ main {
 }
 
 .pop-up-body>div.info>div>span {
-    display: block;
+    display: flex;
+    gap: 10px;
     font-weight: 400;
     font-size: 15px;
     line-height: 123%;
@@ -556,8 +555,6 @@ main {
 }
 
 .pop-up-body a {
-    text-decoration-line: underline;
-    color: #9b51e0;
     cursor: pointer
 }
 
@@ -601,7 +598,6 @@ main {
     display: block;
     cursor: pointer;
     color: #acacac;
-    text-decoration: none
 }
 
 .pop-up-right-body>ul>a.current {
@@ -615,7 +611,7 @@ main {
     box-sizing: border-box;
     width: 76%;
     height: 45px;
-    background: #9b51e0;
+    background: var(--color1);
     border-radius: 6px;
     border-style: none;
     font-weight: 700;
@@ -626,6 +622,12 @@ main {
 
 .pop-up-right-body[class*=visible] {
     visibility: visible
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 @media screen and (min-width:769px) {
@@ -870,7 +872,7 @@ form input.button {
     box-sizing: border-box;
     width: unset;
     height: 45px;
-    background: #9b51e0;
+    background: var(--color1);
     border-radius: 6px;
     border-style: none;
     border: none;
@@ -919,7 +921,6 @@ form>div>span {
 
 form>div>span>a {
     margin-left: 10px;
-    color: #9b51e0
 }
 
 button.filter {
@@ -1002,8 +1003,4 @@ main.opacity-low {
 
 main.opacity-high {
     opacity: 1
-}
-
-div.project-links a {
-    padding-right: 10px
 }
