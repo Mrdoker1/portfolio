@@ -282,9 +282,9 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/jewelry_online_store_1.jpg",
-                "./src/images/articles/jewelry_online_store_2.jpg",
-                "./src/images/articles/jewelry_online_store_3.jpg"
+                "./src/images/articles/Jewelry Online Store/preview_1.jpg",
+                "./src/images/articles/Jewelry Online Store/preview_2.jpg",
+                "./src/images/articles/Jewelry Online Store/preview_3.jpg"
             ],
             "customer": [
                 "Label-D",
@@ -301,8 +301,8 @@
                 }
             ],
             "text": [
-                "Label-D  It's a the Bog Oak handcrafted product line. A niche product presents the dedicated individually handcrafted accuracy of craftsmanship and design.",
-                "First of all I've created an audit of the site that was important part and help to the client. Based on this audit, we found out which elements are most important to the target audience of the brand. Further, we have developed several design concepts  and found out several references based on competitors list what helps us to develop ui kit."
+                "<div><h4>About company</h4>Label-D  It's a the Bog Oak handcrafted product line. A niche product presents the dedicated individually handcrafted accuracy of craftsmanship and design.</div>",
+                "<div><h4>About project</h4>First of all I've created an audit of the site that was important part and help to the client. Based on this audit, we found out which elements are most important to the target audience of the brand. Further, we have developed several design concepts  and found out several references based on competitors list what helps us to develop ui kit.</div>"
             ]
         },
         "fashion_online_store": {
@@ -312,8 +312,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/fashion_online_store_1.jpg",
-                "./src/images/articles/fashion_online_store_2.jpg"
+                "./src/images/articles/Fashion Online Store/preview_1.jpg",
+                "./src/images/articles/Fashion Online Store/preview_2.jpg"
             ],
             "customer": [
                 "Article&",
@@ -330,10 +330,10 @@
                 }
             ],
             "text": [
-                "Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.",
-                "The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.",
-                "The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.",
-                "Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team."
+                "<div><h4>About company</h4>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
+                "<div><h4>About project</h4>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
+                "<div><h4>Homepage</h4>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
+                "<div><h4>Product page</h4>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
             ]
         },
         "cpap_masks_online_store": {
@@ -343,9 +343,9 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/cpap_masks_online_store_1.jpg",
-                "./src/images/articles/cpap_masks_online_store_2.jpg",
-                "./src/images/articles/cpap_masks_online_store_3.jpg"
+                "./src/images/articles/CPAP Online Store/preview_1.jpg",
+                "./src/images/articles/CPAP Online Store/preview_2.jpg",
+                "./src/images/articles/CPAP Online Store/preview_3.jpg"
             ],
             "customer": [
                 "Respshop",
@@ -362,7 +362,7 @@
                 }
             ],
             "text": [
-                "Founded in 2009, RespShop provides an expansive selection of high-quality CPAP machines, masks, humidifiers and more for home and clinical use. We're on hand not only to help you find the appropriate supplies for helping you deal with sleep apnea and other conditions, but also for providing you with the knowledge and resources you need to make the best possible treatment decisions for your lifestyle, budget and personal needs."
+                "<div><h4>About company</h4>Founded in 2009, RespShop provides an expansive selection of high-quality CPAP machines, masks, humidifiers and more for home and clinical use. We're on hand not only to help you find the appropriate supplies for helping you deal with sleep apnea and other conditions, but also for providing you with the knowledge and resources you need to make the best possible treatment decisions for your lifestyle, budget and personal needs.</div>"
             ]
         },
         "mother_slings_online_store": {
@@ -372,10 +372,10 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/mother_slings_online_store_1.jpg",
-                "./src/images/articles/mother_slings_online_store_2.jpg",
-                "./src/images/articles/mother_slings_online_store_3.jpg",
-                "./src/images/articles/mother_slings_online_store_4.jpg"
+                "./src/images/articles/MSOS/mother_slings_online_store_1.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_2.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_3.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_4.jpg"
             ],
             "customer": [
                 "Slingomama",
@@ -392,7 +392,7 @@
                 }
             ],
             "text": [
-                "The Slingomama web store has opend its virtual doors in January of 2008. Since then the store has grown to be a well known babywearing store in the Netherlands and abroad due to its wide assortiment of baby carriers, wraps and accessories for babywearing."
+                "<div><h4>About company</h4>The Slingomama web store has opend its virtual doors in January of 2008. Since then the store has grown to be a well known babywearing store in the Netherlands and abroad due to its wide assortiment of baby carriers, wraps and accessories for babywearing.</div>"
             ]
         },
         "frame_online_shop": {
@@ -402,8 +402,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/frame_online_shop_1.png",
-                "./src/images/articles/frame_online_shop_2.png"
+                "./src/images/articles/Frame Online Store/preview_1.png",
+                "./src/images/articles/Frame Online Store/preview_2.png"
             ],
             "customer": [
                 "Rueducadre",
@@ -420,7 +420,7 @@
                 }
             ],
             "text": [
-                "FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items, orchestrate creation, manufacture and distribution."
+                "<div><h4>About company</h4>FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items, orchestrate creation, manufacture and distribution.</div>"
             ]
         },
         "armor_online_store": {
@@ -430,7 +430,7 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/armor_online_store_1.png"
+                "./src/images/articles/Armor Online Store/preview_1.png"
             ],
             "customer": [
                 "BZ Defence",
@@ -442,7 +442,7 @@
                 "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
             }],
             "text": [
-                "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
+                "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
             ]
         },
         "motor_oil_online_store": {
@@ -452,8 +452,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/motor_oil_online_store_1.jpg",
-                "./src/images/articles/motor_oil_online_store_2.jpg"
+                "./src/images/articles/MOOS/motor_oil_online_store_1.jpg",
+                "./src/images/articles/MOOS/motor_oil_online_store_2.jpg"
             ],
             "customer": [
                 "Ato24",
@@ -470,22 +470,22 @@
                 }
             ],
             "text": [
-                "ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements."
+                "<div><h4>About company</h4>ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements.</div>"
             ]
         },
-        "belVG_internal_design_services": {
+        "BelVG_internal_design_services": {
             "name": "belVG_internal_design_services",
             "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
             "preview": 4,
             "default": 4,
             "images": [
-                "./src/images/articles/illustrations_for_inner_services_1.svg",
-                "./src/images/articles/illustrations_for_inner_services_2.svg",
-                "./src/images/articles/illustrations_for_inner_services_3.svg",
-                "./src/images/articles/illustrations_for_inner_services_4.svg",
-                "./src/images/articles/illustrations_for_inner_services_5.svg",
-                "./src/images/articles/illustrations_for_inner_services_6.svg"
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_1.svg",
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_2.svg",
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_3.svg",
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_4.svg",
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_5.svg",
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_6.svg"
             ],
             "customer": [
                 "BelVG",
@@ -497,7 +497,7 @@
                 "href": "https://belvg-design.github.io/"
             }],
             "text": [
-                "BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients."
+                "<div><h4>About project</h4>BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients.</div>"
             ]
         },
         "mad_rabbit": {
@@ -507,10 +507,10 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/MadRabbit_1.svg",
-                "./src/images/articles/MadRabbit_2.svg",
-                "./src/images/articles/MadRabbit_3.svg",
-                "./src/images/articles/MadRabbit_4.svg"
+                "./src/images/articles/MR/MadRabbit_1.svg",
+                "./src/images/articles/MR/MadRabbit_2.svg",
+                "./src/images/articles/MR/MadRabbit_3.svg",
+                "./src/images/articles/MR/MadRabbit_4.svg"
             ],
             "customer": [
                 "Customer",
@@ -532,8 +532,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/computer_parts_online_shop_1.png",
-                "./src/images/articles/computer_parts_online_shop_2.png"
+                "./src/images/articles/Computer Online Store/preview_1.png",
+                "./src/images/articles/Computer Online Store/preview_2.png"
             ],
             "customer": [
                 "Tecs",
@@ -545,7 +545,7 @@
                 "href": "https://www.figma.com/community/file/907082255597205315"
             }],
             "text": [
-                "TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations, provide complete business IT solutions, centred on high quality hardware and exceptional customer service."
+                "<div><h4>About company</h4>TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations, provide complete business IT solutions, centred on high quality hardware and exceptional customer service.</div>"
             ]
         },
         "parfume_online_shop": {
@@ -555,8 +555,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/parfume_online_shop_1.png",
-                "./src/images/articles/parfume_online_shop_2.png"
+                "./src/images/articles/Parfume Online Store/preview_1.png",
+                "./src/images/articles/Parfume Online Store/preview_2.png"
             ],
             "customer": [
                 "Fragnance",
@@ -568,7 +568,7 @@
                 "href": "https://www.fragrancenet.com/"
             }],
             "text": [
-                "FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices."
+                "<div><h4>About company</h4>FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices.</div>"
             ]
         },
         "event_management_tool": {
@@ -578,9 +578,9 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/EMT/event_management_tool_1.png",
-                "./src/images/articles/EMT/event_management_tool_2.png",
-                "./src/images/articles/EMT/event_management_tool_3.png"
+                "./src/images/articles/EMT/preview_1.png",
+                "./src/images/articles/EMT/preview_2.png",
+                "./src/images/articles/EMT/preview_3.png"
             ],
             "customer": [
                 "NDA",
@@ -592,7 +592,16 @@
                 "href": "-"
             }],
             "text": [
-                "<div><h3>About company</h3>\n The company provide communities for older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the interactions with other residents.</div> <br> <div><h3>About tool</h3>\n <img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"> Event management software is one way to achieve this goal. \n EMT is a system with the ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div><br><div><h3>Application functionality</h3>\n<ul><li>Working with events;</li><li>Duplicate events;</li><li>Master Calendar feature;;</li><li>Roll forward;</li><li>Existing features improvements;</li></ul></div><br><div><h3>Design process</h3>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div><br><div><h3>Mobile attendance</h3>\n <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div><br><br><div><h3>Interviews</h3>\n <img src=\"./src/images/articles/EMT/interviews.png\" width=\"100%\" height=\"100%\"></div><div><h3>Empathy map</h3>\n <img src=\"./src/images/articles/EMT/empathy_map.png\" width=\"100%\" height=\"100%\"></div><br><div><h3>Wireframes</h3>\n <img src=\"./src/images/articles/EMT/wireframes.png\" width=\"100%\" height=\"100%\"></div><br><div><h3>Receiving data using google forms</h3>\n <img src=\"./src/images/articles/EMT/data.png\" width=\"100%\" height=\"100%\"></div><br><div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
+                "<div><h4>About company</h4>\n The company provide communities for older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the interactions with other residents.</div>",
+                "<div><h4>About tool</h4>\n <img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"> Event management software is one way to achieve this goal. \n EMT is a system with the ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
+                "<div><h4>Application functionality</h4>\n<ul><li>Working with events;</li><li>Duplicate events;</li><li>Master Calendar feature;</li><li>Roll forward;</li><li>Existing features improvements;</li></ul></div>",
+                "<div><h4>Design process</h4>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Mobile attendance</h4>\n <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Interviews</h4>\n <img src=\"./src/images/articles/EMT/interviews.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Empathy map</h4>\n <img src=\"./src/images/articles/EMT/empathy_map.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Wireframes</h4>\n <img src=\"./src/images/articles/EMT/wireframes.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Receiving data using google forms</h4>\n <img src=\"./src/images/articles/EMT/data.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ]
         },
         "post_crm": {
@@ -602,8 +611,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/post_crm_1.png",
-                "./src/images/articles/post_crm_2.png"
+                "./src/images/articles/PCS/post_crm_1.png",
+                "./src/images/articles/PCS/post_crm_2.png"
             ],
             "customer": [
                 "NDA",
@@ -615,7 +624,10 @@
                 "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
             }],
             "text": [
-                "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
+                "<div><h4>About tool</h4>\nAdmin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc. <img src=\"./src/images/articles/PCS/design_system.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h4>Application functionality</h4>\n<ul><li>Devices Control;</li><li>Parcel Control;</li><li>Database management;</li><li>Transactions and expenses control;</li><li>Invoice generating and tracking;</li></ul></div>",
+                "<div><h4>Stakeholder report</h4>\n <img src=\"./src/images/articles/PCS/report.png\" width=\"100%\" height=\"100%\">",
+                "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ]
         },
         "guy_carpenter": {
@@ -625,8 +637,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/guy_carpenter_1.png",
-                "./src/images/articles/guy_carpenter_2.png"
+                "./src/images/articles/Guy Carpenter/preview_1.png",
+                "./src/images/articles/Guy Carpenter/preview_2.png"
             ],
             "customer": [
                 "NDA",
@@ -638,7 +650,7 @@
                 "href": ""
             }],
             "text": [
-                "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+                "<div><h4>About tool</h4>Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities.</div>"
             ]
         },
         "cognii": {
@@ -648,8 +660,8 @@
             "preview": 0,
             "default": 0,
             "images": [
-                "./src/images/articles/cognii_1.png",
-                "./src/images/articles/cognii_2.png"
+                "./src/images/articles/Cognii/preview_1.png",
+                "./src/images/articles/Cognii/preview_2.png"
             ],
             "customer": [
                 "NDA",
@@ -661,7 +673,7 @@
                 "href": "https://cognni.ai/"
             }],
             "text": [
-                "Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages."
+                "<div><h4>About tool</h4>Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages.</div>"
             ]
         }
     }
