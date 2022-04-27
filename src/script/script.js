@@ -156,8 +156,13 @@ class PageBuilder {
                     e = document.createTextNode(d[0] || ""),
                     f = document.createElement("a"),
                     a = document.createTextNode(d[3] || "");
-                f.href = d[1], f.innerText = d[2], c.appendChild(e), c.appendChild(f), c.appendChild(a)
-            } else c.innerText = b;
+                f.href = d[1],
+                    f.innerHTML = d[2],
+                    c.appendChild(e),
+                    c.appendChild(f),
+                    c.appendChild(a)
+            } else
+                c.innerHTML = b;
             f.appendChild(c)
         }
     }
