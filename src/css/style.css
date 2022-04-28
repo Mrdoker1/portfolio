@@ -24,7 +24,7 @@ html {
 a {
     text-decoration: none;
     transition: all 0.3s;
-    border-bottom: 1px solid #ddc2e3;
+    border-bottom: 1px solid #dddddd;
     color: var(--color1);
     line-height: 140%;
 }
