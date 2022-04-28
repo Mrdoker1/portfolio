@@ -402,7 +402,7 @@ main {
 }
 
 .close-icon path {
-    fill: #fff;
+    fill: rgb(0, 0, 0);
     fill-opacity: .2;
     transition-duration: .15s
 }
@@ -601,17 +601,25 @@ main {
 .pop-up-right-body>ul {
     list-style: none;
     padding: 0;
-    margin-top: 25px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 28px;
     line-height: 50px;
-    color: #000
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .pop-up-right-body>ul>a {
     padding: 0 35px;
     display: block;
     cursor: pointer;
+    border-bottom: none;
     color: #acacac;
+}
+
+.pop-up-right-body>ul>a:hover {
+    color: var(--color1);
 }
 
 .pop-up-right-body>ul>a.current {
@@ -834,6 +842,10 @@ main {
     }
     .pop-up-body>.popup-footer-note {
         flex-direction: column;
+    }
+    .pop-up-right-body>ul {
+        font-size: 24px;
+        gap: 6px;
     }
      :root {
         --h0: 36px;
