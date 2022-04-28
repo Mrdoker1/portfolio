@@ -180,7 +180,7 @@
                 {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "My <a class='link' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>Wiki</a> contains fundamental knowledge and most essential articles in the user experience design field, based on my experience and industry standards in order to organize knowledge."
+                    "value": "<a class='link' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>My Wiki</a> contains fundamental knowledge and most essential articles in the user experience design field, based on my experience and industry standards in order to organize knowledge."
                 }
             ]
         },

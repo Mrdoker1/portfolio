@@ -4,7 +4,9 @@
     font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
     -webkit-tap-highlight-color: transparent;
-    --color1: #9b51e0;
+    --color1: #3669B4;
+    --color2: #2e7df2;
+    ;
 }
 
 @font-face {
@@ -30,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: #992cff;
+    color: var(--color2);
     border-bottom: 1px solid var(--color1);
 }
 
@@ -913,7 +915,12 @@ form input.button {
     font-size: 14px;
     line-height: 10px;
     color: #fff;
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    transition: all 0.2s;
+}
+
+form input.button:hover {
+    background: var(--color2);
 }
 
 input:focus,
