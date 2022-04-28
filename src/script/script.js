@@ -103,7 +103,8 @@ class PageBuilder {
     closeProject(a) {
         let b = document.querySelector(".pop-up"),
             c = b.querySelector(".pop-up-body");
-        document.body.classList.remove("no-scroll"), document.querySelector(".main").classList.remove("blur"), b.classList.add("hidden"), b.classList.remove("visible"), c.classList.add("hidden"), c.classList.remove("visible"), this.setProject(null), a.stopPropagation()
+        console.log(a);
+        document.body.classList.remove("no-scroll"), document.querySelector(".main").classList.remove("blur"), b.classList.add("hidden"), b.classList.remove("visible"), c.classList.add("hidden"), c.classList.remove("visible"), this.setProject(null), a ? a.stopPropagation() : ''
     }
     openMenu() {
         let a = document.querySelector(".pop-up"),
@@ -164,10 +165,13 @@ class PageBuilder {
                     c.appendChild(e),
                     c.appendChild(f),
                     c.appendChild(a)
-            } else
-                c.innerHTML = b;
+            } else c.innerHTML = b;
             f.appendChild(c)
         }
+        let x = document.createElement("p");
+        x.classList.add("popup-footer-note");
+        x.innerHTML += a.footer;
+        f.appendChild(x)
     }
     compositeMenu(a) {
         let b = document.querySelector(".header .menu ul"),
@@ -196,5 +200,5 @@ class PageBuilder {
             b = this.closeMenu.bind(this);
         document.querySelector(".pop-up").addEventListener("click", a), document.querySelector(".pop-up-container").addEventListener("click", a), document.querySelector(".pop-up > .close-icon").addEventListener("click", a), document.querySelector(".pop-up").addEventListener("click", b), document.querySelector(".pop-up-container").addEventListener("click", b), document.querySelector(".pop-up > .close-icon").addEventListener("click", b), document.querySelector(".pop-up-body").addEventListener("click", a => a.stopPropagation()), document.querySelector(".header .logo").addEventListener("click", () => { "main" != this.getPath() && this.rebuild("main") }), window.onpopstate = () => { this.rebuild(this.getPath()) }
     }
-    rebuild(a) { this.setPath(a), this.currentPage = this.getPath(window.location.search), this.main.classList.remove("opacity-high"), setTimeout(() => { this.build() }, 250) }
+    rebuild(a) { this.setPath(a), this.closeProject(), this.currentPage = this.getPath(window.location.search), this.main.classList.remove("opacity-high"), setTimeout(() => { this.build() }, 250) }
 }

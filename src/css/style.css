@@ -26,11 +26,25 @@ a {
     transition: all 0.3s;
     border-bottom: 1px solid #ddc2e3;
     color: var(--color1);
+    line-height: 140%;
 }
 
 a:hover {
     color: #992cff;
     border-bottom: 1px solid var(--color1);
+}
+
+.pop-up-body>.popup-footer-note {
+    display: flex;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 176%;
+    color: var(--main-text-color);
+    border-radius: 10px;
+    background-color: rgb(245 245 245 / 60%);
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
 }
 
 .footer,
@@ -353,9 +367,9 @@ main {
     flex-direction: column;
     width: 100%;
     max-width: 750px;
-    padding: 35px 40px;
+    padding: 55px 70px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     margin: 75px 0
 }
 
@@ -440,7 +454,7 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-top: 15px;
+    margin-top: 24px;
     border-radius: 5px
 }
 
@@ -470,7 +484,7 @@ main {
 }
 
 .bar>ul>li:hover {
-    box-shadow: 0 0 0 2px #00000026
+    box-shadow: 0 0 0 4px #00000026
 }
 
 .bar>ul>li.selected {
@@ -817,6 +831,9 @@ main {
     }
     .close-icon {
         right: 10px;
+    }
+    .pop-up-body>.popup-footer-note {
+        flex-direction: column;
     }
      :root {
         --h0: 36px;
