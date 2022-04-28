@@ -548,7 +548,7 @@ main {
 
 .pop-up-body>div.info>div>span {
     display: flex;
-    gap: 10px;
+    gap: 14px;
     font-weight: 400;
     font-size: 15px;
     line-height: 123%;
