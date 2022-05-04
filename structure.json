@@ -607,7 +607,7 @@
                 "href": "-"
             }],
             "text": [
-                "<div><h4>About company</h4>\n The company provide communities for older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the interactions with other residents.</div>",
+                "<div><h4>About company</h4>\n The company provides community senior living. This service helps live comfortably, receive care, medication, entertainment and enjoy socializing with other residents.</div>",
                 "<div><h4>About tool</h4>\n <img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"> Event management software is one way to achieve this goal. \n EMT is a system with the ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
                 "<div><h4>Application functionality</h4>\n<ul><li>Working with events;</li><li>Duplicate events;</li><li>Master Calendar feature;</li><li>Roll forward;</li><li>Existing features improvements;</li></ul></div>",
                 "<div><h4>Design process</h4>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div>",
