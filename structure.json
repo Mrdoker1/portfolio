@@ -452,7 +452,7 @@
             "text": [
                 "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
             ],
-            "footer": "<br> Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
         "motor_oil_online_store": {
             "name": "motor_oil_online_store",
