@@ -291,7 +291,7 @@
             ],
             "customer": [
                 "Label-D",
-                "United Kingdom"
+                "UK/Belarus"
             ],
             "type": "ecommerce",
             "links": [{
@@ -321,7 +321,7 @@
             ],
             "customer": [
                 "Article&",
-                "United States"
+                "USA"
             ],
             "type": "ecommerce",
             "links": [{
@@ -354,7 +354,7 @@
             ],
             "customer": [
                 "Respshop",
-                "United States"
+                "USA"
             ],
             "type": "ecommerce",
             "links": [{
@@ -442,7 +442,7 @@
             ],
             "customer": [
                 "BZ Defence",
-                "United States"
+                "USA"
             ],
             "type": "ecommerce",
             "links": [{
@@ -524,8 +524,7 @@
                 "./src/images/articles/MR/MadRabbit_4.svg"
             ],
             "customer": [
-                "Customer",
-                "Myself"
+                "Illustration Course"
             ],
             "type": "other",
             "links": [{
@@ -597,14 +596,10 @@
                 "./src/images/articles/EMT/preview_3.png"
             ],
             "customer": [
-                "NDA",
+                "NDA Project",
                 "USA"
             ],
             "type": "saas",
-            "links": [{
-                "name": "Preview",
-                "href": "-"
-            }],
             "text": [
                 "<div><h4>About company</h4>\n The company provide communities for older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the interactions with other residents.</div>",
                 "<div><h4>About tool</h4>\n Event management software is one way to make senior living better. \n EMT is a system with ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
@@ -632,7 +627,7 @@
                 "./src/images/articles/PCS/post_crm_2.png"
             ],
             "customer": [
-                "NDA",
+                "NDA Project",
                 "RU"
             ],
             "type": "saas",
@@ -659,13 +654,13 @@
                 "./src/images/articles/Guy Carpenter/preview_2.png"
             ],
             "customer": [
-                "NDA",
+                "NDA Project",
                 "USA"
             ],
             "type": "saas",
             "links": [{
-                "name": "Preview",
-                "href": ""
+                "name": "Website",
+                "href": "https://www.guycarp.com"
             }],
             "text": [
                 "<div><h4>About tool</h4>Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities.</div>"
@@ -683,7 +678,7 @@
                 "./src/images/articles/Cognii/preview_2.png"
             ],
             "customer": [
-                "NDA",
+                "Cognii.ai",
                 "Israel"
             ],
             "type": "saas",
