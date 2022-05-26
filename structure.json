@@ -213,7 +213,9 @@
                 {
                     "type": "paragraph",
                     "name": "welcome-text",
-                    "value": "You can also <a class='link' href='https://github.com/Mrdoker1/rsschool-cv/raw/rsschool-cv-html/Viachas%20Kul%20-%20CV.pdf'>Download my CV</a> or even <a class='link' href='https://mrdoker1.github.io/rsschool-cv/'>Get it Online</a>"
+                    "value": ["You can <a class='link' href='https://github.com/Mrdoker1/rsschool-cv/raw/rsschool-cv-html/Viachas%20Kul%20-%20CV.pdf'>Download CV</a> or <a class='link' href='https://mrdoker1.github.io/rsschool-cv/'>Get CV Online</a>",
+                        " and even <a class='link' href='Viachas Kul Presentation.pdf'>Download Portfolio</a>"
+                    ]
                 },
                 {
                     "type": "paragraph",
