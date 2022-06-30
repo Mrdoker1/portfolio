@@ -168,7 +168,7 @@
                     "type": "picture",
                     "name": "ux-wiki",
                     "value": {
-                        "src": "./src/images/ux-wiki.jpg",
+                        "src": "./src/images/wiki.jpg",
                         "alt": "wiki"
                     },
                     "propertes": {
@@ -179,24 +179,12 @@
                 {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "<a class='link' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>My UX/UI Wiki</a> contains fundamental knowledge and most essential articles in the user experience design field, based on my experience and industry standards in order to organize knowledge."
-                },
-                {
-                    "type": "picture",
-                    "name": "front-wiki",
-                    "value": {
-                        "src": "./src/images/front-wiki.jpg",
-                        "alt": "wiki"
-                    },
-                    "propertes": {
-                        "align-self": "center"
-                    },
-                    "style": "max-width: 440px; height: 250px"
+                    "value": "My Wiki contains fundamental knowledge and most essential articles in the user experience design field and Front-End development, based on my experience and industry standards in order to organize knowledge."
                 },
                 {
                     "type": "paragraph",
-                    "name": "text1",
-                    "value": "<a class='link' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>My Frontend Wiki</a> mostly contains articles for my own purposes. Where you can find a step-by-step guides to setting up your Webpack and TypeScript project, Data Structures examples, Closures and other JS and TypeScript features."
+                    "name": "social-links",
+                    "value": "<a class='link social' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>UX/UI Wiki</a><a class='link social' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>Front-End Wiki</a>"
                 }
             ]
         },
