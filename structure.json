@@ -174,7 +174,7 @@
                     "propertes": {
                         "align-self": "center"
                     },
-                    "style": "max-width: 440px; height: 250px"
+                    "style": "max-width: 440px; max-height: 250px"
                 },
                 {
                     "type": "paragraph",
