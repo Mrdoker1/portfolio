@@ -213,7 +213,7 @@
                 {
                     "type": "paragraph",
                     "name": "about-paragraph",
-                    "value": "Hi, I am a (UX/UI) User Experience & Interface designer and developer with technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects during 5 years."
+                    "value": "Hi, I am User Experience designer and developer with technical background and user-centred design thinking, working with e-commerce, enterprise and SaaS-oriented projects during 5+ years."
                 },
                 {
                     "type": "paragraph",
@@ -627,7 +627,7 @@
         },
         "post_crm": {
             "name": "post_crm",
-            "title": "Postamat Control System",
+            "title": "Parcel Locker Control System",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -663,7 +663,7 @@
                 "./src/images/articles/Guy Carpenter/preview_2.png"
             ],
             "customer": [
-                "NDA Project",
+                "Guy Carpenter",
                 "USA"
             ],
             "type": "saas",
@@ -676,9 +676,9 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
-        "cognii": {
-            "name": "cognii",
-            "title": "Cognii.ai",
+        "cognni": {
+            "name": "cognni",
+            "title": "Cognni.ai",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -687,7 +687,7 @@
                 "./src/images/articles/Cognii/preview_2.png"
             ],
             "customer": [
-                "Cognii.ai",
+                "Cognni.ai",
                 "Israel"
             ],
             "type": "saas",
