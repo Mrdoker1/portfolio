@@ -58,7 +58,11 @@ main {
 .header {
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ffffff
+    border-bottom: 1px solid #e2e2e2;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 3;
 }
 
 .header .logo {
@@ -610,13 +614,13 @@ main {
 .pop-up-right-body>ul {
     list-style: none;
     padding: 0;
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 28px;
     line-height: 50px;
     color: #000;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 .pop-up-right-body>ul>a {
@@ -893,13 +897,37 @@ form label {
     margin-top: 17px
 }
 
+input {
+    border: 1px solid #c2c2c2;
+    border-radius: 6px;
+}
+
+input:hover {
+    border: 1px solid #000000;
+}
+
+input:focus {
+    border: 1px solid #000000;
+}
+
+textarea {
+    border: 1px solid #c2c2c2;
+    border-radius: 6px;
+}
+
+textarea:hover {
+    border: 1px solid #000000;
+}
+
+textarea:focus {
+    border: 1px solid #000000;
+}
+
 form input {
     font-weight: 400;
     font-size: var(--subhead);
     line-height: 20px;
     padding: 12px 16px;
-    border-radius: 0px;
-    border: 2px solid rgb(0, 0, 0);
     background: #ffffff;
     width: 100%
 }
@@ -912,7 +940,6 @@ form input.button {
     width: unset;
     height: 45px;
     background: var(--color1);
-    border-radius: 0px;
     border-style: none;
     border: none;
     font-weight: 700;
@@ -939,8 +966,6 @@ form textarea {
     font-size: var(--subhead);
     line-height: 20px;
     padding: 12px 16px;
-    border-radius: 0px;
-    border: 2px solid rgb(0, 0, 0);
     background: #ffffff;
     width: 100%;
     height: 160px;
@@ -975,14 +1000,22 @@ button.filter {
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    border: 2px solid #000000;
+    border: 1px solid #c2c2c2;
     box-sizing: border-box;
-    border-radius: 0px;
+    border-radius: 6px;
     height: 50px;
     padding: 0 25px;
     transition-duration: .25s;
     cursor: pointer;
     outline: 0
+}
+
+button.filter:hover {
+    border: 1px solid #000000;   
+}
+
+button.filter.opened {
+    border: 1px solid #000000;   
 }
 
 button.filter>div.filterContainer>ul {
