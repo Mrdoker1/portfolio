@@ -600,7 +600,8 @@
             "images": [
                 "./src/images/articles/EMT/preview_1.png",
                 "./src/images/articles/EMT/preview_2.png",
-                "./src/images/articles/EMT/preview_3.png"
+                "./src/images/articles/EMT/preview_3.png",
+                "./src/images/articles/EMT/preview_4.png"
             ],
             "customer": [
                 "NDA Project",
@@ -633,7 +634,8 @@
             "default": 0,
             "images": [
                 "./src/images/articles/PCS/post_crm_1.png",
-                "./src/images/articles/PCS/post_crm_2.png"
+                "./src/images/articles/PCS/post_crm_2.png",
+                "./src/images/articles/PCS/post_crm_3.png"
             ],
             "customer": [
                 "NDA Project",
@@ -660,7 +662,8 @@
             "default": 0,
             "images": [
                 "./src/images/articles/Guy Carpenter/preview_1.png",
-                "./src/images/articles/Guy Carpenter/preview_2.png"
+                "./src/images/articles/Guy Carpenter/preview_2.png",
+                "./src/images/articles/Guy Carpenter/preview_3.png"
             ],
             "customer": [
                 "Guy Carpenter",
@@ -684,7 +687,8 @@
             "default": 0,
             "images": [
                 "./src/images/articles/Cognii/preview_1.png",
-                "./src/images/articles/Cognii/preview_2.png"
+                "./src/images/articles/Cognii/preview_2.png",
+                "./src/images/articles/Cognii/preview_3.png"
             ],
             "customer": [
                 "Cognni.ai",
