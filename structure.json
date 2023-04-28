@@ -424,10 +424,7 @@
                 "France"
             ],
             "type": "ecommerce",
-            "links": [{
-                    "name": "Figma",
-                    "href": "https://www.figma.com/file/txRWJSObuNjOuvsu35QFWE/pictureframes?node-id=696%3A7530"
-                },
+            "links": [
                 {
                     "name": "Website",
                     "href": "https://www.rueducadre.fr"
