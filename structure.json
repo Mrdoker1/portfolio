@@ -119,7 +119,7 @@
                         "target": "portfolioGrid",
                         "items": [{
                                 "name": "saas",
-                                "value": "SaaS"
+                                "value": "SaaS/Enterprise"
                             }, {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
