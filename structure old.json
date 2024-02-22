@@ -333,6 +333,93 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
+        "cpap_masks_online_store": {
+            "name": "cpap_masks_online_store",
+            "title": "Respshop.com",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/CPAP Online Store/preview_1.jpg",
+                "./src/images/articles/CPAP Online Store/preview_2.jpg",
+                "./src/images/articles/CPAP Online Store/preview_3.jpg"
+            ],
+            "customer": [
+                "Project",
+                "Respshop, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                    "name": "Template",
+                    "href": "https://www.figma.com/community/file/1242513363564498254/eCommerce-Template---CPAP-Machines-Shop-(Free)"
+                },
+                {
+                    "name": "Customer",
+                    "href": "https://www.respshop.com/"
+                }
+            ],
+            "text": [
+                "<div><h4>About company</h4>Founded in 2009, RespShop provides an expansive selection of high-quality CPAP machines, masks, humidifiers and more for home and clinical use. We're on hand not only to help you find the appropriate supplies for helping you deal with sleep apnea and other conditions, but also for providing you with the knowledge and resources you need to make the best possible treatment decisions for your lifestyle, budget and personal needs.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "mother_slings_online_store": {
+            "name": "mother_slings_online_store",
+            "title": "SlingoMama.nl",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/MSOS/mother_slings_online_store_1.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_2.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_3.jpg",
+                "./src/images/articles/MSOS/mother_slings_online_store_4.jpg"
+            ],
+            "customer": [
+                "Slingomama",
+                "Netherlands"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                    "name": "Figma",
+                    "href": "https://www.figma.com/community/file/1237447324970663409/eCommerce-Template---Baby-Slings-Shop-(Free)"
+                },
+                {
+                    "name": "Customer",
+                    "href": "https://www.slingomama.nl/nl/"
+                }
+            ],
+            "text": [
+                "<div><h4>About company</h4>The Slingomama web store has opend its virtual doors in January of 2008. Since then the store has grown to be a well known babywearing store in the Netherlands and abroad due to its wide assortiment of baby carriers, wraps and accessories for babywearing.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "frame_online_shop": {
+            "name": "frame_online_shop",
+            "title": "RueDuCadre.fr",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Frame Online Store/preview_1.png",
+                "./src/images/articles/Frame Online Store/preview_2.png"
+            ],
+            "customer": [
+                "Rueducadre",
+                "France"
+            ],
+            "type": "ecommerce",
+            "links": [
+                {
+                    "name": "Customer",
+                    "href": "https://www.rueducadre.fr"
+                }
+            ],
+            "text": [
+                "<div><h4>About company</h4>FranceShop group is a French company specializing in e-commerce, with more than 30 years of experience in the field of framing, decoration, signage and affiliated items, orchestrate creation, manufacture and distribution.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
         "armor_online_store": {
             "name": "armor_online_store",
             "title": "BZDefence.com",
@@ -343,8 +430,8 @@
                 "./src/images/articles/Armor Online Store/preview_1.png"
             ],
             "customer": [
-                "Project",
-                "BZ Defence, E-Commerce, USA"
+                "BZ Defence",
+                "USA"
             ],
             "type": "ecommerce",
             "links": [{
@@ -353,6 +440,35 @@
             }],
             "text": [
                 "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "motor_oil_online_store": {
+            "name": "motor_oil_online_store",
+            "title": "Ato24.de",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/MOOS/motor_oil_online_store_1.jpg",
+                "./src/images/articles/MOOS/motor_oil_online_store_2.jpg"
+            ],
+            "customer": [
+                "Ato24",
+                "Germany"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                    "name": "Figma",
+                    "href": "https://www.figma.com/file/Inm5IVnuTujlEwa2FxuiBP/ato24.de-Design?node-id=2396%3A8851"
+                },
+                {
+                    "name": "Customer",
+                    "href": "https://www.ato24.de/de/"
+                }
+            ],
+            "text": [
+                "<div><h4>About company</h4>ATO24 AutoTeileOnline GmbH is an independent company, that has taken upon itself to trade in oil and lubricants. As experienced specialists we provide our customers with exclusively high- quality products that are meeting the highest requirements.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
@@ -406,6 +522,54 @@
             }],
             "text": [
                 "<div>My Illustrations during Mad Rabbit 'Pixel Deserter' Course</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "computer_parts_online_shop": {
+            "name": "computer_parts_online_shop",
+            "title": "Tecs.com",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Computer Online Store/preview_1.png",
+                "./src/images/articles/Computer Online Store/preview_2.png"
+            ],
+            "customer": [
+                "Tecs",
+                "Australia"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/community/file/907082255597205315"
+            }],
+            "text": [
+                "<div><h4>About company</h4>TECS is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations, provide complete business IT solutions, centred on high quality hardware and exceptional customer service.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "parfume_online_shop": {
+            "name": "parfume_online_shop",
+            "title": "Fragnance.com",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Parfume Online Store/preview_1.png",
+                "./src/images/articles/Parfume Online Store/preview_2.png"
+            ],
+            "customer": [
+                "Project",
+                "Fragnance, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Customer",
+                "href": "https://www.fragrancenet.com/"
+            }],
+            "text": [
+                "<div><h4>About company</h4>FragranceNet.com has been trusted online since 1997. We have shipped over 30 million packages and have sold over $1 billion in beauty products. We carry 17,000 genuine, brand name fragrances, skincare, makeup, haircare, aromatherapy and candles all at discount prices.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },

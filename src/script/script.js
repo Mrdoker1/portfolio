@@ -145,7 +145,7 @@ class PageBuilder {
             let b = document.createElement("div"),
                 c = document.createElement("span"),
                 e = document.createElement("span");
-            c.classList.add("title"), c.innerText = "\uD83D\uDD17 Project Links";
+            c.classList.add("title"), c.innerText = "Links";
             for (let b of a.links.values()) {
                 let c = document.createElement("a");
                 c.innerText = b.name, c.href = b.href, e.appendChild(c), e.appendChild(document.createTextNode(" "))
