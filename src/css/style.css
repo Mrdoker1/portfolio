@@ -209,7 +209,10 @@ main {
 }
 
 .box {
-    display: block
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .picture {
@@ -960,6 +963,7 @@ form input.button {
     color: #fff;
     -webkit-appearance: none;
     transition: all 0.2s;
+    letter-spacing: 1px;
 }
 
 form input.button:hover {
