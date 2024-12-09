@@ -80,10 +80,10 @@ main {
 }
 
 .header .logo span {
-    padding-left: 15px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
 }
 
 .header .menu {
