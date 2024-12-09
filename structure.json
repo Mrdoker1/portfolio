@@ -6,7 +6,7 @@
             "body": [{
                     "type": "h0",
                     "name": "headline",
-                    "value": "Product Designer and Developer.",
+                    "value": "Product Designer & Developer.",
                     "propertes": {
                         "margin": "bottom-10px"
                     }
@@ -17,7 +17,7 @@
                     "value": [{
                             "type": "caption",
                             "name": "caption1",
-                            "value": "EdTech, OTT, Healthcare, E-Commerce",
+                            "value": "Design is the bridge between intention and experience",
                             "propertes": {
                                 "padding": "right-50px"
                             }
@@ -125,7 +125,7 @@
                         "target": "portfolioGrid",
                         "items": [{
                                 "name": "saas",
-                                "value": "SaaS/Enterprise"
+                                "value": "Enterprise"
                             }, {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
@@ -159,13 +159,13 @@
                 }
             ]
         },
-        "wiki": {
-            "title": "wiki",
-            "description": "Wiki",
+        "resources": {
+            "title": "resources",
+            "description": "Resources",
             "body": [{
                     "type": "h1",
                     "name": "headline2",
-                    "value": "Wiki",
+                    "value": "Resources",
                     "propertes": {
                         "text-align": "center"
                     }
@@ -275,9 +275,9 @@
             "href": "/?path=main"
         },
         {
-            "name": "Wiki",
-            "page": "wiki",
-            "href": "/?path=wiki"
+            "name": "Resources",
+            "page": "resources",
+            "href": "/?path=resources"
         },
         {
             "name": "About",
