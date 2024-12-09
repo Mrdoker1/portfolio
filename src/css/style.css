@@ -1021,6 +1021,7 @@ button.filter {
     align-items: center;
     justify-content: space-between;
     background: #fff;
+    color: black;
     border: 2px solid black;
     box-sizing: border-box;
     border-radius: 6px;
