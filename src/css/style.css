@@ -164,7 +164,8 @@ main {
 .caption {
     font-weight: 300;
     font-size: var(--caption);
-    line-height: 120%;
+    line-height: 132%;
+    padding-bottom: 24px;
     color: var(--main-text-color)
 }
 
@@ -725,7 +726,7 @@ main {
      :root {
         --h0: 64px;
         --h1: 48px;
-        --caption: 40px;
+        --caption: 32px;
         --header: 18px;
         --text: 18px;
         --subhead: 16px;
@@ -783,7 +784,7 @@ main {
      :root {
         --h0: 64px;
         --h1: 48px;
-        --caption: 46px;
+        --caption: 32px;
         --header: 18px;
         --text: 18px;
         --subhead: 16px;
@@ -877,7 +878,7 @@ main {
      :root {
         --h0: 36px;
         --h1: 24px;
-        --caption: 24px;
+        --caption: 20px;
         --header: 14px;
         --text: 16px;
         --subhead: 16px;
@@ -889,7 +890,7 @@ main {
         line-height: 100%;
     }
     .caption{
-        line-height: 120%;
+        line-height: 132%;
     }
 }
 
