@@ -638,6 +638,7 @@ main {
     left: 12%;
     bottom: 31px;
     box-sizing: border-box;
+    border-radius: 6px;
     width: 76%;
     height: 45px;
     background: var(--color1);
