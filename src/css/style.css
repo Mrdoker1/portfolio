@@ -863,6 +863,10 @@ main {
     .text {
         font-size: var(--text-mobile);
     }
+    .footer {
+        font-size: var(--header-mobile);
+        height: 64px;
+    }
 }
 
 /* Form styles */
