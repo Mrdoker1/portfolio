@@ -835,7 +835,7 @@ main {
     }
     .pop-up-right-body>ul {
         font-size: 24px;
-        gap: 6px;
+        gap: 12px;
     }
     .caption {
         padding-right: inherit;
