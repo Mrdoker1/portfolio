@@ -12,12 +12,19 @@
     
     /* Font sizes */
     --h0: 64px;
+    --h0-mobile: 48px;
     --h1: 48px;
+    --h1-mobile: 32px;
     --h2: 40px;
+    --h2-mobile: 28px;
     --h3: 28px;
+    --h3-mobile: 24px;
     --caption: 32px;
+    --caption-mobile: 24px;
     --header: 18px;
+    --header-mobile: 16px;
     --text: 18px;
+    --text-mobile: 16px;
     --subhead: 16px;
     --ind1: 18px;
 }
@@ -836,6 +843,25 @@ main {
     }
     .h0 {
         line-height: 100%;
+        font-size: var(--h0-mobile);
+    }
+    .h1 {
+        font-size: var(--h1-mobile);
+    }
+    .h2 {
+        font-size: var(--h2-mobile);
+    }
+    .h3 {
+        font-size: var(--h3-mobile);
+    }
+    .caption {
+        font-size: var(--caption-mobile);
+    }
+    .header {
+        font-size: var(--header-mobile);
+    }
+    .text {
+        font-size: var(--text-mobile);
     }
 }
 
