@@ -127,6 +127,10 @@
                                 "name": "saas",
                                 "value": "Enterprise"
                             }, {
+                                "name": "education",
+                                "value": "EdTech"
+                            },
+                            {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
                             },
