@@ -300,8 +300,9 @@
             "title": "Label-D.by",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/Jewelry Online Store/preview_0.jpg",
                 "./src/images/articles/Jewelry Online Store/preview_1.jpg",
                 "./src/images/articles/Jewelry Online Store/preview_2.jpg",
                 "./src/images/articles/Jewelry Online Store/preview_3.jpg"
@@ -331,8 +332,9 @@
             "title": "Article&.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/Fashion Online Store/preview_0.jpg",
                 "./src/images/articles/Fashion Online Store/preview_1.jpg",
                 "./src/images/articles/Fashion Online Store/preview_2.jpg"
             ],
@@ -363,8 +365,9 @@
             "title": "BZDefence.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/Armor Online Store/preview_0.png",
                 "./src/images/articles/Armor Online Store/preview_1.png"
             ],
             "customer": [
@@ -385,9 +388,10 @@
             "name": "belvg_internal_design_services",
             "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
-            "preview": 4,
+            "preview": 0,
             "default": 4,
             "images": [
+                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_0.png",
                 "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_1.svg",
                 "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_2.svg",
                 "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_3.svg",
@@ -409,38 +413,14 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
-        "mad_rabbit": {
-            "name": "mad_rabbit",
-            "title": "Mad Rabbit Course",
-            "description": "Illustration / Visual Design",
-            "preview": 0,
-            "default": 0,
-            "images": [
-                "./src/images/articles/MR/MadRabbit_1.svg",
-                "./src/images/articles/MR/MadRabbit_2.svg",
-                "./src/images/articles/MR/MadRabbit_3.svg",
-                "./src/images/articles/MR/MadRabbit_4.svg"
-            ],
-            "customer": [
-                "Illustration Course"
-            ],
-            "type": "other",
-            "links": [{
-                "name": "Link to Course",
-                "href": "https://inflat-course.ru"
-            }],
-            "text": [
-                "<div>My Illustrations during Mad Rabbit 'Pixel Deserter' Course</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
         "event_management_tool": {
             "name": "event_management_tool",
             "title": "Event Management Tool",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/EMT/preview_0.png",
                 "./src/images/articles/EMT/preview_1.png",
                 "./src/images/articles/EMT/preview_2.png",
                 "./src/images/articles/EMT/preview_3.png",
@@ -478,8 +458,9 @@
             "title": "Parcel Locker Control System",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/PCS/post_crm_0.png",
                 "./src/images/articles/PCS/post_crm_1.png",
                 "./src/images/articles/PCS/post_crm_2.png",
                 "./src/images/articles/PCS/post_crm_3.png"
@@ -511,8 +492,9 @@
             "title": "Tax Calculator",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/Guy Carpenter/preview_0.png",
                 "./src/images/articles/Guy Carpenter/preview_1.png",
                 "./src/images/articles/Guy Carpenter/preview_2.png",
                 "./src/images/articles/Guy Carpenter/preview_3.png"
@@ -536,8 +518,9 @@
             "title": "Cognni.ai",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
+                "./src/images/articles/Cognii/preview_0.png",
                 "./src/images/articles/Cognii/preview_1.png",
                 "./src/images/articles/Cognii/preview_2.png",
                 "./src/images/articles/Cognii/preview_3.png"
