@@ -398,7 +398,7 @@ class PageBuilder {
         emailLink.innerText = "Send an Email";
         
         submitButton.setAttribute("type", "submit");
-        submitButton.setAttribute("value", "SEND MESSAGE");
+        submitButton.setAttribute("value", "Send Message");
         submitButton.classList.add("button");
         
         orSpan.appendChild(document.createTextNode(" or "));
