@@ -274,7 +274,7 @@ main {
     right: 0;
     justify-content: space-between;
     height: calc(100% - 90px);
-    padding: 45px 50px;
+    padding: 45px;
     flex-direction: column;
     opacity: 0;
     background: #0008;
@@ -757,6 +757,9 @@ main {
 }
 
 @media screen and (max-width:425px) {
+    .grid>li>div {
+        padding: 45px 20px;
+    }
     .footer,
     .header,
     main {
@@ -866,6 +869,9 @@ main {
     .footer {
         font-size: var(--header-mobile);
         height: 64px;
+    }
+    .grid>li>div>span.title {
+        font-size: var(--h2-mobile);
     }
 }
 
