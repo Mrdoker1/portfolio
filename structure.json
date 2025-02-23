@@ -155,11 +155,6 @@
                     "name": "portfolioGrid",
                     "value": "projects",
                     "filter": "saas"
-                },
-                {
-                    "type": "toTopButton",
-                    "name": "toTopButton",
-                    "value": "↑ Back to Top"
                 }
             ]
         },

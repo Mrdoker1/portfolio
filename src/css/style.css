@@ -917,7 +917,7 @@ form input {
     width: 100%;
 }
 
-form input.button {
+form input.button, button {
     align-self: flex-start;
     margin: 0;
     cursor: pointer;
@@ -926,6 +926,8 @@ form input.button {
     height: 45px;
     background: var(--color5);
     border-style: none;
+    border-radius: 6px;
+    padding: 0 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 10px;
@@ -935,8 +937,8 @@ form input.button {
     letter-spacing: 1px;
 }
 
-form input.button:hover {
-    background: var(--color2);
+form input.button:hover, button:hover {
+    background: var(--color1);
 }
 
 form textarea {

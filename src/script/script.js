@@ -166,7 +166,7 @@ class PageBuilder {
             description.classList.add("descr");
             
             title.innerText = ":(";
-            description.innerText = `No projects in '${filterName || "unknown"}' category`;
+            description.innerText = `No projects in «${filterName || "unknown"}» category`;
             
             const container = document.createElement("div");
             container.appendChild(title);
@@ -328,7 +328,13 @@ class PageBuilder {
         svg.appendChild(path);
 
         if (data.value.url) {
-            svg.addEventListener("click", () => window.open(data.value.url));
+            svg.addEventListener("click", () => {
+                if (data.value.newWindow) {
+                    window.open(data.value.url, "_blank");
+                } else {
+                    window.location.href = data.value.url;
+                }
+            });
         }
 
         this.setPropertes(svg, data.propertes);
@@ -392,7 +398,7 @@ class PageBuilder {
         emailLink.innerText = "Send an Email";
         
         submitButton.setAttribute("type", "submit");
-        submitButton.setAttribute("value", "Send message");
+        submitButton.setAttribute("value", "SEND MESSAGE");
         submitButton.classList.add("button");
         
         orSpan.appendChild(document.createTextNode(" or "));
@@ -404,6 +410,31 @@ class PageBuilder {
         form.appendChild(buttonContainer);
 
         return form;
+    }
+
+    createBlock_linkButton(data) {
+        const button = document.createElement("button");
+        button.classList.add("link-button");
+        button.id = data.name;
+        button.innerText = data.value.text;
+
+        if (data.value.url) {
+            button.addEventListener("click", () => {
+                if (data.value.newWindow) {
+                    window.open(data.value.url, "_blank");
+                } else {
+                    window.location.href = data.value.url;
+                }
+            });
+        } else if (data.value.route) {
+            button.addEventListener("click", () => {
+                this.setPath(data.value.route);
+                this.rebuild(data.value.route);
+            });
+        }
+
+        this.setPropertes(button, data.propertes);
+        return button;
     }
 
     openProject(projectName) {

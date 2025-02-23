@@ -1,4 +1,3 @@
-
 class HelloWorld{
     constructor(){
         alert("Hello World!");
