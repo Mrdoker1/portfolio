@@ -1,4 +1,4 @@
-class PageBuilder {
+export default class PageBuilder {
     constructor() {
         this.catchJSON();
         this.currentPage = this.getPath(window.location.search);
