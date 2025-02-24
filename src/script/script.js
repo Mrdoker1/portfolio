@@ -210,6 +210,14 @@ export default class PageBuilder {
             item.appendChild(image);
             item.appendChild(content);
 
+            item.addEventListener("mouseover", () => {
+                image.src = project.images[project.default];
+            });
+
+            item.addEventListener("mouseout", () => {
+                image.src = project.images[project.preview];
+            });
+
             if (currentFilter !== "all" && project.type !== currentFilter) {
                 item.style.setProperty("display", "none");
             } else {

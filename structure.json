@@ -384,7 +384,7 @@
             "title": "BelVG Internal Design Services",
             "description": "Illustration / Visual Design",
             "preview": 0,
-            "default": 4,
+            "default": 6,
             "images": [
                 "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_0.png",
                 "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_1.svg",
