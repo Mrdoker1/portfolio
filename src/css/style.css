@@ -806,7 +806,6 @@ main {
         border-radius: 0;
         padding: 18px 16px;
         box-sizing: border-box;
-        max-width: 375px;
         margin: 0 0;
     }
     .pop-up-body>:first-child {
