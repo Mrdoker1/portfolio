@@ -290,48 +290,16 @@
         }
     ],
     "projects": {
-        "jewelry_online_store": {
-            "name": "jewelry_online_store",
-            "title": "Label-D.by",
-            "description": "UI / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/Jewelry Online Store/preview_0.png",
-                "./src/images/articles/Jewelry Online Store/preview_1.jpg",
-                "./src/images/articles/Jewelry Online Store/preview_2.jpg",
-                "./src/images/articles/Jewelry Online Store/preview_3.jpg"
-            ],
-            "customer": [
-                "Project",
-                "Label-D, E-Commerce, UK"
-            ],
-            "type": "ecommerce",
-            "links": [{
-                    "name": "Template",
-                    "href": "https://www.figma.com/community/file/1235240801286594044/eCommerce-Template---Clothes-Shop-(Full)"
-                },
-                {
-                    "name": "Customer",
-                    "href": "https://www.labeld.by/"
-                }
-            ],
-            "text": [
-                "<div><h4>About company</h4>Label-D  It's a the Bog Oak handcrafted product line. A niche product presents the dedicated individually handcrafted accuracy of craftsmanship and design.</div>",
-                "<div><h4>About project</h4>First of all I've created an audit of the site that was important part and help to the client. Based on this audit, we found out which elements are most important to the target audience of the brand. Further, we have developed several design concepts  and found out several references based on competitors list what helps us to develop ui kit.</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
-        "fashion_online_store": {
-            "name": "fashion_online_store",
+        "article&": {
+            "name": "article&",
             "title": "Article&.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/Fashion Online Store/preview_0.png",
-                "./src/images/articles/Fashion Online Store/preview_1.jpg",
-                "./src/images/articles/Fashion Online Store/preview_2.jpg"
+                "./src/images/articles/Article&/preview_0.png",
+                "./src/images/articles/Article&/preview_1.png",
+                "./src/images/articles/Article&/preview_2.jpg"
             ],
             "customer": [
                 "Project",
@@ -355,15 +323,15 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
-        "armor_online_store": {
-            "name": "armor_online_store",
+        "bzdefence": {
+            "name": "bzdefence",
             "title": "BZDefence.com",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/Armor Online Store/preview_0.png",
-                "./src/images/articles/Armor Online Store/preview_1.png"
+                "./src/images/articles/BZDefence/preview_0.png",
+                "./src/images/articles/BZDefence/preview_1.png"
             ],
             "customer": [
                 "Project",
@@ -373,38 +341,12 @@
             "links": [{
                 "name": "Figma",
                 "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+            }, {
+                "name": "Customer",
+                "href": "https://www.bzdefence.com/"
             }],
             "text": [
                 "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
-        "belvg_internal_design_services": {
-            "name": "belvg_internal_design_services",
-            "title": "BelVG Internal Design Services",
-            "description": "Illustration / Visual Design",
-            "preview": 0,
-            "default": 6,
-            "images": [
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_0.png",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_1.svg",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_2.svg",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_3.svg",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_4.svg",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_5.svg",
-                "./src/images/articles/Belvg Internal Design/illustrations_for_inner_services_6.svg"
-            ],
-            "customer": [
-                "BelVG",
-                "Belarus"
-            ],
-            "type": "other",
-            "links": [{
-                "name": "Customer",
-                "href": "https://belvg-design.github.io/"
-            }],
-            "text": [
-                "<div><h4>About project</h4>BelVG internal design services. We created a visual style for illustrations in accordance with the design concept. We also created «The image creator» tools for the company's blog and questiraries tool for clients.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
@@ -448,17 +390,17 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
-        "post_crm": {
-            "name": "post_crm",
+        "5post_crm": {
+            "name": "5post_crm",
             "title": "Parcel Locker Control System",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/PCS/post_crm_0.png",
-                "./src/images/articles/PCS/post_crm_1.png",
-                "./src/images/articles/PCS/post_crm_2.png",
-                "./src/images/articles/PCS/post_crm_3.png"
+                "./src/images/articles/5post/post_crm_0.png",
+                "./src/images/articles/5post/post_crm_1.png",
+                "./src/images/articles/5post/post_crm_2.png",
+                "./src/images/articles/5post/post_crm_3.png"
             ],
             "customer": [
                 "Project",
@@ -505,32 +447,6 @@
             }],
             "text": [
                 "<div><h4>About tool</h4>Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities.</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
-        "cognni": {
-            "name": "cognni",
-            "title": "Cognni.ai",
-            "description": "Research / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/Cognii/preview_0.png",
-                "./src/images/articles/Cognii/preview_1.png",
-                "./src/images/articles/Cognii/preview_2.png",
-                "./src/images/articles/Cognii/preview_3.png"
-            ],
-            "customer": [
-                "Project",
-                "Cognni.ai, AI, Israel"
-            ],
-            "type": "saas",
-            "links": [{
-                "name": "Customer",
-                "href": "https://cognni.ai/"
-            }],
-            "text": [
-                "<div><h4>About tool</h4>Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
