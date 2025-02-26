@@ -937,7 +937,6 @@ form input.button, button {
     color: #fff;
     -webkit-appearance: none;
     transition: all 0.2s;
-    letter-spacing: 1px;
 }
 
 form input.button:hover, button:hover {
