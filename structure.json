@@ -292,7 +292,7 @@
     "projects": {
         "article&": {
             "name": "article&",
-            "title": "Article&.com",
+            "title": "Article&.com – Fashion Online Store",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -325,7 +325,7 @@
         },
         "bzdefence": {
             "name": "bzdefence",
-            "title": "BZDefence.com",
+            "title": "BZDefence.com – Military Equipment Store",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -352,7 +352,7 @@
         },
         "event_management_tool": {
             "name": "event_management_tool",
-            "title": "Event Management Tool",
+            "title": "Glenis Solutions – Event Management Tool",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -392,7 +392,7 @@
         },
         "5post_crm": {
             "name": "5post_crm",
-            "title": "Parcel Locker Control System",
+            "title": "5 Post Parcel – Locker Control System",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -426,7 +426,7 @@
         },
         "guy_carpenter": {
             "name": "guy_carpenter",
-            "title": "Tax Calculator",
+            "title": "Guy Carpenter – Tax Calculator",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
