@@ -25,26 +25,28 @@ export default class PageBuilder {
             this.openProject(this.getProject());
         }
 
-        // Clear and rebuild main content
-        this.main.innerHTML = "";
-        
-        pageContent.forEach((section, index) => {
-            if (section.type === "box") {
-                const box = document.createElement("div");
-                box.classList.add("box");
-                box.id = `box_${index}`;
-                
-                section.value.forEach(item => {
-                    box.appendChild(this.blockBuild(item));
-                });
-                
-                this.main.appendChild(box);
-            } else {
-                this.main.appendChild(this.blockBuild(section));
-            }
-        });
-
-        this.main.classList.add("opacity-high");
+        // Clear and rebuild main content with animation
+        this.main.classList.add("fade-out");
+        setTimeout(() => {
+            this.main.innerHTML = "";
+            pageContent.forEach((section, index) => {
+                if (section.type === "box") {
+                    const box = document.createElement("div");
+                    box.classList.add("box");
+                    box.id = `box_${index}`;
+                    
+                    section.value.forEach(item => {
+                        box.appendChild(this.blockBuild(item));
+                    });
+                    
+                    this.main.appendChild(box);
+                } else {
+                    this.main.appendChild(this.blockBuild(section));
+                }
+            });
+            this.main.classList.remove("fade-out");
+            this.main.classList.add("fade-in");
+        }, 250);
     }
 
     blockBuild(blockData) {
