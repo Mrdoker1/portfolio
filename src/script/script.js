@@ -4,6 +4,13 @@ export default class PageBuilder {
         this.currentPage = this.getPath(window.location.search);
         this.menu = document.querySelector(".header div.menu");
         this.main = document.querySelector("main");
+
+        // Add event listener for Esc key
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                this.closeProject();
+            }
+        });
     }
 
     async catchJSON() {
