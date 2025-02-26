@@ -297,7 +297,7 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/Jewelry Online Store/preview_0.jpg",
+                "./src/images/articles/Jewelry Online Store/preview_0.png",
                 "./src/images/articles/Jewelry Online Store/preview_1.jpg",
                 "./src/images/articles/Jewelry Online Store/preview_2.jpg",
                 "./src/images/articles/Jewelry Online Store/preview_3.jpg"
@@ -329,7 +329,7 @@
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/Fashion Online Store/preview_0.jpg",
+                "./src/images/articles/Fashion Online Store/preview_0.png",
                 "./src/images/articles/Fashion Online Store/preview_1.jpg",
                 "./src/images/articles/Fashion Online Store/preview_2.jpg"
             ],
@@ -531,6 +531,54 @@
             }],
             "text": [
                 "<div><h4>About tool</h4>Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "verbling": {
+            "name": "verbling",
+            "title": "Verbling – Online Language Tutoring Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Verbling/preview_0.png"
+            ],
+            "customer": [
+                "Project",
+                "Verbling, Chegg, EdTech, US"
+            ],
+            "type": "education",
+            "links": [{
+                "name": "verbling.com",
+                "href": "https://www.verbling.com"
+            }],
+            "text": [
+                "<div><h4>About tool</h4>Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons.</div>",
+                "<div><h4>Project details</h4>In this project, I was responsible for conducting user research to understand the needs and pain points of both learners and teachers. Based on the research findings, I created wireframes and prototypes to improve the user experience. The final visual design focused on making the platform more intuitive and engaging for users.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "busuu": {
+            "name": "busuu",
+            "title": "Busuu.com – Language Learning Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Busuu/preview_0.png"
+            ],
+            "customer": [
+                "Project",
+                "Busuu, Chegg, EdTech, UK"
+            ],
+            "type": "education",
+            "links": [{
+                "name": "busuu.com",
+                "href": "https://www.busuu.com"
+            }],
+            "text": [
+                "<div><h4>About tool</h4>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
+                "<div><h4>Project details</h4>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         }
