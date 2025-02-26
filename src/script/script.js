@@ -463,6 +463,8 @@ export default class PageBuilder {
         popup.classList.remove("hidden");
         popupBody.classList.remove("hidden");
         popupBody.classList.add("visible");
+        popupBody.classList.add("pop-up-open");
+        popupBody.classList.remove("pop-up-close");
         popup.scrollTo(0, 0);
     }
 
@@ -470,15 +472,19 @@ export default class PageBuilder {
         const popup = document.querySelector(".pop-up");
         const popupBody = popup.querySelector(".pop-up-body");
 
-        document.body.classList.remove("no-scroll");
-        document.querySelector(".main").classList.remove("blur");
-        popup.classList.add("hidden");
-        popup.classList.remove("visible");
-        popupBody.classList.add("hidden");
-        popupBody.classList.remove("visible");
-        
-        this.setProject(null);
-        
+        popupBody.classList.add("pop-up-close");
+        popupBody.classList.remove("pop-up-open");
+
+        setTimeout(() => {
+            document.body.classList.remove("no-scroll");
+            document.querySelector(".main").classList.remove("blur");
+            popup.classList.add("hidden");
+            popup.classList.remove("visible");
+            popupBody.classList.add("hidden");
+            popupBody.classList.remove("visible");
+            this.setProject(null);
+        }, 300);
+
         if (event) {
             event.stopPropagation();
         }
