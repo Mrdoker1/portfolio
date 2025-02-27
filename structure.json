@@ -124,7 +124,7 @@
                     "value": {
                         "target": "portfolioGrid",
                         "items": [{
-                                "name": "saas",
+                                "name": "enterprise",
                                 "value": "Enterprise"
                             }, {
                                 "name": "education",
@@ -154,7 +154,7 @@
                     "type": "grid",
                     "name": "portfolioGrid",
                     "value": "projects",
-                    "filter": "saas"
+                    "filter": "enterprise"
                 }
             ]
         },
@@ -371,7 +371,7 @@
                 "name": "Customer",
                 "href": "https://www.glennissolutions.com"
             }],
-            "type": "saas",
+            "type": "enterprise",
             "text": [
                 "<div><h4>About company</h4>\n The company provide communities for older people in which they can live comfortably, receive care, medicine, entertainment, and enjoy the interactions with other residents.</div>",
                 "<div><h4>About tool</h4>\n Event management software is one way to make senior living better. \n EMT is a system with ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
@@ -406,7 +406,7 @@
                 "Project",
                 "Fivepost, Enterprise, RU"
             ],
-            "type": "saas",
+            "type": "enterprise",
             "links": [{
                 "name": "Animation",
                 "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
@@ -440,7 +440,7 @@
                 "Project",
                 "Guy Carpenter, Enterprise, UK"
             ],
-            "type": "saas",
+            "type": "enterprise",
             "links": [{
                 "name": "Customer",
                 "href": "https://www.guycarp.com"
