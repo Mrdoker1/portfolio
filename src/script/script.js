@@ -150,12 +150,18 @@ export default class PageBuilder {
         this.setPropertes(button, data.propertes);
 
         button.addEventListener("click", event => {
-            button.classList.add("opened");
+            if (button.classList.contains("opened")) {
+                button.classList.remove("opened");
+            } else {
+                button.classList.add("opened");
+            }
             event.stopPropagation();
         });
 
-        window.addEventListener("click", () => {
-            button.classList.remove("opened");
+        window.addEventListener("click", (event) => {
+            if (!button.contains(event.target)) {
+                button.classList.remove("opened");
+            }
         });
 
         return button;
