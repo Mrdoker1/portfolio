@@ -417,9 +417,9 @@
                 }],
             "text": [
                 "<div><h4>About tool</h4>\n Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc. </div>",
-                "<img src=\"./src/images/articles/PCS/design_system.png\" width=\"100%\" height=\"100%\">",
+                "<img src=\"./src/images/articles/5post/design_system.png\" width=\"100%\" height=\"100%\">",
                 "<div><h4>Application functionality</h4>\n<ul><li>Devices Control;</li><li>Parcel Control;</li><li>Database management;</li><li>Transactions and expenses control;</li><li>Invoice generating and tracking;</li></ul></div>",
-                "<div><h4>Stakeholder report</h4>\n <img src=\"./src/images/articles/PCS/report.png\" width=\"100%\" height=\"100%\">",
+                "<div><h4>Stakeholder report</h4>\n <img src=\"./src/images/articles/5post/report.png\" width=\"100%\" height=\"100%\">",
                 "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
