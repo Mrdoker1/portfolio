@@ -123,24 +123,22 @@
                     "name": "portfolioFilter",
                     "value": {
                         "target": "portfolioGrid",
-                        "items": [{
+                        "items": [
+                            {
+                                "name": "all",
+                                "value": "All"
+                            }, {
                                 "name": "enterprise",
                                 "value": "Enterprise"
                             }, {
                                 "name": "education",
                                 "value": "EdTech"
-                            },
-                            {
+                            }, {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
-                            },
-                            {
+                            },{
                                 "name": "other",
                                 "value": "Other"
-                            },
-                            {
-                                "name": "all",
-                                "value": "All"
                             }
                         ],
                         "default": 0
@@ -290,63 +288,38 @@
         }
     ],
     "projects": {
-        "article&": {
-            "name": "article&",
-            "title": "Article&.com – Fashion Online Store",
-            "description": "UI / Visual Design, UX Design",
+        "5post_crm": {
+            "name": "5post_crm",
+            "title": "5 Post – Parcel Locker Control System",
+            "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
             "images": [
-                "./src/images/articles/Article&/preview_0.png",
-                "./src/images/articles/Article&/preview_1.png",
-                "./src/images/articles/Article&/preview_2.jpg"
+                "./src/images/articles/5post/post_crm_0.png",
+                "./src/images/articles/5post/post_crm_1.png",
+                "./src/images/articles/5post/post_crm_2.png",
+                "./src/images/articles/5post/post_crm_3.png"
             ],
+            "video": "./src/videos/5post/preview.mp4",
             "customer": [
                 "Project",
-                "Article&, E-Commerce, USA"
+                "Fivepost, Enterprise, RU"
             ],
-            "type": "ecommerce",
+            "type": "enterprise",
             "links": [{
-                    "name": "Template",
-                    "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
-                },
+                "name": "Animation",
+                "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
+            },
                 {
                     "name": "Customer",
-                    "href": "https://www.articleand.com/"
-                }
-            ],
+                    "href": "https://fivepost.ru"
+                }],
             "text": [
-                "<div><h4>About company</h4>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
-                "<div><h4>About project</h4>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
-                "<div><h4>Homepage</h4>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
-                "<div><h4>Product page</h4>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
-        "bzdefence": {
-            "name": "bzdefence",
-            "title": "BZDefence.com – Military Equipment Store",
-            "description": "UI / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/BZDefence/preview_0.png",
-                "./src/images/articles/BZDefence/preview_1.png"
-            ],
-            "customer": [
-                "Project",
-                "BZ Defence, E-Commerce, USA"
-            ],
-            "type": "ecommerce",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
-            }, {
-                "name": "Customer",
-                "href": "https://www.bzdefence.com/"
-            }],
-            "text": [
-                "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
+                "<div><h4>About tool</h4>\n Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc. </div>",
+                "<img src=\"./src/images/articles/5post/design_system.png\" width=\"100%\" height=\"100%\">",
+                "<div><h4>Application functionality</h4>\n<ul><li>Devices Control;</li><li>Parcel Control;</li><li>Database management;</li><li>Transactions and expenses control;</li><li>Invoice generating and tracking;</li></ul></div>",
+                "<div><h4>Stakeholder report</h4>\n <img src=\"./src/images/articles/5post/report.png\" width=\"100%\" height=\"100%\">",
+                "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
@@ -387,40 +360,6 @@
                 "<div><h4>Mocks</h4>\n <img src=\"./src/images/articles/EMT/Screens/1.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/3.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/4.png\" width=\"100%\" height=\"100%\"></div>",
                 "<div><h4>Mobile attendance</h4>\n After research, I've decided  to move some of the functionality from the main application to a mobile attendance mobile application. <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div>",
                 "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback for Andersen. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
-            ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
-        },
-        "5post_crm": {
-            "name": "5post_crm",
-            "title": "5 Post – Parcel Locker Control System",
-            "description": "Research / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/5post/post_crm_0.png",
-                "./src/images/articles/5post/post_crm_1.png",
-                "./src/images/articles/5post/post_crm_2.png",
-                "./src/images/articles/5post/post_crm_3.png"
-            ],
-            "customer": [
-                "Project",
-                "Fivepost, Enterprise, RU"
-            ],
-            "type": "enterprise",
-            "links": [{
-                "name": "Animation",
-                "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
-            },
-                {
-                    "name": "Customer",
-                    "href": "https://fivepost.ru"
-                }],
-            "text": [
-                "<div><h4>About tool</h4>\n Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc. </div>",
-                "<img src=\"./src/images/articles/5post/design_system.png\" width=\"100%\" height=\"100%\">",
-                "<div><h4>Application functionality</h4>\n<ul><li>Devices Control;</li><li>Parcel Control;</li><li>Database management;</li><li>Transactions and expenses control;</li><li>Invoice generating and tracking;</li></ul></div>",
-                "<div><h4>Stakeholder report</h4>\n <img src=\"./src/images/articles/5post/report.png\" width=\"100%\" height=\"100%\">",
-                "<div><h4>Project results</h4>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         },
@@ -495,6 +434,66 @@
             "text": [
                 "<div><h4>About tool</h4>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
                 "<div><h4>Project details</h4>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "article&": {
+            "name": "article&",
+            "title": "Article&.com – Fashion Online Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Article&/preview_0.png",
+                "./src/images/articles/Article&/preview_1.png",
+                "./src/images/articles/Article&/preview_2.jpg"
+            ],
+            "customer": [
+                "Project",
+                "Article&, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                    "name": "Template",
+                    "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
+                },
+                {
+                    "name": "Customer",
+                    "href": "https://www.articleand.com/"
+                }
+            ],
+            "text": [
+                "<div><h4>About company</h4>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
+                "<div><h4>About project</h4>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
+                "<div><h4>Homepage</h4>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
+                "<div><h4>Product page</h4>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+        },
+        "bzdefence": {
+            "name": "bzdefence",
+            "title": "BZDefence.com – Military Equipment Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/BZDefence/preview_0.png",
+                "./src/images/articles/BZDefence/preview_1.png"
+            ],
+            "customer": [
+                "Project",
+                "BZ Defence, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+            }, {
+                "name": "Customer",
+                "href": "https://www.bzdefence.com/"
+            }],
+            "text": [
+                "<div><h4>About company</h4>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         }

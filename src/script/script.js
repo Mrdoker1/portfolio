@@ -205,6 +205,7 @@ export default class PageBuilder {
         Object.values(this.structure[data.value]).forEach(project => {
             const item = document.createElement("li");
             const image = document.createElement("img");
+            const video = document.createElement("video");
             const content = document.createElement("div");
             const title = document.createElement("span");
             const description = document.createElement("span");
@@ -213,6 +214,10 @@ export default class PageBuilder {
             item.addEventListener("click", () => this.openProject(project.name));
 
             image.src = project.images[project.preview];
+            video.src = project.video || "";
+            video.muted = true;
+            video.loop = true;
+            video.style.display = "none";
             
             title.classList.add("title");
             title.innerText = project.title;
@@ -223,14 +228,27 @@ export default class PageBuilder {
             content.appendChild(title);
             content.appendChild(description);
             item.appendChild(image);
+            item.appendChild(video);
             item.appendChild(content);
 
             item.addEventListener("mouseover", () => {
-                image.src = project.images[project.default];
+                if (project.video) {
+                    image.style.display = "none";
+                    video.style.display = "block";
+                    video.play();
+                } else {
+                    image.src = project.images[project.default];
+                }
             });
 
             item.addEventListener("mouseout", () => {
-                image.src = project.images[project.preview];
+                if (project.video) {
+                    video.style.display = "none";
+                    video.pause();
+                    image.style.display = "block";
+                } else {
+                    image.src = project.images[project.preview];
+                }
             });
 
             if (currentFilter !== "all" && project.type !== currentFilter) {
