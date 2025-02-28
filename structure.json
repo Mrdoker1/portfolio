@@ -398,6 +398,7 @@
             "images": [
                 "./src/images/articles/Verbling/preview_0.png"
             ],
+            "video": "./src/videos/Verbling/preview.mp4",
             "customer": [
                 "Project",
                 "Verbling, Chegg, EdTech, US"
@@ -449,6 +450,7 @@
                 "./src/images/articles/Article&/preview_1.png",
                 "./src/images/articles/Article&/preview_2.jpg"
             ],
+            "video": "./src/videos/Articleand/preview.mp4",
             "customer": [
                 "Project",
                 "Article&, E-Commerce, USA"
