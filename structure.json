@@ -306,12 +306,9 @@
                 "Fivepost, Enterprise, RU"
             ],
             "type": "enterprise",
-            "links": [{
-                "name": "Animation",
-                "href": "https://dribbble.com/shots/16465810-Postal-CRM-System"
-            },
+            "links": [
                 {
-                    "name": "Customer",
+                    "name": "fivepost.ru",
                     "href": "https://fivepost.ru"
                 }],
             "text": [
@@ -341,7 +338,7 @@
                 "Glennis Solutions, Healthcare, USA"
             ],
             "links": [{
-                "name": "Customer",
+                "name": "glennissolutions.com",
                 "href": "https://www.glennissolutions.com"
             }],
             "type": "enterprise",
@@ -381,7 +378,7 @@
             ],
             "type": "enterprise",
             "links": [{
-                "name": "Customer",
+                "name": "guycarp.com",
                 "href": "https://www.guycarp.com"
             }],
             "text": [
@@ -461,7 +458,7 @@
                     "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
                 },
                 {
-                    "name": "Customer",
+                    "name": "articleand.com",
                     "href": "https://www.articleand.com/"
                 }
             ],
@@ -492,7 +489,7 @@
                 "name": "Figma",
                 "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
             }, {
-                "name": "Customer",
+                "name": "bzdefence.com",
                 "href": "https://www.bzdefence.com/"
             }],
             "text": [

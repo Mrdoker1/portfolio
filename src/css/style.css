@@ -703,6 +703,12 @@ main {
     }
 }
 
+@media screen and (max-width:1340px) and (min-width:426px) {
+    main {
+        padding: 55px 48px;
+    }
+}
+
 @media screen and (max-width:768px) and (min-width:426px) {
     .footer,
     .header,
