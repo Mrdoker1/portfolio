@@ -391,7 +391,7 @@
             "title": "Verbling – Online Language Tutoring Platform",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
                 "./src/images/articles/Verbling/preview_0.png",
                 "./src/images/articles/Verbling/preview_1.png",
