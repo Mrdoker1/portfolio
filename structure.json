@@ -422,6 +422,7 @@
             "images": [
                 "./src/images/articles/Busuu/preview_0.png"
             ],
+            "video": "./src/videos/Busuu/preview.mp4",
             "customer": [
                 "Project",
                 "Busuu, Chegg, EdTech, UK"

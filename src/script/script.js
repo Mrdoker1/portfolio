@@ -218,6 +218,16 @@ export default class PageBuilder {
             video.muted = true;
             video.loop = true;
             video.style.display = "none";
+            video.style.width = "100%";
+            video.style.height = "100%";
+            video.style.objectFit = "cover";
+            video.style.position = "absolute";
+            video.style.top = "0";
+            video.style.left = "0";
+            video.controls = false;
+            video.setAttribute("playsinline", "true");
+            video.setAttribute("disablePictureInPicture", "true");
+            video.setAttribute("controlsList", "nodownload nofullscreen noremoteplayback");
             
             title.classList.add("title");
             title.innerText = project.title;
