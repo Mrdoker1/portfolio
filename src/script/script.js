@@ -796,7 +796,7 @@ export default class PageBuilder {
 
     getFilter(search) {
         const params = new URLSearchParams(search || window.location.search);
-        return params.get("filter") || null;
+        return params.get("filter") || "all";
     }
 
     getProject(search) {
