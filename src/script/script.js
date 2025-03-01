@@ -76,7 +76,7 @@ export default class PageBuilder {
         return element;
     }
 
-    setPropertes(element, properties) {
+    SetProperties(element, properties) {
         if (!properties) return;
 
         const propertyMappings = {
@@ -85,7 +85,8 @@ export default class PageBuilder {
             'mobile': (value) => element.classList.add(`mobile-${value}`),
             'desktop': (value) => element.classList.add(`desktop-${value}`),
             'padding': (value) => element.classList.add(`padding-${value}`),
-            'margin': (value) => element.classList.add(`margin-${value}`)
+            'margin': (value) => element.classList.add(`margin-${value}`),
+            'max-width': (value) => element.classList.add(`max-width-${value}`),
         };
 
         Object.entries(properties).forEach(([key, value]) => {
@@ -147,7 +148,7 @@ export default class PageBuilder {
         button.appendChild(filterContainer);
         button.appendChild(arrow);
 
-        this.setPropertes(button, data.propertes);
+        this.SetProperties(button, data.properties);
 
         button.addEventListener("click", event => {
             if (button.classList.contains("opened")) {
@@ -293,7 +294,7 @@ export default class PageBuilder {
             }
         });
 
-        this.setPropertes(grid, data.propertes);
+        this.SetProperties(grid, data.properties);
         return grid;
     }
 
@@ -302,7 +303,7 @@ export default class PageBuilder {
         heading.classList.add("h1");
         heading.id = data.name;
         heading.innerText = data.value;
-        this.setPropertes(heading, data.propertes);
+        this.SetProperties(heading, data.properties);
         return heading;
     }
 
@@ -317,7 +318,7 @@ export default class PageBuilder {
         button.appendChild(text);
         button.addEventListener("click", () => window.scrollTo(0, 0));
         
-        this.setPropertes(button, data.propertes);
+        this.SetProperties(button, data.properties);
         return button;
     }
 
@@ -326,7 +327,7 @@ export default class PageBuilder {
         caption.classList.add("caption");
         caption.id = data.name;
         caption.innerText = data.value;
-        this.setPropertes(caption, data.propertes);
+        this.SetProperties(caption, data.properties);
         return caption;
     }
 
@@ -335,7 +336,7 @@ export default class PageBuilder {
         heading.classList.add("h0");
         heading.id = data.name;
         heading.innerText = data.value;
-        this.setPropertes(heading, data.propertes);
+        this.SetProperties(heading, data.properties);
         return heading;
     }
 
@@ -346,7 +347,7 @@ export default class PageBuilder {
         image.src = data.value.src;
         image.alt = data.value.alt;
         image.style.cssText = data.style;
-        this.setPropertes(image, data.propertes);
+        this.SetProperties(image, data.properties);
         return image;
     }
 
@@ -388,7 +389,7 @@ export default class PageBuilder {
             });
         }
 
-        this.setPropertes(svg, data.propertes);
+        this.SetProperties(svg, data.properties);
         return svg;
     }
 
@@ -397,14 +398,14 @@ export default class PageBuilder {
         paragraph.classList.add("paragraph");
         paragraph.id = data.name;
         paragraph.innerHTML = data.value;
-        this.setPropertes(paragraph, data.propertes);
+        this.SetProperties(paragraph, data.properties);
         return paragraph;
     }
 
     createBlock_br(data) {
         const lineBreak = document.createElement("br");
         lineBreak.id = data.name;
-        this.setPropertes(lineBreak, data.propertes);
+        this.SetProperties(lineBreak, data.properties);
         return lineBreak;
     }
 
@@ -484,7 +485,7 @@ export default class PageBuilder {
             });
         }
 
-        this.setPropertes(button, data.propertes);
+        this.SetProperties(button, data.properties);
         return button;
     }
 
