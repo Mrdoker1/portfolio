@@ -333,6 +333,7 @@
                 "./src/images/articles/EMT/preview_3.png",
                 "./src/images/articles/EMT/preview_4.png"
             ],
+            "video": "./src/videos/EMT/preview.mp4",
             "customer": [
                 "Project",
                 "Glennis Solutions, Healthcare, USA"
@@ -372,6 +373,7 @@
                 "./src/images/articles/Guy Carpenter/preview_2.png",
                 "./src/images/articles/Guy Carpenter/preview_3.png"
             ],
+            "video": "./src/videos/guy_carpenter/preview.mp4",
             "customer": [
                 "Project",
                 "Guy Carpenter, Enterprise, UK"
@@ -499,6 +501,7 @@
                 "./src/images/articles/BZDefence/preview_0.png",
                 "./src/images/articles/BZDefence/preview_1.png"
             ],
+            "video": "./src/videos/bzdefence/preview.mp4",
             "customer": [
                 "Project",
                 "BZ Defence, E-Commerce, USA"
