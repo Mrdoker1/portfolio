@@ -722,6 +722,9 @@ main {
     main {
         padding: 55px 48px;
     }
+    .pop-up-body {
+        box-sizing: border-box;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:426px) {
