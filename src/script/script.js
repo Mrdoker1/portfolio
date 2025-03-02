@@ -87,6 +87,7 @@ export default class PageBuilder {
             'padding': (value) => element.classList.add(`padding-${value}`),
             'margin': (value) => element.classList.add(`margin-${value}`),
             'max-width': (value) => element.classList.add(`max-width-${value}`),
+            'justify-content': (value) => element.classList.add(`justify-content-${value}`)
         };
 
         Object.entries(properties).forEach(([key, value]) => {

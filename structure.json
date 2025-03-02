@@ -8,7 +8,8 @@
                     "name": "headline",
                     "value": "Product Designer & Developer.",
                     "properties": {
-                        "margin": "bottom-10px"
+                        "margin": "bottom-10px",
+                        "text-align": "center"
                     }
                 },
                 {
@@ -19,7 +20,7 @@
                             "name": "caption1",
                             "value": "5+ Years of Experience specialise in Building Exceptional User Experiences for E-Commerce, Healthcare, EdTech, AdTech and more.",
                             "properties": {
-                                "padding": ""
+                                "text-align": "center"
                             }
                         },
                         {
@@ -44,7 +45,7 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "properties": {
-                                "padding": "right-25px",
+                                "padding": "right-32px",
                                 "margin": "top-10px"
                             }
                         },
@@ -61,7 +62,7 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "properties": {
-                                "padding": "right-25px",
+                                "padding": "right-32px",
                                 "margin": "top-10px"
                             }
                         },
@@ -78,7 +79,7 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "properties": {
-                                "padding": "right-25px",
+                                "padding": "right-32px",
                                 "margin": "top-10px"
                             }
                         },
@@ -95,7 +96,7 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "properties": {
-                                "padding": "right-25px",
+                                "padding": "right-32px",
                                 "margin": "top-10px"
                             }
                         },
@@ -112,11 +113,15 @@
                                 "viewbox": "0 0 30 30"
                             },
                             "properties": {
-                                "padding": "right-25px",
+                                "padding": "right-32px",
                                 "margin": "top-10px"
                             }
                         }
-                    ]
+                    ],
+                    "properties": {
+                        "margin": "bottom-10px",
+                        "text-align": "center"
+                    }
                 },
                 {
                     "type": "filter",
@@ -236,15 +241,6 @@
                     "value": ["You can <a class='link' href='https://docs.google.com/document/d/1ZBpu5AmOINq1BfnTn-Nlzsx9NhyKlpjml-OwRl0ifc4/edit?usp=sharing'>Download CV</a> or <a class='link' href='https://mrdoker1.github.io/rsschool-cv/'>Get CV Online</a>",
                         " and even <a class='link' href='Viachas Kul Presentation.pdf'>Download Portfolio</a>"
                     ],
-                    "properties": {
-                        "text-align": "center",
-                        "margin": "top-25px"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "name": "social-links",
-                    "value": "<a class='link social' href='https://www.linkedin.com/in/kubic'>LinkedIn</a><a class='link social' href='https://dribbble.com/Kubic'>Dribbble</a> <a class='link social' href='https://medium.com/@mdreg'>Medium</a> <a class='link social' href='https://www.youtube.com/channel/UCgImAblrE0CRcF5ke7FhyFg'>Youtube</a>",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px"

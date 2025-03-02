@@ -135,6 +135,9 @@ main {
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: absolute;
     top: max(100%, calc(100vh - 75px));
     align-items: center;
@@ -143,7 +146,7 @@ main {
     border-top: 1px solid #ffffff;
     font-weight: 300;
     font-size: var(--header);
-    line-height: 21px;
+    line-height: 20px;
 }
 
 main {
@@ -181,7 +184,6 @@ main {
     line-height: 132%;
     padding-bottom: 24px;
     color: var(--main-text-color);
-    padding-right: 20%;
 }
 
 /* Text alignment classes */
@@ -196,19 +198,21 @@ main {
 
 /* Spacing classes */
 .padding-right-50px { padding-right: 50px; }
+.padding-right-32px { padding-right: 32px; }
 .padding-right-25px { padding-right: 25px; }
 .margin-top-10px { margin-top: 10px; }
 .margin-top-25px { margin-top: 25px; }
 .margin-bottom-10px { margin-bottom: 24px; }
 
 /* Width classes */
-.max-width-600px {max-width: 600px;}
+.max-width-600px {max-width: 600px; }
+.justify-content-center { justify-content: center; }
 
 .box {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .picture {
@@ -767,10 +771,6 @@ main {
     .to-top-button {
         height: 180px;
     }
-    .caption {
-        padding-right: 10%;
-    }
-
     .pop-up-body {
         border-radius: 0;
         padding: 18px 16px;
@@ -894,6 +894,9 @@ main {
     }
     .grid>li>div>span.title {
         font-size: var(--h2-mobile);
+    }
+    .footer {
+        justify-content: center;
     }
 }
 
