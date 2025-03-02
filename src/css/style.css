@@ -853,9 +853,6 @@ main {
     a.link.social {
         font-size: 15px;
     }
-    .close-icon {
-        right: 10px;
-    }
     .pop-up-body>.popup-footer-note {
         flex-direction: column;
     }
