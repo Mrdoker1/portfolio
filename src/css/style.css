@@ -203,16 +203,28 @@ main {
 .padding-right-25px { padding-right: 25px; }
 .margin-top-10px { margin-top: 10px; }
 .margin-top-25px { margin-top: 25px; }
-.margin-bottom-10px { margin-bottom: 24px; }
+.margin-bottom-10px { margin-bottom: 10px; }
+.margin-bottom-24px { margin-bottom: 24px; }
+.margin-bottom-32px { margin-bottom: 32px; }
 
 /* Width classes */
 .max-width-600px {max-width: 600px; }
 .justify-content-center { justify-content: center; }
 
+/* Gap classes */
+.gap-10px { gap: 10px; }
+.gap-20px { gap: 20px; }
+.gap-30px { gap: 30px; }
+.gap-40px { gap: 40px; }
+.gap-50px { gap: 50px; }
+
+/* Flex direction classes */
+.flex-direction-row { flex-direction: row; }
+.flex-direction-column { flex-direction: column; }
+
 .box {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -742,7 +754,6 @@ main {
         position: sticky;
         top: 0;
         z-index: 9999;
-        background: #fff;
         height: 64px;
     }
     button.filter {

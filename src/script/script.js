@@ -37,31 +37,19 @@ export default class PageBuilder {
         setTimeout(() => {
             this.main.innerHTML = "";
             pageContent.forEach((section, index) => {
-                if (section.type === "box") {
-                    const box = document.createElement("div");
-                    box.classList.add("box");
-                    box.id = `box_${index}`;
-                    
-                    section.value.forEach(item => {
-                        box.appendChild(this.blockBuild(item));
-                    });
-                    
-                    this.main.appendChild(box);
-                } else {
-                    this.main.appendChild(this.blockBuild(section));
-                }
+                this.main.appendChild(this.blockBuild(section, index));
             });
             this.main.classList.remove("fade-out");
             this.main.classList.add("fade-in");
         }, 250);
     }
 
-    blockBuild(blockData) {
+    blockBuild(blockData, index) {
         const blockMethod = `createBlock_${blockData.type}`;
         
         if (this[blockMethod]) {
             console.log("Add block:", blockData.type, blockData.name, blockData.value);
-            return this[blockMethod](blockData);
+            return this[blockMethod](blockData, index);
         } else {
             console.error("Unreleased block:", blockData.type);
             return this.createBlock_default(blockData);
@@ -87,7 +75,9 @@ export default class PageBuilder {
             'padding': (value) => element.classList.add(`padding-${value}`),
             'margin': (value) => element.classList.add(`margin-${value}`),
             'max-width': (value) => element.classList.add(`max-width-${value}`),
-            'justify-content': (value) => element.classList.add(`justify-content-${value}`)
+            'justify-content': (value) => element.classList.add(`justify-content-${value}`),
+            'gap': (value) => element.classList.add(`gap-${value}`),
+            'flex-direction': (value) => element.classList.add(`flex-direction-${value}`)
         };
 
         Object.entries(properties).forEach(([key, value]) => {
@@ -488,6 +478,19 @@ export default class PageBuilder {
 
         this.SetProperties(button, data.properties);
         return button;
+    }
+
+    createBlock_box(data, index) {
+        const box = document.createElement("div");
+        box.classList.add("box");
+        box.id = `box_${index}`;
+        
+        data.value.forEach((item, idx) => {
+            box.appendChild(this.blockBuild(item, idx));
+        });
+        
+        this.SetProperties(box, data.properties);
+        return box;
     }
 
     openProject(projectName) {
