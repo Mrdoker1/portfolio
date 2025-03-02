@@ -344,7 +344,8 @@
                 "<div><h3>Stakeholder report</h3>\n <img src=\"./src/images/articles/5post/report.png\" width=\"100%\" height=\"100%\">",
                 "<div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
         },
         "event_management_tool": {
             "name": "event_management_tool",
@@ -386,7 +387,8 @@
                 "<div><h3>Mobile attendance</h3>\n After research, I've decided  to move some of the functionality from the main application to a mobile attendance mobile application. <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div>",
                 "<div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback for Andersen. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "The project aims to create a modern, user-friendly event management system for senior communities. By enhancing the interface and adding a robust validation process, the system will simplify event planning and approval while boosting resident engagement."
         },
         "guy_carpenter": {
             "name": "guy_carpenter",
@@ -413,7 +415,8 @@
             "text": [
                 "<div><h3>About tool</h3>Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
         },
         "verbling": {
             "name": "verbling",
@@ -457,7 +460,8 @@
                 "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Enabled</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Disabled</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Start</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Complete</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Standard Error</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-score</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p value</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (Not Significant)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Range</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -0.14%, Mid: 0.28%, High: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -9.98%, Mid: 20.21%, High: 50.40%</td></tr></tbody></table></div>",
                 "<div><h3>Summary</h3>Throughout the project, numerous initiatives were undertaken to enhance the UI and UX of the service, with a strong focus on improving the experience for end users. Although not every solution proved successful and support for the service eventually waned, the majority of these efforts were aimed at optimizing the user experience and creating a more intuitive interface, ultimately contributing to better engagement with the platform.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
         },
         "busuu": {
             "name": "busuu",
@@ -482,7 +486,8 @@
                 "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
                 "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
         },
         "article&": {
             "name": "article&",
@@ -516,7 +521,8 @@
                 "<div><h3>Homepage</h3>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
                 "<div><h3>Product page</h3>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds."
         },
         "bzdefence": {
             "name": "bzdefence",
@@ -544,7 +550,8 @@
             "text": [
                 "<div><h3>About company</h3>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
             ],
-            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+            "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
+            "about": "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
         }
     }
 }

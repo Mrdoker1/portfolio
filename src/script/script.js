@@ -695,6 +695,20 @@ export default class PageBuilder {
             infoSection.appendChild(linksSection);
         }
 
+        // Add "About" section
+        const aboutSection = document.createElement("div");
+        const aboutTitle = document.createElement("span");
+        const aboutContent = document.createElement("p");
+
+        aboutTitle.classList.add("title");
+        aboutTitle.innerText = "About";
+        aboutContent.innerText = projectData.about || "No additional information available.";
+
+        aboutSection.appendChild(aboutTitle);
+        aboutSection.appendChild(aboutContent);
+        aboutSection.classList.add("about-section");
+        infoSection.appendChild(aboutSection);
+
         infoSection.classList.add("info");
         popupBody.appendChild(infoSection);
 

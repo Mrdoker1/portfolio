@@ -561,15 +561,13 @@ main {
 .pop-up-body>div.info {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 24px;
     margin: 25px 0;
     background-color: var(--color4);
     padding: 24px;
     border-radius: 6px;
-}
-
-.pop-up-body>div.info>div {
-    margin-right: 67px;
 }
 
 .pop-up-body>div.info>div>span {
