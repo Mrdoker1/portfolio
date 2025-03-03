@@ -140,6 +140,11 @@
                     "name": "portfolioGrid",
                     "value": "projects",
                     "filter": "enterprise"
+                },
+                {
+                    "type": "toTopButton",
+                    "name": "toTopButton",
+                    "value": "Back to Top"
                 }
             ]
         },

@@ -362,7 +362,7 @@ main {
     justify-content: center;
     align-items: center;
     transition-duration: .25s;
-    color: #666;
+    color: var(--color5);
     cursor: pointer;
 }
 
