@@ -418,6 +418,7 @@ export default class PageBuilder {
         nameLabel.innerText = "Name";
         nameInput.setAttribute("name", "name");
         nameInput.setAttribute("type", "text");
+        nameInput.setAttribute("required", "true");
         form.appendChild(nameLabel);
         form.appendChild(nameInput);
 
@@ -426,6 +427,7 @@ export default class PageBuilder {
         emailLabel.innerText = "Email";
         emailInput.setAttribute("name", "_replyto");
         emailInput.setAttribute("type", "email");
+        emailInput.setAttribute("required", "true");
         form.appendChild(emailLabel);
         form.appendChild(emailInput);
 
@@ -433,6 +435,7 @@ export default class PageBuilder {
         const messageLabel = document.createElement("label");
         messageLabel.innerText = "Message";
         messageInput.setAttribute("name", "message");
+        messageInput.setAttribute("required", "true");
         form.appendChild(messageLabel);
         form.appendChild(messageInput);
 
@@ -451,6 +454,14 @@ export default class PageBuilder {
         buttonContainer.appendChild(orSpan);
         
         form.appendChild(buttonContainer);
+
+        // Form validation
+        form.addEventListener("submit", (event) => {
+            if (!nameInput.value || !emailInput.value || !messageInput.value) {
+                event.preventDefault();
+                alert("Please fill out all fields before submitting the form.");
+            }
+        });
 
         return form;
     }
