@@ -361,9 +361,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-duration: .25s;
     color: var(--color5);
     cursor: pointer;
+}
+
+.to-top-button:hover>span{
+    transition: all 0.2s;
+    border: 2px solid black;
+}
+
+.to-top-button>span{
+    background-color: white;
+    transition: all 0.2s;
+    border: 2px solid #c2c2c2;
+    padding: 10px 30px;
+    border-radius: 40px;
 }
 
 .default {
