@@ -326,8 +326,9 @@
                 }],
             "text": [
                 "<div><h3>About tool</h3>\n Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc. </div>",
-                "<img src=\"./src/images/articles/5post/design_system.png\" width=\"100%\" height=\"100%\">",
+                "<img src=\"./src/images/articles/5post/promo_1.jpg\" width=\"100%\" height=\"100%\">",
                 "<div><h3>Application functionality</h3>\n<ul><li>Devices Control;</li><li>Parcel Control;</li><li>Database management;</li><li>Transactions and expenses control;</li><li>Invoice generating and tracking;</li></ul></div>",
+                "<img src=\"./src/images/articles/5post/design_system.png\" width=\"100%\" height=\"100%\">",
                 "<div><h3>Stakeholder report</h3>\n <img src=\"./src/images/articles/5post/report.png\" width=\"100%\" height=\"100%\">",
                 "<div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback on the Andersen website. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
             ],
