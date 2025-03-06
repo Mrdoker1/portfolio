@@ -39,13 +39,15 @@
 html {
     scroll-behavior: smooth;
     background-color: var(--color4);
+    scrollbar-gutter: stable;
+    scrollbar-color: var(--color5);
 }
 
 a {
     text-decoration: none;
-    transition: all 0.3s;
-    border-bottom: 1px solid var(--color3);
-    color: var(--color1);
+    transition: all 0.3s ease;
+    border-bottom: 1px solid var(--color5);
+    color: var(--color5);
     line-height: 140%;
 }
 
@@ -366,13 +368,13 @@ main {
 }
 
 .to-top-button:hover>span{
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     border: 2px solid black;
 }
 
 .to-top-button>span{
     background-color: white;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     border: 2px solid #c2c2c2;
     padding: 10px 30px;
     border-radius: 40px;
@@ -448,6 +450,7 @@ main {
     height: 20px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .close-icon path {
@@ -956,7 +959,7 @@ input,
 textarea {
     border: 2px solid #c2c2c2;
     border-radius: 6px;
-    transition: all .2s linear;
+    transition: all .2s ease;
 }
 
 input:hover,
@@ -992,7 +995,7 @@ form input.button, button {
     line-height: 10px;
     color: #fff;
     -webkit-appearance: none;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
 }
 
 form input.button:hover, button:hover {
