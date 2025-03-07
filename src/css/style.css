@@ -189,7 +189,7 @@ main {
     font-weight: 300;
     font-size: var(--caption);
     line-height: 132%;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
     color: var(--main-text-color);
 }
 
