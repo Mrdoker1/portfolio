@@ -69,6 +69,10 @@ a:hover {
     gap: 5px;
 }
 
+.menu svg {
+    fill: black;
+}
+
 .footer,
 .header,
 main {
@@ -238,7 +242,6 @@ main {
 }
 
 .link-icon {
-    height: 30px;
     cursor: pointer;
 }
 
@@ -355,26 +358,28 @@ main {
 }
 
 .to-top-button {
-    width: 100%;
-    font-weight: 350;
-    font-size: var(--ind1);
-    line-height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.to-top-button button{
+    transition: all 0.2s ease;
+    border: 2px solid #c2c2c2;
+    border-radius: 20px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     color: var(--color5);
     cursor: pointer;
 }
 
-.to-top-button:hover>span{
-    transition: all 0.2s ease;
-    border: 2px solid black;
-}
-
-.to-top-button>span{
+.to-top-button button:hover {
     background-color: white;
     transition: all 0.2s ease;
-    border: 2px solid #c2c2c2;
+    border: 2px solid black;
     padding: 10px 30px;
     border-radius: 40px;
 }

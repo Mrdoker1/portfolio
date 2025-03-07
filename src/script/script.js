@@ -299,18 +299,18 @@ export default class PageBuilder {
     }
 
     createBlock_toTopButton(data) {
-        const button = document.createElement("div");
-        const text = document.createElement("span");
+        const container = document.createElement("div");
+        const button = document.createElement("button");
         
-        button.classList.add("to-top-button");
-        button.id = data.name;
-        text.innerText = data.value;
+        container.classList.add("to-top-button");
+        container.id = data.name;
+        button.innerText = data.value;
         
-        button.appendChild(text);
         button.addEventListener("click", () => window.scrollTo(0, 0));
         
-        this.SetProperties(button, data.properties);
-        return button;
+        container.appendChild(button);
+        this.SetProperties(container, data.properties);
+        return container;
     }
 
     createBlock_caption(data) {
@@ -360,7 +360,7 @@ export default class PageBuilder {
         svg.classList.add("link-icon");
 
         path.setAttribute("d", data.value.path);
-        path.setAttribute("fill", "black");
+        path.setAttribute("fill", data.value.fill);
         path.setAttribute("class", "svg-icon");
         path.setAttribute("stroke-width", data.value.stroke_width || 0);
         
