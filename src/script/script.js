@@ -354,7 +354,7 @@ export default class PageBuilder {
         svg.setAttribute("class", className);
         svg.setAttribute("width", data.value.width);
         svg.setAttribute("height", data.value.height);
-        svg.setAttribute("viewbox", data.value.viewbox);
+        svg.setAttribute("viewBox", data.value.viewBox);
         svg.setAttribute("fill", "none");
         svg.id = data.name;
         svg.classList.add("link-icon");
