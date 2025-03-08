@@ -18,7 +18,7 @@
                     "value": [{
                             "type": "caption",
                             "name": "caption1",
-                            "value": "5+ Years of Experience specialise in Building Exceptional User Experiences for E-Commerce, Healthcare, EdTech, AdTech and more.",
+                            "value": "Specializing in user experience design for over 10 years, with expertise in E-Commerce, Healthcare, EdTech, AdTech, and more",
                             "properties": {
                                 "text-align": "center"
                             }
@@ -258,7 +258,7 @@
                 {
                     "type": "paragraph",
                     "name": "contact-paragraph",
-                    "value": "I am open to new opportunities. Write to me, and let’s discuss ways in which I can drive success for your business.",
+                    "value": "Excited about new possibilities! Let’s connect and explore how my expertise can support your business growth.",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px",
