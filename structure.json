@@ -554,6 +554,33 @@
             ],
             "footer": "Don’t hesitate to <a class='link' onclick=\"pageBuilder.rebuild('contact')\">send me an Email.</a> I’d love to hear from you.",
             "about": "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
+        },
+        "cognni": {
+            "name": "cognni",
+            "title": "Cognni.ai",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Cognii/preview_0.png",
+                "./src/images/articles/Cognii/preview_1.png",
+                "./src/images/articles/Cognii/preview_2.png",
+                "./src/images/articles/Cognii/preview_3.png"
+            ],
+            "video": "./src/videos/Cognii/preview.mp4",
+            "customer": [
+                "Project",
+                "Cognni.ai, AI, Israel"
+            ],
+            "type": "enterprise",
+            "links": [{
+                "name": "Customer",
+                "href": "https://cognni.ai/"
+            }],
+            "text": [
+                "<div><h4>About tool</h4>Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages.</div>"
+            ],
+            "footer": "Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
         }
     }
 }
