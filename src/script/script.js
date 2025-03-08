@@ -206,6 +206,11 @@ export default class PageBuilder {
             item.addEventListener("click", () => this.openProject(project.name));
 
             image.src = project.images[project.preview];
+            image.classList.add("skeleton");
+            image.onload = () => {
+                image.classList.remove("skeleton");
+            };
+
             video.src = project.video || "";
             video.muted = true;
             video.loop = true;
@@ -220,7 +225,12 @@ export default class PageBuilder {
             video.setAttribute("playsinline", "true");
             video.setAttribute("disablePictureInPicture", "true");
             video.setAttribute("controlsList", "nodownload nofullscreen noremoteplayback");
-            
+            video.classList.add("skeleton");
+
+            video.onloadeddata = () => {
+                video.classList.remove("skeleton");
+            };
+
             title.classList.add("title");
             title.innerText = project.title;
             
@@ -234,7 +244,7 @@ export default class PageBuilder {
             item.appendChild(content);
 
             item.addEventListener("mouseover", () => {
-                if (project.video) {
+                if (project.video && window.innerWidth > 768) {
                     image.style.display = "none";
                     video.style.display = "block";
                     video.play();
@@ -244,7 +254,7 @@ export default class PageBuilder {
             });
 
             item.addEventListener("mouseout", () => {
-                if (project.video) {
+                if (project.video && window.innerWidth > 768) {
                     video.style.display = "none";
                     video.pause();
                     image.style.display = "block";
@@ -333,11 +343,16 @@ export default class PageBuilder {
 
     createBlock_picture(data) {
         const image = document.createElement("img");
-        image.classList.add("picture");
+        image.classList.add("picture", "skeleton");
         image.id = data.name;
         image.src = data.value.src;
         image.alt = data.value.alt;
         image.style.cssText = data.style;
+
+        image.onload = () => {
+            image.classList.remove("skeleton");
+        };
+
         this.SetProperties(image, data.properties);
         return image;
     }
@@ -652,6 +667,10 @@ export default class PageBuilder {
             
             imageItem.setAttribute("value", index);
             image.src = imageSrc;
+            image.classList.add("skeleton");
+            image.onload = () => {
+                image.classList.remove("skeleton");
+            };
             
             if (index === projectData.default) {
                 imageItem.classList.add("selected");
