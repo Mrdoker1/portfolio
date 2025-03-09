@@ -30,6 +30,12 @@
     <link rel="icon" type="image/png" href="./src/images/favicon.svg" sizes="128x128">
     <link rel="icon" type="image/png" href="./src/images/favicon.svg" sizes="180x180">
     <link rel="icon" type="image/png" href="./src/images/favicon.svg" sizes="192x192">
+    <script>
+        // If URL contains "index.html", redirect to the same hash without it
+        if(window.location.pathname.includes("index.html")) {
+            window.location.replace("/" + window.location.hash);
+        }
+    </script>
 </head>
 
 <body class="">

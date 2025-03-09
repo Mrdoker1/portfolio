@@ -1,7 +1,7 @@
 export default class PageBuilder {
     constructor() {
         this.catchJSON();
-        this.currentPage = this.getPath(window.location.search);
+        this.currentPage = this.getPath();
         this.menu = document.querySelector(".header div.menu");
         this.main = document.querySelector("main");
 
@@ -24,12 +24,19 @@ export default class PageBuilder {
         const pageContent = this.structure.pages[this.currentPage].body;
         
         // Update menu state
-        this.menu.querySelector(".current").classList.remove("current");
-        this.menu.querySelector(`a[value=${this.currentPage}`).classList.add("current");
+        const currentMenuLink = this.menu.querySelector(".current");
+        if (currentMenuLink) {
+            currentMenuLink.classList.remove("current");
+        }
+        const newMenuLink = this.menu.querySelector(`a[value=${this.currentPage}]`);
+        if (newMenuLink) {
+            newMenuLink.classList.add("current");
+        }
         
-        // Handle project if specified
-        if (this.getProject()) {
-            this.openProject(this.getProject());
+        // Handle project if project route is present
+        const projectFromURL = this.getProject();
+        if (projectFromURL && !document.querySelector(".pop-up.visible")) {
+            this.openProject(projectFromURL);
         }
 
         // Clear and rebuild main content with animation
@@ -836,32 +843,83 @@ export default class PageBuilder {
         );
     }
 
+    setHashParameters(path, filter, project) {
+        let newHash = "#/";
+        if (project) {
+            // Если открыт проект, формируем hash вида #/project/5post_crm
+            newHash += "project/" + project;
+        } else {
+            // Для обычных страниц: если main – можно оставить пустым или писать main
+            newHash += path === "main" ? "main" : path;
+        }
+        // Если фильтр указан и не равен "all", добавляем его в query часть
+        if (filter && filter !== "all") {
+            newHash += `?filter=${filter}`;
+        }
+        window.history.pushState(
+            { page: path },
+            this.structure.pages[path].title,
+            newHash
+        );
+    }
+
     setPath(path) {
-        this.setSearchParameters(path, this.getFilter(), this.getProject());
+        this.setHashParameters(path, this.getFilter(), this.getProject());
     }
 
     setFilter(filter) {
-        this.setSearchParameters(this.getPath(), filter, this.getProject());
+        this.setHashParameters(this.getPath(), filter, this.getProject());
     }
 
     setProject(project) {
-        this.setSearchParameters(this.getPath(), this.getFilter(), project);
+        this.setHashParameters(this.getPath(), this.getFilter(), project);
     }
 
-    getPath(search) {
-        const params = new URLSearchParams(search || window.location.search);
-        return params.get("path") || "main";
+    getPath() {
+        const { page } = this.getHashData();
+        // Если используется маршрут проекта, например, "project/5post_crm"
+        if (page.startsWith("project/")) {
+            // Можно вернуть "main" как страницу, если проект открывается поверх главной
+            return "main";
+        }
+        // Если hash пустой, возвращаем main
+        return page || "main";
     }
 
-    getFilter(search) {
-        const params = new URLSearchParams(search || window.location.search);
-        return params.get("filter") || "all";
+    getFilter() {
+        const { params } = this.getHashData();
+        return params.filter || "all";
     }
 
-    getProject(search) {
-        const params = new URLSearchParams(search || window.location.search);
-        return params.get("project") || null;
+    getProject() {
+        const { page, params } = this.getHashData();
+        // Если маршрут начинается с "project/", то извлекаем идентификатор проекта
+        if (page.startsWith("project/")) {
+            // Например, page = "project/5post_crm"
+            return page.split("/")[1] || null;
+        }
+        // Либо возвращаем параметр project, если он указан (для старых ссылок)
+        return params.project || null;
     }
+
+        // Возвращает объект с основным маршрутом (page) и дополнительными параметрами
+    getHashData() {
+        // Если hash пустой – возвращаем main
+        const hash = window.location.hash.slice(1) || "/main";
+        // Разбиваем на путь и query часть (если есть)
+        const [pathPart, queryPart] = hash.split("?");
+        // Убираем ведущий слэш
+        const page = pathPart.startsWith("/") ? pathPart.slice(1) : pathPart;
+        const params = {};
+        if (queryPart) {
+            const searchParams = new URLSearchParams(queryPart);
+            for (const [key, value] of searchParams.entries()) {
+                params[key] = value;
+            }
+        }
+        return { page, params };
+    }
+
 
     load() {
         console.log("File 'structure.json' loaded", this.structure);
@@ -898,10 +956,31 @@ export default class PageBuilder {
         };
     }
 
+    handleURLChange() {
+        const path = this.getPathFromURL(window.location.pathname);
+        const hash = window.location.hash.slice(1);
+        
+        if (hash.startsWith('/project/')) {
+            const projectName = hash.split('/')[2];
+            // Не меняем URL, только открываем проект
+            this.currentPage = 'main';
+            this.build();
+            if (projectName) {
+                this.openProject(projectName);
+            }
+        } else {
+            const pagePath = hash.startsWith('/') ? hash.slice(1) : hash;
+            this.rebuild(pagePath || 'main');
+        }
+    }
+
     rebuild(path) {
-        this.setPath(path);
-        this.closeProject();
-        this.currentPage = this.getPath(window.location.search);
+        const currentHash = window.location.hash;
+        // Не обновляем URL если это project route
+        if (!currentHash.startsWith('#/project/')) {
+            this.setPath(path);
+        }
+        this.currentPage = path;
         this.main.classList.remove("opacity-high");
         
         setTimeout(() => {
