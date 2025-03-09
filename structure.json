@@ -287,22 +287,22 @@
             "name": "Works",
             "page": "main",
             "default": true,
-            "href": "/?path=main"
+            "href": "/#/main"
         },
         {
             "name": "Resources",
             "page": "resources",
-            "href": "/?path=resources"
+            "href": "/#/resources"
         },
         {
             "name": "About",
             "page": "about",
-            "href": "/?path=about"
+            "href": "/#/about"
         },
         {
             "name": "Contact",
             "page": "contact",
-            "href": "/?path=contact"
+            "href": "/#/contact"
         }
     ],
     "projects": {
