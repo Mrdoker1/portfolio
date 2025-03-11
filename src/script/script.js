@@ -775,10 +775,24 @@ export default class PageBuilder {
             popupBody.appendChild(paragraph);
         });
 
-        // Add footer note
+        // Add footer note with new contact navigation method
         const footerNote = document.createElement("p");
         footerNote.classList.add("popup-footer-note");
-        footerNote.innerHTML = projectData.footer;
+        if (projectData.footer?.type === "contact-link") {
+            const link = document.createElement("a");
+            link.classList.add("link");
+            link.innerText = projectData.footer.linkText;
+            link.addEventListener("click", () => {
+                this.closeProject();
+                setTimeout(() => {
+                    window.location.hash = '#/contact';
+                    this.rebuild('contact');
+                }, 300); // Same timeout as in closeProject
+            });
+            footerNote.appendChild(document.createTextNode(projectData.footer.prefix));
+            footerNote.appendChild(link);
+            footerNote.appendChild(document.createTextNode(projectData.footer.suffix));
+        }
         popupBody.appendChild(footerNote);
     }
 
