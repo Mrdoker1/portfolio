@@ -366,7 +366,7 @@ main {
 .to-top-button button{
     transition: all 0.2s ease;
     border: 2px solid #c2c2c2;
-    border-radius: 20px;
+    border-radius: 8px;
     background: none;
     display: flex;
     justify-content: center;
@@ -381,7 +381,7 @@ main {
     transition: all 0.2s ease;
     border: 2px solid black;
     padding: 10px 30px;
-    border-radius: 40px;
+    border-radius: 8px;
 }
 
 .default {
