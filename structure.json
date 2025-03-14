@@ -597,7 +597,7 @@
             "title": "Cognni.ai",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
                 "./src/images/articles/Cognii/preview_0.png",
                 "./src/images/articles/Cognii/preview_1.png",
@@ -614,8 +614,15 @@
                 "name": "Customer",
                 "href": "https://cognni.ai/"
             }],
+            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
             "text": [
-                "<div><h4>About tool</h4>Cognni offers a unique AI-powered solution for the information security field, providing organizations human-like understanding of their most critical information assets. With autonomous mapping Cognni is the only solution that can save infosec teams 100s of hours by automating the tasks associated with minimizing insider risks, configuring information security, and mitigating ransomware damages.</div>"
+            "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
+            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
+            "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
+            "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
+            "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
+            "<div><h3>Prototyping and Testing</h3><p>Rapid prototyping and usability tests with target users (including CISOs and department heads) were crucial. These sessions helped validate our visualizations, delegation workflows, and overall navigation, ensuring that the final interface met the diverse needs of its users.</p></div>",
+            "<div><h3>Results and Impact</h3><p>The redesigned Cognni.ai interface now delivers a clear, actionable view of complex security data. By focusing on mapping over detection and streamlining communication between various organizational roles, the solution enables users to derive actionable insights, present clear strategic options to CEOs/Board, and drive meaningful change in their security practices.</p></div>"
             ],
             "footer": {
                 "type": "contact-link",
