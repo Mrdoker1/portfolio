@@ -1,11 +1,18 @@
+import Router from './Router.js';
+import Filter from './components/Filter.js';
+import Grid from './components/Grid.js';
+import Component from './components/Component.js';
+
 export default class PageBuilder {
     constructor() {
+        this.router = new Router(this);
+        this.componentBase = new Component(this);
         this.catchJSON();
-        this.currentPage = this.getPath();
+        this.currentPage = this.router.getPath();
         this.menu = document.querySelector(".header div.menu");
         this.main = document.querySelector("main");
 
-        // Add event listener for Esc key
+        // Добавляем обработчик для клавиши Escape
         document.addEventListener("keydown", (event) => {
             if (event.key === "Escape") {
                 this.closeProject();
@@ -23,7 +30,7 @@ export default class PageBuilder {
     build() {
         const pageContent = this.structure.pages[this.currentPage].body;
         
-        // Update menu state
+        // Обновляем состояние меню
         const currentMenuLink = this.menu.querySelector(".current");
         if (currentMenuLink) {
             currentMenuLink.classList.remove("current");
@@ -33,33 +40,44 @@ export default class PageBuilder {
             newMenuLink.classList.add("current");
         }
         
-        // Handle project if project route is present
-        const projectFromURL = this.getProject();
+        // Открываем проект, если он указан в URL
+        const projectFromURL = this.router.getProject();
         if (projectFromURL && !document.querySelector(".pop-up.visible")) {
             this.openProject(projectFromURL);
         }
 
-        // Clear and rebuild main content with animation
+        // Очищаем и перестраиваем основной контент с анимацией
         this.main.classList.add("fade-out");
         setTimeout(() => {
             this.main.innerHTML = "";
+            const fragment = document.createDocumentFragment();
+            
             pageContent.forEach((section, index) => {
-                this.main.appendChild(this.blockBuild(section, index));
+                fragment.appendChild(this.blockBuild(section, index));
             });
+            
+            this.main.appendChild(fragment);
             this.main.classList.remove("fade-out");
             this.main.classList.add("fade-in");
         }, 250);
     }
 
     blockBuild(blockData, index) {
-        const blockMethod = `createBlock_${blockData.type}`;
-        
-        if (this[blockMethod]) {
-            console.log("Add block:", blockData.type, blockData.name, blockData.value);
-            return this[blockMethod](blockData, index);
-        } else {
-            console.error("Unreleased block:", blockData.type);
-            return this.createBlock_default(blockData);
+        // Используем компонентный подход для фильтра и сетки
+        switch (blockData.type) {
+            case 'filter':
+                return new Filter(blockData, this).element;
+            case 'grid':
+                return new Grid(blockData, this).element;
+            default:
+                const blockMethod = `createBlock_${blockData.type}`;
+                if (this[blockMethod]) {
+                    console.log("Add block:", blockData.type, blockData.name, blockData.value);
+                    return this[blockMethod](blockData, index);
+                } else {
+                    console.error("Unreleased block:", blockData.type);
+                    return this.createBlock_default(blockData);
+                }
         }
     }
 
@@ -72,238 +90,7 @@ export default class PageBuilder {
     }
 
     SetProperties(element, properties) {
-        if (!properties) return;
-
-        const propertyMappings = {
-            'text-align': (value) => element.classList.add(`text-align-${value}`),
-            'align-self': (value) => element.classList.add(`align-self-${value}`),
-            'mobile': (value) => element.classList.add(`mobile-${value}`),
-            'desktop': (value) => element.classList.add(`desktop-${value}`),
-            'padding': (value) => element.classList.add(`padding-${value}`),
-            'margin': (value) => element.classList.add(`margin-${value}`),
-            'max-width': (value) => element.classList.add(`max-width-${value}`),
-            'justify-content': (value) => element.classList.add(`justify-content-${value}`),
-            'gap': (value) => element.classList.add(`gap-${value}`),
-            'flex-direction': (value) => element.classList.add(`flex-direction-${value}`)
-        };
-
-        Object.entries(properties).forEach(([key, value]) => {
-            if (propertyMappings[key]) {
-                propertyMappings[key](value);
-            }
-        });
-    }
-
-    createBlock_filter(data) {
-        const button = document.createElement("button");
-        const title = document.createElement("span");
-        const filterContainer = document.createElement("div");
-        const list = document.createElement("ul");
-        const arrow = document.createElement("img");
-
-        let currentFilter = this.getFilter(window.location.search) || data.value.items[data.value.default].name;
-
-        button.classList.add("filter");
-        button.id = data.name;
-        button.setAttribute("value", currentFilter);
-        title.id = data.name + "Title";
-
-        data.value.items.forEach(item => {
-            const listItem = document.createElement("li");
-            listItem.setAttribute("value", item.name);
-            listItem.innerText = item.value;
-
-            if (item.name === currentFilter) {
-                listItem.classList.add("selected");
-                title.innerText = item.value;
-            }
-
-            listItem.addEventListener("click", event => {
-                const filterEvent = new Event("filter");
-                filterEvent.filter = event.target.getAttribute("value");
-                
-                title.innerText = event.target.innerText;
-                button.value = event.target.getAttribute("value");
-                
-                list.querySelector("li.selected").classList.remove("selected");
-                event.target.classList.add("selected");
-                
-                this.setFilter(filterEvent.filter);
-                button.classList.remove("opened");
-                
-                event.stopPropagation();
-                document.querySelector("#" + data.value.target).dispatchEvent(filterEvent);
-            });
-
-            list.appendChild(listItem);
-        });
-
-        arrow.src = "./src/images/arrow-down.svg";
-        filterContainer.classList.add("filterContainer");
-        filterContainer.appendChild(list);
-
-        button.appendChild(title);
-        button.appendChild(filterContainer);
-        button.appendChild(arrow);
-
-        this.SetProperties(button, data.properties);
-
-        button.addEventListener("click", event => {
-            if (button.classList.contains("opened")) {
-                button.classList.remove("opened");
-            } else {
-                button.classList.add("opened");
-            }
-            event.stopPropagation();
-        });
-
-        window.addEventListener("click", (event) => {
-            if (!button.contains(event.target)) {
-                button.classList.remove("opened");
-            }
-        });
-
-        return button;
-    }
-
-    createBlock_grid(data) {
-        const grid = document.createElement("ol");
-        let visibleItems = 0;
-
-        const showEmptyMessage = (filterName) => {
-            const emptyItem = document.createElement("li");
-            const title = document.createElement("span");
-            const description = document.createElement("span");
-            
-            emptyItem.id = "empty";
-            title.classList.add("title");
-            description.classList.add("descr");
-            
-            title.innerText = ":(";
-            description.innerText = `No projects in «${filterName || "unknown"}» category`;
-            
-            const container = document.createElement("div");
-            container.appendChild(title);
-            container.appendChild(description);
-            emptyItem.appendChild(container);
-            
-            grid.appendChild(emptyItem);
-        };
-
-        const removeEmptyMessage = () => {
-            const emptyElement = document.querySelector("#empty");
-            if (emptyElement) emptyElement.remove();
-        };
-
-        grid.classList.add("grid");
-        grid.id = data.name;
-        grid.setAttribute("value", data.filter);
-
-        const currentFilter = this.getFilter(window.location.search) || data.filter;
-
-        Object.values(this.structure[data.value]).forEach(project => {
-            const item = document.createElement("li");
-            const image = document.createElement("img");
-            const video = document.createElement("video");
-            const content = document.createElement("div");
-            const title = document.createElement("span");
-            const description = document.createElement("span");
-
-            item.setAttribute("value", project.type);
-            item.addEventListener("click", () => this.openProject(project.name));
-
-            image.src = project.images[project.preview];
-            image.classList.add("skeleton");
-            image.onload = () => {
-                image.classList.remove("skeleton");
-            };
-
-            video.src = project.video || "";
-            video.muted = true;
-            video.loop = true;
-            video.style.display = "none";
-            video.style.width = "100%";
-            video.style.height = "100%";
-            video.style.objectFit = "cover";
-            video.style.position = "absolute";
-            video.style.top = "0";
-            video.style.left = "0";
-            video.controls = false;
-            video.setAttribute("playsinline", "true");
-            video.setAttribute("disablePictureInPicture", "true");
-            video.setAttribute("controlsList", "nodownload nofullscreen noremoteplayback");
-            video.classList.add("skeleton");
-
-            video.onloadeddata = () => {
-                video.classList.remove("skeleton");
-            };
-
-            title.classList.add("title");
-            title.innerText = project.title;
-            
-            description.classList.add("descr");
-            description.innerText = project.description;
-
-            content.appendChild(title);
-            content.appendChild(description);
-            item.appendChild(image);
-            item.appendChild(video);
-            item.appendChild(content);
-
-            item.addEventListener("mouseover", () => {
-                if (project.video && window.innerWidth > 768) {
-                    image.style.display = "none";
-                    video.style.display = "block";
-                    video.play();
-                } else {
-                    image.src = project.images[project.default];
-                }
-            });
-
-            item.addEventListener("mouseout", () => {
-                if (project.video && window.innerWidth > 768) {
-                    video.style.display = "none";
-                    video.pause();
-                    image.style.display = "block";
-                } else {
-                    image.src = project.images[project.preview];
-                }
-            });
-
-            if (currentFilter !== "all" && project.type !== currentFilter) {
-                item.style.setProperty("display", "none");
-            } else {
-                visibleItems++;
-            }
-
-            grid.appendChild(item);
-        });
-
-        if (visibleItems === 0) {
-            showEmptyMessage(currentFilter);
-        }
-
-        grid.addEventListener("filter", event => {
-            let visibleCount = 0;
-            
-            for (const item of grid.childNodes.values()) {
-                if (event.filter === "all" || item.getAttribute("value") === event.filter) {
-                    item.style.setProperty("display", "initial");
-                    visibleCount++;
-                } else {
-                    item.style.setProperty("display", "none");
-                }
-            }
-
-            if (visibleCount === 0) {
-                showEmptyMessage(event.filter);
-            } else {
-                removeEmptyMessage();
-            }
-        });
-
-        this.SetProperties(grid, data.properties);
-        return grid;
+        this.componentBase.setProperties(element, properties);
     }
 
     createBlock_h1(data) {
@@ -356,9 +143,13 @@ export default class PageBuilder {
         image.alt = data.value.alt;
         image.style.cssText = data.style;
 
-        image.onload = () => {
+        // Используем более эффективный способ для обработки события загрузки
+        const handleLoad = () => {
             image.classList.remove("skeleton");
+            image.removeEventListener("load", handleLoad);
         };
+        
+        image.addEventListener("load", handleLoad);
 
         this.SetProperties(image, data.properties);
         return image;
@@ -424,50 +215,52 @@ export default class PageBuilder {
 
     createBlock_form(data) {
         const form = document.createElement("form");
-        const nameInput = document.createElement("input");
-        const emailInput = document.createElement("input");
-        const messageInput = document.createElement("textarea");
-        const submitButton = document.createElement("input");
-        const buttonContainer = document.createElement("div");
-        const orSpan = document.createElement("span");
-        const emailLink = document.createElement("a");
-
+        
+        // Создаем структуру формы
+        const createFormField = (labelText, name, type, required = true) => {
+            const label = document.createElement("label");
+            label.innerText = labelText;
+            
+            const input = type === "textarea" 
+                ? document.createElement("textarea") 
+                : document.createElement("input");
+                
+            if (type !== "textarea") {
+                input.setAttribute("type", type);
+            }
+            
+            input.setAttribute("name", name);
+            
+            if (required) {
+                input.setAttribute("required", "true");
+            }
+            
+            form.appendChild(label);
+            form.appendChild(input);
+            
+            return input;
+        };
+        
         form.setAttribute("action", data.value);
         form.setAttribute("method", "POST");
 
-        // Name field
-        const nameLabel = document.createElement("label");
-        nameLabel.innerText = "Name";
-        nameInput.setAttribute("name", "name");
-        nameInput.setAttribute("type", "text");
-        nameInput.setAttribute("required", "true");
-        form.appendChild(nameLabel);
-        form.appendChild(nameInput);
+        // Создаем поля формы
+        const nameInput = createFormField("Name", "name", "text");
+        const emailInput = createFormField("Email", "_replyto", "email");
+        const messageInput = createFormField("Message", "message", "textarea");
 
-        // Email field
-        const emailLabel = document.createElement("label");
-        emailLabel.innerText = "Email";
-        emailInput.setAttribute("name", "_replyto");
-        emailInput.setAttribute("type", "email");
-        emailInput.setAttribute("required", "true");
-        form.appendChild(emailLabel);
-        form.appendChild(emailInput);
+        // Создаем кнопку отправки и альтернативную ссылку
+        const buttonContainer = document.createElement("div");
+        const submitButton = document.createElement("input");
+        const orSpan = document.createElement("span");
+        const emailLink = document.createElement("a");
 
-        // Message field
-        const messageLabel = document.createElement("label");
-        messageLabel.innerText = "Message";
-        messageInput.setAttribute("name", "message");
-        messageInput.setAttribute("required", "true");
-        form.appendChild(messageLabel);
-        form.appendChild(messageInput);
-
-        // Submit section
-        emailLink.href = `mailto:${data.email}`;
-        emailLink.innerText = "Send an Email";
-        
         submitButton.setAttribute("type", "submit");
         submitButton.setAttribute("value", "Send Message");
         submitButton.classList.add("button");
+        
+        emailLink.href = `mailto:${data.email}`;
+        emailLink.innerText = "Send an Email";
         
         orSpan.appendChild(document.createTextNode(" or "));
         orSpan.appendChild(emailLink);
@@ -477,7 +270,7 @@ export default class PageBuilder {
         
         form.appendChild(buttonContainer);
 
-        // Form validation
+        // Валидация формы
         form.addEventListener("submit", (event) => {
             if (!nameInput.value || !emailInput.value || !messageInput.value) {
                 event.preventDefault();
@@ -504,7 +297,7 @@ export default class PageBuilder {
             });
         } else if (data.value.route) {
             button.addEventListener("click", () => {
-                this.setPath(data.value.route);
+                this.router.setPath(data.value.route);
                 this.rebuild(data.value.route);
             });
         }
@@ -518,10 +311,12 @@ export default class PageBuilder {
         box.classList.add("box");
         box.id = `box_${index}`;
         
+        const fragment = document.createDocumentFragment();
         data.value.forEach((item, idx) => {
-            box.appendChild(this.blockBuild(item, idx));
+            fragment.appendChild(this.blockBuild(item, idx));
         });
         
+        box.appendChild(fragment);
         this.SetProperties(box, data.properties);
         return box;
     }
@@ -534,7 +329,7 @@ export default class PageBuilder {
         const projectData = this.structure.projects[projectName];
 
         this.compositePopUpBody(projectData);
-        this.setProject(projectData.name);
+        this.router.setProject(projectData.name);
 
         document.body.classList.add("no-scroll");
         document.querySelector(".main").classList.add("blur");
@@ -561,7 +356,7 @@ export default class PageBuilder {
             popup.classList.remove("visible");
             popupBody.classList.add("hidden");
             popupBody.classList.remove("visible");
-            this.setProject(null);
+            this.router.setProject(null);
         }, 300);
 
         if (event) {
@@ -601,6 +396,8 @@ export default class PageBuilder {
     }
 
     compositePopUpBody(projectData) {
+        // Создаем фрагмент для улучшения производительности
+        const fragment = document.createDocumentFragment();
         const title = document.createElement("span");
         const subtitle = document.createElement("span");
         const infoSection = document.createElement("div");
@@ -609,30 +406,36 @@ export default class PageBuilder {
         const imageViewer = document.createElement("div");
         const imageBar = document.createElement("div");
 
+        // Очищаем существующий контент
+        popupBody.innerHTML = "";
+
+        // Функция для обновления выбранного изображения
         const updateSelectedImage = (index) => {
             imageViewer.setAttribute("value", index);
             imageViewer.style.setProperty("background-image", 
                 `url("${imageBar.firstElementChild.children[index].firstElementChild.src}")`);
-            imageBar.firstElementChild.querySelector(".selected").classList.remove("selected");
+            
+            const previousSelected = imageBar.firstElementChild.querySelector(".selected");
+            if (previousSelected) {
+                previousSelected.classList.remove("selected");
+            }
+            
             imageBar.firstElementChild.children[index].classList.add("selected");
         };
 
-        // Clear existing content
-        popupBody.innerHTML = "";
-
-        // Add title and subtitle
+        // Добавляем заголовок и подзаголовок
         title.classList.add("title");
         title.innerText = projectData.title;
-        popupBody.appendChild(title);
+        fragment.appendChild(title);
 
         subtitle.classList.add("subtitle");
         subtitle.innerText = projectData.description;
-        popupBody.appendChild(subtitle);
+        fragment.appendChild(subtitle);
 
-        // Setup image viewer
+        // Настраиваем просмотрщик изображений
         imageViewer.classList.add("output");
         
-        // Add navigation arrows
+        // Создаем стрелки навигации
         const createArrow = (direction) => {
             const arrow = document.createElement("div");
             const arrowImg = document.createElement("img");
@@ -649,21 +452,22 @@ export default class PageBuilder {
 
         leftArrow.addEventListener("click", () => {
             const currentIndex = parseInt(imageViewer.getAttribute("value"));
-            const newIndex = currentIndex > 0 ? currentIndex - 1 : 
-                imageBar.firstElementChild.childElementCount - 1;
+            const totalImages = imageBar.firstElementChild.childElementCount;
+            const newIndex = currentIndex > 0 ? currentIndex - 1 : totalImages - 1;
             updateSelectedImage(newIndex);
         });
 
         rightArrow.addEventListener("click", () => {
             const currentIndex = parseInt(imageViewer.getAttribute("value"));
-            const newIndex = (currentIndex + 1) % imageBar.firstElementChild.childElementCount;
+            const totalImages = imageBar.firstElementChild.childElementCount;
+            const newIndex = (currentIndex + 1) % totalImages;
             updateSelectedImage(newIndex);
         });
 
         imageViewer.appendChild(leftArrow);
         imageViewer.appendChild(rightArrow);
 
-        // Setup image bar
+        // Создаем галерею изображений
         imageBar.classList.add("bar");
         const imageList = document.createElement("ul");
         imageBar.appendChild(imageList);
@@ -675,9 +479,14 @@ export default class PageBuilder {
             imageItem.setAttribute("value", index);
             image.src = imageSrc;
             image.classList.add("skeleton");
-            image.onload = () => {
+            
+            // Эффективная обработка загрузки изображения
+            const handleLoad = () => {
                 image.classList.remove("skeleton");
+                image.removeEventListener("load", handleLoad);
             };
+            
+            image.addEventListener("load", handleLoad);
             
             if (index === projectData.default) {
                 imageItem.classList.add("selected");
@@ -695,9 +504,9 @@ export default class PageBuilder {
 
         contentContainer.appendChild(imageViewer);
         contentContainer.appendChild(imageBar);
-        popupBody.appendChild(contentContainer);
+        fragment.appendChild(contentContainer);
 
-        // Add customer information if available
+        // Информация о клиенте
         if (projectData.customer) {
             const customerSection = document.createElement("div");
             const customerTitle = document.createElement("span");
@@ -712,7 +521,7 @@ export default class PageBuilder {
             infoSection.appendChild(customerSection);
         }
 
-        // Add links if available
+        // Ссылки проекта
         if (projectData.links) {
             const linksSection = document.createElement("div");
             const linksTitle = document.createElement("span");
@@ -725,6 +534,8 @@ export default class PageBuilder {
                 const linkElement = document.createElement("a");
                 linkElement.innerText = link.name;
                 linkElement.href = link.href;
+                linkElement.setAttribute("target", "_blank");
+                linkElement.setAttribute("rel", "noopener noreferrer");
                 linksList.appendChild(linkElement);
                 linksList.appendChild(document.createTextNode(" "));
             });
@@ -735,7 +546,7 @@ export default class PageBuilder {
             infoSection.appendChild(linksSection);
         }
 
-        // Add "About" section
+        // Раздел "О проекте"
         const aboutSection = document.createElement("div");
         const aboutTitle = document.createElement("span");
         const aboutContent = document.createElement("p");
@@ -750,50 +561,45 @@ export default class PageBuilder {
         infoSection.appendChild(aboutSection);
 
         infoSection.classList.add("info");
-        popupBody.appendChild(infoSection);
+        fragment.appendChild(infoSection);
 
-        // Add text content
-        projectData.text.forEach(text => {
-            const paragraph = document.createElement("p");
-            
-            if (text.match(/<a (\w+)>([\w+\s]*)<\/a>/gm)) {
-                const parts = text.split(/<a (\w+)>([\w+\s]*)<\/a>/gm);
-                const beforeText = document.createTextNode(parts[0] || "");
-                const link = document.createElement("a");
-                const afterText = document.createTextNode(parts[3] || "");
-
-                link.href = parts[1];
-                link.innerHTML = parts[2];
-
-                paragraph.appendChild(beforeText);
-                paragraph.appendChild(link);
-                paragraph.appendChild(afterText);
-            } else {
+        // Добавляем текстовый контент
+        if (projectData.text && Array.isArray(projectData.text)) {
+            projectData.text.forEach(text => {
+                const paragraph = document.createElement("p");
                 paragraph.innerHTML = text;
-            }
-            
-            popupBody.appendChild(paragraph);
-        });
+                fragment.appendChild(paragraph);
+            });
+        }
 
-        // Add footer note with new contact navigation method
+        // Добавляем подвал с примечанием
         const footerNote = document.createElement("p");
         footerNote.classList.add("popup-footer-note");
-        if (projectData.footer?.type === "contact-link") {
-            const link = document.createElement("a");
-            link.classList.add("link");
-            link.innerText = projectData.footer.linkText;
-            link.addEventListener("click", () => {
-                this.closeProject();
-                setTimeout(() => {
-                    window.location.hash = '#/contact';
-                    this.rebuild('contact');
-                }, 300); // Same timeout as in closeProject
-            });
-            footerNote.appendChild(document.createTextNode(projectData.footer.prefix));
-            footerNote.appendChild(link);
-            footerNote.appendChild(document.createTextNode(projectData.footer.suffix));
+        
+        if (projectData.footer) {
+            if (typeof projectData.footer === 'string') {
+                footerNote.innerHTML = projectData.footer;
+            } else if (projectData.footer.type === "contact-link") {
+                const link = document.createElement("a");
+                link.classList.add("link");
+                link.innerText = projectData.footer.linkText;
+                link.addEventListener("click", () => {
+                    this.closeProject();
+                    setTimeout(() => {
+                        window.location.hash = '#/contact';
+                        this.rebuild('contact');
+                    }, 300);
+                });
+                footerNote.appendChild(document.createTextNode(projectData.footer.prefix || ''));
+                footerNote.appendChild(link);
+                footerNote.appendChild(document.createTextNode(projectData.footer.suffix || ''));
+            }
         }
-        popupBody.appendChild(footerNote);
+        
+        fragment.appendChild(footerNote);
+        
+        // Добавляем все элементы в DOM за один раз
+        popupBody.appendChild(fragment);
     }
 
     compositeMenu(menuItems) {
@@ -811,9 +617,14 @@ export default class PageBuilder {
         const emailButton = document.createElement("button");
         const rightBody = document.querySelector(".pop-up-right-body");
 
+        // Подготавливаем меню
         this.menu.insertBefore(menuIcon, menuList);
-        menuIcon.addEventListener("click", this.openMenu);
+        menuIcon.addEventListener("click", this.openMenu.bind(this));
         rightBody.appendChild(document.createElement("ul"));
+
+        // Создаем элементы меню
+        const menuFragment = document.createDocumentFragment();
+        const rightBodyFragment = document.createDocumentFragment();
 
         menuItems.forEach(item => {
             const menuLink = document.createElement("a");
@@ -834,106 +645,26 @@ export default class PageBuilder {
 
             rightBodyLink.addEventListener("click", event => {
                 this.rebuild(item.page);
-                rightBody.firstElementChild.querySelector(".current").classList.remove("current");
+                const currentActive = rightBody.firstElementChild.querySelector(".current");
+                if (currentActive) {
+                    currentActive.classList.remove("current");
+                }
                 event.currentTarget.classList.add("current");
                 event.preventDefault();
             });
 
-            menuList.appendChild(menuLink);
-            rightBody.firstElementChild.appendChild(rightBodyLink);
+            menuFragment.appendChild(menuLink);
+            rightBodyFragment.appendChild(rightBodyLink);
         });
 
+        menuList.appendChild(menuFragment);
+        rightBody.firstElementChild.appendChild(rightBodyFragment);
+
+        // Добавляем кнопку отправки email
         emailButton.innerText = "Send Email";
         emailButton.addEventListener("click", () => this.rebuild("contact"));
         rightBody.appendChild(emailButton);
     }
-
-    setSearchParameters(path, filter, project) {
-        const queryString = `?path=${path}${filter ? "&filter=" + filter : ""}${project ? "&project=" + project : ""}`;
-        window.history.pushState(
-            { page: path },
-            this.structure.pages[path].title,
-            window.location.pathname + queryString
-        );
-    }
-
-    setHashParameters(path, filter, project) {
-        let newHash = "#/";
-        if (project) {
-            // Если открыт проект, формируем hash вида #/project/5post_crm
-            newHash += "project/" + project;
-        } else {
-            // Для обычных страниц: если main – можно оставить пустым или писать main
-            newHash += path === "main" ? "main" : path;
-        }
-        // Если фильтр указан и не равен "all", добавляем его в query часть
-        if (filter && filter !== "all") {
-            newHash += `?filter=${filter}`;
-        }
-        window.history.pushState(
-            { page: path },
-            this.structure.pages[path].title,
-            newHash
-        );
-    }
-
-    setPath(path) {
-        this.setHashParameters(path, this.getFilter(), this.getProject());
-    }
-
-    setFilter(filter) {
-        this.setHashParameters(this.getPath(), filter, this.getProject());
-    }
-
-    setProject(project) {
-        this.setHashParameters(this.getPath(), this.getFilter(), project);
-    }
-
-    getPath() {
-        const { page } = this.getHashData();
-        // Если используется маршрут проекта, например, "project/5post_crm"
-        if (page.startsWith("project/")) {
-            // Можно вернуть "main" как страницу, если проект открывается поверх главной
-            return "main";
-        }
-        // Если hash пустой, возвращаем main
-        return page || "main";
-    }
-
-    getFilter() {
-        const { params } = this.getHashData();
-        return params.filter || "all";
-    }
-
-    getProject() {
-        const { page, params } = this.getHashData();
-        // Если маршрут начинается с "project/", то извлекаем идентификатор проекта
-        if (page.startsWith("project/")) {
-            // Например, page = "project/5post_crm"
-            return page.split("/")[1] || null;
-        }
-        // Либо возвращаем параметр project, если он указан (для старых ссылок)
-        return params.project || null;
-    }
-
-        // Возвращает объект с основным маршрутом (page) и дополнительными параметрами
-    getHashData() {
-        // Если hash пустой – возвращаем main
-        const hash = window.location.hash.slice(1) || "/main";
-        // Разбиваем на путь и query часть (если есть)
-        const [pathPart, queryPart] = hash.split("?");
-        // Убираем ведущий слэш
-        const page = pathPart.startsWith("/") ? pathPart.slice(1) : pathPart;
-        const params = {};
-        if (queryPart) {
-            const searchParams = new URLSearchParams(queryPart);
-            for (const [key, value] of searchParams.entries()) {
-                params[key] = value;
-            }
-        }
-        return { page, params };
-    }
-
 
     load() {
         console.log("File 'structure.json' loaded", this.structure);
@@ -943,7 +674,7 @@ export default class PageBuilder {
         this.rebuild(this.currentPage);
         this.projects = this.structure.projects;
 
-        // Setup event handlers
+        // Настраиваем обработчики событий
         const closeProjectHandler = this.closeProject.bind(this);
         const closeMenuHandler = this.closeMenu.bind(this);
         const popup = document.querySelector(".pop-up");
@@ -952,47 +683,28 @@ export default class PageBuilder {
         const popupBody = document.querySelector(".pop-up-body");
         const logo = document.querySelector(".header .logo");
 
+        // Используем делегирование событий для повышения производительности
         [popup, popupContainer, closeIcon].forEach(element => {
-            element.addEventListener("click", closeProjectHandler);
-            element.addEventListener("click", closeMenuHandler);
+            element.addEventListener("click", event => {
+                closeProjectHandler(event);
+                closeMenuHandler(event);
+            });
         });
 
         popupBody.addEventListener("click", event => event.stopPropagation());
 
         logo.addEventListener("click", () => {
-            if (this.getPath() !== "main") {
+            if (this.router.getPath() !== "main") {
                 this.rebuild("main");
             }
         });
-
-        window.onpopstate = () => {
-            this.rebuild(this.getPath());
-        };
-    }
-
-    handleURLChange() {
-        const path = this.getPathFromURL(window.location.pathname);
-        const hash = window.location.hash.slice(1);
-        
-        if (hash.startsWith('/project/')) {
-            const projectName = hash.split('/')[2];
-            // Не меняем URL, только открываем проект
-            this.currentPage = 'main';
-            this.build();
-            if (projectName) {
-                this.openProject(projectName);
-            }
-        } else {
-            const pagePath = hash.startsWith('/') ? hash.slice(1) : hash;
-            this.rebuild(pagePath || 'main');
-        }
     }
 
     rebuild(path) {
         const currentHash = window.location.hash;
         // Не обновляем URL если это project route
         if (!currentHash.startsWith('#/project/')) {
-            this.setPath(path);
+            this.router.setPath(path);
         }
         this.currentPage = path;
         this.main.classList.remove("opacity-high");
