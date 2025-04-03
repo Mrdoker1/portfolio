@@ -188,7 +188,7 @@
                 {
                     "type": "paragraph",
                     "name": "social-links",
-                    "value": "<a class='link social' href='https://goofy-secure-b26.notion.site/UX-UI-Wiki-by-Viachas-Kul-f4eaace951304a0391f37f93ed389a2d'>UX/UI Wiki</a><a class='link social' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>Front-End Wiki</a>",
+                    "value": "<a class='link social' href='https://uxbase.super.site'>UX/UI Wiki</a><a class='link social' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>Front-End Wiki</a>",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px"
