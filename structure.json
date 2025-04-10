@@ -611,7 +611,7 @@
             ],
             "type": "enterprise",
             "links": [{
-                "name": "Customer",
+                "name": "cognni.ai",
                 "href": "https://cognni.ai/"
             }],
             "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
