@@ -123,8 +123,8 @@
                                 "name": "enterprise",
                                 "value": "Enterprise"
                             }, {
-                                "name": "education",
-                                "value": "EdTech"
+                                "name": "product",
+                                "value": "Product"
                             }, {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
@@ -361,7 +361,7 @@
                 "Project",
                 "Busuu, Chegg, EdTech, UK"
             ],
-            "type": "education",
+            "type": "product",
             "links": [{
                 "name": "busuu.com",
                 "href": "https://www.busuu.com"
@@ -395,7 +395,7 @@
                 "Project",
                 "Cognni.ai, AI, Israel"
             ],
-            "type": "enterprise",
+            "type": "product",
             "links": [{
                 "name": "cognni.ai",
                 "href": "https://cognni.ai/"
@@ -435,7 +435,7 @@
                 "Project",
                 "Verbling, Chegg, EdTech, US"
             ],
-            "type": "education",
+            "type": "product",
             "links": [{
                 "name": "verbling.com",
                 "href": "https://www.verbling.com"
