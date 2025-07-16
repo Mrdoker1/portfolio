@@ -347,6 +347,126 @@
             },
             "about": "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
         },
+        "busuu": {
+            "name": "busuu",
+            "title": "Busuu.com – Language Learning Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Busuu/preview_0.png"
+            ],
+            "video": "./src/videos/Busuu/preview.mp4",
+            "customer": [
+                "Project",
+                "Busuu, Chegg, EdTech, UK"
+            ],
+            "type": "education",
+            "links": [{
+                "name": "busuu.com",
+                "href": "https://www.busuu.com"
+            }],
+            "text": [
+                "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
+                "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Don't hesitate to ",
+                "linkText": "send me an Email",
+                "suffix": ". I'd love to hear from you."
+            },
+            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
+        },
+        "cognni": {
+            "name": "cognni",
+            "title": "Cognni.ai",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Cognii/preview_0.png",
+                "./src/images/articles/Cognii/preview_1.png",
+                "./src/images/articles/Cognii/preview_2.png",
+                "./src/images/articles/Cognii/preview_3.png"
+            ],
+            "video": "./src/videos/Cognii/preview.mp4",
+            "customer": [
+                "Project",
+                "Cognni.ai, AI, Israel"
+            ],
+            "type": "enterprise",
+            "links": [{
+                "name": "cognni.ai",
+                "href": "https://cognni.ai/"
+            }],
+            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
+            "text": [
+            "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
+            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
+            "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
+            "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
+            "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
+            "<div><h3>Prototyping and Testing</h3><p>Rapid prototyping and usability tests with target users (including CISOs and department heads) were crucial. These sessions helped validate our visualizations, delegation workflows, and overall navigation, ensuring that the final interface met the diverse needs of its users.</p></div>",
+            "<div><h3>Results and Impact</h3><p>The redesigned Cognni.ai interface now delivers a clear, actionable view of complex security data. By focusing on mapping over detection and streamlining communication between various organizational roles, the solution enables users to derive actionable insights, present clear strategic options to CEOs/Board, and drive meaningful change in their security practices.</p></div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Don't hesitate to ",
+                "linkText": "send me an Email",
+                "suffix": ". I'd love to hear from you."
+            }
+        },
+        "verbling": {
+            "name": "verbling",
+            "title": "Verbling – Online Language Tutoring Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Verbling/preview_0.png",
+                "./src/images/articles/Verbling/preview_1.png",
+                "./src/images/articles/Verbling/preview_2.png",
+                "./src/images/articles/Verbling/preview_3.png",
+                "./src/images/articles/Verbling/preview_4.png"
+            ],
+            "video": "./src/videos/Verbling/preview.mp4",
+            "customer": [
+                "Project",
+                "Verbling, Chegg, EdTech, US"
+            ],
+            "type": "education",
+            "links": [{
+                "name": "verbling.com",
+                "href": "https://www.verbling.com"
+            }],
+            "text": [
+                "<div><h3>Goals and OKRs</h3>The primary objective for the Verbling project was to create a seamless and engaging user journey that directly translates into measurable business growth. Our goals were centered on reducing friction in the registration and onboarding processes while enhancing the overall user experience. Specifically, we set clear OKRs to increase the conversion rate from free trial to first order by at least 15%, boost daily new registrations by 20%, and decrease the drop-off rate during the initial user interactions by 25%. Additionally, we aimed to refine the tutor discovery process—through improved search, filtering, and information presentation—to drive higher engagement and satisfaction. These targets were supported by a series of quantitative KPIs, including conversion metrics, customer satisfaction scores, and revenue impact estimates, ensuring that every UX improvement aligned with and contributed to the platform's strategic business outcomes.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/preview_1.gif\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Project details</h3>In this project, I was responsible for conducting user research to understand the needs and pain points of both learners and teachers. I performed user testing using usertesting.com, conducted interviews with users via Intercom, and gathered quantitative data through user surveys. Based on these comprehensive insights, I created wireframes and prototypes to enhance the user experience. The final visual design not only made the platform more intuitive and engaging for users but also contributed to achieving key business OKRs by significantly boosting user engagement and conversion rates.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_2.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Onboarding</h3>The onboarding initiative for Verbling is designed to provide new users with a clear, intuitive introduction to the platform before registration, enabling them to quickly understand its value proposition and efficiently connect with a suitable teacher, ultimately increasing user engagement and registration rates.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_4.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><h2 style=\"text-align: center; color: #333;\"></h2><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Value</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Additional Info</th></tr></thead><tbody><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FT Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">13.00%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Hypothesis</td><td style=\"border: 1px solid #ddd; padding: 10px;\">14%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Registrations in Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">29249</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Improved Registrations</td><td style=\"border: 1px solid #ddd; padding: 10px;\">31499</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2250</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FO Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">225</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">AOV</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$145</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Order Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$32,624</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Orders / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2.5</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10.30%</td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">H2 First Orders Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$65,248</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional Registrations / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">25</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 FO Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$435,912</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\"><strong>$2,582,281</strong></td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">% FO Revenue / Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">16.88%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenue Equivalent</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$193,259</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr></tbody></table></div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_5.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Dashboard</h3>The dashboard simplification initiative is designed to create a clear, guided space that directs users—especially new ones—toward their next steps in the learning experience by providing actionable prompts such as what to do next and easy access to update onboarding answers (including language preferences, reason for learning, current level, goal, and reminders), with the hypothesis that this will improve the conversion from free trial to first order by 10%, resulting in an estimated increase of 1.8 new orders per day (an 8% uplift) and generating approximately $48k in additional first orders revenue in H2.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_1.png\" width=\"100%\" height=\"100%\">",
+                "<div>Additionally, there were plans to integrate with Busuu's service, aiming to leverage its robust language learning resources to create a more cohesive and enriched learning ecosystem that enhances user engagement and delivers a seamless, multi-platform experience.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_6.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Value</th></tr></thead><tbody><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Seen</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1125</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">38%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">428</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74.07%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">317</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Hypothesis</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">42%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">471</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">349</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">32</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent H2</td><td style=\"border: 1px solid #ddd; padding: 10px;\">190.2</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent Daily</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.1 (4.40%)</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenues H2 (Impact)</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$27,579</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Business Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders Revenue / month</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$4,597</td></tr></tbody></table></div>",
+                "<div><h3>Tutor’s card</h3>The updated tutor card design consolidates key information to help users quickly identify the right teacher for their learning style and goals. It displays the teacher’s language alongside an accurate country of origin flag—addressing the current confusion of generic icons—and highlights the top three badges based on quality filters. Additional enhancements include hover details on the Certified badge to clarify its significance compared to a verified tutor, as well as integrated review snippets and review badges in expanded cards. These changes collectively streamline the teacher discovery process, ensuring both new and returning users receive relevant, actionable insights at a glance.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_7.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Enabled</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Disabled</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Start</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Complete</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Standard Error</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-score</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p value</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (Not Significant)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Range</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -0.14%, Mid: 0.28%, High: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -9.98%, Mid: 20.21%, High: 50.40%</td></tr></tbody></table></div>",
+                "<div><h3>Summary</h3>Throughout the project, numerous initiatives were undertaken to enhance the UI and UX of the service, with a strong focus on improving the experience for end users. Although not every solution proved successful and support for the service eventually waned, the majority of these efforts were aimed at optimizing the user experience and creating a more intuitive interface, ultimately contributing to better engagement with the platform.</div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Don't hesitate to ",
+                "linkText": "send me an Email",
+                "suffix": ". I'd love to hear from you."
+            },
+            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
+        },
         "event_management_tool": {
             "name": "event_management_tool",
             "title": "Glenis Solutions – Event Management Tool",
@@ -436,87 +556,6 @@
             },
             "about": "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
         },
-        "verbling": {
-            "name": "verbling",
-            "title": "Verbling – Online Language Tutoring Platform",
-            "description": "Research / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/Verbling/preview_0.png",
-                "./src/images/articles/Verbling/preview_1.png",
-                "./src/images/articles/Verbling/preview_2.png",
-                "./src/images/articles/Verbling/preview_3.png",
-                "./src/images/articles/Verbling/preview_4.png"
-            ],
-            "video": "./src/videos/Verbling/preview.mp4",
-            "customer": [
-                "Project",
-                "Verbling, Chegg, EdTech, US"
-            ],
-            "type": "education",
-            "links": [{
-                "name": "verbling.com",
-                "href": "https://www.verbling.com"
-            }],
-            "text": [
-                "<div><h3>Goals and OKRs</h3>The primary objective for the Verbling project was to create a seamless and engaging user journey that directly translates into measurable business growth. Our goals were centered on reducing friction in the registration and onboarding processes while enhancing the overall user experience. Specifically, we set clear OKRs to increase the conversion rate from free trial to first order by at least 15%, boost daily new registrations by 20%, and decrease the drop-off rate during the initial user interactions by 25%. Additionally, we aimed to refine the tutor discovery process—through improved search, filtering, and information presentation—to drive higher engagement and satisfaction. These targets were supported by a series of quantitative KPIs, including conversion metrics, customer satisfaction scores, and revenue impact estimates, ensuring that every UX improvement aligned with and contributed to the platform's strategic business outcomes.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/preview_1.gif\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Project details</h3>In this project, I was responsible for conducting user research to understand the needs and pain points of both learners and teachers. I performed user testing using usertesting.com, conducted interviews with users via Intercom, and gathered quantitative data through user surveys. Based on these comprehensive insights, I created wireframes and prototypes to enhance the user experience. The final visual design not only made the platform more intuitive and engaging for users but also contributed to achieving key business OKRs by significantly boosting user engagement and conversion rates.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_2.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Onboarding</h3>The onboarding initiative for Verbling is designed to provide new users with a clear, intuitive introduction to the platform before registration, enabling them to quickly understand its value proposition and efficiently connect with a suitable teacher, ultimately increasing user engagement and registration rates.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_4.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><h2 style=\"text-align: center; color: #333;\"></h2><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Value</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Additional Info</th></tr></thead><tbody><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FT Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">13.00%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Hypothesis</td><td style=\"border: 1px solid #ddd; padding: 10px;\">14%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Registrations in Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">29249</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Improved Registrations</td><td style=\"border: 1px solid #ddd; padding: 10px;\">31499</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2250</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FO Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">225</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">AOV</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$145</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Order Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$32,624</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Orders / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2.5</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10.30%</td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">H2 First Orders Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$65,248</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional Registrations / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">25</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 FO Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$435,912</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\"><strong>$2,582,281</strong></td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">% FO Revenue / Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">16.88%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenue Equivalent</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$193,259</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr></tbody></table></div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_5.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Dashboard</h3>The dashboard simplification initiative is designed to create a clear, guided space that directs users—especially new ones—toward their next steps in the learning experience by providing actionable prompts such as what to do next and easy access to update onboarding answers (including language preferences, reason for learning, current level, goal, and reminders), with the hypothesis that this will improve the conversion from free trial to first order by 10%, resulting in an estimated increase of 1.8 new orders per day (an 8% uplift) and generating approximately $48k in additional first orders revenue in H2.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_1.png\" width=\"100%\" height=\"100%\">",
-                "<div>Additionally, there were plans to integrate with Busuu's service, aiming to leverage its robust language learning resources to create a more cohesive and enriched learning ecosystem that enhances user engagement and delivers a seamless, multi-platform experience.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_6.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Value</th></tr></thead><tbody><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Seen</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1125</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">38%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">428</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74.07%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">317</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Hypothesis</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">42%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">471</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">349</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">32</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent H2</td><td style=\"border: 1px solid #ddd; padding: 10px;\">190.2</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent Daily</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.1 (4.40%)</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenues H2 (Impact)</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$27,579</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Business Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders Revenue / month</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$4,597</td></tr></tbody></table></div>",
-                "<div><h3>Tutor’s card</h3>The updated tutor card design consolidates key information to help users quickly identify the right teacher for their learning style and goals. It displays the teacher’s language alongside an accurate country of origin flag—addressing the current confusion of generic icons—and highlights the top three badges based on quality filters. Additional enhancements include hover details on the Certified badge to clarify its significance compared to a verified tutor, as well as integrated review snippets and review badges in expanded cards. These changes collectively streamline the teacher discovery process, ensuring both new and returning users receive relevant, actionable insights at a glance.</div>",
-                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_7.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Enabled</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Disabled</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Start</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Complete</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Standard Error</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-score</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p value</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (Not Significant)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Range</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -0.14%, Mid: 0.28%, High: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -9.98%, Mid: 20.21%, High: 50.40%</td></tr></tbody></table></div>",
-                "<div><h3>Summary</h3>Throughout the project, numerous initiatives were undertaken to enhance the UI and UX of the service, with a strong focus on improving the experience for end users. Although not every solution proved successful and support for the service eventually waned, the majority of these efforts were aimed at optimizing the user experience and creating a more intuitive interface, ultimately contributing to better engagement with the platform.</div>"
-            ],
-            "footer": {
-                "type": "contact-link",
-                "prefix": "Don't hesitate to ",
-                "linkText": "send me an Email",
-                "suffix": ". I'd love to hear from you."
-            },
-            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
-        },
-        "busuu": {
-            "name": "busuu",
-            "title": "Busuu.com – Language Learning Platform",
-            "description": "Research / Visual Design, UX Design",
-            "preview": 0,
-            "default": 0,
-            "images": [
-                "./src/images/articles/Busuu/preview_0.png"
-            ],
-            "video": "./src/videos/Busuu/preview.mp4",
-            "customer": [
-                "Project",
-                "Busuu, Chegg, EdTech, UK"
-            ],
-            "type": "education",
-            "links": [{
-                "name": "busuu.com",
-                "href": "https://www.busuu.com"
-            }],
-            "text": [
-                "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
-                "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
-            ],
-            "footer": {
-                "type": "contact-link",
-                "prefix": "Don't hesitate to ",
-                "linkText": "send me an Email",
-                "suffix": ". I'd love to hear from you."
-            },
-            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
-        },
         "article&": {
             "name": "article&",
             "title": "Article&.com – Fashion Online Store",
@@ -591,45 +630,6 @@
                 "suffix": ". I'd love to hear from you."
             },
             "about": "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
-        },
-        "cognni": {
-            "name": "cognni",
-            "title": "Cognni.ai",
-            "description": "Research / Visual Design, UX Design",
-            "preview": 0,
-            "default": 1,
-            "images": [
-                "./src/images/articles/Cognii/preview_0.png",
-                "./src/images/articles/Cognii/preview_1.png",
-                "./src/images/articles/Cognii/preview_2.png",
-                "./src/images/articles/Cognii/preview_3.png"
-            ],
-            "video": "./src/videos/Cognii/preview.mp4",
-            "customer": [
-                "Project",
-                "Cognni.ai, AI, Israel"
-            ],
-            "type": "enterprise",
-            "links": [{
-                "name": "cognni.ai",
-                "href": "https://cognni.ai/"
-            }],
-            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
-            "text": [
-            "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
-            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
-            "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
-            "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
-            "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
-            "<div><h3>Prototyping and Testing</h3><p>Rapid prototyping and usability tests with target users (including CISOs and department heads) were crucial. These sessions helped validate our visualizations, delegation workflows, and overall navigation, ensuring that the final interface met the diverse needs of its users.</p></div>",
-            "<div><h3>Results and Impact</h3><p>The redesigned Cognni.ai interface now delivers a clear, actionable view of complex security data. By focusing on mapping over detection and streamlining communication between various organizational roles, the solution enables users to derive actionable insights, present clear strategic options to CEOs/Board, and drive meaningful change in their security practices.</p></div>"
-            ],
-            "footer": {
-                "type": "contact-link",
-                "prefix": "Don't hesitate to ",
-                "linkText": "send me an Email",
-                "suffix": ". I'd love to hear from you."
-            }
         }
     }
 }
