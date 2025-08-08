@@ -1,0 +1,699 @@
+{
+    "pages": {
+        "main": {
+            "title": "Viachas Kul",
+            "description": "Портфолио",
+            "body": [{
+                    "type": "h0",
+                    "name": "headline",
+                    "value": "Продуктовый дизайнер и Разработчик.",
+                    "properties": {
+                        "margin": "bottom-24px",
+                        "text-align": "center"
+                    }
+                },
+                {
+                    "type": "box",
+                    "name": "caption_and_links_bar",
+                    "value": [{
+                            "type": "caption",
+                            "name": "caption1",
+                            "value": "Строю цифровые продукты, которые любят пользователи. E-Commerce, Healthcare, EdTech, AdTech и других областях",
+                            "properties": {
+                                "text-align": "center"
+                            }
+                        },
+                        {
+                            "type": "box",
+                            "name": "caption_and_links_bar",
+                            "value": [
+                                {
+                                    "type": "svg_link",
+                                    "name": "dribble",
+                                    "value": {
+                                        "url": "https://dribbble.com/Kubic",
+                                        "path": "M20.2678 20.2678C20.7366 19.7989 21 19.163 21 18.5V5.5C21 4.83696 20.7366 4.20107 20.2678 3.73223C19.7989 3.26339 19.163 3 18.5 3H5.5C4.83696 3 4.20107 3.26339 3.73223 3.73223C3.26339 4.20107 3 4.83696 3 5.5V18.5C3 19.163 3.26339 19.7989 3.73223 20.2678C4.20107 20.7366 4.83696 21 5.5 21H18.5C19.163 21 19.7989 20.7366 20.2678 20.2678ZM16.2684 13.1095C16.3567 13.1012 16.4458 13.1103 16.5305 13.1365C16.7014 13.1936 16.843 13.3155 16.9249 13.476C17.0068 13.6364 17.0225 13.8226 16.9685 13.9945C16.6195 15.121 15.652 17.7375 14.1905 17.7375C13.7265 17.7375 13.1045 17.507 12.5105 16.8895C11.84 17.8545 11.009 18.5 10.023 18.5C7.9355 18.5 7 16.815 7 15.148C7 13.379 7.879 11.4745 9.809 11.4745C10.111 11.4759 10.4105 11.5298 10.694 11.634C10.6545 11.13 10.6335 10.589 10.6335 10.006C10.6335 9.956 10.655 5 12.5335 5C13.4255 5 14.4875 5.8835 14.4875 10.09C14.4875 11.596 14.049 13.852 13.212 15.649C13.573 16.154 13.9375 16.369 14.191 16.369C14.5295 16.2935 15.2755 14.913 15.6875 13.584C15.7133 13.4992 15.7556 13.4203 15.812 13.3518C15.8684 13.2834 15.9377 13.2267 16.0161 13.1852C16.0944 13.1436 16.1801 13.1179 16.2684 13.1095ZM8.344 15.1475C8.344 15.7445 8.5085 17.132 10.024 17.132C10.6015 17.132 11.183 16.5615 11.685 15.6925C11.379 15.0895 11.1145 14.3285 10.927 13.3765C10.8893 13.3502 10.854 13.3195 10.821 13.2845C10.821 13.2845 10.382 12.842 9.81 12.842C8.361 12.842 8.344 15.0535 8.344 15.1475ZM11.9775 10.006C11.9775 11.7025 12.171 12.998 12.4505 13.963C12.875 12.723 13.1445 11.308 13.1445 10.09C13.1445 7.7945 12.799 6.7915 12.587 6.4695C12.3105 6.972 11.9775 8.443 11.9775 10.006Z",
+                                        "width": "36",
+                                        "height": "36",
+                                        "stroke_width": "0",
+                                        "stroke": "none",
+                                        "fill": "black",
+                                        "viewBox": "0 0 24 24"
+                                    }
+                                },
+                                {
+                                    "type": "svg_link",
+                                    "name": "figma",
+                                    "value": {
+                                        "url": "https://www.figma.com/@kubic",
+                                        "path": "M20.27 3.73002C19.7996 3.26238 19.1633 2.99993 18.5 3.00002H5.50002C5.17135 2.9987 4.84566 3.06246 4.54175 3.18763C4.23784 3.3128 3.96171 3.49689 3.7293 3.7293C3.49689 3.96171 3.3128 4.23784 3.18763 4.54175C3.06246 4.84566 2.9987 5.17135 3.00002 5.50002V18.5C2.9987 18.8287 3.06246 19.1544 3.18763 19.4583C3.3128 19.7622 3.49689 20.0383 3.7293 20.2707C3.96171 20.5031 4.23784 20.6872 4.54175 20.8124C4.84566 20.9376 5.17135 21.0013 5.50002 21H18.5C18.8287 21.0013 19.1544 20.9376 19.4583 20.8124C19.7622 20.6872 20.0383 20.5031 20.2707 20.2707C20.5031 20.0383 20.6872 19.7622 20.8124 19.4583C20.9376 19.1544 21.0013 18.8287 21 18.5V5.50002C21.0001 4.83674 20.7377 4.20039 20.27 3.73002ZM15.27 13.27C14.9779 13.7053 14.5309 14.0128 14.02 14.13C13.5174 14.2423 12.9908 14.1563 12.55 13.89V15.27C12.5434 15.618 12.4579 15.9599 12.3 16.27C12.1381 16.5889 11.8971 16.8609 11.6 17.06C11.3094 17.2589 10.9714 17.3775 10.6202 17.4038C10.269 17.4302 9.91708 17.3633 9.60002 17.21C9.27903 17.0544 9.00203 16.8211 8.7942 16.5311C8.58637 16.2412 8.45431 15.904 8.41002 15.55C8.34977 15.1873 8.37934 14.8153 8.49614 14.4666C8.61295 14.118 8.81342 13.8033 9.08002 13.55C8.85928 13.3442 8.68241 13.0959 8.56002 12.82C8.37493 12.3962 8.32554 11.9255 8.41865 11.4725C8.51175 11.0195 8.74278 10.6065 9.08002 10.29C8.85928 10.0842 8.68241 9.8359 8.56002 9.56002C8.44094 9.27492 8.37975 8.96899 8.38002 8.66002C8.40077 8.11382 8.62141 7.59426 9.00002 7.20002C9.18852 6.99953 9.41637 6.84009 9.66931 6.73169C9.92225 6.62329 10.1948 6.56825 10.47 6.57002H13.57C13.9924 6.58716 14.3985 6.73769 14.73 7.00002C15.0781 7.24938 15.343 7.59787 15.49 8.00002C15.6339 8.41493 15.6582 8.86197 15.56 9.29002C15.4614 9.71241 15.2385 10.0956 14.92 10.39C15.3134 10.7537 15.5621 11.2474 15.62 11.78C15.6668 12.3069 15.5289 12.8336 15.23 13.27H15.27Z",
+                                        "width": "36",
+                                        "height": "36",
+                                        "stroke_width": "0",
+                                        "stroke": "none",
+                                        "fill": "black",
+                                        "viewBox": "0 0 24 24"
+                                    }
+                                },
+                                {
+                                    "type": "svg_link",
+                                    "name": "linkedin",
+                                    "value": {
+                                        "url": "https://www.linkedin.com/in/kubic",
+                                        "path": "M18 3a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h12ZM8 10a1 1 0 0 0-1 1v5a1 1 0 1 0 2 0v-5a1 1 0 0 0-1-1Zm3-1a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-3.66c.305-.344.82-.748 1.393-.993.333-.142.834-.2 1.182-.09.152.048.24.116.293.188.052.07.132.226.132.555v4a1 1 0 0 0 2 0v-4c0-.67-.17-1.266-.524-1.744a2.54 2.54 0 0 0-1.301-.907c-.902-.283-1.901-.126-2.568.16a5.82 5.82 0 0 0-.623.312A1 1 0 0 0 11 9ZM8 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z",
+                                        "width": "36",
+                                        "height": "36",
+                                        "stroke_width": "0",
+                                        "stroke": "none",
+                                        "fill": "black",
+                                        "viewBox": "0 0 24 24"
+                                    }
+                                },
+                                {
+                                    "type": "svg_link",
+                                    "name": "youtube",
+                                    "value": {
+                                        "url": "https://www.youtube.com/channel/UCgImAblrE0CRcF5ke7FhyFg",
+                                        "path": "M20.27 3.73002C19.7996 3.26238 19.1633 2.99993 18.5 3.00002H5.50002C5.17135 2.9987 4.84566 3.06246 4.54175 3.18763C4.23784 3.3128 3.96171 3.49689 3.7293 3.7293C3.49689 3.96171 3.3128 4.23784 3.18763 4.54175C3.06246 4.84566 2.9987 5.17135 3.00002 5.50002V18.5C2.9987 18.8287 3.06246 19.1544 3.18763 19.4583C3.3128 19.7622 3.49689 20.0383 3.7293 20.2707C3.96171 20.5031 4.23784 20.6872 4.54175 20.8124C4.84566 20.9376 5.17135 21.0013 5.50002 21H18.5C18.8287 21.0013 19.1544 20.9376 19.4583 20.8124C19.7622 20.6872 20.0383 20.5031 20.2707 20.2707C20.5031 20.0383 20.6872 19.7622 20.8124 19.4583C20.9376 19.1544 21.0013 18.8287 21 18.5V5.50002C21.0001 4.83674 20.7377 4.20039 20.27 3.73002ZM16.27 12.3C16.2209 12.4129 16.1455 12.5123 16.05 12.59L15.94 12.67L10.54 15.79C10.4281 15.8455 10.3049 15.8744 10.18 15.8744C10.0551 15.8744 9.93191 15.8455 9.82002 15.79C9.7064 15.7359 9.60779 15.6547 9.53283 15.5535C9.45786 15.4524 9.40883 15.3345 9.39002 15.21V8.88002C9.39068 8.75379 9.42196 8.62961 9.48118 8.51814C9.5404 8.40666 9.62579 8.31122 9.73002 8.24002C9.83514 8.17035 9.95491 8.12586 10.08 8.11002C10.2016 8.08073 10.3284 8.08073 10.45 8.11002L10.55 8.16002L16 11.33C16.108 11.3915 16.2004 11.4771 16.27 11.58C16.3379 11.6852 16.3791 11.8053 16.39 11.93C16.3849 12.0606 16.3471 12.1879 16.28 12.3H16.27Z",
+                                        "width": "36",
+                                        "height": "36",
+                                        "stroke_width": "0",
+                                        "stroke": "none",
+                                        "fill": "black",
+                                        "viewBox": "0 0 24 24"
+                                    }
+                                },
+                                {
+                                    "type": "svg_link",
+                                    "name": "medium",
+                                    "value": {
+                                        "url": "https://medium.com/@mdreg",
+                                        "path": "M6.158 3H17.842C18.6794 3.00053 19.4823 3.33342 20.0745 3.92554C20.6666 4.51767 20.9995 5.32061 21 6.158V9.524C20.9184 9.51883 20.8367 9.51616 20.755 9.516C20.3143 9.51367 19.8788 9.61147 19.4814 9.80203C19.084 9.99258 18.7351 10.2709 18.461 10.616C17.989 11.202 17.703 11.993 17.633 12.882C17.6183 13.0593 17.6127 13.2367 17.616 13.414C17.663 15.428 18.751 17.038 20.684 17.038C20.792 17.038 20.8973 17.033 21 17.023V17.843C20.9992 18.6802 20.6662 19.4829 20.0741 20.0748C19.482 20.6667 18.6792 20.9995 17.842 21H6.158C5.32061 20.9995 4.51767 20.6666 3.92554 20.0745C3.33342 19.4823 3.00053 18.6794 3 17.842V6.158C3.00053 5.32061 3.33342 4.51767 3.92554 3.92554C4.51767 3.33342 5.32061 3.00053 6.158 3ZM21 15.388V12.662H19.347C19.273 13.978 19.993 15.092 21 15.388ZM21 12.281V9.973C20.9165 9.95031 20.8305 9.93855 20.744 9.938C19.929 9.955 19.444 10.93 19.384 12.281H21ZM17.697 7.3L17.712 7.297V7.187H14.812L12.122 13.513L9.43 7.187H6.306V7.297L6.32 7.3C6.849 7.42 7.117 7.598 7.117 8.24V15.76C7.117 16.402 6.847 16.58 6.319 16.7L6.305 16.702V16.812H8.425V16.702L8.41 16.7C7.881 16.58 7.612 16.402 7.612 15.76V8.676L11.07 16.813H11.266L14.825 8.449V15.945C14.779 16.453 14.513 16.61 14.034 16.718L14.02 16.721V16.83H17.712V16.72L17.697 16.718C17.217 16.61 16.945 16.453 16.9 15.945L16.897 8.24H16.9C16.9 7.598 17.168 7.42 17.697 7.3Z",
+                                        "width": "36",
+                                        "height": "36",
+                                        "stroke_width": "0",
+                                        "stroke": "none",
+                                        "fill": "black",
+                                        "viewBox": "0 0 24 24"
+                                    }
+                                }
+                            ],
+                            "properties": {
+                                "text-align": "center",
+                                "gap": "30px"
+                            }
+                        }
+                    ],
+                    "properties": {
+                        "margin": "bottom-32px",
+                        "text-align": "center",
+                        "flex-direction": "column"
+                    }
+                },
+                {
+                    "type": "filter",
+                    "name": "portfolioFilter",
+                    "value": {
+                        "target": "portfolioGrid",
+                        "items": [
+                            {
+                                "name": "all",
+                                "value": "All"
+                            }, {
+                                "name": "enterprise",
+                                "value": "Enterprise"
+                            }, {
+                                "name": "product",
+                                "value": "Product"
+                            }, {
+                                "name": "ecommerce",
+                                "value": "E-Commerce"
+                            },{
+                                "name": "other",
+                                "value": "Other"
+                            }
+                        ],
+                        "default": 0
+                    },
+                    "properties": {
+                        "align-self": "right",
+                        "margin": "top-25px"
+                    }
+                },
+                {
+                    "type": "grid",
+                    "name": "portfolioGrid",
+                    "value": "projects",
+                    "filter": "enterprise"
+                },
+                {
+                    "type": "toTopButton",
+                    "name": "toTopButton",
+                    "value": "Back to Top"
+                }
+            ]
+        },
+        "resources": {
+            "title": "resources",
+            "description": "Resources",
+            "body": [{
+                    "type": "h1",
+                    "name": "headline2",
+                    "value": "Resources",
+                    "properties": {
+                        "text-align": "center"
+                    }
+                },
+                {
+                    "type": "picture",
+                    "name": "ux-wiki",
+                    "value": {
+                        "src": "./src/images/wiki.jpg",
+                        "alt": "wiki"
+                    },
+                    "properties": {
+                        "align-self": "center"
+                    },
+                    "style": "max-width: 440px; max-height: 250px"
+                },
+                {
+                    "type": "paragraph",
+                    "name": "text1",
+                    "value": "My Wiki contains fundamental knowledge and most essential articles in the user experience design field and Front-End development, based on my experience and industry standards in order to organize knowledge.",
+                    "properties": {
+                        "text-align": "center",
+                        "margin": "top-25px"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "name": "social-links",
+                    "value": "<a class='link social' href='https://uxbase.super.site'>UX/UI Wiki</a><a class='link social' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>Front-End Wiki</a>",
+                    "properties": {
+                        "text-align": "center",
+                        "margin": "top-25px"
+                    }
+                }
+            ]
+        },
+        "about": {
+            "title": "About",
+            "description": "About Page",
+            "body": [{
+                    "type": "h1",
+                    "name": "headline2",
+                    "value": "About",
+                    "properties": {
+                        "text-align": "center"
+                    }
+                },
+                {
+                    "type": "picture",
+                    "name": "photo",
+                    "value": {
+                        "src": "./src/images/photos/photo_1.jpg",
+                        "alt": "Out hero"
+                    },
+                    "properties": {
+                        "align-self": "center"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "name": "about-paragraph",
+                    "value": "Hi, I am User Experience designer and developer with technical background and user-centred design thinking, working with e-commerce, enterprise and SaaS-oriented projects during 10+ years.",
+                    "properties": {
+                        "text-align": "center",
+                        "margin": "top-25px"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "name": "welcome-text",
+                    "value": [
+                        "Feel free to <a class='link' href='https://docs.google.com/document/d/1ZBpu5AmOINq1BfnTn-Nlzsx9NhyKlpjml-OwRl0ifc4/edit?usp=sharing'>Download CV</a> ",
+                        "or <a class='link' href='Viachas Kul Presentation.pdf'>Download Portfolio</a>."
+                    ],
+                    "properties": {
+                        "text-align": "center",
+                        "margin": "top-25px"
+                    }
+                },
+                {
+                    "type": "comment",
+                    "value": "Old: <br> Don’t hesitate to <a class='link' onclick=\"frame.rebuild('contact')\">send me an Email.</a> I’d love to hear from you."
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "description": "Contact Page",
+            "body": [{
+                    "type": "h1",
+                    "name": "headline",
+                    "value": "Contact",
+                    "properties": {
+                        "text-align": "center"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "name": "contact-paragraph",
+                    "value": "Excited about new possibilities! Let’s connect and explore how my expertise can support your business growth.",
+                    "properties": {
+                        "text-align": "center",
+                        "margin": "top-25px",
+                        "max-width": "600px"
+                    }
+                },
+                {
+                    "type": "form",
+                    "name": "contactForm",
+                    "value": "https://formspree.io/f/meqrvpnw",
+                    "email": "fixrapdok@gmail.com"
+                }
+            ]
+        },
+        "example": {
+            "title": "Example",
+            "description": "Test all blocks",
+            "body": [{
+                "type": "h1",
+                "name": "headline",
+                "value": "Example text"
+            }]
+        }
+    },
+    "menu": [{
+            "name": "Кейсы",
+            "page": "main",
+            "default": true,
+            "href": "/#/main"
+        },
+        {
+            "name": "Ресурсы",
+            "page": "resources",
+            "href": "/#/resources"
+        },
+        {
+            "name": "Обо мне",
+            "page": "about",
+            "href": "/#/about"
+        },
+        {
+            "name": "Контакты",
+            "page": "contact",
+            "href": "/#/contact"
+        }
+    ],
+    "projects": {
+        "5post_crm": {
+            "name": "5post_crm",
+            "title": "5Post — система управления постаматами",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/5post/post_crm_0.png",
+                "./src/images/articles/5post/post_crm_1.png",
+                "./src/images/articles/5post/post_crm_2.png",
+                "./src/images/articles/5post/post_crm_3.png"
+            ],
+            "video": "./src/videos/5post/preview.mp4",
+            "customer": [
+                "Проект",
+                "Fivepost, Enterprise, RU"
+            ],
+            "type": "enterprise",
+            "links": [
+                {
+                    "name": "fivepost.ru",
+                    "href": "https://fivepost.ru"
+                }],
+            "team_size": [
+                "Размер команды",
+                "12 человек"
+            ],
+            "user_base": [
+                "Пользователи",
+                "500+ администраторов"
+            ],
+            "text": [
+            "<div><h3>Детали реализации</h3>\n В рамках разработки модуля администратора UMS (система управления постаматами) был проведён полный цикл UI/UX-дизайна для создания MVP и последующих улучшений. Команда выполнила бизнес-анализ, провела интервью со стейкхолдерами, отрисовала пользовательские потоки и собрала базовый UI-кит. Тесное сотрудничество с разработчиками и потенциальными пользователями помогло уточнить требования и решить интерфейсные задачи, не покрываемые стандартными компонентами Material&nbsp;Design. Работа велась поэтапно с учётом выявленных рисков (например, расхождения между документацией в Miro и wiki, ограниченные данные исследований, недостаток тест-пользователей) и с акцентом на оптимизацию времени.</div>",
+            "<video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\" disablePictureInPicture controlsList=\"nodownload nofullscreen noremoteplayback\"><source src=\"./src/videos/5post/preview_2.mp4\" type=\"video/mp4\"></video>",
+            "<div><h3>Функциональные возможности приложения</h3>\n<ul><li>Управление устройствами;</li><li>Контроль посылок;</li><li>Управление базой данных;</li><li>Контроль транзакций и&nbsp;расходов;</li><li>Формирование и&nbsp;отслеживание счетов;</li></ul></div>",
+            "<img src=\"./src/images/articles/5post/design_system.jpg\" width=\"100%\" height=\"100%\">",
+            "<div><h3>План разработки</h3>\n <img src=\"./src/images/articles/5post/promo_3.jpg\" width=\"100%\" height=\"100%\"> Придерживаясь agile-подхода, команда работала короткими итерациями, каждая из которых была нацелена на улучшение конкретного набора функций. Частые синхронизации обеспечивали тесное взаимодействие дизайнеров, разработчиков и&nbsp;стейкхолдеров. Такой ритм позволил быстро адаптироваться к меняющимся требованиям, своевременно выявлять риски и эффективно внедрять обратную связь пользователей. Каждый спринт завершался тщательным ревью, что обеспечивало прозрачную передачу результатов от дизайна к&nbsp;разработке и сохраняло качество и целостность решения. <br><br> <img src=\"./src/images/articles/5post/report_1.png\" width=\"100%\" height=\"100%\"> <img src=\"./src/images/articles/5post/report_2.png\" width=\"100%\" height=\"100%\"></div>",
+            "<img src=\"./src/images/articles/5post/promo_2.jpg\" width=\"100%\" height=\"100%\">",
+            "<div><h3>Результаты проекта</h3>\n За&nbsp;43 рабочих дня, выделенных на UI/UX-задачи, были реализованы ключевые модули: «Заказы», «Контроль посылок», «Постаматы», «Пользователи», «Обновление ПО», «Инвентаризация», «Организации» и «Инциденты». Каждый модуль включает несколько страниц — от базовой информации до лог-журналов, уведомлений, журналов безопасности и расширенных форм редактирования. Такой поэтапный подход обеспечил эффективный итеративный дизайн, минимизировал риски и гарантировал соответствие бизнес-целям и ожиданиям пользователей. Итоговая админ-панель объединила весь необходимый функционал — мониторинг устройств, управление постаматами и заказами, ведение баз данных и формирование счетов — и была доставлена клиенту точно в сроки.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "CRM для управления и мониторинга ячеек постаматов и заказов. Включает модули контроля устройств, технического состояния, баз данных и других сервисов."
+        },
+        "busuu": {
+            "name": "busuu",
+            "title": "Busuu.com – Language Learning Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 0,
+            "images": [
+                "./src/images/articles/Busuu/preview_0.png"
+            ],
+            "video": "./src/videos/Busuu/preview.mp4",
+            "customer": [
+                "Проект",
+                "Busuu, Chegg, EdTech, UK"
+            ],
+            "type": "product",
+            "links": [{
+                "name": "busuu.com",
+                "href": "https://www.busuu.com"
+            }],
+            "team_size": [
+                "Размер команды",
+                "8 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "15M+ learners"
+            ],
+            "text": [
+                "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
+                "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
+        },
+        "cognni": {
+            "name": "cognni",
+            "title": "Cognni.ai",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Cognii/preview_0.png",
+                "./src/images/articles/Cognii/preview_1.png",
+                "./src/images/articles/Cognii/preview_2.png",
+                "./src/images/articles/Cognii/preview_3.png"
+            ],
+            "video": "./src/videos/Cognii/preview.mp4",
+            "customer": [
+                "Проект",
+                "Cognni.ai, AI, Israel"
+            ],
+            "type": "product",
+            "links": [{
+                "name": "cognni.ai",
+                "href": "https://cognni.ai/"
+            }],
+            "team_size": [
+                "Размер команды",
+                "6 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "500+ enterprises"
+            ],
+            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
+            "text": [
+            "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
+            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
+            "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
+            "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
+            "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
+            "<div><h3>Prototyping and Testing</h3><p>Rapid prototyping and usability tests with target users (including CISOs and department heads) were crucial. These sessions helped validate our visualizations, delegation workflows, and overall navigation, ensuring that the final interface met the diverse needs of its users.</p></div>",
+            "<div><h3>Results and Impact</h3><p>The redesigned Cognni.ai interface now delivers a clear, actionable view of complex security data. By focusing on mapping over detection and streamlining communication between various organizational roles, the solution enables users to derive actionable insights, present clear strategic options to CEOs/Board, and drive meaningful change in their security practices.</p></div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Don't hesitate to ",
+                "linkText": "send me an Email",
+                "suffix": ". I'd love to hear from you."
+            }
+        },
+        "verbling": {
+            "name": "verbling",
+            "title": "Verbling – Online Language Tutoring Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Verbling/preview_0.png",
+                "./src/images/articles/Verbling/preview_1.png",
+                "./src/images/articles/Verbling/preview_2.png",
+                "./src/images/articles/Verbling/preview_3.png",
+                "./src/images/articles/Verbling/preview_4.png"
+            ],
+            "video": "./src/videos/Verbling/preview.mp4",
+            "customer": [
+                "Проект",
+                "Verbling, Chegg, EdTech, US"
+            ],
+            "type": "product",
+            "links": [{
+                "name": "verbling.com",
+                "href": "https://www.verbling.com"
+            }],
+            "team_size": [
+                "Размер команды",
+                "12 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "2M+ students"
+            ],
+            "text": [
+                "<div><h3>Goals and OKRs</h3>The primary objective for the Verbling project was to create a seamless and engaging user journey that directly translates into measurable business growth. Our goals were centered on reducing friction in the registration and onboarding processes while enhancing the overall user experience. Specifically, we set clear OKRs to increase the conversion rate from free trial to first order by at least 15%, boost daily new registrations by 20%, and decrease the drop-off rate during the initial user interactions by 25%. Additionally, we aimed to refine the tutor discovery process—through improved search, filtering, and information presentation—to drive higher engagement and satisfaction. These targets were supported by a series of quantitative KPIs, including conversion metrics, customer satisfaction scores, and revenue impact estimates, ensuring that every UX improvement aligned with and contributed to the platform's strategic business outcomes.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/preview_1.gif\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Project details</h3>In this project, I was responsible for conducting user research to understand the needs and pain points of both learners and teachers. I performed user testing using usertesting.com, conducted interviews with users via Intercom, and gathered quantitative data through user surveys. Based on these comprehensive insights, I created wireframes and prototypes to enhance the user experience. The final visual design not only made the platform more intuitive and engaging for users but also contributed to achieving key business OKRs by significantly boosting user engagement and conversion rates.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_2.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Onboarding</h3>The onboarding initiative for Verbling is designed to provide new users with a clear, intuitive introduction to the platform before registration, enabling them to quickly understand its value proposition and efficiently connect with a suitable teacher, ultimately increasing user engagement and registration rates.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_4.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><h2 style=\"text-align: center; color: #333;\"></h2><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Value</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Additional Info</th></tr></thead><tbody><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FT Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">13.00%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Hypothesis</td><td style=\"border: 1px solid #ddd; padding: 10px;\">14%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Registrations in Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">29249</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Improved Registrations</td><td style=\"border: 1px solid #ddd; padding: 10px;\">31499</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2250</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FO Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">225</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">AOV</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$145</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Order Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$32,624</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Orders / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2.5</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10.30%</td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">H2 First Orders Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$65,248</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional Registrations / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">25</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 FO Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$435,912</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\"><strong>$2,582,281</strong></td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">% FO Revenue / Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">16.88%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenue Equivalent</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$193,259</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr></tbody></table></div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_5.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Dashboard</h3>The dashboard simplification initiative is designed to create a clear, guided space that directs users—especially new ones—toward their next steps in the learning experience by providing actionable prompts such as what to do next and easy access to update onboarding answers (including language preferences, reason for learning, current level, goal, and reminders), with the hypothesis that this will improve the conversion from free trial to first order by 10%, resulting in an estimated increase of 1.8 new orders per day (an 8% uplift) and generating approximately $48k in additional first orders revenue in H2.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_1.png\" width=\"100%\" height=\"100%\">",
+                "<div>Additionally, there were plans to integrate with Busuu's service, aiming to leverage its robust language learning resources to create a more cohesive and enriched learning ecosystem that enhances user engagement and delivers a seamless, multi-platform experience.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_6.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Value</th></tr></thead><tbody><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Seen</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1125</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">38%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">428</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74.07%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">317</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Hypothesis</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">42%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">471</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">349</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">32</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent H2</td><td style=\"border: 1px solid #ddd; padding: 10px;\">190.2</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent Daily</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.1 (4.40%)</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenues H2 (Impact)</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$27,579</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Business Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders Revenue / month</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$4,597</td></tr></tbody></table></div>",
+                "<div><h3>Tutor’s card</h3>The updated tutor card design consolidates key information to help users quickly identify the right teacher for their learning style and goals. It displays the teacher’s language alongside an accurate country of origin flag—addressing the current confusion of generic icons—and highlights the top three badges based on quality filters. Additional enhancements include hover details on the Certified badge to clarify its significance compared to a verified tutor, as well as integrated review snippets and review badges in expanded cards. These changes collectively streamline the teacher discovery process, ensuring both new and returning users receive relevant, actionable insights at a glance.</div>",
+                "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_7.png\" width=\"100%\" height=\"100%\">",
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Enabled</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Disabled</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Start</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Complete</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Standard Error</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-score</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p value</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (Not Significant)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Range</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -0.14%, Mid: 0.28%, High: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -9.98%, Mid: 20.21%, High: 50.40%</td></tr></tbody></table></div>",
+                "<div><h3>Summary</h3>Throughout the project, numerous initiatives were undertaken to enhance the UI and UX of the service, with a strong focus on improving the experience for end users. Although not every solution proved successful and support for the service eventually waned, the majority of these efforts were aimed at optimizing the user experience and creating a more intuitive interface, ultimately contributing to better engagement with the platform.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
+        },
+        "event_management_tool": {
+            "name": "event_management_tool",
+            "title": "Glenis Solutions – Event Management Tool",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/EMT/preview_0.png",
+                "./src/images/articles/EMT/preview_1.png",
+                "./src/images/articles/EMT/preview_2.png",
+                "./src/images/articles/EMT/preview_3.png",
+                "./src/images/articles/EMT/preview_4.png"
+            ],
+            "video": "./src/videos/EMT/preview.mp4",
+            "customer": [
+                "Проект",
+                "Glennis Solutions, Healthcare, USA"
+            ],
+            "links": [{
+                "name": "glennissolutions.com",
+                "href": "https://www.glennissolutions.com"
+            }],
+            "team_size": [
+                "Размер команды",
+                "5 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "200+ senior communities"
+            ],
+            "type": "enterprise",
+            "text": [
+                "<div><h3>Goals</h3>\n The project aims to create a modern, user-friendly event management system for senior communities. By enhancing the interface and adding a robust validation process, the system will simplify event planning and approval while boosting resident engagement.</div>",
+                "<div><h3>About tool</h3>\n Event management software is one way to make senior living better. \n EMT is a system with ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
+                "<div><h3>Application functionality</h3>\n<ul><li>Working with events;</li><li>Duplicate events;</li><li>Master Calendar feature;</li><li>Roll forward;</li><li>Existing features improvements;</li></ul></div>",
+                "<div><h3>Design process</h3>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Interviews</h3>\n As a part of the qualitative research, I've conducted a number of interviews with users in various roles. Both users with administrative access rights and regular system users were interviewed. <img src=\"./src/images/articles/EMT/interviews.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Empathy map</h3>\n To highlight a number of potentially important hypotheses, I created an average system user empathy map, which helps identify the most important hypotheses that I was going to confirm with a quantitative research in the next step.<br> <img src=\"./src/images/articles/EMT/empathy_map.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Receiving data using google forms</h3>\n As part of quantitative research to confirm previously derived hypotheses, I conducted a quantitative research and identified the most successful solutions, which were later implemented at the prototyping stage. <br> <br> <img src=\"./src/images/articles/EMT/survey_2.png\" width=\"100%\" height=\"100%\"> <img src=\"./src/images/articles/EMT/survey_1.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Current Calendar Process</h3>\n One of the tasks was to change and improve the current process of updating events from the calendar, this process took a large amount of time and was not always convenient.<br> <img src=\"./src/images/articles/EMT/process.png\" width=\"100%\" height=\"100%\"></div> \n<br> I have automated this process by removing unnecessary links in the chain and finalizing the remaining blocks using the new features of the application.<br><br> <img src=\"./src/images/articles/EMT/updated_process.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Wireframes</h3>\n Once the list of MVP features has been approved by the stakeholders, I've started creating prototypes based on the data obtained from research. <img src=\"./src/images/articles/EMT/old_2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/old_1.png\" width=\"100%\" height=\"100%\"></div> <br>",
+                "<div><h3>Styled components library</h3>\n Before starting the design phase, we created a shared design library. <br> <br><img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Visual design</h3>\n As a result of the visual design phase, a number of screens were built. This is important both for creating use cases and for developers use. In addition, some of the users who agreed to usability testing were invited to test the new application design. <br> <br><img src=\"./src/images/articles/EMT/design.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Mocks</h3>\n <img src=\"./src/images/articles/EMT/Screens/1.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/3.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/4.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Mobile attendance</h3>\n After research, I've decided  to move some of the functionality from the main application to a mobile attendance mobile application.<br> <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div> <ul><li>An option to mark no attendance added;</li><li>An abillity to create a meal event and take an attendance;</li><li>Admins can track and consume statisticks.</li></ul>",
+                "<div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback for Andersen. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "The client operates senior living communities where older adults can live comfortably and safely while receiving vital care, medication, and entertainment. They also enjoy opportunities for social interaction and engagement with other residents. This project focuses on developing an intuitive event management system that streamlines workflows and ensures robust validation, ultimately making it easier for staff to plan, organize, and approve events."
+        },
+        "guy_carpenter": {
+            "name": "guy_carpenter",
+            "title": "Guy Carpenter – Tax Calculator",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Guy Carpenter/preview_0.png",
+                "./src/images/articles/Guy Carpenter/preview_1.png",
+                "./src/images/articles/Guy Carpenter/preview_2.png",
+                "./src/images/articles/Guy Carpenter/preview_3.png"
+            ],
+            "video": "./src/videos/guy_carpenter/preview.mp4",
+            "customer": [
+                "Проект",
+                "Guy Carpenter, Enterprise, UK"
+            ],
+            "type": "enterprise",
+            "links": [{
+                "name": "guycarp.com",
+                "href": "https://www.guycarp.com"
+            }],
+            "team_size": [
+                "Размер команды",
+                "4 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "1000+ analysts"
+            ],
+            "text": [
+                "<div><h3>Goals</h3>The team needed a web tool (internally referred to as the “Tax Calculator” or “Limits & Attachment Tool”) that would automate and streamline the process of combining reinsurance data, filtering policies, and calculating premiums and taxes across different regions, lines of business, and date ranges.</div>",
+                "<div><h3>Design Challenge</h3><ol><li>Complex Data Structures — The application must handle multiple file formats (CSV, Excel, UFC, Arium, etc.) and display comprehensive metadata (Treaty Name, Cedent, Line of Business, etc.).</li><li>Multiple Filters & Profiles — Users require advanced filtering (by region, business unit, country) and the ability to segment by limit and attachment point.</li><li>Tax & Premium Calculations — The interface needs to clearly present data on premium amounts, policy counts, and total sums, accommodating various regional tax rates.</li><li>User Variability — Reinsurance analysts, underwriters, actuaries, and finance teams each need different views and outputs.</li></ol></div>",
+                "<div><h3>Key UX Objectives</h3><ul><li>Clarity and Efficiency: The interface should quickly guide users through data selection, filtering, and output generation without overwhelming them.</li><li>Flexible Customization: Filters, date ranges, and attachment buckets should be easy to configure for diverse reinsurance needs.</li><li>Seamless Data Visualization: A clean, organized layout helps users interpret large data sets at a glance.</li></ul></div>",
+                "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_1.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>UX Research & Discovery</h3>Stakeholder interviews helped identify how analysts and underwriters search, filter, and merge data. User journey mapping revealed the core tasks: importing files, applying filters and profiles, reviewing limit and attachment breakdowns, setting date parameters, and exporting data. Competitive and internal tool analyses highlighted pain points in existing spreadsheets and analytics solutions.</div>",
+                "<div><h3>Information Architecture</h3>A two-panel layout was introduced: a left-side panel for file selection and filter options, and a main area for data visualization. Advanced features like date range pickers and multiple filter sets use progressive disclosure, ensuring a clear workflow. Responsive design ensures usability on various screen sizes.</div>",
+                "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_2.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>User Flow Overview</h3><ol><li>Select Files — Users pick relevant files from a list.</li><li>Apply Filters — Filters are set for line of business, region, dates, etc.</li><li>Review Data Table — The interface shows premiums, policy counts, and coverage layers by limit buckets.</li><li>Adjust Dates — Users refine 'In Force' or 'Inception/Expiration' ranges if needed.</li><li>Export & Download — Chosen data can be exported in multiple formats or consolidated in a single report.</li></ol></div>",
+                "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_3.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Outcome & Learnings</h3>The tool reduced manual spreadsheet work by an estimated 50%, significantly improving speed and accuracy in tax and premium calculations. The flexible, modular design allows quick adaptation for new lines of business or regulatory changes. Overall, the user-centric approach delivered a streamlined solution that better supports the reinsurance workflow.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+        },
+        "article&": {
+            "name": "article&",
+            "title": "Article&.com – Fashion Online Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/Article&/preview_0.png",
+                "./src/images/articles/Article&/preview_1.png",
+                "./src/images/articles/Article&/preview_2.jpg"
+            ],
+            "video": "./src/videos/Articleand/preview.mp4",
+            "customer": [
+                "Проект",
+                "Article&, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [
+                {
+                    "name": "Template",
+                    "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
+                },
+                {
+                    "name": "articleand.com",
+                    "href": "https://www.articleand.com/"
+                }
+            ],
+            "team_size": [
+                "Размер команды",
+                "3 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "10K+ customers"
+            ],
+            "text": [
+                "<div><h3>About company</h3>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
+                "<div><h3>About project</h3>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
+                "<div><h3>Homepage</h3>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
+                "<div><h3>Product page</h3>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds."
+        },
+        "bzdefence": {
+            "name": "bzdefence",
+            "title": "BZDefence.com – Military Equipment Store",
+            "description": "UI / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/BZDefence/preview_0.png",
+                "./src/images/articles/BZDefence/preview_1.png"
+            ],
+            "video": "./src/videos/bzdefence/preview.mp4",
+            "customer": [
+                "Проект",
+                "BZ Defence, E-Commerce, USA"
+            ],
+            "type": "ecommerce",
+            "links": [{
+                "name": "Figma",
+                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+            }, {
+                "name": "bzdefence.com",
+                "href": "https://www.bzdefence.com/"
+            }],
+            "team_size": [
+                "Размер команды",
+                "2 people"
+            ],
+            "user_base": [
+                "Пользователи",
+                "5K+ customers"
+            ],
+            "text": [
+                "<div><h3>About company</h3>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
+            ],
+            "footer": {
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне письмо",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
+        }
+    }
+}

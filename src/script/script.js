@@ -2,12 +2,12 @@ import Router from './Router.js';
 import Filter from './components/Filter.js';
 import Grid from './components/Grid.js';
 import Component from './components/Component.js';
+import LocalizationManager from './LocalizationManager.js';
 
 export default class PageBuilder {
     constructor() {
         this.router = new Router(this);
         this.componentBase = new Component(this);
-        this.catchJSON();
         this.currentPage = this.router.getPath();
         this.menu = document.querySelector(".header div.menu");
         this.main = document.querySelector("main");
@@ -18,12 +18,27 @@ export default class PageBuilder {
                 this.closeProject();
             }
         });
+
+        // Инициализируем локализацию
+        this.initLocalization();
+    }
+
+    async initLocalization() {
+        this.localizationManager = new LocalizationManager(this);
+        await this.localizationManager.init();
+        this.catchJSON();
     }
 
     async catchJSON() {
-        const response = await fetch("structure.json");
-        const data = await response.json();
-        this.structure = data;
+        // Если локализация уже инициализирована, используем её данные
+        if (this.localizationManager) {
+            this.structure = this.localizationManager.getLocaleData();
+        } else {
+            // Fallback для первоначальной загрузки
+            const response = await fetch("structure.json");
+            const data = await response.json();
+            this.structure = data;
+        }
         this.load();
     }
 

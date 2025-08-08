@@ -142,6 +142,57 @@ main {
     color: #000;
 }
 
+/* Language Switcher Styles */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-button {
+    background: none;
+    border: none;
+    color: #acacac;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 123%;
+    border-bottom: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.lang-button:hover {
+    color: #73737b;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.lang-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.lang-button.active {
+    color: #000;
+}
+
+.lang-separator {
+    color: #acacac;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -785,6 +836,13 @@ main {
     .header>.menu>ul {
         display: none;
     }
+    /* Mobile language switcher styles */
+    .language-switcher .lang-button {
+        font-size: 16px;
+    }
+    .language-switcher .lang-separator {
+        font-size: 16px;
+    }
     .desktop-false,
     .mobile-true {
         display: none;
@@ -839,6 +897,13 @@ main {
     }
     .header .logo>img {
         width: 25px;
+    }
+    /* Mobile language switcher styles */
+    .language-switcher .lang-button {
+        font-size: 14px;
+    }
+    .language-switcher .lang-separator {
+        font-size: 14px;
     }
     button.filter {
         width: 100%;
