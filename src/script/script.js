@@ -45,6 +45,9 @@ export default class PageBuilder {
     build() {
         const pageContent = this.structure.pages[this.currentPage].body;
         
+        // Обновляем меню при смене языка
+        this.updateMenu();
+        
         // Обновляем состояние меню
         const currentMenuLink = this.menu.querySelector(".current");
         if (currentMenuLink) {
@@ -675,6 +678,40 @@ export default class PageBuilder {
         popupBody.appendChild(fragment);
     }
 
+    updateMenu() {
+        // Очищаем текущее меню
+        const menuList = document.querySelector(".header .menu ul");
+        const rightBody = document.querySelector(".pop-up-right-body");
+        
+        // Очищаем десктопное меню (удаляем все ссылки из ul)
+        if (menuList) {
+            menuList.innerHTML = '';
+        }
+        
+        // Удаляем иконку меню если она есть
+        const existingMenuIcon = this.menu.querySelector('.menu-icon');
+        if (existingMenuIcon) {
+            existingMenuIcon.remove();
+        }
+        
+        // Очищаем мобильное меню (очищаем ul в rightBody, но не удаляем сам ul)
+        if (rightBody) {
+            const existingUl = rightBody.querySelector('ul');
+            if (existingUl) {
+                existingUl.innerHTML = '';
+            }
+            
+            // Также удаляем мобильный переключатель языков если он есть
+            const existingMobileLangSwitcher = rightBody.querySelector('.mobile-language-switcher');
+            if (existingMobileLangSwitcher) {
+                existingMobileLangSwitcher.remove();
+            }
+        }
+        
+        // Перестраиваем меню
+        this.compositeMenu(this.structure.menu);
+    }
+
     compositeMenu(menuItems) {
         const menuList = document.querySelector(".header .menu ul");
         const menuIcon = this.createBlock_svg_link({
@@ -693,7 +730,11 @@ export default class PageBuilder {
         // Подготавливаем меню
         this.menu.insertBefore(menuIcon, menuList);
         menuIcon.addEventListener("click", this.openMenu.bind(this));
-        rightBody.appendChild(document.createElement("ul"));
+        
+        // Создаем ul в rightBody только если его нет
+        if (!rightBody.querySelector('ul')) {
+            rightBody.appendChild(document.createElement("ul"));
+        }
 
         // Создаем элементы меню
         const menuFragment = document.createDocumentFragment();
@@ -732,6 +773,54 @@ export default class PageBuilder {
 
         menuList.appendChild(menuFragment);
         rightBody.firstElementChild.appendChild(rightBodyFragment);
+
+        // Добавляем переключатель языков в мобильное меню
+        const mobileLangSwitcher = document.createElement("div");
+        mobileLangSwitcher.classList.add("mobile-language-switcher");
+        
+        const mobileLangEn = document.createElement("button");
+        mobileLangEn.classList.add("lang-button");
+        mobileLangEn.setAttribute("data-lang", "en");
+        mobileLangEn.innerText = "en";
+        
+        const mobileLangSeparator = document.createElement("span");
+        mobileLangSeparator.classList.add("lang-separator");
+        mobileLangSeparator.innerText = "/";
+        
+        const mobileLangRu = document.createElement("button");
+        mobileLangRu.classList.add("lang-button");
+        mobileLangRu.setAttribute("data-lang", "ru");
+        mobileLangRu.innerText = "ru";
+        
+        // Устанавливаем активное состояние
+        if (this.localizationManager) {
+            const currentLang = this.localizationManager.getCurrentLanguage();
+            if (currentLang === 'en') {
+                mobileLangEn.classList.add('active');
+            } else {
+                mobileLangRu.classList.add('active');
+            }
+        } else {
+            mobileLangEn.classList.add('active');
+        }
+        
+        // Добавляем обработчики событий
+        mobileLangEn.addEventListener("click", () => {
+            if (this.localizationManager) {
+                this.localizationManager.switchLanguage('en');
+            }
+        });
+        
+        mobileLangRu.addEventListener("click", () => {
+            if (this.localizationManager) {
+                this.localizationManager.switchLanguage('ru');
+            }
+        });
+        
+        mobileLangSwitcher.appendChild(mobileLangEn);
+        mobileLangSwitcher.appendChild(mobileLangSeparator);
+        mobileLangSwitcher.appendChild(mobileLangRu);
+        rightBody.appendChild(mobileLangSwitcher);
 
         // Добавляем кнопку отправки email
         emailButton.innerText = "Send Email";

@@ -812,6 +812,52 @@ main {
     .pop-up-body {
         box-sizing: border-box;
     }
+    
+    /* Стили для мобильного переключателя языков на средних экранах */
+    .mobile-language-switcher {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+        padding: 20px 35px;
+        border-top: 1px solid #eeeeee;
+        margin-top: 20px;
+    }
+    
+    .mobile-language-switcher .lang-button {
+        background: none;
+        border: none;
+        color: #acacac;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 123%;
+        border-bottom: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    
+    .mobile-language-switcher .lang-button:hover {
+        color: var(--color1);
+    }
+    
+    .mobile-language-switcher .lang-button.active {
+        color: #000;
+    }
+    
+    .mobile-language-switcher .lang-separator {
+        color: #acacac;
+        font-size: 24px;
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:426px) {
@@ -835,6 +881,56 @@ main {
     }
     .header>.menu>ul {
         display: none;
+    }
+    /* Скрываем переключатель языков на планшетах */
+    .language-switcher {
+        display: none;
+    }
+    /* Стили для мобильного переключателя языков на планшетах */
+    .mobile-language-switcher {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+        padding: 20px 35px;
+        border-top: 1px solid #eeeeee;
+        margin-top: 20px;
+    }
+    
+    /* Стили кнопок языков в мобильном меню на планшетах */
+    .mobile-language-switcher .lang-button {
+        background: none;
+        border: none;
+        color: #acacac;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 123%;
+        border-bottom: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    
+    .mobile-language-switcher .lang-button:hover {
+        color: var(--color1);
+    }
+    
+    .mobile-language-switcher .lang-button.active {
+        color: #000;
+    }
+    
+    .mobile-language-switcher .lang-separator {
+        color: #acacac;
+        font-size: 24px;
+        font-weight: 400;
     }
     /* Mobile language switcher styles */
     .language-switcher .lang-button {
@@ -897,6 +993,56 @@ main {
     }
     .header .logo>img {
         width: 25px;
+    }
+    /* Скрываем переключатель языков на мобильных */
+    .language-switcher {
+        display: none;
+    }
+    /* Стили для мобильного переключателя языков */
+    .mobile-language-switcher {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+        padding: 20px 35px;
+        border-top: 1px solid #eeeeee;
+        margin-top: 20px;
+    }
+    
+    /* Стили кнопок языков в мобильном меню - как у пунктов меню */
+    .mobile-language-switcher .lang-button {
+        background: none;
+        border: none;
+        color: #acacac;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 123%;
+        border-bottom: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    
+    .mobile-language-switcher .lang-button:hover {
+        color: var(--color1);
+    }
+    
+    .mobile-language-switcher .lang-button.active {
+        color: #000;
+    }
+    
+    .mobile-language-switcher .lang-separator {
+        color: #acacac;
+        font-size: 24px;
+        font-weight: 400;
     }
     /* Mobile language switcher styles */
     .language-switcher .lang-button {
