@@ -543,17 +543,36 @@ export default class PageBuilder {
             const linksList = document.createElement("span");
 
             linksTitle.classList.add("title");
-            linksTitle.innerText = "Links";
-
-            projectData.links.forEach(link => {
-                const linkElement = document.createElement("a");
-                linkElement.innerText = link.name;
-                linkElement.href = link.href;
-                linkElement.setAttribute("target", "_blank");
-                linkElement.setAttribute("rel", "noopener noreferrer");
-                linksList.appendChild(linkElement);
-                linksList.appendChild(document.createTextNode(" "));
-            });
+            
+            // Проверяем новую структуру с локализацией [title, links_array] или старую структуру
+            if (Array.isArray(projectData.links) && typeof projectData.links[0] === 'string') {
+                // Новая структура: ["Links", [{name: "...", href: "..."}]]
+                linksTitle.innerText = projectData.links[0];
+                const linksArray = projectData.links[1];
+                
+                linksArray.forEach(link => {
+                    const linkElement = document.createElement("a");
+                    linkElement.innerText = link.name;
+                    linkElement.href = link.href;
+                    linkElement.setAttribute("target", "_blank");
+                    linkElement.setAttribute("rel", "noopener noreferrer");
+                    linksList.appendChild(linkElement);
+                    linksList.appendChild(document.createTextNode(" "));
+                });
+            } else {
+                // Старая структура: [{name: "...", href: "..."}]
+                linksTitle.innerText = "Links";
+                
+                projectData.links.forEach(link => {
+                    const linkElement = document.createElement("a");
+                    linkElement.innerText = link.name;
+                    linkElement.href = link.href;
+                    linkElement.setAttribute("target", "_blank");
+                    linkElement.setAttribute("rel", "noopener noreferrer");
+                    linksList.appendChild(linkElement);
+                    linksList.appendChild(document.createTextNode(" "));
+                });
+            }
 
             linksSection.appendChild(linksTitle);
             linksSection.appendChild(linksList);
@@ -597,8 +616,17 @@ export default class PageBuilder {
         const aboutContent = document.createElement("p");
 
         aboutTitle.classList.add("title");
-        aboutTitle.innerText = "About";
-        aboutContent.innerText = projectData.about || "No additional information available.";
+        
+        // Проверяем структуру поля about
+        if (Array.isArray(projectData.about) && projectData.about.length === 2) {
+            // Новая структура: ["About", "content"]
+            aboutTitle.innerText = projectData.about[0];
+            aboutContent.innerText = projectData.about[1];
+        } else {
+            // Старая структура: просто строка
+            aboutTitle.innerText = "About";
+            aboutContent.innerText = projectData.about || "No additional information available.";
+        }
 
         aboutSection.appendChild(aboutTitle);
         aboutSection.appendChild(aboutContent);

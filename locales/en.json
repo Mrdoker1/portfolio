@@ -18,6 +18,10 @@
                     "value": [{
                             "type": "caption",
                             "name": "caption1",
+                            "about": [
+                                "About",
+                                "Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women's dresses, shoes and accessories of different kinds."
+                            ],
                             "value": "Specializing in user experience design for over 10 years, with expertise in E-Commerce, Healthcare, EdTech, AdTech, and more",
                             "properties": {
                                 "text-align": "center"
@@ -326,10 +330,12 @@
             ],
             "type": "enterprise",
             "links": [
-                {
+                "Links",
+                [{
                     "name": "fivepost.ru",
                     "href": "https://fivepost.ru"
-                }],
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "12 people"
@@ -353,7 +359,10 @@
                 "linkText": "send me an Email",
                 "suffix": ". I'd love to hear from you."
             },
-            "about": "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
+            "about": [
+                "About",
+                "Admin panel for managing and monitoring checkpoint cells and orders. Includes various modules for managing and monitoring devices, the technical conditions, database, etc."
+            ]
         },
         "busuu": {
             "name": "busuu",
@@ -370,10 +379,13 @@
                 "Busuu, Chegg, EdTech, UK"
             ],
             "type": "product",
-            "links": [{
-                "name": "busuu.com",
-                "href": "https://www.busuu.com"
-            }],
+            "links": [
+                "Links",
+                [{
+                    "name": "busuu.com",
+                    "href": "https://www.busuu.com"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "8 people"
@@ -392,7 +404,10 @@
                 "linkText": "send me an Email",
                 "suffix": ". I'd love to hear from you."
             },
-            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
+            "about": [
+                "About",
+                "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
+            ]
         },
         "cognni": {
             "name": "cognni",
@@ -412,10 +427,13 @@
                 "Cognni.ai, AI, Israel"
             ],
             "type": "product",
-            "links": [{
-                "name": "cognni.ai",
-                "href": "https://cognni.ai/"
-            }],
+            "links": [
+                "Links",
+                [{
+                    "name": "cognni.ai",
+                    "href": "https://cognni.ai/"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "6 people"
@@ -424,10 +442,13 @@
                 "User Base",
                 "500+ enterprises"
             ],
-            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
+            "about": [
+                "About",
+                "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making."
+            ],
             "text": [
             "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
-            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
+            "<div><h3>Goals and Objectives</h3><p><ul><li>Reduce incident response time to the defined MTTR threshold.</li><li>Simplify data comprehension — visualize “people ↔ data ↔ events” relationships in 1–2 clicks.</li><li>Adapt the interface to specific roles (CISO, CEO, department heads) via personalized dashboards.</li><li>Embed collaboration and delegation so remediation tasks are closed without repeated escalations.</li></ul></p></div>",
             "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
             "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
             "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
@@ -460,10 +481,13 @@
                 "Verbling, Chegg, EdTech, US"
             ],
             "type": "product",
-            "links": [{
-                "name": "verbling.com",
-                "href": "https://www.verbling.com"
-            }],
+            "links": [
+                "Links",
+                [{
+                    "name": "verbling.com",
+                    "href": "https://www.verbling.com"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "12 people"
@@ -497,7 +521,10 @@
                 "linkText": "send me an Email",
                 "suffix": ". I'd love to hear from you."
             },
-            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
+            "about": [
+                "About",
+                "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
+            ]
         },
         "event_management_tool": {
             "name": "event_management_tool",
@@ -517,10 +544,13 @@
                 "Project",
                 "Glennis Solutions, Healthcare, USA"
             ],
-            "links": [{
-                "name": "glennissolutions.com",
-                "href": "https://www.glennissolutions.com"
-            }],
+            "links": [
+                "Links",
+                [{
+                    "name": "glennissolutions.com",
+                    "href": "https://www.glennissolutions.com"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "5 people"
@@ -552,7 +582,10 @@
                 "linkText": "send me an Email",
                 "suffix": ". I'd love to hear from you."
             },
-            "about": "The client operates senior living communities where older adults can live comfortably and safely while receiving vital care, medication, and entertainment. They also enjoy opportunities for social interaction and engagement with other residents. This project focuses on developing an intuitive event management system that streamlines workflows and ensures robust validation, ultimately making it easier for staff to plan, organize, and approve events."
+            "about": [
+                "About",
+                "The client operates senior living communities where older adults can live comfortably and safely while receiving vital care, medication, and entertainment. They also enjoy opportunities for social interaction and engagement with other residents. This project focuses on developing an intuitive event management system that streamlines workflows and ensures robust validation, ultimately making it easier for staff to plan, organize, and approve events."
+            ]
         },
         "guy_carpenter": {
             "name": "guy_carpenter",
@@ -572,10 +605,13 @@
                 "Guy Carpenter, Enterprise, UK"
             ],
             "type": "enterprise",
-            "links": [{
-                "name": "guycarp.com",
-                "href": "https://www.guycarp.com"
-            }],
+            "links": [
+                "Links",
+                [{
+                    "name": "guycarp.com",
+                    "href": "https://www.guycarp.com"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "4 people"
@@ -602,7 +638,10 @@
                 "linkText": "send me an Email",
                 "suffix": ". I'd love to hear from you."
             },
-            "about": "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+            "about": [
+                "About",
+                "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+            ]
         },
         "article&": {
             "name": "article&",
@@ -622,14 +661,15 @@
             ],
             "type": "ecommerce",
             "links": [
-                {
+                "Links",
+                [{
                     "name": "Template",
                     "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
                 },
                 {
                     "name": "articleand.com",
                     "href": "https://www.articleand.com/"
-                }
+                }]
             ],
             "team_size": [
                 "Team Size",
@@ -669,13 +709,16 @@
                 "BZ Defence, E-Commerce, USA"
             ],
             "type": "ecommerce",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
-            }, {
-                "name": "bzdefence.com",
-                "href": "https://www.bzdefence.com/"
-            }],
+            "links": [
+                "Links", 
+                [{
+                    "name": "Figma",
+                    "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+                }, {
+                    "name": "bzdefence.com",
+                    "href": "https://www.bzdefence.com/"
+                }]
+            ],
             "team_size": [
                 "Team Size",
                 "2 people"

@@ -326,10 +326,12 @@
             ],
             "type": "enterprise",
             "links": [
-                {
+                "Ссылки",
+                [{
                     "name": "fivepost.ru",
                     "href": "https://fivepost.ru"
-                }],
+                }]
+            ],
             "team_size": [
                 "Размер команды",
                 "12 человек"
@@ -350,14 +352,17 @@
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "CRM для управления и мониторинга ячеек постаматов и заказов. Включает модули контроля устройств, технического состояния, баз данных и других сервисов."
+            "about": [
+                "О проекте",
+                "CRM для управления и мониторинга ячеек постаматов и заказов. Включает модули контроля устройств, технического состояния, баз данных и других сервисов."
+            ]
         },
         "busuu": {
             "name": "busuu",
-            "title": "Busuu.com – Language Learning Platform",
+            "title": "Busuu.com — онлайн-платформа для изучения иностранных языков",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 0,
@@ -369,18 +374,20 @@
                 "Проект",
                 "Busuu, Chegg, EdTech, UK"
             ],
-            "type": "product",
-            "links": [{
-                "name": "busuu.com",
-                "href": "https://www.busuu.com"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "busuu.com",
+                    "href": "https://www.busuu.com"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "8 people"
+                "8 человек"
             ],
             "user_base": [
                 "Пользователи",
-                "15M+ learners"
+                "15M+ студентов"
             ],
             "text": [
                 "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
@@ -389,14 +396,17 @@
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
+            "about": [
+                "О проекте",
+                "Busuu — это онлайн-платформа для изучения иностранных языков, предлагающая курсы по различным направлениям. Она сочетает уроки в самообучающемся формате с социальными функциями, позволяющими пользователям практиковаться с носителями языка и получать обратную связь по своим заданиям."
+            ]
         },
         "cognni": {
             "name": "cognni",
-            "title": "Cognni.ai",
+            "title": "Cognni.ai — ИИ-ассистент облачной безопасности данных",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -412,38 +422,44 @@
                 "Cognni.ai, AI, Israel"
             ],
             "type": "product",
-            "links": [{
-                "name": "cognni.ai",
-                "href": "https://cognni.ai/"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "cognni.ai",
+                    "href": "https://cognni.ai/"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "6 people"
+                "6 человек"
             ],
             "user_base": [
                 "Пользователи",
-                "500+ enterprises"
+                "500+ предприятий"
             ],
-            "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
             "text": [
-            "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
-            "<div><h3>Goals and Objectives</h3><p>The primary objectives of this project were to: <ul><li>Eliminate ambiguous or technical jargon by using clear, user-centric language.</li><li>Emphasize our unique mapping capabilities, acknowledging current detection limitations.</li><li>Facilitate seamless communication across multiple pipelines—from CISOs to CEOs/Board and organizational departments—so users can easily express conclusions and suggest actions.</li></ul></p></div>",
-            "<div><h3>User Research & Journey Mapping</h3><p>In-depth research, including user journey mapping, revealed that clients greatly value our ability to visually map data relationships. They need to see how employees, departments, and files interconnect to understand security risks and responsibilities. This insight drove our design strategy.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"User Journey Mapping\"></div>",
-            "<div><h3>Design and UX Solutions</h3><p>The design approach centered on clarity and usability. Key solutions included:</p><ul><li>Interactive visualizations and iconography that clearly illustrate data relationships and security events.</li><li>Explicit delegation sections in the UI that allow CISOs to assign responsibility to department heads.</li><li>A simplified, jargon-free language that makes the interface accessible to all stakeholders.</li></ul><p>These design choices ensure that users can quickly identify anomalies, understand data domains (such as HR or Finance), and act on security insights.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Onboarding Visual\"></div>",
-            "<div><h3>Challenges and Iterations</h3><p>Throughout the project, several challenges emerged, including:</p><ul><li>Ambiguous labels and internal terminology (e.g., 'clusters', 'copies', 'versions') that confused users.</li><li>The need for a 'Cognni Dictionary' to clarify these terms and ensure consistency.</li><li>Balancing the technical details required for security analysis with a user-friendly presentation for non-technical audiences.</li></ul><p>Iterative testing and feedback sessions allowed us to refine these elements for optimal clarity and usability.</p></div>",
-            "<div><h3>Prototyping and Testing</h3><p>Rapid prototyping and usability tests with target users (including CISOs and department heads) were crucial. These sessions helped validate our visualizations, delegation workflows, and overall navigation, ensuring that the final interface met the diverse needs of its users.</p></div>",
-            "<div><h3>Results and Impact</h3><p>The redesigned Cognni.ai interface now delivers a clear, actionable view of complex security data. By focusing on mapping over detection and streamlining communication between various organizational roles, the solution enables users to derive actionable insights, present clear strategic options to CEOs/Board, and drive meaningful change in their security practices.</p></div>"
+                "<div><h3>Обзор проекта</h3><p>Cognni.ai создан, чтобы упростить сложный мир информационной безопасности, предлагая интуитивный интерфейс с акцентом на понятные описания и цели. Мы фокусируемся на картировании взаимосвязей между данными, людьми и событиями, чтобы даже не-технические стейкхолдеры понимали текущее состояние информации и необходимые действия.</p></div>",
+                "<div><h3>Цели и задачи</h3><li>Сократить время реакции на инцидент до заданного порога (MTTR).</li><li>Упростить восприятие данных — визуализировать связи «люди ↔ данные ↔ события» в 1-2 клика.</li><li>Адаптировать интерфейс под роли (CISO, CEO, руководители отделов) через персонализированные дашборды.<li>Встроить коллаборацию и делегирование — чтобы задачи по устранению рисков закрывались без повторных эскалаций.</li></li></ul></p></div>",
+                "<div><h3>Исследование пользователей и Journey Mapping</h3><p>Глубокие исследования, включая построение карт пользовательских путей, показали, что клиенты высоко ценят нашу способность визуально отображать связи данных. Им необходимо видеть, как сотрудники, отделы и файлы взаимосвязаны, чтобы понимать риски и зоны ответственности. Эти инсайты легли в основу дизайн-стратегии.</p><br><img src=\"./src/images/articles/Cognii/journey_mapping.png\" width=\"100%\" height=\"auto\" alt=\"Карта пользовательского пути\"></div>",
+                "<div><h3>Дизайн и UX-решения</h3><p>Подход к дизайну строился вокруг ясности и удобства. Ключевые решения:</p><ul><li>Интерактивные визуализации и иконография, наглядно показывающие связи данных и события безопасности.</li><li>Явные блоки делегирования в интерфейсе, которые позволяют CISO назначать ответственность руководителям отделов.</li><li>Упрощённый, свободный от жаргона язык, доступный всем стейкхолдерам.</li></ul><p>Эти решения помогают пользователям быстро выявлять аномалии, понимать домены данных (например, HR или Финансы) и принимать меры на основе полученных инсайтов.</p><br><img src=\"./src/images/articles/Cognii/onboarding.png\" width=\"100%\" height=\"auto\" alt=\"Экран онбординга\"></div>",
+                "<div><h3>Сложности и итерации</h3><p>В ходе проекта возникло несколько вызовов, среди которых:</p><ul><li>Неоднозначные ярлыки и внутренняя терминология (например, «clusters», «copies», «versions»), сбивавшие пользователей с толку.</li><li>Необходимость «Словаря Cognni», чтобы прояснить эти термины и обеспечить единообразие.</li><li>Балансировка технических деталей, необходимых для анализа безопасности, с дружественной подачей для не-технической аудитории.</li></ul><p>Итерационное тестирование и сессии обратной связи позволили отшлифовать эти элементы до оптимальной ясности и удобства.</p></div>",
+                "<div><h3>Прототипирование и тестирование</h3><p>Быстрое прототипирование и юзабилити-тесты с целевыми пользователями (включая CISO и руководителей отделов) были критически важны. Эти сессии помогли подтвердить корректность визуализаций, процессов делегирования и общей навигации, гарантируя, что итоговый интерфейс отвечает разнообразным потребностям пользователей.</p></div>",
+                "<div><h3>Результаты и влияние</h3><p>Обновлённый интерфейс Cognni.ai теперь предоставляет ясный и действенный взгляд на сложные данные безопасности. Сфокусировавшись на картировании вместо одной лишь детекции и упростив коммуникацию между различными ролями, решение позволяет пользователям получать практичные инсайты, предлагать CEO/совету директоров понятные стратегические варианты и вносить значимые изменения в процессы безопасности.</p></div>"
             ],
             "footer": {
-                "type": "contact-link",
-                "prefix": "Don't hesitate to ",
-                "linkText": "send me an Email",
-                "suffix": ". I'd love to hear from you."
-            }
+                  "type": "contact-link",
+                  "prefix": "Не стесняйтесь ",
+                  "linkText": "написать мне",
+                  "suffix": ". Буду рад ответить!"
+            },
+            "about": [
+                "О проекте",
+                "Cognni.ai — инновационный облачный ассистент информационной безопасности, который помогает компаниям картировать и визуализировать критически важные данные, предоставляя ясные и практичные инсайты. Превращая сложные инциденты безопасности в понятные визуальные истории, Cognni.ai устраняет коммуникационный разрыв между CISO, CEO и руководителями подразделений, облегчая стратегическое принятие решений."
+            ]
         },
         "verbling": {
             "name": "verbling",
-            "title": "Verbling – Online Language Tutoring Platform",
+            "title": "Verbling — платформа подбора онлайн-репетиторов по языкам",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -460,48 +476,54 @@
                 "Verbling, Chegg, EdTech, US"
             ],
             "type": "product",
-            "links": [{
-                "name": "verbling.com",
-                "href": "https://www.verbling.com"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "verbling.com",
+                    "href": "https://www.verbling.com"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "12 people"
+                "12 человек"
             ],
             "user_base": [
                 "Пользователи",
-                "2M+ students"
+                "2M+ студентов"
             ],
             "text": [
-                "<div><h3>Goals and OKRs</h3>The primary objective for the Verbling project was to create a seamless and engaging user journey that directly translates into measurable business growth. Our goals were centered on reducing friction in the registration and onboarding processes while enhancing the overall user experience. Specifically, we set clear OKRs to increase the conversion rate from free trial to first order by at least 15%, boost daily new registrations by 20%, and decrease the drop-off rate during the initial user interactions by 25%. Additionally, we aimed to refine the tutor discovery process—through improved search, filtering, and information presentation—to drive higher engagement and satisfaction. These targets were supported by a series of quantitative KPIs, including conversion metrics, customer satisfaction scores, and revenue impact estimates, ensuring that every UX improvement aligned with and contributed to the platform's strategic business outcomes.</div>",
+                "<div><h3>Цели и OKR</h3>Основной целью проекта Verbling было создать бесшовный и увлекательный пользовательский путь, который напрямую приводит к измеримому росту бизнеса. Наши задачи были сосредоточены на снижении трения в процессах регистрации и онбординга при одновременном улучшении общего пользовательского опыта. В частности, мы установили чёткие OKR: увеличить конверсию из пробного периода в первый заказ как минимум на 15 %, повысить ежедневное количество новых регистраций на 20 % и сократить показатель отказов на ранних этапах взаимодействия пользователей на 25 %. Кроме того, мы стремились усовершенствовать процесс поиска преподавателя — за счёт улучшенного поиска, фильтрации и представления информации — чтобы повысить вовлечённость и удовлетворённость. Эти цели подкреплялись рядом количественных KPI, включающих метрики конверсии, показатели удовлетворённости клиентов и оценки влияния на выручку, чтобы каждое улучшение UX соответствовало стратегическим бизнес-целям платформы.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/preview_1.gif\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Project details</h3>In this project, I was responsible for conducting user research to understand the needs and pain points of both learners and teachers. I performed user testing using usertesting.com, conducted interviews with users via Intercom, and gathered quantitative data through user surveys. Based on these comprehensive insights, I created wireframes and prototypes to enhance the user experience. The final visual design not only made the platform more intuitive and engaging for users but also contributed to achieving key business OKRs by significantly boosting user engagement and conversion rates.</div>",
+                "<div><h3>Детали проекта</h3>В рамках этого проекта я отвечал за проведение пользовательских исследований, чтобы понять потребности и болевые точки как учащихся, так и преподавателей. Я проводил тестирование через usertesting.com, интервьюировал пользователей через Intercom и собирал количественные данные с помощью опросов. Опираясь на эти всесторонние инсайты, я создал вайрфреймы и прототипы для улучшения пользовательского опыта. Итоговый визуальный дизайн сделал платформу более интуитивно понятной и увлекательной для пользователей, а также способствовал достижению ключевых бизнес-OKR, значительно повысив вовлечённость и конверсию.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_2.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Onboarding</h3>The onboarding initiative for Verbling is designed to provide new users with a clear, intuitive introduction to the platform before registration, enabling them to quickly understand its value proposition and efficiently connect with a suitable teacher, ultimately increasing user engagement and registration rates.</div>",
+                "<div><h3>Онбординг</h3>Инициатива по онбордингу для Verbling направлена на то, чтобы предоставить новым пользователям чёткое и интуитивно понятное знакомство с платформой до регистрации, позволяя им быстро понять ценностное предложение сервиса и эффективно связаться с подходящим преподавателем, что в итоге увеличивает вовлечённость и количество регистраций.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_4.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><h2 style=\"text-align: center; color: #333;\"></h2><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Value</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Additional Info</th></tr></thead><tbody><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FT Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">13.00%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Hypothesis</td><td style=\"border: 1px solid #ddd; padding: 10px;\">14%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Registrations in Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">29249</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Improved Registrations</td><td style=\"border: 1px solid #ddd; padding: 10px;\">31499</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2250</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Reg:FO Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">225</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">AOV</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$145</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Order Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$32,624</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional First Orders / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2.5</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10.30%</td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">H2 First Orders Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$65,248</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Additional Registrations / day</td><td style=\"border: 1px solid #ddd; padding: 10px;\">25</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 FO Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$435,912</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Q1 Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\"><strong>$2,582,281</strong></td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">% FO Revenue / Total Revenue</td><td style=\"border: 1px solid #ddd; padding: 10px;\">16.88%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenue Equivalent</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$193,259</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr></tbody></table></div>",
+                "<div style=\"width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><h2 style=\"text-align: center; color: #333;\"></h2><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Метрика</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Значение</th><th style=\"border: 1px solid #ddd; padding: 10px; text-align: left;\">Доп. информация</th></tr></thead><tbody><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Конверсия Reg:FT</td><td style=\"border: 1px solid #ddd; padding: 10px;\">13.00%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Гипотеза</td><td style=\"border: 1px solid #ddd; padding: 10px;\">14%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Регистрации в Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">29249</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Улучшенные регистрации</td><td style=\"border: 1px solid #ddd; padding: 10px;\">31499</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Разница</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2250</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Конверсия Reg:FO</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Первые заказы</td><td style=\"border: 1px solid #ddd; padding: 10px;\">225</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">AOV</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$145</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Доп. выручка от первых заказов</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$32,624</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Доп. первые заказы / день</td><td style=\"border: 1px solid #ddd; padding: 10px;\">2.5</td><td style=\"border: 1px solid #ddd; padding: 10px;\">10.30%</td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Выручка первых заказов во 2П</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$65,248</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Доп. регистрации / день</td><td style=\"border: 1px solid #ddd; padding: 10px;\">25</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Выручка FO в Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$435,912</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Общая выручка Q1</td><td style=\"border: 1px solid #ddd; padding: 10px;\"><strong>$2,582,281</strong></td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #fff;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">% выручки FO / общей выручки</td><td style=\"border: 1px solid #ddd; padding: 10px;\">16.88%</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr><tr style=\"background-color: #f9f9f9;\"><td style=\"border: 1px solid #ddd; padding: 10px;\">Эквивалент выручки</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$193,259</td><td style=\"border: 1px solid #ddd; padding: 10px;\"></td></tr></tbody></table></div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_5.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Dashboard</h3>The dashboard simplification initiative is designed to create a clear, guided space that directs users—especially new ones—toward their next steps in the learning experience by providing actionable prompts such as what to do next and easy access to update onboarding answers (including language preferences, reason for learning, current level, goal, and reminders), with the hypothesis that this will improve the conversion from free trial to first order by 10%, resulting in an estimated increase of 1.8 new orders per day (an 8% uplift) and generating approximately $48k in additional first orders revenue in H2.</div>",
+                "<div><h3>Дашборд</h3>Инициатива по упрощению дашборда направлена на создание понятного и направляющего пространства, которое ведёт пользователей, особенно новых, к следующим шагам в обучении, предоставляя им действия, такие как «что делать дальше», и облегчённый доступ к изменению ответов онбординга (включая предпочитаемый язык, цель обучения, текущий уровень, цель и напоминания). Предполагается, что это повысит конверсию из пробного периода в первый заказ на 10 %, что приведёт к увеличению примерно на 1.8 новых заказов в день (рост на 8 %) и принесёт около $48 000 дополнительной выручки от первых заказов во 2П.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_1.png\" width=\"100%\" height=\"100%\">",
-                "<div>Additionally, there were plans to integrate with Busuu's service, aiming to leverage its robust language learning resources to create a more cohesive and enriched learning ecosystem that enhances user engagement and delivers a seamless, multi-platform experience.</div>",
+                "<div>Кроме того, планировалась интеграция с сервисом Busuu, чтобы использовать его обширные ресурсы для обучения языкам и создать более целостную и богатую экосистему обучения, повышающую вовлечённость пользователей и обеспечивающую бесшовный мультиплатформенный опыт.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_6.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Value</th></tr></thead><tbody><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Seen</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1125</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">38%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">428</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74.07%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">317</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Hypothesis</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">42%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Old Package Selected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">471</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% Conversion OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders</td><td style=\"border: 1px solid #ddd; padding: 10px;\">349</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Difference</td><td style=\"border: 1px solid #ddd; padding: 10px;\">32</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent H2</td><td style=\"border: 1px solid #ddd; padding: 10px;\">190.2</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Equivalent Daily</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.1 (4.40%)</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Revenues H2 (Impact)</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$27,579</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Business Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">First Orders Revenue / month</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$4,597</td></tr></tbody></table></div>",
-                "<div><h3>Tutor’s card</h3>The updated tutor card design consolidates key information to help users quickly identify the right teacher for their learning style and goals. It displays the teacher’s language alongside an accurate country of origin flag—addressing the current confusion of generic icons—and highlights the top three badges based on quality filters. Additional enhancements include hover details on the Certified badge to clarify its significance compared to a verified tutor, as well as integrated review snippets and review badges in expanded cards. These changes collectively streamline the teacher discovery process, ensuring both new and returning users receive relevant, actionable insights at a glance.</div>",
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Метрика</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Значение</th></tr></thead><tbody><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Базовый уровень</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Просмотр старого пакета</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1125</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% конверсии OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">38%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Выбран старый пакет</td><td style=\"border: 1px solid #ddd; padding: 10px;\">428</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% конверсии OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74.07%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Первые заказы</td><td style=\"border: 1px solid #ddd; padding: 10px;\">317</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Гипотеза</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% конверсии OPSeen/OPSelected</td><td style=\"border: 1px solid #ddd; padding: 10px;\">42%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Выбран старый пакет</td><td style=\"border: 1px solid #ddd; padding: 10px;\">471</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">% конверсии OPSelected/First Order</td><td style=\"border: 1px solid #ddd; padding: 10px;\">74%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Первые заказы</td><td style=\"border: 1px solid #ddd; padding: 10px;\">349</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Разница</td><td style=\"border: 1px solid #ddd; padding: 10px;\">32</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Эквивалент 2П</td><td style=\"border: 1px solid #ddd; padding: 10px;\">190.2</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Эквивалент в день</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.1 (4.40%)</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Выручка 2П (влияние)</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$27,579</td></tr><tr><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Бизнес-метрики</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Выручка от первых заказов / месяц</td><td style=\"border: 1px solid #ddd; padding: 10px;\">$4,597</td></tr></tbody></table></div>",
+                "<div><h3>Карточка преподавателя</h3>Обновлённый дизайн карточки преподавателя объединяет ключевую информацию, чтобы помочь пользователям быстро подобрать подходящего учителя под свой стиль обучения и цели. В карточке отображается язык преподавателя вместе с правильным флагом страны происхождения — это решает текущую проблему с универсальными иконками — и выделяются три лучших бейджа согласно качественным фильтрам. Дополнительно добавлены подсказки при наведении на бейдж Certified, чтобы пояснить его отличие от бейджа Verified, а также встроены фрагменты отзывов и бейджи рейтингов в расширенных карточках. Эти изменения упрощают процесс поиска преподавателя, обеспечивая новых и возвращающихся пользователей релевантной и полезной информацией с первого взгляда.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/short/preview_7.png\" width=\"100%\" height=\"100%\">",
-                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Metric</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Enabled</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Disabled</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Baseline Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Start</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Complete</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Conversion</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Metrics</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Standard Error</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-score</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p value</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (Not Significant)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Uplift Range</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range pp</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -0.14%, Mid: 0.28%, High: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Uplift Range %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Low: -9.98%, Mid: 20.21%, High: 50.40%</td></tr></tbody></table></div>",
-                "<div><h3>Summary</h3>Throughout the project, numerous initiatives were undertaken to enhance the UI and UX of the service, with a strong focus on improving the experience for end users. Although not every solution proved successful and support for the service eventually waned, the majority of these efforts were aimed at optimizing the user experience and creating a more intuitive interface, ultimately contributing to better engagement with the platform.</div>"
+                "<div style=\"max-width: 100%; margin: 20px auto; font-family: Arial, sans-serif;\"><table style=\"width: 100%; border-collapse: collapse;\"><thead><tr style=\"background-color: #f4f4f4;\"><th style=\"border: 1px solid #ddd; padding: 10px;\">Метрика</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Включено</th><th style=\"border: 1px solid #ddd; padding: 10px;\">Отключено</th></tr></thead><tbody><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Базовые метрики</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Старт</td><td style=\"border: 1px solid #ddd; padding: 10px;\">6237</td><td style=\"border: 1px solid #ddd; padding: 10px;\">7065</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Завершение</td><td style=\"border: 1px solid #ddd; padding: 10px;\">104</td><td style=\"border: 1px solid #ddd; padding: 10px;\">98</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Конверсия</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.67%</td><td style=\"border: 1px solid #ddd; padding: 10px;\">1.39%</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Метрики прироста</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Прирост пп</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.28%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Прирост %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">20.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Стандартная ошибка</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.21%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Z-статистика</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">1.31</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">p-значение</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">0.1895 (незначимо)</td></tr><tr><td colspan=\"3\" style=\"border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e0e0e0;\">Диапазон прироста</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Диапазон прироста пп</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Низк.: -0.14%, Средн.: 0.28%, Выс.: 0.70%</td></tr><tr><td style=\"border: 1px solid #ddd; padding: 10px;\">Диапазон прироста %</td><td colspan=\"2\" style=\"border: 1px solid #ddd; padding: 10px;\">Низк.: -9.98%, Средн.: 20.21%, Выс.: 50.40%</td></tr></tbody></table></div>",
+                "<div><h3>Итоги</h3>В ходе проекта было реализовано множество инициатив по улучшению UI и UX сервиса, с сильным акцентом на улучшение опыта конечных пользователей. Хотя не каждое решение оказалось успешным и поддержка сервиса со временем ослабла, большинство этих усилий были направлены на оптимизацию пользовательского опыта и создание более интуитивного интерфейса, что в конечном итоге способствовало повышению вовлечённости на платформе.</div>"
             ],
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "Verbling is an online platform that connects language learners with qualified language teachers for live video lessons. The platform offers a variety of languages and provides tools for scheduling, conducting, and reviewing lessons."
+            "about": [
+                "О проекте",
+                "Verbling — онлайн-платформа, которая связывает изучающих иностранные языки с квалифицированными преподавателями для проведения живых видеоуроков. Сервис поддерживает широкий выбор языков и предоставляет инструменты для планирования расписания, проведения занятий и последующего анализа прогресса."
+            ]
         },
         "event_management_tool": {
             "name": "event_management_tool",
-            "title": "Glenis Solutions – Event Management Tool",
+            "title": "Glenis Solutions — инструмент управления мероприятиями",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -517,46 +539,52 @@
                 "Проект",
                 "Glennis Solutions, Healthcare, USA"
             ],
-            "links": [{
-                "name": "glennissolutions.com",
-                "href": "https://www.glennissolutions.com"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "glennissolutions.com",
+                    "href": "https://www.glennissolutions.com"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "5 people"
+                "5 человек"
             ],
             "user_base": [
                 "Пользователи",
-                "200+ senior communities"
+                "200+ сообществ для пожилых людей"
             ],
             "type": "enterprise",
             "text": [
-                "<div><h3>Goals</h3>\n The project aims to create a modern, user-friendly event management system for senior communities. By enhancing the interface and adding a robust validation process, the system will simplify event planning and approval while boosting resident engagement.</div>",
-                "<div><h3>About tool</h3>\n Event management software is one way to make senior living better. \n EMT is a system with ability to create and submit events for review, used to manage event calendars for guests. Residents stay involved and active in their communities. The challenge is to modernize the user interface and add a validation process. \n Another thing it's a mobile app to expand software capabilities.</div>",
-                "<div><h3>Application functionality</h3>\n<ul><li>Working with events;</li><li>Duplicate events;</li><li>Master Calendar feature;</li><li>Roll forward;</li><li>Existing features improvements;</li></ul></div>",
-                "<div><h3>Design process</h3>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Interviews</h3>\n As a part of the qualitative research, I've conducted a number of interviews with users in various roles. Both users with administrative access rights and regular system users were interviewed. <img src=\"./src/images/articles/EMT/interviews.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Empathy map</h3>\n To highlight a number of potentially important hypotheses, I created an average system user empathy map, which helps identify the most important hypotheses that I was going to confirm with a quantitative research in the next step.<br> <img src=\"./src/images/articles/EMT/empathy_map.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Receiving data using google forms</h3>\n As part of quantitative research to confirm previously derived hypotheses, I conducted a quantitative research and identified the most successful solutions, which were later implemented at the prototyping stage. <br> <br> <img src=\"./src/images/articles/EMT/survey_2.png\" width=\"100%\" height=\"100%\"> <img src=\"./src/images/articles/EMT/survey_1.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Current Calendar Process</h3>\n One of the tasks was to change and improve the current process of updating events from the calendar, this process took a large amount of time and was not always convenient.<br> <img src=\"./src/images/articles/EMT/process.png\" width=\"100%\" height=\"100%\"></div> \n<br> I have automated this process by removing unnecessary links in the chain and finalizing the remaining blocks using the new features of the application.<br><br> <img src=\"./src/images/articles/EMT/updated_process.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Wireframes</h3>\n Once the list of MVP features has been approved by the stakeholders, I've started creating prototypes based on the data obtained from research. <img src=\"./src/images/articles/EMT/old_2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/old_1.png\" width=\"100%\" height=\"100%\"></div> <br>",
-                "<div><h3>Styled components library</h3>\n Before starting the design phase, we created a shared design library. <br> <br><img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Visual design</h3>\n As a result of the visual design phase, a number of screens were built. This is important both for creating use cases and for developers use. In addition, some of the users who agreed to usability testing were invited to test the new application design. <br> <br><img src=\"./src/images/articles/EMT/design.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Mocks</h3>\n <img src=\"./src/images/articles/EMT/Screens/1.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/3.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/4.png\" width=\"100%\" height=\"100%\"></div>",
-                "<div><h3>Mobile attendance</h3>\n After research, I've decided  to move some of the functionality from the main application to a mobile attendance mobile application.<br> <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div> <ul><li>An option to mark no attendance added;</li><li>An abillity to create a meal event and take an attendance;</li><li>Admins can track and consume statisticks.</li></ul>",
-                "<div><h3>Project results</h3>\n The Customer was highly satisfied. He left positive feedback for Andersen. He recommended Andersen as a good contractor for software solutions for his colleagues from other financial organizations. \n The project was delivered quickly and on time, to the customer’s full satisfaction. The resulting solution encompasses all the required financial needs.</div>"
+                "<div><h3>Цели</h3>\n Проект направлен на создание современной и удобной системы управления мероприятиями для сообществ пожилых людей. Улучшив интерфейс и добавив надёжную валидацию, система упростит планирование и утверждение событий, одновременно повышая вовлечённость резидентов.</div>",
+                "<div><h3>О инструменте</h3>\n Программное обеспечение для управления мероприятиями помогает сделать жизнь пожилых людей лучше. \n EMT — это система, которая позволяет создавать события и отправлять их на проверку, управляя календарями мероприятий для проживающих. Благодаря этому жители остаются активными и вовлечёнными в жизнь сообщества. Задача проекта — модернизировать пользовательский интерфейс и добавить процесс валидации. \n Кроме того, предусмотрено мобильное приложение для расширения возможностей системы.</div>",
+                "<div><h3>Функциональные возможности приложения</h3>\n<ul><li>Работа с событиями;</li><li>Дублирование событий;</li><li>Функция Master Calendar;</li><li>Перенос событий;</li><li>Улучшения существующих функций;</li></ul></div>",
+                "<div><h3>Процесс дизайна</h3>\n <img src=\"./src/images/articles/EMT/design_process.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Интервью</h3>\n В рамках качественного исследования я провёл серию интервью с пользователями разных ролей: как с администраторами, так и с обычными пользователями системы. <img src=\"./src/images/articles/EMT/interviews.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Карта эмпатии</h3>\n Чтобы выявить потенциально важные гипотезы, я создал карту эмпатии среднего пользователя системы. Это помогло определить ключевые гипотезы, которые затем подтвердились количественным исследованием.<br> <img src=\"./src/images/articles/EMT/empathy_map.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Сбор данных через Google Forms</h3>\n В рамках количественного исследования для подтверждения ранее сформулированных гипотез я провёл опрос и выявил наиболее перспективные решения, которые были реализованы на этапе прототипирования. <br> <br> <img src=\"./src/images/articles/EMT/survey_2.png\" width=\"100%\" height=\"100%\"> <img src=\"./src/images/articles/EMT/survey_1.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Текущий процесс работы с календарём</h3>\n Одной из задач было изменить и улучшить существующий процесс обновления событий в календаре: он занимал много времени и был не всегда удобен.<br> <img src=\"./src/images/articles/EMT/process.png\" width=\"100%\" height=\"100%\"></div> \n<br> Я автоматизировал этот процесс, убрав лишние звенья в цепочке и доработав оставшиеся блоки с помощью новых функций приложения.<br><br> <img src=\"./src/images/articles/EMT/updated_process.png\" width=\"100%\" height=\"100%\">",
+                "<div><h3>Вайрфреймы</h3>\n После утверждения списка MVP-функций заинтересованными сторонами я приступил к созданию прототипов на основе данных исследований. <img src=\"./src/images/articles/EMT/old_2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/old_1.png\" width=\"100%\" height=\"100%\"></div> <br>",
+                "<div><h3>Библиотека стилизованных компонентов</h3>\n Перед началом стадии дизайна мы создали общую библиотеку компонентов. <br> <br><img src=\"./src/images/articles/EMT/design_system.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Визуальный дизайн</h3>\n В результате стадии визуального дизайна было создано множество экранов — как для формирования сценариев использования, так и для работы разработчиков. Кроме того, некоторые пользователи согласились пройти юзабилити-тестирование нового дизайна. <br> <br><img src=\"./src/images/articles/EMT/design.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Макеты</h3>\n <img src=\"./src/images/articles/EMT/Screens/1.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/2.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/3.png\" width=\"100%\" height=\"100%\"><img src=\"./src/images/articles/EMT/Screens/4.png\" width=\"100%\" height=\"100%\"></div>",
+                "<div><h3>Мобильная посещаемость</h3>\n По результатам исследования я решил перенести часть функционала из основной системы в мобильное приложение для учёта посещаемости.<br> <img src=\"./src/images/articles/EMT/mobile_attendance.png\" width=\"100%\" height=\"100%\"></div> <ul><li>Добавлена возможность отмечать отсутствие;</li><li>Можно создавать события приёма пищи и фиксировать присутствующих;</li><li>Администраторы могут отслеживать и анализировать статистику.</li></ul>",
+                "<div><h3>Результаты проекта</h3>\n Система Glenis Solutions сократила время подготовки мероприятий на 40 %, устранила конфликты расписания и повысила посещаемость резидентов на 20 %. Решение без доработок масштабировано на 200+ домов, а мобильное приложение позволяет персоналу отмечать присутствие и собирать статистику в реальном времени, делая управление событиями быстрым и прозрачным.</div>"
             ],
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "The client operates senior living communities where older adults can live comfortably and safely while receiving vital care, medication, and entertainment. They also enjoy opportunities for social interaction and engagement with other residents. This project focuses on developing an intuitive event management system that streamlines workflows and ensures robust validation, ultimately making it easier for staff to plan, organize, and approve events."
+            "about": [
+                "О проекте",
+                "Glenis Solutions Senior Living — интеллектуальная платформа, которая объединяет планирование, распределение ресурсов и согласование мероприятий в домах для пожилых людей. Интуитивный интерфейс с автоматической проверкой расписания избавляет сотрудников от рутины и ошибок, позволяя быстро запускать любые активности — от утренней гимнастики до праздничных концертов."
+            ]
         },
         "guy_carpenter": {
             "name": "guy_carpenter",
-            "title": "Guy Carpenter – Tax Calculator",
+            "title": "Guy Carpenter — налоговый калькулятор",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -572,41 +600,47 @@
                 "Guy Carpenter, Enterprise, UK"
             ],
             "type": "enterprise",
-            "links": [{
-                "name": "guycarp.com",
-                "href": "https://www.guycarp.com"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "guycarp.com",
+                    "href": "https://www.guycarp.com"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "4 people"
+                "4 человека"
             ],
             "user_base": [
                 "Пользователи",
-                "1000+ analysts"
+                "1000+ аналитиков"
             ],
             "text": [
-                "<div><h3>Goals</h3>The team needed a web tool (internally referred to as the “Tax Calculator” or “Limits & Attachment Tool”) that would automate and streamline the process of combining reinsurance data, filtering policies, and calculating premiums and taxes across different regions, lines of business, and date ranges.</div>",
-                "<div><h3>Design Challenge</h3><ol><li>Complex Data Structures — The application must handle multiple file formats (CSV, Excel, UFC, Arium, etc.) and display comprehensive metadata (Treaty Name, Cedent, Line of Business, etc.).</li><li>Multiple Filters & Profiles — Users require advanced filtering (by region, business unit, country) and the ability to segment by limit and attachment point.</li><li>Tax & Premium Calculations — The interface needs to clearly present data on premium amounts, policy counts, and total sums, accommodating various regional tax rates.</li><li>User Variability — Reinsurance analysts, underwriters, actuaries, and finance teams each need different views and outputs.</li></ol></div>",
-                "<div><h3>Key UX Objectives</h3><ul><li>Clarity and Efficiency: The interface should quickly guide users through data selection, filtering, and output generation without overwhelming them.</li><li>Flexible Customization: Filters, date ranges, and attachment buckets should be easy to configure for diverse reinsurance needs.</li><li>Seamless Data Visualization: A clean, organized layout helps users interpret large data sets at a glance.</li></ul></div>",
+                "<div><h3>Цели</h3>Команде требовался веб-инструмент (внутреннее название — «Tax Calculator» или «Limits & Attachment Tool»), который бы автоматизировал и упрощал объединение данных по перестрахованию, фильтрацию полисов, а также расчёт премий и налогов по различным регионам, линиям бизнеса и диапазонам дат.</div>",
+                "<div><h3>Дизайнерский вызов</h3><ol><li><b>Сложные структуры данных</b> — приложение должно обрабатывать разные форматы файлов (CSV, Excel, UFC, Arium и др.) и показывать полные метаданные (название договора, цедент, линия бизнеса и т. д.).</li><li><b>Множественные фильтры и профили</b> — нужны расширенные фильтры (по региону, бизнес-единице, стране) и сегментация по лимиту и точке входа ответственности (attachment point).</li><li><b>Расчёт налогов и премий</b> — интерфейс должен наглядно отображать суммы премий, количество полисов и итоги с учётом разных региональных налоговых ставок.</li><li><b>Разные роли пользователей</b> — аналитикам, андеррайтерам, актуариям и финансистам требуются свои представления данных и отчётов.</li></ol></div>",
+                "<div><h3>Ключевые UX-задачи</h3><ul><li><b>Ясность и эффективность:</b> интерфейс должен быстро вести пользователя через выбор данных, фильтрацию и генерацию отчётов, не перегружая его.</li><li><b>Гибкая настройка:</b> фильтры, диапазоны дат и “бакеты” лимитов должны легко подстраиваться под разные перестраховочные сценарии.</li><li><b>Чёткая визуализация данных:</b> аккуратная компоновка помогает воспринимать большие объёмы информации с первого взгляда.</li></ul></div>",
                 "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_1.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>UX Research & Discovery</h3>Stakeholder interviews helped identify how analysts and underwriters search, filter, and merge data. User journey mapping revealed the core tasks: importing files, applying filters and profiles, reviewing limit and attachment breakdowns, setting date parameters, and exporting data. Competitive and internal tool analyses highlighted pain points in existing spreadsheets and analytics solutions.</div>",
-                "<div><h3>Information Architecture</h3>A two-panel layout was introduced: a left-side panel for file selection and filter options, and a main area for data visualization. Advanced features like date range pickers and multiple filter sets use progressive disclosure, ensuring a clear workflow. Responsive design ensures usability on various screen sizes.</div>",
+                "<div><h3>UX-исследования и дискавери</h3>Интервью со стейкхолдерами показали, как аналитики и андеррайтеры ищут, фильтруют и объединяют данные. Картирование пользовательских путей выявило основные шаги: импорт файлов, применение фильтров и профилей, просмотр распределения по лимитам и attachment point, настройка дат и экспорт данных. Анализ существующих инструментов и электронных таблиц выявил их болевые точки.</div>",
+                "<div><h3>Информационная архитектура</h3>Внедрена двухпанельная схема: слева — выбор файлов и фильтров, справа — визуализация данных. Продвинутые элементы (диапазоны дат, наборы фильтров) раскрываются постепенно, сохраняя ясный рабочий процесс. Адаптивный дизайн обеспечивает удобство на любых экранах.</div>",
                 "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_2.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>User Flow Overview</h3><ol><li>Select Files — Users pick relevant files from a list.</li><li>Apply Filters — Filters are set for line of business, region, dates, etc.</li><li>Review Data Table — The interface shows premiums, policy counts, and coverage layers by limit buckets.</li><li>Adjust Dates — Users refine 'In Force' or 'Inception/Expiration' ranges if needed.</li><li>Export & Download — Chosen data can be exported in multiple formats or consolidated in a single report.</li></ol></div>",
+                "<div><h3>Пользовательский поток</h3><ol><li><b>Выбор файлов</b> — отметьте нужные файлы.</li><li><b>Фильтрация</b> — задайте линию бизнеса, регион, даты и др.</li><li><b>Просмотр таблицы</b> — премии, количество полисов и слои покрытия по “бакетам” лимитов.</li><li><b>Корректировка дат</b> — уточните диапазоны In Force или Inception/Expiration.</li><li><b>Экспорт</b> — выгрузите данные в нужном формате или единый отчёт.</li></ol></div>",
                 "<div>\n <img src=\"./src/images/articles/Guy Carpenter/ui_3.png\" width=\"100%\" height=\"100%\">",
-                "<div><h3>Outcome & Learnings</h3>The tool reduced manual spreadsheet work by an estimated 50%, significantly improving speed and accuracy in tax and premium calculations. The flexible, modular design allows quick adaptation for new lines of business or regulatory changes. Overall, the user-centric approach delivered a streamlined solution that better supports the reinsurance workflow.</div>"
+                "<div><h3>Результаты и выводы</h3>Инструмент сократил ручную работу с таблицами примерно на 50 %, заметно ускорив и упростив расчёты налогов и премий. Модульная архитектура позволяет быстро адаптироваться к новым линиям бизнеса и изменениям регулирования. Пользовательский подход дал стройное решение, которое лучше поддерживает рабочий процесс в перестраховании.</div>"
             ],
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "Guy Carpenter develops advanced risk, reinsurance and capital strategies that help clients grow profitably and pursue emerging opportunities."
+            "about": [
+                "О проекте",
+                "Компания Guy Carpenter разрабатывает передовые стратегии управления рисками, перестрахованием и капиталом, которые помогают клиентам прибыльно расти и использовать новые возможности."
+            ]
         },
         "article&": {
             "name": "article&",
-            "title": "Article&.com – Fashion Online Store",
+            "title": "Article&.com — интернет-магазин модной одежды",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -622,40 +656,44 @@
             ],
             "type": "ecommerce",
             "links": [
-                {
+                "Ссылки",
+                [{
                     "name": "Template",
                     "href": "https://www.figma.com/community/file/1316802242292207286/ecommerce-template-clothes-shop-free"
                 },
                 {
                     "name": "articleand.com",
                     "href": "https://www.articleand.com/"
-                }
+                }]
             ],
             "team_size": [
                 "Размер команды",
-                "3 people"
+                "3 человека"
             ],
             "user_base": [
                 "Пользователи",
-                "10K+ customers"
+                "10K+ клиентов"
             ],
             "text": [
-                "<div><h3>About company</h3>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
-                "<div><h3>About project</h3>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
-                "<div><h3>Homepage</h3>The main page of each website is of course the Home Page which is being the greeting card to business. We didn’t leave it unnoticed and assigned our team to work on the header, menu, main slider, images of products and footer of the website in the both desktop and mobile versions. As a result the slider has been extended and a bit changed in its look, the icons have been moved, the images have got the brand new bigger stylistics and the fonts on the page have been taken care of.</div>",
-                "<div><h3>Product page</h3>Another page we paid our attention to was the product page that has been significantly reworked. The tabs, the social media as well as the whole styling of the page have been either changed or added by the members of our team.</div>"
+                "<div><h3>О компании</h3>Articleand — основанный в Нью-Йорке онлайн-ритейлер модной одежды. Магазин предлагает обширную коллекцию женских платьев, обуви и аксессуаров на любой вкус.</div>",
+                "<div><h3>О проекте</h3>Обновление e-commerce-платформы включало редизайн сайта, фронтенд-разработку и поддержку бэкенда. Мы уделили особое внимание мобильной версии, сохранив её чистой, стильной и удобной.</div>",
+                "<div><h3>Главная страница</h3>Главная страница — визитная карточка магазина. Команда переработала хедер, меню, главный слайдер, карточки товаров и футер для десктопа и мобильных устройств. Слайдер расширен и обновлён визуально, иконки перемещены, изображения стали крупнее, а шрифты унифицированы.</div>",
+                "<div><h3>Страница товара</h3>Страница товара претерпела существенные изменения: обновлены вкладки, добавлена секция социальных сетей и полностью переосмыслен визуальный стиль.</div>"
             ],
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds."
+            "about": [
+                "О проекте",
+                "Articleand — основанный в Нью-Йорке онлайн-ритейлер модной одежды, предлагающий широкую коллекцию женских платьев, обуви и аксессуаров для создания безупречных образов на любой случай."
+            ]
         },
         "bzdefence": {
             "name": "bzdefence",
-            "title": "BZDefence.com – Military Equipment Store",
+            "title": "BZDefence.com — интернет-магазин военной техники и экипировки.",
             "description": "UI / Visual Design, UX Design",
             "preview": 0,
             "default": 1,
@@ -669,31 +707,38 @@
                 "BZ Defence, E-Commerce, USA"
             ],
             "type": "ecommerce",
-            "links": [{
-                "name": "Figma",
-                "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
-            }, {
-                "name": "bzdefence.com",
-                "href": "https://www.bzdefence.com/"
-            }],
+            "links": [
+                "Ссылки",
+                [{
+                    "name": "Figma",
+                    "href": "https://www.figma.com/file/QFw35k54ZNoS5d9oQ5C0CW/BZ-Defence-design-mobile?node-id=849%3A3719"
+                },
+                {
+                    "name": "bzdefence.com",
+                    "href": "https://www.bzdefence.com/"
+                }]
+            ],
             "team_size": [
                 "Размер команды",
-                "2 people"
+                "2 человека"
             ],
             "user_base": [
                 "Пользователи",
-                "5K+ customers"
+                "5K+ клиентов"
             ],
             "text": [
-                "<div><h3>About company</h3>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
+                "<div><h3>О компании</h3>BZ Defense — американская компания, поставляющая оборудование и услуги миссионной поддержки государственным учреждениям и коммерческим предприятиям. Их кредо — открытость и честность. Штаб-квартира расположена в Лос-Анджелесе. BZ Defense предлагает надёжные продукты высокого качества и оперативный сервис.</div>"
             ],
             "footer": {
                   "type": "contact-link",
                   "prefix": "Не стесняйтесь ",
-                  "linkText": "написать мне письмо",
+                  "linkText": "написать мне",
                   "suffix": ". Буду рад ответить!"
             },
-            "about": "BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service."
+            "about": [
+                "О проекте",
+                "BZ Defense — американский поставщик специализированного оборудования и миссионной поддержки для гос- и корпоративных клиентов. Базирующаяся в Лос-Анджелесе компания известна высоким качеством, быстрым сервисом и принципами прозрачности."
+            ]
         }
     }
 }
