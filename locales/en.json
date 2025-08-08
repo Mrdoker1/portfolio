@@ -1,12 +1,4 @@
 {
-    "common": {
-        "project": "Project",
-        "about": "About",
-        "teamSize": "Team Size",
-        "userBase": "User Base",
-        "people": "people",
-        "administrators": "administrators"
-    },
     "pages": {
         "main": {
             "title": "Viachas Kul",
