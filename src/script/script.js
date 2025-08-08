@@ -546,6 +546,36 @@ export default class PageBuilder {
             infoSection.appendChild(linksSection);
         }
 
+        // Размер команды
+        if (projectData.team_size) {
+            const teamSection = document.createElement("div");
+            const teamTitle = document.createElement("span");
+            const teamInfo = document.createElement("span");
+
+            teamTitle.classList.add("title");
+            teamTitle.innerText = projectData.team_size[0];
+            teamInfo.innerText = projectData.team_size[1];
+
+            teamSection.appendChild(teamTitle);
+            teamSection.appendChild(teamInfo);
+            infoSection.appendChild(teamSection);
+        }
+
+        // База пользователей
+        if (projectData.user_base) {
+            const userSection = document.createElement("div");
+            const userTitle = document.createElement("span");
+            const userInfo = document.createElement("span");
+
+            userTitle.classList.add("title");
+            userTitle.innerText = projectData.user_base[0];
+            userInfo.innerText = projectData.user_base[1];
+
+            userSection.appendChild(userTitle);
+            userSection.appendChild(userInfo);
+            infoSection.appendChild(userSection);
+        }
+
         // Раздел "О проекте"
         const aboutSection = document.createElement("div");
         const aboutTitle = document.createElement("span");

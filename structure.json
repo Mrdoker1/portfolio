@@ -330,6 +330,14 @@
                     "name": "fivepost.ru",
                     "href": "https://fivepost.ru"
                 }],
+            "team_size": [
+                "Team Size",
+                "12 people"
+            ],
+            "user_base": [
+                "User Base",
+                "500+ administrators"
+            ],
             "text": [
                 "<div><h3>Implementation details</h3>\n Within the scope of the UMS (Post Office Management System) Administrator Module, a comprehensive UI/UX design process was carried out to deliver the MVP and subsequent enhancements. The team conducted business analysis, stakeholder interviews, user flow mapping, and built a foundational UI kit. Close collaboration with developers and potential end-users helped clarify requirements and tackle interface challenges not covered by standard Material Design components. Work was organized in multiple phases, addressing identified risks (e.g., discrepancies between Miro and wiki documentation, limited research data, insufficient test users) and optimizing time usage. </div>",
                 "<video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\" disablePictureInPicture controlsList=\"nodownload nofullscreen noremoteplayback\"><source src=\"./src/videos/5post/preview_2.mp4\" type=\"video/mp4\"></video>",
@@ -366,6 +374,14 @@
                 "name": "busuu.com",
                 "href": "https://www.busuu.com"
             }],
+            "team_size": [
+                "Team Size",
+                "8 people"
+            ],
+            "user_base": [
+                "User Base",
+                "15M+ learners"
+            ],
             "text": [
                 "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
                 "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
@@ -400,6 +416,14 @@
                 "name": "cognni.ai",
                 "href": "https://cognni.ai/"
             }],
+            "team_size": [
+                "Team Size",
+                "6 people"
+            ],
+            "user_base": [
+                "User Base",
+                "500+ enterprises"
+            ],
             "about": "Cognni.ai is a cutting-edge Cloud Information Security Assistant that empowers organizations to map and visualize their critical data assets with clarity and actionable insights. By translating complex security events into clear visual narratives, Cognni.ai bridges communication gaps between CISOs, CEOs, and department heads, driving strategic decision-making.",
             "text": [
             "<div><h3>Project Overview</h3><p>Cognni.ai is designed to simplify the complex world of information security by offering a user-friendly interface that emphasizes clear descriptions and intents. The focus is on mapping the relationships between data, people, and events, ensuring that even non-technical stakeholders can understand the current information state and necessary actions.</p></div>",
@@ -440,6 +464,14 @@
                 "name": "verbling.com",
                 "href": "https://www.verbling.com"
             }],
+            "team_size": [
+                "Team Size",
+                "12 people"
+            ],
+            "user_base": [
+                "User Base",
+                "2M+ students"
+            ],
             "text": [
                 "<div><h3>Goals and OKRs</h3>The primary objective for the Verbling project was to create a seamless and engaging user journey that directly translates into measurable business growth. Our goals were centered on reducing friction in the registration and onboarding processes while enhancing the overall user experience. Specifically, we set clear OKRs to increase the conversion rate from free trial to first order by at least 15%, boost daily new registrations by 20%, and decrease the drop-off rate during the initial user interactions by 25%. Additionally, we aimed to refine the tutor discovery process—through improved search, filtering, and information presentation—to drive higher engagement and satisfaction. These targets were supported by a series of quantitative KPIs, including conversion metrics, customer satisfaction scores, and revenue impact estimates, ensuring that every UX improvement aligned with and contributed to the platform's strategic business outcomes.</div>",
                 "<div>\n <img src=\"./src/images/articles/Verbling/preview_1.gif\" width=\"100%\" height=\"100%\">",
@@ -489,6 +521,14 @@
                 "name": "glennissolutions.com",
                 "href": "https://www.glennissolutions.com"
             }],
+            "team_size": [
+                "Team Size",
+                "5 people"
+            ],
+            "user_base": [
+                "User Base",
+                "200+ senior communities"
+            ],
             "type": "enterprise",
             "text": [
                 "<div><h3>Goals</h3>\n The project aims to create a modern, user-friendly event management system for senior communities. By enhancing the interface and adding a robust validation process, the system will simplify event planning and approval while boosting resident engagement.</div>",
@@ -536,6 +576,14 @@
                 "name": "guycarp.com",
                 "href": "https://www.guycarp.com"
             }],
+            "team_size": [
+                "Team Size",
+                "4 people"
+            ],
+            "user_base": [
+                "User Base",
+                "1000+ analysts"
+            ],
             "text": [
                 "<div><h3>Goals</h3>The team needed a web tool (internally referred to as the “Tax Calculator” or “Limits & Attachment Tool”) that would automate and streamline the process of combining reinsurance data, filtering policies, and calculating premiums and taxes across different regions, lines of business, and date ranges.</div>",
                 "<div><h3>Design Challenge</h3><ol><li>Complex Data Structures — The application must handle multiple file formats (CSV, Excel, UFC, Arium, etc.) and display comprehensive metadata (Treaty Name, Cedent, Line of Business, etc.).</li><li>Multiple Filters & Profiles — Users require advanced filtering (by region, business unit, country) and the ability to segment by limit and attachment point.</li><li>Tax & Premium Calculations — The interface needs to clearly present data on premium amounts, policy counts, and total sums, accommodating various regional tax rates.</li><li>User Variability — Reinsurance analysts, underwriters, actuaries, and finance teams each need different views and outputs.</li></ol></div>",
@@ -583,6 +631,14 @@
                     "href": "https://www.articleand.com/"
                 }
             ],
+            "team_size": [
+                "Team Size",
+                "3 people"
+            ],
+            "user_base": [
+                "User Base",
+                "10K+ customers"
+            ],
             "text": [
                 "<div><h3>About company</h3>Articleand is a New York based fashion online store selling apparel. The business is having a full arsenal of women’s dresses, shoes and accessories of different kinds.</div>",
                 "<div><h3>About project</h3>The updating of the e-commerce website turned to redesign of the website, implementation of it and Frontend development with corresponding Backend support. Besides the desktop version of the store we took special care of the mobile one keeping it neat, stylish and clean.</div>",
@@ -620,6 +676,14 @@
                 "name": "bzdefence.com",
                 "href": "https://www.bzdefence.com/"
             }],
+            "team_size": [
+                "Team Size",
+                "2 people"
+            ],
+            "user_base": [
+                "User Base",
+                "5K+ customers"
+            ],
             "text": [
                 "<div><h3>About company</h3>BZ Defense is an American company that supplies the equipment and mission support services to the government agencies and enterprises. Their credo is transparency and integrity. Headquartered in Los Angeles, BZ Defense offers high quality reliable products and quick service.</div>"
             ],
