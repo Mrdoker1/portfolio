@@ -234,6 +234,17 @@ export default class PageBuilder {
     createBlock_form(data) {
         const form = document.createElement("form");
         
+        // Получаем переводы, используем fallback значения если их нет
+        const labels = data.labels || {
+            name: "Name",
+            email: "Email",
+            message: "Message",
+            submit: "Send Message",
+            emailLink: "Send an Email", 
+            or: " or ",
+            validation: "Please fill out all fields before submitting the form."
+        };
+        
         // Создаем структуру формы
         const createFormField = (labelText, name, type, required = true) => {
             const label = document.createElement("label");
@@ -262,10 +273,10 @@ export default class PageBuilder {
         form.setAttribute("action", data.value);
         form.setAttribute("method", "POST");
 
-        // Создаем поля формы
-        const nameInput = createFormField("Name", "name", "text");
-        const emailInput = createFormField("Email", "_replyto", "email");
-        const messageInput = createFormField("Message", "message", "textarea");
+        // Создаем поля формы с локализованными подписями
+        const nameInput = createFormField(labels.name, "name", "text");
+        const emailInput = createFormField(labels.email, "_replyto", "email");
+        const messageInput = createFormField(labels.message, "message", "textarea");
 
         // Создаем кнопку отправки и альтернативную ссылку
         const buttonContainer = document.createElement("div");
@@ -274,13 +285,13 @@ export default class PageBuilder {
         const emailLink = document.createElement("a");
 
         submitButton.setAttribute("type", "submit");
-        submitButton.setAttribute("value", "Send Message");
+        submitButton.setAttribute("value", labels.submit);
         submitButton.classList.add("button");
         
         emailLink.href = `mailto:${data.email}`;
-        emailLink.innerText = "Send an Email";
+        emailLink.innerText = labels.emailLink;
         
-        orSpan.appendChild(document.createTextNode(" or "));
+        orSpan.appendChild(document.createTextNode(labels.or));
         orSpan.appendChild(emailLink);
         
         buttonContainer.appendChild(submitButton);
@@ -288,11 +299,11 @@ export default class PageBuilder {
         
         form.appendChild(buttonContainer);
 
-        // Валидация формы
+        // Валидация формы с локализованным сообщением
         form.addEventListener("submit", (event) => {
             if (!nameInput.value || !emailInput.value || !messageInput.value) {
                 event.preventDefault();
-                alert("Please fill out all fields before submitting the form.");
+                alert(labels.validation);
             }
         });
 

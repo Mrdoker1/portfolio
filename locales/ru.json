@@ -270,7 +270,16 @@
                     "type": "form",
                     "name": "contactForm",
                     "value": "https://formspree.io/f/meqrvpnw",
-                    "email": "fixrapdok@gmail.com"
+                    "email": "fixrapdok@gmail.com",
+                    "labels": {
+                        "name": "Имя",
+                        "email": "Email", 
+                        "message": "Сообщение",
+                        "submit": "Отправить сообщение",
+                        "emailLink": "Написать на почту",
+                        "or": " или ",
+                        "validation": "Пожалуйста, заполните все поля перед отправкой формы."
+                    }
                 }
             ]
         },

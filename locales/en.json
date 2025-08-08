@@ -274,7 +274,16 @@
                     "type": "form",
                     "name": "contactForm",
                     "value": "https://formspree.io/f/meqrvpnw",
-                    "email": "fixrapdok@gmail.com"
+                    "email": "fixrapdok@gmail.com",
+                    "labels": {
+                        "name": "Name",
+                        "email": "Email", 
+                        "message": "Message",
+                        "submit": "Send Message",
+                        "emailLink": "Send an Email",
+                        "or": " or ",
+                        "validation": "Please fill out all fields before submitting the form."
+                    }
                 }
             ]
         },
