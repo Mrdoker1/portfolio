@@ -159,7 +159,7 @@
             "body": [{
                     "type": "h1",
                     "name": "headline2",
-                    "value": "Resources",
+                    "value": "Ресурсы",
                     "properties": {
                         "text-align": "center"
                     }
@@ -179,7 +179,7 @@
                 {
                     "type": "paragraph",
                     "name": "text1",
-                    "value": "My Wiki contains fundamental knowledge and most essential articles in the user experience design field and Front-End development, based on my experience and industry standards in order to organize knowledge.",
+                    "value": "Wiki объединяет базовые знания и ключевые статьи по UX-дизайну и фронтенд-разработке, основанные на моём опыте и отраслевых стандартах, чтобы систематизировать информацию.",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px"
@@ -202,7 +202,7 @@
             "body": [{
                     "type": "h1",
                     "name": "headline2",
-                    "value": "About",
+                    "value": "Обо мне",
                     "properties": {
                         "text-align": "center"
                     }
@@ -221,7 +221,7 @@
                 {
                     "type": "paragraph",
                     "name": "about-paragraph",
-                    "value": "Hi, I am User Experience designer and developer with technical background and user-centred design thinking, working with e-commerce, enterprise and SaaS-oriented projects during 10+ years.",
+                    "value": "Привет! Я продуктовый дизайнер и разработчик. Совмещаю user-centered design, бизнес-аналитику и технологическую экспертизу, создавая масштабируемые и коммерчески эффективные решения.",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px"
@@ -231,8 +231,8 @@
                     "type": "paragraph",
                     "name": "welcome-text",
                     "value": [
-                        "Feel free to <a class='link' href='https://docs.google.com/document/d/1ZBpu5AmOINq1BfnTn-Nlzsx9NhyKlpjml-OwRl0ifc4/edit?usp=sharing'>Download CV</a> ",
-                        "or <a class='link' href='Viachas Kul Presentation.pdf'>Download Portfolio</a>."
+                        "Вы можете <a class='link' href='https://docs.google.com/document/d/1ZBpu5AmOINq1BfnTn-Nlzsx9NhyKlpjml-OwRl0ifc4/edit?usp=sharing'>скачать моё CV</a> ",
+                        "или <a class='link' href='Viachas Kul Presentation.pdf'>портфолио</a>."
                     ],
                     "properties": {
                         "text-align": "center",
@@ -251,7 +251,7 @@
             "body": [{
                     "type": "h1",
                     "name": "headline",
-                    "value": "Contact",
+                    "value": "Контакты",
                     "properties": {
                         "text-align": "center"
                     }
@@ -259,7 +259,7 @@
                 {
                     "type": "paragraph",
                     "name": "contact-paragraph",
-                    "value": "Excited about new possibilities! Let’s connect and explore how my expertise can support your business growth.",
+                    "value": "Свяжитесь со мной, чтобы узнать, как мой опыт сможет принести пользу вашему бизнесу.",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px",

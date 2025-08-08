@@ -1,7 +1,9 @@
 export default class LocalizationManager {
     constructor(pageBuilder) {
         this.pageBuilder = pageBuilder;
-        this.currentLanguage = this.getStoredLanguage() || 'en';
+        // Приоритет: URL -> localStorage -> 'en'
+        const urlLang = this.pageBuilder.router ? this.pageBuilder.router.getLanguage() : null;
+        this.currentLanguage = urlLang || this.getStoredLanguage() || 'en';
         this.locales = {};
         this.init();
     }
@@ -54,12 +56,17 @@ export default class LocalizationManager {
         });
     }
 
-    async switchLanguage(lang) {
+    async switchLanguage(lang, updateURL = true) {
         if (this.currentLanguage === lang) return;
         
         this.currentLanguage = lang;
         this.storeLanguage(lang);
         this.updateLanguageSwitcher();
+        
+        // Обновляем URL с новым языком только если это не вызвано из URL
+        if (updateURL && this.pageBuilder.router) {
+            this.pageBuilder.router.setLanguage(lang);
+        }
         
         // Проверяем, что локаль загружена
         if (!this.locales[lang]) {
@@ -134,5 +141,15 @@ export default class LocalizationManager {
         }
         
         return value || defaultValue;
+    }
+
+    // Метод для обновления языка из URL (вызывается при изменении URL)
+    async updateLanguageFromURL() {
+        if (!this.pageBuilder.router) return;
+        
+        const urlLang = this.pageBuilder.router.getLanguage();
+        if (urlLang && urlLang !== this.currentLanguage) {
+            await this.switchLanguage(urlLang, false); // false = не обновлять URL
+        }
     }
 }

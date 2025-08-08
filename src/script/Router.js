@@ -5,12 +5,12 @@ export default class Router {
     }
 
     setupEventListeners() {
-        window.onpopstate = () => {
-            this.pageBuilder.rebuild(this.getPath());
+        window.onpopstate = async () => {
+            await this.handleURLChange();
         };
     }
 
-    setHashParameters(path, filter, project) {
+    setHashParameters(path, filter, project, lang) {
         let newHash = "#/";
         if (project) {
             newHash += "project/" + project;
@@ -18,8 +18,16 @@ export default class Router {
             newHash += path === "main" ? "main" : path;
         }
         
+        const params = [];
         if (filter && filter !== "all") {
-            newHash += `?filter=${filter}`;
+            params.push(`filter=${filter}`);
+        }
+        if (lang && lang !== "en") {
+            params.push(`lang=${lang}`);
+        }
+        
+        if (params.length > 0) {
+            newHash += `?${params.join("&")}`;
         }
         
         window.history.pushState(
@@ -46,15 +54,19 @@ export default class Router {
     }
 
     setPath(path) {
-        this.setHashParameters(path, this.getFilter(), this.getProject());
+        this.setHashParameters(path, this.getFilter(), this.getProject(), this.getLanguage());
     }
 
     setFilter(filter) {
-        this.setHashParameters(this.getPath(), filter, this.getProject());
+        this.setHashParameters(this.getPath(), filter, this.getProject(), this.getLanguage());
     }
 
     setProject(project) {
-        this.setHashParameters(this.getPath(), this.getFilter(), project);
+        this.setHashParameters(this.getPath(), this.getFilter(), project, this.getLanguage());
+    }
+
+    setLanguage(lang) {
+        this.setHashParameters(this.getPath(), this.getFilter(), this.getProject(), lang);
     }
 
     getPath() {
@@ -78,7 +90,28 @@ export default class Router {
         return params.project || null;
     }
 
-    handleURLChange() {
+    getLanguage() {
+        // Сначала проверяем URL
+        const { params } = this.getHashData();
+        if (params.lang) {
+            return params.lang;
+        }
+        
+        // Если в URL нет языка, берем из LocalizationManager
+        if (this.pageBuilder.localizationManager) {
+            return this.pageBuilder.localizationManager.getCurrentLanguage();
+        }
+        
+        // Fallback
+        return "en";
+    }
+
+    async handleURLChange() {
+        // Сначала обновляем язык если он изменился в URL
+        if (this.pageBuilder.localizationManager) {
+            await this.pageBuilder.localizationManager.updateLanguageFromURL();
+        }
+        
         const hash = window.location.hash.slice(1);
         
         if (hash.startsWith('/project/')) {
