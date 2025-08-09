@@ -118,19 +118,19 @@
                         "items": [
                             {
                                 "name": "all",
-                                "value": "All"
+                                "value": "Все"
                             }, {
                                 "name": "enterprise",
                                 "value": "Enterprise"
                             }, {
                                 "name": "product",
-                                "value": "Product"
+                                "value": "Продукт"
                             }, {
                                 "name": "ecommerce",
                                 "value": "E-Commerce"
                             },{
                                 "name": "other",
-                                "value": "Other"
+                                "value": "Другое"
                             }
                         ],
                         "default": 0
