@@ -6,7 +6,7 @@
             "body": [{
                     "type": "h0",
                     "name": "headline",
-                    "value": "Продуктовый дизайнер и Разработчик.",
+                    "value": "Продуктовый дизайнер и разработчик.",
                     "properties": {
                         "margin": "bottom-24px",
                         "text-align": "center"
@@ -259,7 +259,7 @@
                 {
                     "type": "paragraph",
                     "name": "contact-paragraph",
-                    "value": "Свяжитесь со мной, чтобы узнать, как мой опыт сможет принести пользу вашему бизнесу.",
+                    "value": "Можно просто написать на почту или отправить сообщение через форму — с радостью отвечу как можно скорее.",
                     "properties": {
                         "text-align": "center",
                         "margin": "top-25px",
@@ -272,8 +272,8 @@
                     "value": "https://formspree.io/f/meqrvpnw",
                     "email": "fixrapdok@gmail.com",
                     "labels": {
-                        "name": "Имя",
-                        "email": "Email", 
+                        "name": "Ваше имя",
+                        "email": "Ваш Email", 
                         "message": "Сообщение",
                         "submit": "Отправить сообщение",
                         "emailLink": "Написать на почту",
