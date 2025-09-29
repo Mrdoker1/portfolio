@@ -158,8 +158,8 @@
             ]
         },
         "resources": {
-            "title": "My Products",
-            "description": "My Products",
+            "title": "Products",
+            "description": "Products",
             "body": [{
                     "type": "h1",
                     "name": "headline2",
@@ -192,26 +192,36 @@
                 },
                 {
                     "type": "product",
-                    "name": "design-system-kit",
-                    "image": "./src/images/wiki.jpg",
+                    "name": "doc-scan-ai",
+                    "image": "./src/images/docscan.jpg",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
-                    "header": "Design System Kit",
-                    "description": "A comprehensive design system toolkit with reusable components, patterns, and guidelines for creating consistent user interfaces across projects.",
-                    "links": [],
+                    "header": "Doc Scan with AI",
+                    "description": "Document scanner powered by artificial intelligence. Automatic text recognition, AI-powered analysis, and smart organization.",
+                    "links": [
+                        {
+                            "text": "Download on Google Play",
+                            "url": "https://play.google.com/store/apps/details?id=com.smartdocscan.app"
+                        }
+                    ],
                     "properties": {
                         "margin": "top-50px"
                     }
                 },
                 {
                     "type": "product",
-                    "name": "ux-research-toolkit",
-                    "image": "./src/images/wiki.jpg",
+                    "name": "railway-ticket-tracker",
+                    "image": "./src/images/tickettrack.jpg",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
-                    "header": "UX Research Toolkit",
-                    "description": "A collection of templates, frameworks, and tools for conducting effective user research, including interview guides, survey templates, and analysis frameworks.",
-                    "links": [],
+                    "header": "Railway Ticket Tracker",
+                    "description": "Browser extension for automatic tracking with instant notifications when tickets become available.",
+                    "links": [
+                        {
+                            "text": "Install Chrome Extension",
+                            "url": "https://chromewebstore.google.com/detail/railway-ticket-tracker-be/hhjmegjfobpppiioidccddjiigejbmjj"
+                        }
+                    ],
                     "properties": {
                         "margin": "top-50px"
                     }
@@ -322,7 +332,7 @@
             "href": "/#/main"
         },
         {
-            "name": "My Products",
+            "name": "Products",
             "page": "resources",
             "href": "/#/resources"
         },

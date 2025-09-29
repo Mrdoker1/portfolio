@@ -154,8 +154,8 @@
             ]
         },
         "resources": {
-            "title": "Мои продукты",
-            "description": "Мои продукты",
+            "title": "Продукты",
+            "description": "Продукты",
             "body": [{
                     "type": "h1",
                     "name": "headline2",
@@ -188,26 +188,36 @@
                 },
                 {
                     "type": "product",
-                    "name": "design-system-kit",
-                    "image": "./src/images/wiki.jpg",
+                    "name": "doc-scan-ai",
+                    "image": "./src/images/docscan.jpg",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
-                    "header": "Дизайн-система",
-                    "description": "Комплексный набор инструментов дизайн-системы с переиспользуемыми компонентами, паттернами и руководящими принципами для создания последовательных пользовательских интерфейсов в проектах.",
-                    "links": [],
+                    "header": "Doc Scan с ИИ",
+                    "description": "Cканер документов с искусственным интеллектом. Автоматическое распознавание текста, анализ с помощью ИИ.",
+                    "links": [
+                        {
+                            "text": "Скачать в Google Play",
+                            "url": "https://play.google.com/store/apps/details?id=com.smartdocscan.app"
+                        }
+                    ],
                     "properties": {
                         "margin": "top-25px"
                     }
                 },
                 {
                     "type": "product",
-                    "name": "ux-research-toolkit",
-                    "image": "./src/images/wiki.jpg",
+                    "name": "railway-ticket-tracker",
+                    "image": "./src/images/tickettrack.jpg",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
-                    "header": "Набор инструментов UX-исследований",
-                    "description": "Коллекция шаблонов, фреймворков и инструментов для проведения эффективных пользовательских исследований, включая гайды интервью, шаблоны опросов и фреймворки анализа.",
-                    "links": [],
+                    "header": "Трекер ЖД билетов",
+                    "description": "Браузерное расширение для автоматического отслеживания с мгновенными уведомлениями при появлении билетов.",
+                    "links": [
+                        {
+                            "text": "Установить расширение Chrome",
+                            "url": "https://chromewebstore.google.com/detail/railway-ticket-tracker-be/hhjmegjfobpppiioidccddjiigejbmjj"
+                        }
+                    ],
                     "properties": {
                         "margin": "top-25px"
                     }
@@ -318,7 +328,7 @@
             "href": "/#/main"
         },
         {
-            "name": "Мои продукты",
+            "name": "Продукты",
             "page": "resources",
             "href": "/#/resources"
         },
