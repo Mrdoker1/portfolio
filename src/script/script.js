@@ -6,6 +6,12 @@ import LocalizationManager from './LocalizationManager.js';
 
 export default class PageBuilder {
     constructor() {
+        // Проверяем URL и перенаправляем, если содержит "index.html"
+        if(window.location.pathname.includes("index.html")) {
+            window.location.replace("/" + window.location.hash);
+            return;
+        }
+        
         this.router = new Router(this);
         this.componentBase = new Component(this);
         this.currentPage = this.router.getPath();
@@ -348,6 +354,75 @@ export default class PageBuilder {
         box.appendChild(fragment);
         this.SetProperties(box, data.properties);
         return box;
+    }
+
+    createBlock_product(data) {
+        const productContainer = document.createElement("div");
+        productContainer.classList.add("product");
+        productContainer.id = data.name;
+        
+        // Применяем свойства (включая возможные настройки размера)
+        this.SetProperties(productContainer, data.properties);
+        
+        // Создаем изображение
+        const imageContainer = document.createElement("div");
+        imageContainer.classList.add("product-image");
+        
+        const image = document.createElement("img");
+        image.src = data.image;
+        image.alt = data.header;
+        image.classList.add("skeleton");
+        
+        // Размеры картинки по умолчанию
+        const imageWidth = data.imageWidth || "200px";
+        const imageHeight = data.imageHeight || "150px";
+        
+        image.style.maxWidth = imageWidth;
+        image.style.maxHeight = imageHeight;
+        image.style.width = "100%";
+        image.style.height = "auto";
+        image.style.borderRadius = "8px";
+        imageContainer.appendChild(image);
+        
+        // Создаем контент
+        const contentContainer = document.createElement("div");
+        contentContainer.classList.add("product-content");
+        
+        // Заголовок
+        const header = document.createElement("h2");
+        header.classList.add("product-header");
+        header.innerHTML = data.header;
+        contentContainer.appendChild(header);
+        
+        // Описание
+        const description = document.createElement("p");
+        description.classList.add("product-description");
+        description.innerHTML = data.description;
+        contentContainer.appendChild(description);
+        
+        // Ссылки
+        if (data.links && data.links.length > 0) {
+            const linksContainer = document.createElement("div");
+            linksContainer.classList.add("product-links");
+            
+            data.links.forEach(link => {
+                const linkElement = document.createElement("a");
+                linkElement.classList.add("link", "social");
+                linkElement.href = link.url;
+                linkElement.target = "_blank";
+                linkElement.rel = "noopener noreferrer";
+                linkElement.textContent = link.text;
+                linksContainer.appendChild(linkElement);
+            });
+            
+            contentContainer.appendChild(linksContainer);
+        }
+        
+        // Собираем контейнер
+        productContainer.appendChild(imageContainer);
+        productContainer.appendChild(contentContainer);
+        
+        return productContainer;
     }
 
     openProject(projectName) {

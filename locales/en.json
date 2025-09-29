@@ -158,44 +158,62 @@
             ]
         },
         "resources": {
-            "title": "resources",
-            "description": "Resources",
+            "title": "My Products",
+            "description": "My Products",
             "body": [{
                     "type": "h1",
                     "name": "headline2",
-                    "value": "Resources",
+                    "value": "My Products",
                     "properties": {
                         "text-align": "center"
                     }
                 },
                 {
-                    "type": "picture",
-                    "name": "ux-wiki",
-                    "value": {
-                        "src": "./src/images/wiki.jpg",
-                        "alt": "wiki"
-                    },
+                    "type": "product",
+                    "name": "ux-ui-wiki",
+                    "image": "./src/images/wiki.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "UX/UI Wiki",
+                    "description": "Essential UX/UI design knowledge and Front-End development resources based on industry standards and best practices.",
+                    "links": [
+                        {
+                            "text": "UX/UI Wiki",
+                            "url": "https://uxbase.super.site"
+                        },
+                        {
+                            "text": "Front-End Wiki",
+                            "url": "https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e"
+                        }
+                    ],
                     "properties": {
-                        "align-self": "center"
-                    },
-                    "style": "max-width: 440px; max-height: 250px"
-                },
-                {
-                    "type": "paragraph",
-                    "name": "text1",
-                    "value": "My Wiki contains fundamental knowledge and most essential articles in the user experience design field and Front-End development, based on my experience and industry standards in order to organize knowledge.",
-                    "properties": {
-                        "text-align": "center",
-                        "margin": "top-25px"
+                    "margin": "top-50px"
                     }
                 },
                 {
-                    "type": "paragraph",
-                    "name": "social-links",
-                    "value": "<a class='link social' href='https://uxbase.super.site'>UX/UI Wiki</a><a class='link social' href='https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e'>Front-End Wiki</a>",
+                    "type": "product",
+                    "name": "design-system-kit",
+                    "image": "./src/images/wiki.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "Design System Kit",
+                    "description": "A comprehensive design system toolkit with reusable components, patterns, and guidelines for creating consistent user interfaces across projects.",
+                    "links": [],
                     "properties": {
-                        "text-align": "center",
-                        "margin": "top-25px"
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "ux-research-toolkit",
+                    "image": "./src/images/wiki.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "UX Research Toolkit",
+                    "description": "A collection of templates, frameworks, and tools for conducting effective user research, including interview guides, survey templates, and analysis frameworks.",
+                    "links": [],
+                    "properties": {
+                        "margin": "top-50px"
                     }
                 }
             ]
@@ -304,7 +322,7 @@
             "href": "/#/main"
         },
         {
-            "name": "Resources",
+            "name": "My Products",
             "page": "resources",
             "href": "/#/resources"
         },
