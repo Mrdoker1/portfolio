@@ -183,7 +183,7 @@
                         }
                     ],
                     "properties": {
-                        "margin": "top-25px"
+                        "margin": "top-50px"
                     }
                 },
                 {
@@ -201,7 +201,7 @@
                         }
                     ],
                     "properties": {
-                        "margin": "top-25px"
+                        "margin": "top-50px"
                     }
                 },
                 {
@@ -219,7 +219,7 @@
                         }
                     ],
                     "properties": {
-                        "margin": "top-25px"
+                        "margin": "top-50px"
                     }
                 }
             ]
