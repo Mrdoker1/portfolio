@@ -225,6 +225,24 @@
                     "properties": {
                         "margin": "top-50px"
                     }
+                },
+                {
+                    "type": "product",
+                    "name": "pattern-creator",
+                    "image": "./src/images/pattern.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "Pattern Creator",
+                    "description": "Figma plugin that creates random patterns from selected frames.",
+                    "links": [
+                        {
+                            "text": "Install Figma Plugin",
+                            "url": "https://www.figma.com/community/plugin/1062828640232861563/pattern-creator"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
                 }
             ]
         },

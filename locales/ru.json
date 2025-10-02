@@ -221,6 +221,24 @@
                     "properties": {
                         "margin": "top-50px"
                     }
+                },
+                {
+                    "type": "product",
+                    "name": "pattern-creator",
+                    "image": "./src/images/pattern.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "Pattern Creator",
+                    "description": "Плагин для Figma, который создает случайные паттерны из выбранных фреймов.",
+                    "links": [
+                        {
+                            "text": "Установить плагин Figma",
+                            "url": "https://www.figma.com/community/plugin/1062828640232861563/pattern-creator"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
                 }
             ]
         },
