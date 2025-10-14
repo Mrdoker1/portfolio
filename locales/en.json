@@ -206,6 +206,28 @@
                 },
                 {
                     "type": "product",
+                    "name": "seluna",
+                    "image": "./src/images/seluna.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "Seluna: Tarot & Affirmations",
+                    "description": "Spiritual wellness app featuring multi-card tarot spreads, daily themed affirmations, and a private journaling system.",
+                    "links": [
+                        {
+                            "text": "Download on Google Play",
+                            "url": "https://play.google.com/store/apps/details?id=com.taroandroid"
+                        },
+                        {
+                            "text": "Open in VK Mini App",
+                            "url": "https://vk.com/app53429194"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
                     "name": "doc-scan-ai",
                     "image": "./src/images/docscan.jpg",
                     "imageWidth": "250px",

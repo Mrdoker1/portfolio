@@ -202,6 +202,28 @@
                 },
                 {
                     "type": "product",
+                    "name": "seluna",
+                    "image": "./src/images/seluna.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "Seluna: Tarot & Affirmations",
+                    "description": "Приложение для духовных практик с раскладами Таро, тематическими аффирмациями и личным дневником для саморефлексии.",
+                    "links": [
+                        {
+                            "text": "Скачать в Google Play",
+                            "url": "https://play.google.com/store/apps/details?id=com.taroandroid"
+                        },
+                        {
+                            "text": "Открыть в VK Mini App",
+                            "url": "https://vk.com/app53429194"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
                     "name": "doc-scan-ai",
                     "image": "./src/images/docscan.jpg",
                     "imageWidth": "250px",
