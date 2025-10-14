@@ -180,28 +180,6 @@
                 },
                 {
                     "type": "product",
-                    "name": "ux-ui-wiki",
-                    "image": "./src/images/wiki.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
-                    "header": "UX/UI Wiki",
-                    "description": "Ключевые знания по UX/UI дизайну и фронтенд-разработке на основе отраслевых стандартов и лучших практик.",
-                    "links": [
-                        {
-                            "text": "UX/UI Wiki",
-                            "url": "https://uxbase.super.site"
-                        },
-                        {
-                            "text": "Front-End Wiki",
-                            "url": "https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e"
-                        }
-                    ],
-                    "properties": {
-                        "margin": "top-50px"
-                    }
-                },
-                {
-                    "type": "product",
                     "name": "seluna",
                     "image": "./src/images/seluna.jpg",
                     "imageWidth": "250px",
@@ -270,6 +248,28 @@
                         {
                             "text": "Установить плагин Figma",
                             "url": "https://www.figma.com/community/plugin/1062828640232861563/pattern-creator"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "ux-ui-wiki",
+                    "image": "./src/images/wiki.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
+                    "header": "UX/UI Wiki",
+                    "description": "Ключевые знания по UX/UI дизайну и фронтенд-разработке на основе отраслевых стандартов и лучших практик.",
+                    "links": [
+                        {
+                            "text": "UX/UI Wiki",
+                            "url": "https://uxbase.super.site"
+                        },
+                        {
+                            "text": "Front-End Wiki",
+                            "url": "https://goofy-secure-b26.notion.site/Front-end-Wiki-f782097f47af42e89c3a9740e9e0c16e"
                         }
                     ],
                     "properties": {
