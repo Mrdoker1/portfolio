@@ -460,9 +460,12 @@
             "title": "Busuu.com – Language Learning Platform",
             "description": "Research / Visual Design, UX Design",
             "preview": 0,
-            "default": 0,
+            "default": 1,
             "images": [
-                "./src/images/articles/Busuu/preview_0.png"
+                "./src/images/articles/Busuu/preview_0.png",
+                "./src/images/articles/Busuu/busuu.png",
+                "./src/images/articles/Busuu/logos.png",
+                "./src/images/articles/Busuu/reuse.png"
             ],
             "video": "./src/videos/Busuu/preview.mp4",
             "customer": [
@@ -486,8 +489,34 @@
                 "15M+ learners"
             ],
             "text": [
-                "<div><h3>About</h3>Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises.</div>",
-                "<div><h3>Project details</h3>My role in this project involved conducting user research to identify key areas for improvement in the user experience. I developed wireframes and prototypes to address these areas and collaborated with the development team to implement the changes. The visual design aimed to create a more cohesive and engaging experience for users, enhancing both the learning and social aspects of the platform.</div>"
+                "<div><h3>About</h3>Busuu is a leading EdTech platform that combines AI-powered language learning with social interaction. With over 15M active learners worldwide, the product continuously evolves to improve user engagement, retention, and learning experience.</div>",
+
+                "<div><h3>My Role</h3>As a Product Designer at Busuu, I worked across two cross-functional squads — <b>Logos</b> and <b>Phoenix</b>. My responsibilities included UX research, interaction and visual design, prototyping, and design handoff to engineering teams. I collaborated closely with Product Managers, Learning Designers, and Developers to deliver data-informed, scalable design solutions.</div>",
+
+                "<div><h3>Logos Squad — Internal CMS for Course Creation</h3><p>The <b>Logos Squad</b> focused on building an internal tool (CMS) that empowered Busuu’s Learning Designers to efficiently create, translate, and publish new courses. My goal was to simplify complex workflows inherited from the legacy Slate system, improve usability, and introduce automation for content translation using AI.</p>",
+
+                "<p><b>Key features I designed and delivered:</b></p><ul><li><b>Content Generation Flow:</b> Redesigned from scratch the process for creating courses, lessons, and activities with a cleaner UI and faster onboarding experience.</li><li><b>Preview Mode:</b> Enabled real-time visualization of content across Web, Mobile, and Tablet layouts — allowing designers to detect layout or copy issues early.</li><li><b>AI-assisted Translation Workflow:</b> Introduced download/upload translation features integrated with automated word count, translator context fields, and AI-assisted content preparation — reducing manual CSV editing time by 70%.</li><li><b>String Reuse System:</b> Designed the search & reuse interface to prevent content duplication and improve consistency across courses.</li>",
+                "</ul>",
+
+                "<p>Through iterative design reviews and Miro workshops, we significantly improved tool usability and reduced the learning curve for new designers. The redesign led to faster content production and better visibility over the course lifecycle.</p>",
+
+                "<br><img src=\"./src/images/articles/Busuu/logos.png\" width=\"100%\" height=\"auto\" alt=\"Logos CMS interface\">",
+                "<br><img src=\"./src/images/articles/Busuu/reuse.png\" width=\"100%\" height=\"auto\" alt=\"Logos CMS interface\">",
+
+                "<div><h3>Phoenix Squad — Renewal & Retention Flows</h3><p>The <b>Phoenix Squad</b> worked on user monetization and retention across iOS, Android, and Web. Our mission: reduce churn, increase renewal rates, and re-engage lapsed users through personalization and behavioral insights.</p>",
+                "</li><br><img src=\"./src/images/articles/Busuu/cancellation.png\" width=\"100%\" height=\"auto\" alt=\"Cancellation Flow\">",
+                "<p><b>Core initiatives I led:</b></p><ul><li><b>Cancellation Flow (Dynamic Exit Survey):</b> Designed a personalized flow that adapts to users’ cancellation reasons. For cost-related cancellations, users received a 20% retention offer. This reduced churn and improved renewal intent.<li><b>Countdown Clock:</b> Introduced a visual countdown to premium expiry, increasing urgency to renew and reducing involuntary churn caused by failed payments.</li><li><b>Progress & Achievements in Cancel Flow:</b> Added progress visualization (lessons completed, streaks, XP) at the cancellation point — reframing value and preventing impulsive cancellations.</li><li><b>Tailored Paywalls for Lapsed Users:</b> Designed personalized paywalls referencing user history and learning progress, improving win-back conversions compared to generic variants.</li><li><b>One-tap Cancellation Reversal:</b> Created contextual prompts allowing users to instantly reverse a cancellation after using a premium feature — integrated across all platforms.</li>",
+                "</ul>",
+
+                "<p>Each initiative went through hypothesis framing, UX exploration, visual design, and A/B testing readiness. I collaborated with analytics and marketing teams to ensure measurable impact and consistency across touchpoints.</p>",
+
+                "<br><img src=\"./src/images/articles/Busuu/multiplatform.png\" width=\"100%\" height=\"auto\" alt=\"Multi-platform flow\">",
+                "<br><img src=\"./src/images/articles/Busuu/status.png\" width=\"100%\" height=\"auto\" alt=\"Roadmap\">",
+
+                "<div><h3>Impact</h3><ul><li>Reduced cancellation completion rate in tested cohorts by up to <b>12%</b>.</li><li>Improved content creation efficiency for Learning Designers by <b>2x</b> after Logos rollout.</li><li>Delivered unified design patterns across internal tools and customer-facing products using Busuu’s Design System.</li>",
+                "</ul></div>",
+
+                "<div><h3>Project results</h3><p>This project taught me the value of designing for both end users and internal stakeholders — aligning UX consistency, operational efficiency, and business outcomes. Working across multiple squads at Busuu helped me strengthen collaboration, rapid prototyping, and data-driven design iteration skills.</p></div>"
             ],
             "footer": {
                 "type": "contact-link",
