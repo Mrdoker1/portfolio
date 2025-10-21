@@ -182,8 +182,8 @@
                     "type": "product",
                     "name": "seluna",
                     "image": "./src/images/seluna.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Seluna: Tarot & Affirmations",
                     "description": "Приложение для духовных практик с раскладами Таро, тематическими аффирмациями и личным дневником для саморефлексии.",
                     "links": [
@@ -240,8 +240,8 @@
                     "type": "product",
                     "name": "pattern-creator",
                     "image": "./src/images/pattern.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Pattern Creator",
                     "description": "Плагин для Figma, который создает случайные паттерны из выбранных фреймов.",
                     "links": [

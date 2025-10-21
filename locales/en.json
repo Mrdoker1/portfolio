@@ -186,8 +186,8 @@
                     "type": "product",
                     "name": "seluna",
                     "image": "./src/images/seluna.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Seluna: Tarot & Affirmations",
                     "description": "Spiritual wellness app featuring multi-card tarot spreads, daily themed affirmations, and a private journaling system.",
                     "links": [
@@ -244,8 +244,8 @@
                     "type": "product",
                     "name": "pattern-creator",
                     "image": "./src/images/pattern.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Pattern Creator",
                     "description": "Figma plugin that creates random patterns from selected frames.",
                     "links": [

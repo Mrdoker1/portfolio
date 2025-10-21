@@ -1468,10 +1468,10 @@ main.opacity-high {
         text-align: center;
     }
     
-    .product-image {
+    .product-image>img {
+        max-width: 90% !important;
+        max-height: inherit !important;
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
     
     .product-content {
