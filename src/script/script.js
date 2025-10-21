@@ -426,6 +426,11 @@ export default class PageBuilder {
     }
 
     openProject(projectName) {
+        // Убеждаемся, что используем актуальную структуру из локализации
+        if (this.localizationManager) {
+            this.structure = this.localizationManager.getLocaleData();
+        }
+        
         if (!this.structure.projects[projectName]) return;
 
         const popup = document.querySelector(".pop-up");
@@ -748,8 +753,11 @@ export default class PageBuilder {
                 link.addEventListener("click", () => {
                     this.closeProject();
                     setTimeout(() => {
+                        // Обновляем URL напрямую
                         window.location.hash = '#/contact';
-                        this.rebuild('contact');
+                        // Принудительно обновляем страницу
+                        this.currentPage = 'contact';
+                        this.build();
                     }, 300);
                 });
                 footerNote.appendChild(document.createTextNode(projectData.footer.prefix || ''));
