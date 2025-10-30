@@ -516,6 +516,59 @@
                 "Busuu is a language learning platform that offers courses in various languages. The platform combines self-paced lessons with social features, allowing users to practice with native speakers and receive feedback on their exercises."
             ]
         },
+        "mystreme": {
+            "name": "mystreme",
+            "title": "MyStreme – AI-powered Streaming Platform",
+            "description": "Research / Visual Design, UX Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/MyStreme/preview_0.png",
+                "./src/images/articles/MyStreme/preview_1.png",
+                "./src/images/articles/MyStreme/preview_2.png",
+                "./src/images/articles/MyStreme/preview_3.png"
+            ],
+            "video": "./src/videos/MyStreme/preview.mp4",
+            "customer": [
+                "Project",
+                "MyStreme, MediaTech, US"
+            ],
+            "type": "product",
+            "links": [
+                "Links",
+                [{
+                    "name": "mystreme.one",
+                    "href": "https://mystreme.one"
+                }]
+            ],
+            "team_size": [
+                "Team Size",
+                "5 members"
+            ],
+            "user_base": [
+                "User Base",
+                "500K+ active viewers"
+            ],
+            "text": [
+                "<div><h3>About</h3>MyStreme is a next-generation streaming platform that merges high-quality video delivery with AI-powered discovery. Available across mobile and smart TV platforms, it offers users a personalized entertainment experience enhanced by intelligent recommendations, parental controls, and flexible subscription options.</div>",
+                "<div><h3>My Role</h3>As a UX/UI Designer, I led the design of MyStreme’s cross-platform experience — from smart TV and mobile interfaces to subscription flows and parental control setup. My work focused on creating a visually immersive yet intuitive interface, optimizing navigation for remote control input, and ensuring seamless transitions between devices.</div>",
+                "<div><h3>Key Features</h3><ul><li><b>AI Search and Recommendations:</b> Designed the voice- and text-driven search interface powered by AI that suggests titles based on mood, genre, and watch history. The experience balances efficiency and delight through predictive microinteractions and smooth animations.</li><li><b>Parental Control System:</b> Developed a two-step parental boundary setup flow, allowing users to filter and mute specific content categories. The interface balances simplicity for parents with flexibility for customization.</li><li><b>Favorites and Reviews:</b> Introduced bookmarking and rating features that sync across devices, giving users a consistent personalized library experience on both mobile and TV.</li><li><b>Subscription and Monetization:</b> Created a premium upgrade flow promoting MyStreme PRO — unlocking advanced filters, AI personalization, and expanded catalog access.</li></ul></div>",
+                "<div><h3>Cross-Platform Consistency</h3><p>MyStreme is designed for multiple smart TV ecosystems — including Apple TV, Android TV, Fire TV, Samsung (Tizen), and LG (WebOS) — ensuring UI consistency and brand identity across all platforms. I defined adaptive layout principles, typography scaling, and safe-zone grids to maintain usability across varying screen resolutions.</p><br><img src=\"./src/images/articles/MyStreme/ui.png\" width=\"100%\" height=\"auto\" alt=\"Platform ecosystems\"></div>",
+                "<div><h3>Visual Direction</h3><p>The dark-themed interface blends cinematic aesthetics with clear legibility. Motion and sound feedback reinforce interactivity, while ambient wave patterns and glowing highlights evoke a futuristic yet cozy viewing experience.</p><br><img src=\"./src/images/articles/MyStreme/preview_1.png\" width=\"100%\" height=\"auto\" alt=\"Search Interface\"><br><img src=\"./src/images/articles/MyStreme/preview_3.png\" width=\"100%\" height=\"auto\" alt=\"Content Boundaries Settings\"><br><img src=\"./src/images/articles/MyStreme/preview_4.png\" width=\"100%\" height=\"auto\" alt=\"Content Page\"></div>",
+                "<div><h3>Impact</h3><ul><li>Reduced content search time by <b>40%</b> with AI-assisted voice navigation.</li><li>Increased subscription conversion by <b>22%</b> through redesigned upgrade and onboarding flows.</li><li>Improved user satisfaction scores for TV experience by <b>+18 NPS</b> points.</li><li>Unified design system delivered consistent UX across 5 major Smart TV ecosystems.</li></ul></div>",
+                "<div><h3>Project results</h3><p>The MyStreme project demonstrates how a seamless multi-device experience, grounded in AI-driven personalization, can redefine digital entertainment. The design process focused on accessibility, emotional engagement, and discoverability — transforming a standard streaming app into a personalized cinematic hub.</p></div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Don't hesitate to ",
+                "linkText": "send me an Email",
+                "suffix": ". I'd love to hear from you."
+            },
+            "about": [
+                "About",
+                "MyStreme is an AI-driven streaming service offering personalized video recommendations, parental control, and subscription-based access across mobile and Smart TV platforms."
+            ]
+        },
         "cognni": {
             "name": "cognni",
             "title": "Cognni.ai",
