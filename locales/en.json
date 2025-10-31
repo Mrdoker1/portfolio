@@ -569,6 +569,66 @@
                 "MyStreme is an AI-driven streaming service offering personalized video recommendations, parental control, and subscription-based access across mobile and Smart TV platforms."
             ]
         },
+        "talkie_tv": {
+            "name": "talkie_tv",
+            "title": "Talkie TV – Premium Entertainment Platform for Fiber Users",
+            "description": "Product Design / UX Design, Visual Design",
+            "preview": 0,
+            "default": 1,
+            "images": [
+                "./src/images/articles/TalkieTV/preview_0.png",
+                "./src/images/articles/TalkieTV/preview_1.png",
+                "./src/images/articles/TalkieTV/preview_2.png",
+                "./src/images/articles/TalkieTV/preview_3.png",
+                "./src/images/articles/TalkieTV/preview_4.png"
+            ],
+            "video": "./src/videos/TalkieTV/preview.mp4",
+            "customer": [
+                "Project",
+                "Talkie TV, Talkie Fiber, MediaTech, US"
+            ],
+            "type": "product",
+            "links": [
+                "Links",
+                [{
+                    "name": "talkiefiber.com",
+                    "href": "https://www.talkiefiber.com/"
+                }]
+            ],
+            "team_size": [
+                "Team Size",
+                "7 members"
+            ],
+            "user_base": [
+                "User Base",
+                "200K+ households"
+            ],
+            "text": [
+                "<div><h3>About</h3>Talkie TV is a premium streaming and live television platform designed exclusively for <b>Talkie Fiber</b> customers. Delivered through Android TV set-top boxes, it combines real-time broadcast access, on-demand streaming, and AI-powered recommendations — all optimized for Talkie’s ultra-fast fiber network.</div>",
+
+                "<div><h3>My Role</h3>As a <b>UX/UI Designer</b>, I worked closely with the product and engineering teams to create a cohesive TV experience that feels premium, fast, and intuitive. My responsibilities covered the full design cycle — from information architecture and interaction flows to high-fidelity motion design and developer handoff.</div>",
+
+                "<div><h3>Key Features</h3><ul><li><b>Live TV Guide:</b> Designed an interactive timeline-based EPG (Electronic Program Guide) allowing users to browse, preview, and tune into live broadcasts seamlessly. Focused on legibility, color contrast, and spatial rhythm for comfortable 10-foot viewing.</li><li><b>On-Demand Library:</b> Created a visually rich browsing grid for movies and series, featuring category filters, watch progress states, and integrated parental restrictions.</li><li><b>Personalized Recommendations:</b> Implemented a machine-learning-powered system that highlights content based on watch habits and user ratings.</li><li><b>Multi-Quality Streaming:</b> Supported adaptive playback up to 4K UHD, with clear visual cues for resolution and audio status.</li><li><b>Parental Controls:</b> Built an accessible, PIN-protected control panel for content filtering, viewing time limits, and maturity ratings.</li></ul></div>",
+
+                "<div><h3>Cross-Platform Integration</h3><p>Although primarily developed for Android TV set-top boxes, the design system ensures future scalability to mobile companion apps and web dashboards. Consistent typography, color accents, and grid-based layout maintain brand identity across all screens.</p><br><img src=\"./src/images/articles/TalkieTV/preview_1.png\" width=\"100%\" height=\"auto\" alt=\"Talkie TV Grid View\"><br><img src=\"./src/images/articles/TalkieTV/preview_2.png\" width=\"100%\" height=\"auto\" alt=\"Program Info View\"><br><img src=\"./src/images/articles/TalkieTV/preview_3.png\" width=\"100%\" height=\"auto\" alt=\"Live Channel EPG\"></div>",
+
+                "<div><h3>Design Highlights</h3><p>The interface employs a dark cinematic palette with subtle depth layers and soft shadows to enhance readability on large screens. A red accent color reinforces live content awareness, while icons and typography were optimized for remote-control navigation. Smooth focus animations and time indicators increase usability without overwhelming the viewer.</p></div>",
+
+                "<div><h3>Impact</h3><ul><li>Boosted average session time by <b>30%</b> due to simplified navigation and personalized suggestions.</li><li>Reduced content search effort by <b>40%</b> with a redesigned EPG and predictive AI search.</li><li>Improved playback reliability metrics via optimized UI feedback for buffering and network status.</li><li>Delivered consistent UI design patterns adaptable to multiple display resolutions (720p → 4K).</li></ul></div>",
+
+                "<div><h3>Project results</h3><p>The Talkie TV project demonstrates how thoughtful UX design can elevate a utility-based platform into a premium entertainment experience. By combining broadcast precision with modern streaming convenience, Talkie TV strengthened Talkie Fiber’s ecosystem and customer retention strategy.</p></div>"
+            ],
+            "footer": {
+                "type": "contact-link",
+                "prefix": "Interested in connected TV design? ",
+                "linkText": "Let's talk",
+                "suffix": " about your next media experience."
+            },
+            "about": [
+                "About",
+                "Talkie TV is a premium entertainment platform for Talkie Fiber customers, offering live and on-demand streaming, personalized recommendations, and seamless HD/4K playback through Android TV set-top boxes."
+            ]
+        },
         "cognni": {
             "name": "cognni",
             "title": "Cognni.ai",
