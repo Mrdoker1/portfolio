@@ -577,9 +577,9 @@
             "default": 1,
             "images": [
                 "./src/images/articles/TalkieTV/preview_0.png",
-                "./src/images/articles/TalkieTV/preview_1.png",
-                "./src/images/articles/TalkieTV/preview_2.png",
                 "./src/images/articles/TalkieTV/preview_3.png",
+                "./src/images/articles/TalkieTV/preview_2.png",
+                "./src/images/articles/TalkieTV/preview_1.png",
                 "./src/images/articles/TalkieTV/preview_4.png"
             ],
             "video": "./src/videos/TalkieTV/preview.mp4",
@@ -591,8 +591,8 @@
             "links": [
                 "Links",
                 [{
-                    "name": "talkiefiber.com",
-                    "href": "https://www.talkiefiber.com/"
+                    "name": "Google Play",
+                    "href": "https://play.google.com/store/apps/details?id=com.talkiefiber.android.tv&hl=en"
                 }]
             ],
             "team_size": [
@@ -610,7 +610,7 @@
 
                 "<div><h3>Key Features</h3><ul><li><b>Live TV Guide:</b> Designed an interactive timeline-based EPG (Electronic Program Guide) allowing users to browse, preview, and tune into live broadcasts seamlessly. Focused on legibility, color contrast, and spatial rhythm for comfortable 10-foot viewing.</li><li><b>On-Demand Library:</b> Created a visually rich browsing grid for movies and series, featuring category filters, watch progress states, and integrated parental restrictions.</li><li><b>Personalized Recommendations:</b> Implemented a machine-learning-powered system that highlights content based on watch habits and user ratings.</li><li><b>Multi-Quality Streaming:</b> Supported adaptive playback up to 4K UHD, with clear visual cues for resolution and audio status.</li><li><b>Parental Controls:</b> Built an accessible, PIN-protected control panel for content filtering, viewing time limits, and maturity ratings.</li></ul></div>",
 
-                "<div><h3>Cross-Platform Integration</h3><p>Although primarily developed for Android TV set-top boxes, the design system ensures future scalability to mobile companion apps and web dashboards. Consistent typography, color accents, and grid-based layout maintain brand identity across all screens.</p><br><img src=\"./src/images/articles/TalkieTV/preview_1.png\" width=\"100%\" height=\"auto\" alt=\"Talkie TV Grid View\"><br><img src=\"./src/images/articles/TalkieTV/preview_2.png\" width=\"100%\" height=\"auto\" alt=\"Program Info View\"><br><img src=\"./src/images/articles/TalkieTV/preview_3.png\" width=\"100%\" height=\"auto\" alt=\"Live Channel EPG\"></div>",
+                "<div><h3>Cross-Platform Integration</h3><p>Although primarily developed for Android TV set-top boxes, the design system ensures future scalability to mobile companion apps and web dashboards. Consistent typography, color accents, and grid-based layout maintain brand identity across all screens.</p><br><img src=\"./src/images/articles/TalkieTV/preview_4.png\" width=\"100%\" height=\"auto\" alt=\"Talkie TV Grid View\"><br><img src=\"./src/images/articles/TalkieTV/preview_2.png\" width=\"100%\" height=\"auto\" alt=\"Program Info View\"><br><img src=\"./src/images/articles/TalkieTV/preview_3.png\" width=\"100%\" height=\"auto\" alt=\"Live Channel EPG\"></div>",
 
                 "<div><h3>Design Highlights</h3><p>The interface employs a dark cinematic palette with subtle depth layers and soft shadows to enhance readability on large screens. A red accent color reinforces live content awareness, while icons and typography were optimized for remote-control navigation. Smooth focus animations and time indicators increase usability without overwhelming the viewer.</p></div>",
 
