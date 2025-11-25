@@ -954,6 +954,36 @@ export default class PageBuilder {
                 this.rebuild("main");
             }
         });
+
+        // Обработчик скролла для изменения прозрачности хедера
+        this.initHeaderScroll();
+    }
+
+    initHeaderScroll() {
+        const header = document.querySelector(".header");
+        let ticking = false;
+
+        const updateHeader = () => {
+            const scrollPosition = window.scrollY;
+            
+            if (scrollPosition > 50) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+            
+            ticking = false;
+        };
+
+        window.addEventListener("scroll", () => {
+            if (!ticking) {
+                window.requestAnimationFrame(updateHeader);
+                ticking = true;
+            }
+        });
+
+        // Инициализируем состояние при загрузке
+        updateHeader();
     }
 
     rebuild(path) {
