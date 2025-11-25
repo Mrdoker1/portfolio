@@ -197,7 +197,9 @@ export default class PageBuilder {
         svg.classList.add("link-icon");
 
         path.setAttribute("d", data.value.path);
-        path.setAttribute("fill", data.value.fill);
+        // Используем fill из JSON, если он есть, иначе currentColor
+        const fillColor = data.value.fill || "currentColor";
+        path.setAttribute("fill", fillColor);
         path.setAttribute("class", "svg-icon");
         path.setAttribute("stroke-width", data.value.stroke_width || 0);
         
@@ -840,7 +842,8 @@ export default class PageBuilder {
             menuLink.innerText = item.name;
             menuLink.href = item.href;
 
-            if (item.default) {
+            // Добавляем класс current если это текущая страница
+            if (item.page === this.currentPage) {
                 menuLink.classList.add("current");
             }
 

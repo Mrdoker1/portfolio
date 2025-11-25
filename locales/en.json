@@ -41,7 +41,7 @@
                                         "height": "36",
                                         "stroke_width": "0",
                                         "stroke": "none",
-                                        "fill": "black",
+                                        "fill": "rgba(255, 255, 255, 0.90)",
                                         "viewBox": "0 0 24 24"
                                     }
                                 },
@@ -55,7 +55,7 @@
                                         "height": "36",
                                         "stroke_width": "0",
                                         "stroke": "none",
-                                        "fill": "black",
+                                        "fill": "rgba(255, 255, 255, 0.90)",
                                         "viewBox": "0 0 24 24"
                                     }
                                 },
@@ -69,7 +69,7 @@
                                         "height": "36",
                                         "stroke_width": "0",
                                         "stroke": "none",
-                                        "fill": "black",
+                                        "fill": "rgba(255, 255, 255, 0.90)",
                                         "viewBox": "0 0 24 24"
                                     }
                                 },
@@ -83,7 +83,7 @@
                                         "height": "36",
                                         "stroke_width": "0",
                                         "stroke": "none",
-                                        "fill": "black",
+                                        "fill": "rgba(255, 255, 255, 0.90)",
                                         "viewBox": "0 0 24 24"
                                     }
                                 },
@@ -96,8 +96,8 @@
                                         "width": "36",
                                         "height": "36",
                                         "stroke_width": "0",
-                                        "stroke": "none",
-                                        "fill": "black",
+                                        "stroke": "none",   
+                                        "fill": "rgba(255, 255, 255, 0.90)",
                                         "viewBox": "0 0 24 24"
                                     }
                                 }
