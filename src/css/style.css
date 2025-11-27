@@ -272,6 +272,18 @@ main {
     color: var(--main-text-color);
 }
 
+.footer a.link.social {
+    color: #ffffff !important;
+    border-bottom: 1px solid transparent !important;
+    text-decoration: none;
+    transition: border-bottom 0.2s ease;
+}
+
+.footer a.link.social:hover {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
 main {
     flex-direction: column;
     transition-duration: .25s;
@@ -847,10 +859,21 @@ main {
     gap: 30px;
 }
 
+#social-links a {
+    color: #ffffff !important;
+    border-bottom: none !important;
+    text-decoration: none;
+}
+
+#social-links a:hover {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
 #social-links svg {
     transition: all 0.3s ease;
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
-    color: var(--main-text-color);
+    color: #ffffff;
 }
 
 #social-links svg:hover {
