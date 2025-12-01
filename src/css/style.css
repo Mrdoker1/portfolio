@@ -605,6 +605,7 @@ main {
 .close-icon path {
     fill: #ffffff;
     transition-duration: .15s;
+    opacity: 0.8;
 }
 
 .pop-up>.close-icon:hover path {
@@ -1102,6 +1103,11 @@ main {
         padding: 20px 16px !important;
         height: auto;
     }
+    /* Крестик черный на планшетах */
+    .pop-up .close-icon path {
+        fill: #000000 !important;
+        opacity: 1 !important;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -1223,9 +1229,15 @@ main {
     }
     .pop-up>.close-icon {
         top: 24px;
+        right: 16px;
     }
     .pop-up>.close-icon svg {
         width: 22px;
+    }
+    /* Крестик черный на мобильных */
+    .pop-up .close-icon path {
+        fill: #000000 !important;
+        opacity: 1 !important;
     }
     a.link.social {
         font-size: 15px;
