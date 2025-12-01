@@ -1103,8 +1103,8 @@ main {
         padding: 20px 16px !important;
         height: auto;
     }
-    /* Крестик черный на планшетах */
-    .pop-up .close-icon path {
+    /* Крестик черный только для кейсов на планшетах */
+    .pop-up:has(.pop-up-body.visible) .close-icon path {
         fill: #000000 !important;
         opacity: 1 !important;
     }
@@ -1234,8 +1234,8 @@ main {
     .pop-up>.close-icon svg {
         width: 22px;
     }
-    /* Крестик черный на мобильных */
-    .pop-up .close-icon path {
+    /* Крестик черный только для кейсов на мобильных */
+    .pop-up:has(.pop-up-body.visible) .close-icon path {
         fill: #000000 !important;
         opacity: 1 !important;
     }
