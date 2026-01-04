@@ -12,7 +12,7 @@
     
     /* Font sizes */
     --h0: 64px;
-    --h0-mobile: 48px;
+    --h0-mobile: 36px;
     --h1: 48px;
     --h1-mobile: 32px;
     --h2: 40px;
@@ -20,7 +20,7 @@
     --h3: 28px;
     --h3-mobile: 24px;
     --caption: 32px;
-    --caption-mobile: 20px;
+    --caption-mobile: 18px;
     --header: 18px;
     --header-mobile: 16px;
     --text: 18px;
@@ -984,133 +984,8 @@ main {
     }
 }
 
-@media screen and (max-width:768px) and (min-width:426px) {
-    .footer,
-    .header,
-    main {
-        padding: 0 16px;
-    }
-    main {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-    .header {
-        position: sticky;
-        top: 0;
-        z-index: 9999;
-        height: 64px;
-    }
-    button.filter {
-        width: 190px;
-    }
-    .header>.menu>ul {
-        display: none;
-    }
-    /* Скрываем переключатель языков на планшетах */
-    .language-switcher {
-        display: none;
-    }
-    /* Стили для мобильного переключателя языков на планшетах */
-    .mobile-language-switcher {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 8px;
-        padding: 20px 35px;
-        border-top: 1px solid rgba(90, 159, 245, 0.2);
-        margin-top: 20px;
-    }
-    
-    /* Стили кнопок языков в мобильном меню на планшетах */
-    .mobile-language-switcher .lang-button {
-        background: none;
-        border: none;
-        color: #acacac;
-        font-family: 'Manrope', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 123%;
-        border-bottom: none;
-        cursor: pointer;
-        letter-spacing: 1px;
-        padding: 0;
-        outline: none;
-        box-shadow: none;
-        text-decoration: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
-    
-    .mobile-language-switcher .lang-button:hover {
-        color: var(--color1);
-    }
-    
-    .mobile-language-switcher .lang-button.active {
-        color: #fff;
-    }
-    
-    .mobile-language-switcher .lang-separator {
-        color: #acacac;
-        font-size: 24px;
-        font-weight: 400;
-    }
-    /* Mobile language switcher styles */
-    .language-switcher .lang-button {
-        font-size: 16px;
-    }
-    .language-switcher .lang-separator {
-        font-size: 16px;
-    }
-    .desktop-false,
-    .mobile-true {
-        display: none;
-    }
-    .desktop-true,
-    .mobile-false {
-        display: initial;
-    }
-    button.filter>ul {
-        width: 190px;
-    }
-    button.filter[class~=opened]>ul {
-        top: 70px;
-    }
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        grid-gap: 36px;
-        margin: 20px 0;
-    }
-    .to-top-button {
-        height: 180px;
-    }
-    .pop-up-body {
-        border-radius: 0;
-        padding: 18px 16px;
-        box-sizing: border-box;
-        margin: 0 0;
-    }
-    .footer {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        position: absolute;
-        justify-content: center;
-        font-size: var(--header-mobile);
-        gap: 16px;
-        margin-bottom: 40px;
-        padding: 20px 16px !important;
-        height: auto;
-    }
-    /* Крестик черный только для кейсов на планшетах */
-    .pop-up:has(.pop-up-body.visible) .close-icon path {
-        fill: #000000 !important;
-        opacity: 1 !important;
-    }
-}
-
-@media screen and (max-width:425px) {
+/* Мобильные устройства до 768px */
+@media screen and (max-width:768px) {
     .grid>li>div {
         padding: 45px 20px;
     }
@@ -1288,6 +1163,43 @@ main {
         flex-wrap: wrap;   
         font-size: var(--body-small);
         height: auto;
+    }
+    .product {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    
+    .product-image {
+        width: 100% !important;
+        max-width: 280px !important;
+        flex-shrink: 1 !important;
+    }
+    
+    .product-image>img {
+        max-width: 100% !important;
+        max-height: 400px !important;
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    
+    .product-content {
+        width: 100% !important;
+        flex: none !important;
+    }
+    
+    .product-links {
+        justify-content: center !important;
+        gap: 15px !important;
+    }
+    
+    .product-header {
+        font-size: 20px !important;
+    }
+    
+    .product-description {
+        font-size: 15px !important;
     }
 }
 
@@ -1645,26 +1557,3 @@ main.opacity-high {
 }
 
 /* Mobile styles for products */
-@media screen and (max-width: 768px) {
-    .product {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .product-image>img {
-        max-width: 90% !important;
-        max-height: inherit !important;
-        width: 100%;
-    }
-    
-    .product-content {
-        width: 100%;
-    }
-    
-    .product-links {
-        justify-content: center;
-        gap: 15px;
-    }
-}
