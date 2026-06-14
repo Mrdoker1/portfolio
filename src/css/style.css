@@ -1177,11 +1177,15 @@ main {
         flex-shrink: 1 !important;
     }
     
-    .product-image>img {
+    .product-image img {
         max-width: 100% !important;
         max-height: 400px !important;
         width: 100% !important;
         object-fit: contain !important;
+    }
+
+    .product-image-link {
+        width: 100% !important;
     }
     
     .product-content {
@@ -1524,6 +1528,23 @@ main.opacity-high {
 
 .product-image img {
     border-radius: 12px;
+    display: block;
+}
+
+.product-image-link {
+    display: block;
+    border: none;
+    border-bottom: none;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product-image-link:hover {
+    border: none;
+    border-bottom: none;
+    transform: scale(1.04);
 }
 
 .product-content {

@@ -384,7 +384,20 @@ export default class PageBuilder {
         image.style.width = "100%";
         image.style.height = "auto";
         image.style.borderRadius = "8px";
-        imageContainer.appendChild(image);
+
+        // Если есть ссылки — делаем картинку кликабельной (ведёт по первой ссылке)
+        if (data.links && data.links.length > 0) {
+            const imageLink = document.createElement("a");
+            imageLink.classList.add("product-image-link");
+            imageLink.href = data.links[0].url;
+            imageLink.target = "_blank";
+            imageLink.rel = "noopener noreferrer";
+            imageLink.setAttribute("aria-label", data.header);
+            imageLink.appendChild(image);
+            imageContainer.appendChild(imageLink);
+        } else {
+            imageContainer.appendChild(image);
+        }
         
         // Создаем контент
         const contentContainer = document.createElement("div");
