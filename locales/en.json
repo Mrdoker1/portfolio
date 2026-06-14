@@ -192,10 +192,28 @@
                 },
                 {
                     "type": "product",
-                    "name": "doc-scan-ai",
-                    "image": "./src/images/docscan.jpg",
+                    "name": "mindgoo",
+                    "image": "./src/images/mindmap.png",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
+                    "header": "Mindgoo — Mind Map Canvas",
+                    "description": "Web app for visual thinking: a physics-based canvas for building mind maps with linked nodes and multiple pages, plus an AI assistant that reasons about your map.",
+                    "links": [
+                        {
+                            "text": "Open App",
+                            "url": "https://mind-map-cyan-kappa.vercel.app/"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "doc-scan-ai",
+                    "image": "./src/images/docscan.jpg",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Doc Scan with AI",
                     "description": "Document scanner powered by artificial intelligence. Automatic text recognition, AI-powered analysis, and smart organization.",
                     "links": [
@@ -228,10 +246,28 @@
                 },
                 {
                     "type": "product",
-                    "name": "pattern-creator",
-                    "image": "./src/images/pattern.jpg",
+                    "name": "byn-usd",
+                    "image": "./src/images/usdbyn.png",
                     "imageWidth": "450px",
                     "imageHeight": "280px",
+                    "header": "BYN → USD: Prices in Dollars",
+                    "description": "Chrome extension that shows prices in USD, EUR or RUB right on av.by, kufar.by, realt.by, onliner.by, avito.ru and other marketplaces — using the NBRB, BVFB or a chosen bank's rate.",
+                    "links": [
+                        {
+                            "text": "Install Chrome Extension",
+                            "url": "https://chromewebstore.google.com/detail/lcfgfflhompphjjlhhmeefjlfibnkpoa"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "pattern-creator",
+                    "image": "./src/images/pattern.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "Pattern Creator",
                     "description": "Figma plugin that creates random patterns from selected frames.",
                     "links": [
@@ -248,8 +284,8 @@
                     "type": "product",
                     "name": "ux-ui-wiki",
                     "image": "./src/images/wiki.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "UX/UI Wiki",
                     "description": "Essential UX/UI design knowledge and Front-End development resources based on industry standards and best practices.",
                     "links": [

@@ -188,10 +188,28 @@
                 },
                 {
                     "type": "product",
-                    "name": "doc-scan-ai",
-                    "image": "./src/images/docscan.jpg",
+                    "name": "mindgoo",
+                    "image": "./src/images/mindmap.png",
                     "imageWidth": "250px",
                     "imageHeight": "180px",
+                    "header": "Mindgoo — холст для майнд-карт",
+                    "description": "Веб-приложение для визуального мышления: холст с физикой для построения майнд-карт со связанными узлами и страницами, а также ИИ-ассистент, который анализирует вашу карту.",
+                    "links": [
+                        {
+                            "text": "Открыть приложение",
+                            "url": "https://mind-map-cyan-kappa.vercel.app/"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "doc-scan-ai",
+                    "image": "./src/images/docscan.jpg",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Doc Scan с ИИ",
                     "description": "Cканер документов с искусственным интеллектом. Автоматическое распознавание текста, анализ с помощью ИИ.",
                     "links": [
@@ -224,10 +242,28 @@
                 },
                 {
                     "type": "product",
-                    "name": "pattern-creator",
-                    "image": "./src/images/pattern.jpg",
+                    "name": "byn-usd",
+                    "image": "./src/images/usdbyn.png",
                     "imageWidth": "450px",
                     "imageHeight": "280px",
+                    "header": "BYN → USD: цены в долларах",
+                    "description": "Расширение Chrome, которое показывает цены в долларах, евро или рублях прямо на av.by, kufar.by, realt.by, onliner.by, avito.ru и других площадках — по курсу НБРБ, БВФБ или выбранного банка.",
+                    "links": [
+                        {
+                            "text": "Установить расширение Chrome",
+                            "url": "https://chromewebstore.google.com/detail/lcfgfflhompphjjlhhmeefjlfibnkpoa"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "pattern-creator",
+                    "image": "./src/images/pattern.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "Pattern Creator",
                     "description": "Плагин для Figma, который создает случайные паттерны из выбранных фреймов.",
                     "links": [
@@ -244,8 +280,8 @@
                     "type": "product",
                     "name": "ux-ui-wiki",
                     "image": "./src/images/wiki.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "UX/UI Wiki",
                     "description": "Ключевые знания по UX/UI дизайну и фронтенд-разработке на основе отраслевых стандартов и лучших практик.",
                     "links": [
