@@ -170,10 +170,28 @@
                 },
                 {
                     "type": "product",
-                    "name": "seluna",
-                    "image": "./src/images/seluna.jpg",
+                    "name": "kvatera",
+                    "image": "./src/images/kvatera.png",
                     "imageWidth": "450px",
                     "imageHeight": "280px",
+                    "header": "Кватэра: Apartment Map of Belarus",
+                    "description": "Apartments from Belarusian marketplaces on one interactive map: deduplicated listings, price-to-market analysis and smart filters.",
+                    "links": [
+                        {
+                            "text": "Open kvat.by",
+                            "url": "https://kvat.by"
+                        }
+                    ],
+                    "properties": {
+                        "margin": "top-50px"
+                    }
+                },
+                {
+                    "type": "product",
+                    "name": "seluna",
+                    "image": "./src/images/seluna.jpg",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "Seluna: Tarot & Affirmations",
                     "description": "Spiritual wellness app featuring multi-card tarot spreads, daily themed affirmations, and a private journaling system.",
                     "links": [
@@ -194,8 +212,8 @@
                     "type": "product",
                     "name": "mindgoo",
                     "image": "./src/images/mindmap.png",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Mindgoo — Mind Map Canvas",
                     "description": "Web app for visual thinking: a physics-based canvas for building mind maps with linked nodes and multiple pages, plus an AI assistant that reasons about your map.",
                     "links": [
@@ -212,8 +230,8 @@
                     "type": "product",
                     "name": "doc-scan-ai",
                     "image": "./src/images/docscan.jpg",
-                    "imageWidth": "450px",
-                    "imageHeight": "280px",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "Doc Scan with AI",
                     "description": "Document scanner powered by artificial intelligence. Automatic text recognition, AI-powered analysis, and smart organization.",
                     "links": [
@@ -230,8 +248,8 @@
                     "type": "product",
                     "name": "railway-ticket-tracker",
                     "image": "./src/images/tickettrack.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Railway Ticket Tracker",
                     "description": "Browser extension for automatic tracking with instant notifications when tickets become available.",
                     "links": [
@@ -248,8 +266,8 @@
                     "type": "product",
                     "name": "byn-usd",
                     "image": "./src/images/usdbyn.png",
-                    "imageWidth": "450px",
-                    "imageHeight": "280px",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "BYN → USD: Prices in Dollars",
                     "description": "Chrome extension that shows prices in USD, EUR or RUB right on av.by, kufar.by, realt.by, onliner.by, avito.ru and other marketplaces — using the NBRB, BVFB or a chosen bank's rate.",
                     "links": [
@@ -266,8 +284,8 @@
                     "type": "product",
                     "name": "pattern-creator",
                     "image": "./src/images/pattern.jpg",
-                    "imageWidth": "250px",
-                    "imageHeight": "180px",
+                    "imageWidth": "450px",
+                    "imageHeight": "280px",
                     "header": "Pattern Creator",
                     "description": "Figma plugin that creates random patterns from selected frames.",
                     "links": [
@@ -284,8 +302,8 @@
                     "type": "product",
                     "name": "ux-ui-wiki",
                     "image": "./src/images/wiki.jpg",
-                    "imageWidth": "450px",
-                    "imageHeight": "280px",
+                    "imageWidth": "250px",
+                    "imageHeight": "180px",
                     "header": "UX/UI Wiki",
                     "description": "Essential UX/UI design knowledge and Front-End development resources based on industry standards and best practices.",
                     "links": [
